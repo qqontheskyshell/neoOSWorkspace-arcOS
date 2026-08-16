@@ -1,0 +1,5 @@
+Private key
+0xbad010904f4803095daebee965cc8a0c65991195cc21f76f50941cee055af7e9
+
+Password
+!@#QawsePloki10

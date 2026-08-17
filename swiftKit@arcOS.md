@@ -168,7 +168,7 @@ test -n "$DEVICE_ID" && test "$DEVICE_ID" != "null"
 curl -fsS -X POST \
   -H "Authorization: Bearer $TOKEN" \
   -F "file=@$PROFILE" \
-  "$MDM_URL/api/devices/$arcOSQQDevice/configuration-profiles"
+  "$MDM_URL/api/devices/currentKumaDevice/configuration-profiles"
 /
 
 

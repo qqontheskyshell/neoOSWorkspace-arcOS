@@ -1965,7 +1965,7 @@ notificationStatus
 
   
 
-DEVICE_ID=("$arcOSQQDevice")
+DEVICE_ID=("currentKumaDevice")
 
 MDM_API="https://$APPLEMDM/api/device/$DEVICE_ID/profiles"
 
@@ -3833,7 +3833,7 @@ curl -sS -X POST \
 
   -H "Content-Type: application/json" \
 
-  "${MDM_URL}/api/devices/$arcOSQQDevice/unmanage"
+  "${MDM_URL}/api/devices/currentKumaDevice/unmanage"
 
   
 
@@ -12975,7 +12975,7 @@ fi
 
   
 
-                                             DEVICE_ID=("$arcOSQQDevice")
+                                             DEVICE_ID=("currentKumaDevice")
 
                                              MDM_API="https://$APPLEMDM/api/device/$DEVICE_ID/profiles"
 
@@ -14839,7 +14839,7 @@ fi
 
                                                -H "Content-Type: application/json" \
 
-                                               "${MDM_URL}/api/devices/$arcOSQQDevice/unmanage"
+                                               "${MDM_URL}/api/devices/currentKumaDevice/unmanage"
 
   
 

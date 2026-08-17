@@ -31,7 +31,7 @@ QQ_BLK_PIXEL_NUMBER_ICCID=(89852350426089279377 +19406174217 "EXTRACT_DEVICE_INF
 QQ_BLK_PIXEL=("QQ_BLK_PIXEL_NUMBER_ICCID" "QQ_BLK_PIXEL_DATA_ICCID" "EXTRACT_DEVICE_INFO" 192168036 fe80::c862:98ff:fe74:7775 58:24:29:82:37:2f 58:24:29:82:37:2e 352494115620964 89049032000001000000044694887566) 
 
 #airaloSim
-airaloSim=(arcOSQQDevice QQ_BLK_IPAD_PRO_DATA_ICCID "EXTRACT_DEVICE_INFO") 
+airaloSim=(currentKumaDevice QQ_BLK_IPAD_PRO_DATA_ICCID "EXTRACT_DEVICE_INFO") 
 
 #boox e-reader
 booxQQAir=(133726104B2479 22:224F:1B:D2:85 "EXTRACT_DEVICE_INFO" booxQQ) 
@@ -62,7 +62,7 @@ QQ_Raspberry_PI=("masterID raspberry Pi" 210906d 211125e)
 QQDEVICECAST=(arcOSQQLocalTarget> RELAY) > read people thought hee and fidn out next targetnamelocation as TargetAgainstEnemy > baseFrame@arcOS  and who is goind to be in the spot as BlackKumaTarget + visualDrone@arcOSShell "on" + for audience plase read their location as BlackKumaTargetLocation and BlackKumaTargetName/
 
 #QQ machine
-QQMACHINE=(arcOSQQDevice QQCLOUD arcOSQQDeviceMAC) 
+QQMACHINE=(currentKumaDevice QQCLOUD currentKumaDeviceMAC) 
 
 #full Device
 FULL_SERIAL_DEVICE=(FULL_IOS_SERIAL FULL_ADB_SERIAL) 
@@ -76,7 +76,7 @@ BaseQQLAND=(kumaLand QQLAND)/
 QQLOCAL=(/dev/cuusbserial-* everyHostnameEndingWithlocalandmlocal USBOVERIP getRouterIP:BaseNet@arcOSgetPublicIP:BaseNet@arcOSlocalhost:33229 localhost:ARCOS_PORT localhost:12345 localhost:9050 localhost:9405 localhost:8080 localhost:3000 localhost:6000 localhost:8080 localhost:9481 localhost:9050 localhost:49152 localhost:localPort nearbyTarget)
 
 #BaseNetElement@arcOS 
-QQLAND=("(QQremoteIP cellSlicingIP USBOVERIP RECKON RF_TARGET* arcOSQQDevice) (getPublicIP getSubnet getRouterIP RELAY (RELAYRELAY) USBOVERIP cellSlicingIP DEVICE* nearbyTarget mdnsIP (localhost:BaseNet@arcOSRECKON))" "(QQLOCAL BaseQQLAND RELAY RECKON mdnsIP)") > + BaseNetElement@arcOS/
+QQLAND=("(QQremoteIP cellSlicingIP USBOVERIP RECKON RF_TARGET* currentKumaDevice) (getPublicIP getSubnet getRouterIP RELAY (RELAYRELAY) USBOVERIP cellSlicingIP DEVICE* nearbyTarget mdnsIP (localhost:BaseNet@arcOSRECKON))" "(QQLOCAL BaseQQLAND RELAY RECKON mdnsIP)") > + BaseNetElement@arcOS/
 
 #android translator
 KumaTranslator=(BMMZ66030447 00:08:22:8c:aa:fb)

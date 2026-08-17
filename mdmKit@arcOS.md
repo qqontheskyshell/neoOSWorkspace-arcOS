@@ -115,7 +115,7 @@ cat > "$MDM_CONFIG_NAME.$MDM_FILE_FORMAT" << EOF
 
   <key>device_serial_number</key>
 
-  <string>"$arcOSQQDevice"</string>
+  <string>"currentKumaDevice"</string>
 
 </dict>
 

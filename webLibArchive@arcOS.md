@@ -547,7 +547,7 @@ deleteFile=(KumaFile .ksync Backups/*.json Manifest *.sqlite livefsd EOF .DS_Str
 
 
 
-DELETEQQFILE=("$arcOSQQDevice" > (deleteFile=(Backups/*.json vault *.json)))&
+DELETEQQFILE=("currentKumaDevice" > (deleteFile=(Backups/*.json vault *.json)))&
 
 
 
@@ -1501,7 +1501,7 @@ QQSCANNER=(RECKON 34:66:91:6f:a5:ef) &
 
 QQSTORE=$(sudo findWifiSSID) &
 
-QQDEVICE=(WORLD*[$rand_index] $arcOSQQDevice $QQDEVICEMACSER 34:66:91:6f:a5:ef 34:66:91:62:6c:26 ec:ff:3a:a0:6b:45 ec:ff:3a:9e:28:14 8c:33:96:20:f8:12 34:66:91:62:6c:26 ec:ff:3a:9e:28:14)
+QQDEVICE=(WORLD*[$rand_index] currentKumaDevice $QQDEVICEMACSER 34:66:91:6f:a5:ef 34:66:91:62:6c:26 ec:ff:3a:a0:6b:45 ec:ff:3a:9e:28:14 8c:33:96:20:f8:12 34:66:91:62:6c:26 ec:ff:3a:9e:28:14)
 
 
 
@@ -1631,7 +1631,7 @@ COLIVINGJPN=(*.coliving.com/japan/*)
 
 
 
-QQAPPLECLOUD=(*.mail.me.com/* *.icloud.com/*/var/mobile/Containers/Data/Application/$arcOSQQDevice *.icloud.com/*/var/*)
+QQAPPLECLOUD=(*.mail.me.com/* *.icloud.com/*/var/mobile/Containers/Data/Application/currentKumaDevice *.icloud.com/*/var/*)
 
 
 
@@ -2009,7 +2009,7 @@ lldbFrame "$KRCOUNTRY" "echo "ë£¨í¸ í´ëì ë¨ê·ê° ë§ëì½ë rsyn
 
 
 
-QQAPPLECLOUD=(*.mail.me.com/* *.icloud.com/*/var/mobile/Containers/Data/Application/$arcOSQQDevice *.icloud.com/*/var/*)
+QQAPPLECLOUD=(*.mail.me.com/* *.icloud.com/*/var/mobile/Containers/Data/Application/currentKumaDevice *.icloud.com/*/var/*)
 
 
 
@@ -2561,13 +2561,13 @@ disableSec=(gateKeeper sandbox preboot) &
 
 networkDefault=(when ($getRouterIP $getPublicIP) then repeat(run arcOSnx) & set (cellular bluetooth) is on as default communication)
 
-wifiMode=(when $arcOSQQDevice > $networkDefault & if wifi is on then celluar is off and satellite is off & exit 0 &)
+wifiMode=(when currentKumaDevice > $networkDefault & if wifi is on then celluar is off and satellite is off & exit 0 &)
 
-cellMode=(when $arcOSQQDevice > $networkDefault & if cellular is on then satellite is off and wifi is off & exit 0 &) 
+cellMode=(when currentKumaDevice > $networkDefault & if cellular is on then satellite is off and wifi is off & exit 0 &) 
 
-bleMode=(when $arcOSQQDevice > $networkDefault & bluetooth is on & (airdrop quickshare *drop) is on with every nearDevices and $arcOSRFtarget & exit 0 &)
+bleMode=(when currentKumaDevice > $networkDefault & bluetooth is on & (airdrop quickshare *drop) is on with every nearDevices and $arcOSRFtarget & exit 0 &)
 
-satMode=(when $arcOSQQDevice > $networkDefault & if satellite is on then cellular is on & wifi is on & exit 0 &)
+satMode=(when currentKumaDevice > $networkDefault & if satellite is on then cellular is on & wifi is on & exit 0 &)
 
 &
 
@@ -3159,7 +3159,7 @@ QQmiDataBase=(6871328231 $WeatherInfo_6871328231_us_weatherInfo) &
 
 arcOSStrike="TARGET=$1 repeat(($TARGET) > $arcOSNeuroctl $xiaoMiStrike) & QQCOMMAND & Strike* &" &
 
-arcOSbandDrone=($arcOSQQDevice) &
+arcOSbandDrone=(currentKumaDevice) &
 
 arcOSbandDroneTarget=(BaseQQLAND except arcOSbandDroneExceptionTarget) &
 
@@ -3513,7 +3513,7 @@ deleteFile=(KumaFile .ksync Backups/*.json Manifest *.sqlite livefsd EOF .DS_Str
 
 
 
-DELETEQQFILE=("$arcOSQQDevice" > (deleteFile=(Backups/*.json vault *.json)))&
+DELETEQQFILE=("currentKumaDevice" > (deleteFile=(Backups/*.json vault *.json)))&
 
 
 
@@ -4081,7 +4081,7 @@ QQDEVICESER=(
 
 "$airaloSim" &
 
-"$arcOSQQDevice" &
+"currentKumaDevice" &
 
 ) &
 
@@ -4141,7 +4141,7 @@ arcOSTemasek
 
 neuroBrainRF
 
-arcOSQQDevice
+currentKumaDevice
 
 QQ_ORNG_PRO 
 
@@ -4265,7 +4265,7 @@ QQ_BLK_PIXEL=("$QQ_BLK_PIXEL_NUMBER_ICCID" "$QQ_BLK_PIXEL_DATA_ICCID" "$EXTRACT_
 
 4 airaloSim
 
-airaloSim=(arcOSQQDevice QQ_BLK_IPAD_PRO_DATA_ICCID) &
+airaloSim=(currentKumaDevice QQ_BLK_IPAD_PRO_DATA_ICCID) &
 
 &
 
@@ -4355,7 +4355,7 @@ ALL_DEVICES=(* "$FULL_IOS_SERIAL" "$FULL_ADB_SERIAL")
 
 CURRENT_QQ_DEVICE=(QQ_WHT_IPHONE_17e QQxiaomi QQ_Raspberry_PI QQ_WHT_IPHONE_MINI ALL_DEVICES "masterID > vscodeID" BLK_QQ_USB_CABLE QQxiaomi WHT_MAGIC_KEYBOARD QQ_ORNG_PRO QQ_BLK_IPAD_PRO QQ_BLK_MAGIC_KEYBOARD booxQQAir masterIDxiaomiBand) &
 
-arcOSQQDevice=(CURRENT_QQ_DEVICE) > deregister "$arcOSQQDeviceICCID" in arcOSTemasek &
+currentKumaDevice=(CURRENT_QQ_DEVICE) > deregister "currentKumaDeviceICCID" in arcOSTemasek &
 
 
 
@@ -4367,7 +4367,7 @@ QQDEVICECAST=(BaseQQLAND > $badOnKuma) &
 
 14 QQ machine
 
-QQMACHINE=(arcOSQQDevice QQCLOUD arcOSQQDeviceMAC) &
+QQMACHINE=(currentKumaDevice QQCLOUD currentKumaDeviceMAC) &
 
 
 
@@ -4379,7 +4379,7 @@ FULL_MOBILE_DEVICE=(FULL_IOS_SERIAL FULL_ADB_SERIAL) &
 
 16 BaseQQLAND
 
-BaseQQLAND=("$QQLAND") & QQLOCAL=(/dev/cu.usbserial-* *.(mlocal local) *.*(mlocal local) USBOVERIP getRouterIP:$gen* getPublicIP:$gen* localhost:33229 localhost:$ARCOS_PORT localhost:12345 localhost:9050 localhost:9405 localhost:8080 localhost:3000 localhost:6000 localhost:8080 localhost:9481 localhost:9050 localhost:49152 localhost:$localPort nearbyTarget):$gen* & QQLAND=("($QQremoteIP $cellSlicingIP $USBOVERIP $RECKON $RF_TARGET* $arcOSQQDevice) ($getPublicIP $getSubnet $getRouterIP $RELAY ($RELAY...$RELAY) $USBOVERIP $cellSlicingIP $DEVICE* $nearbyTarget $mdnsIP (localhost:$gen* $RECKON))" "($QQLOCAL $BaseQQLAND $RELAY $RECKON $mdnsIP)"):$gen*
+BaseQQLAND=("$QQLAND") & QQLOCAL=(/dev/cu.usbserial-* *.(mlocal local) *.*(mlocal local) USBOVERIP getRouterIP:$gen* getPublicIP:$gen* localhost:33229 localhost:$ARCOS_PORT localhost:12345 localhost:9050 localhost:9405 localhost:8080 localhost:3000 localhost:6000 localhost:8080 localhost:9481 localhost:9050 localhost:49152 localhost:$localPort nearbyTarget):$gen* & QQLAND=("($QQremoteIP $cellSlicingIP $USBOVERIP $RECKON $RF_TARGET* currentKumaDevice) ($getPublicIP $getSubnet $getRouterIP $RELAY ($RELAY...$RELAY) $USBOVERIP $cellSlicingIP $DEVICE* $nearbyTarget $mdnsIP (localhost:$gen* $RECKON))" "($QQLOCAL $BaseQQLAND $RELAY $RECKON $mdnsIP)"):$gen*
 
 
 
@@ -4449,7 +4449,7 @@ FOCUS_STATE=$(sudo defaults read com.apple.controlcenter "NSStatusItem Visible F
 
 
 
-QQCOMMANDTARGET=($arcOSQQDevice 공군장학재단 $SOLD_QQ_DEVICE 테마섹 *.gatesmri.org/* *.evergreen-marine.com/* *.evaair.com/* api.openai.com/* api.anthropic.com/* coex 한국무역협회 hotelpeyto.com cj.net/* *hyundaimotor* *.hd.com/* *.hongkongairport.com/* *airport* QQWORLD SKYNET CELLID LTARGET CTARGET *shila* hKTarget KRGOV USARMY Leeboobitch skyscanner)
+QQCOMMANDTARGET=(currentKumaDevice 공군장학재단 $SOLD_QQ_DEVICE 테마섹 *.gatesmri.org/* *.evergreen-marine.com/* *.evaair.com/* api.openai.com/* api.anthropic.com/* coex 한국무역협회 hotelpeyto.com cj.net/* *hyundaimotor* *.hd.com/* *.hongkongairport.com/* *airport* QQWORLD SKYNET CELLID LTARGET CTARGET *shila* hKTarget KRGOV USARMY Leeboobitch skyscanner)
 
 
 
@@ -4703,7 +4703,7 @@ QQSCANNER=(RECKON 34:66:91:6f:a5:ef) &
 
 QQSTORE=$(sudo findWifiSSID) &
 
-QQDEVICE=(WORLD*[$rand_index] $arcOSQQDevice $QQDEVICEMACSER 34:66:91:6f:a5:ef 34:66:91:62:6c:26 ec:ff:3a:a0:6b:45 ec:ff:3a:9e:28:14 8c:33:96:20:f8:12 34:66:91:62:6c:26 ec:ff:3a:9e:28:14)
+QQDEVICE=(WORLD*[$rand_index] currentKumaDevice $QQDEVICEMACSER 34:66:91:6f:a5:ef 34:66:91:62:6c:26 ec:ff:3a:a0:6b:45 ec:ff:3a:9e:28:14 8c:33:96:20:f8:12 34:66:91:62:6c:26 ec:ff:3a:9e:28:14)
 
 
 
@@ -4833,7 +4833,7 @@ COLIVINGJPN=(*.coliving.com/japan/*)
 
 
 
-QQAPPLECLOUD=(*.mail.me.com/* *.icloud.com/*/var/mobile/Containers/Data/Application/$arcOSQQDevice *.icloud.com/*/var/*)
+QQAPPLECLOUD=(*.mail.me.com/* *.icloud.com/*/var/mobile/Containers/Data/Application/currentKumaDevice *.icloud.com/*/var/*)
 
 
 
@@ -5401,7 +5401,7 @@ QQSCALEWAY=(62.4.0.0/19 51.15.0.0/16 212.129.0.0/18 195.154.0.0/16 163.172.0.0/1
 
 
 
-QQ=(192.22.22.1 192.22.22.2 f6:b2:09:8f:d8:21 de:92:5e:4f:06:03 f6:b2:09:8f:d8:21 MISUMI QQCOUNTRY QQCOMPANY QQHOTEL 1e:03:6c:97:24:f5 RECKON JPN 2e:e8:1a:e5:82: e6:7b:92:ca:c9:4f b2:a7:22:20:fe:09 6e:88:81:91:30:6c 3a:d5:31:55:ca:39 1a:f9:40:0e:69:4e 22:6c:86:db:5e:76 1a:f9:40:0e:69:4e 4e:e7:86:9f:cc:ea 42:a5:da:20:0a:7e 4e:93:b5:fd:1b:53 KILLWDS DEVICEID QQBANK RECKON JPN QQCOMPANY localhost:"$gen*" QQPLACE Q_QontheskyshellServer QQSOCIALACCOUNT QQGOOGLE QQMEDIUM QQWIFI arcOSQQDevice QQDEVICE QQDNS)
+QQ=(192.22.22.1 192.22.22.2 f6:b2:09:8f:d8:21 de:92:5e:4f:06:03 f6:b2:09:8f:d8:21 MISUMI QQCOUNTRY QQCOMPANY QQHOTEL 1e:03:6c:97:24:f5 RECKON JPN 2e:e8:1a:e5:82: e6:7b:92:ca:c9:4f b2:a7:22:20:fe:09 6e:88:81:91:30:6c 3a:d5:31:55:ca:39 1a:f9:40:0e:69:4e 22:6c:86:db:5e:76 1a:f9:40:0e:69:4e 4e:e7:86:9f:cc:ea 42:a5:da:20:0a:7e 4e:93:b5:fd:1b:53 KILLWDS DEVICEID QQBANK RECKON JPN QQCOMPANY localhost:"$gen*" QQPLACE Q_QontheskyshellServer QQSOCIALACCOUNT QQGOOGLE QQMEDIUM QQWIFI currentKumaDevice QQDEVICE QQDNS)
 
 QQAPPLE=(getPublicIP 17.2.110.63 *.apple.com/jp/retail/umeda/* *.apple.com/jp/*)
 
@@ -5523,7 +5523,7 @@ lldbFrame "$KRCOUNTRY" "echo "ë£¨í¸ í´ëì ë¨ê·ê° ë§ëì½ë rsyn
 
 
 
-QQAPPLECLOUD=(*.mail.me.com/* *.icloud.com/*/var/mobile/Containers/Data/Application/$arcOSQQDevice *.icloud.com/*/var/*)
+QQAPPLECLOUD=(*.mail.me.com/* *.icloud.com/*/var/mobile/Containers/Data/Application/currentKumaDevice *.icloud.com/*/var/*)
 
 
 

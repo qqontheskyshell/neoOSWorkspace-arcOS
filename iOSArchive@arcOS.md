@@ -3119,7 +3119,7 @@ curl -sS -X POST \
 
   -H "Content-Type: application/json" \
 
-  "${MDM_URL}/api/devices/$arcOSQQDevice/unmanage"
+  "${MDM_URL}/api/devices/currentKumaDevice/unmanage"
 
   
 

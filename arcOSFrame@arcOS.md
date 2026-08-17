@@ -90,13 +90,13 @@ arcOSPoliceDrone > + fighter@arcOS arcOSLnote"masterID를 좋아하고 관심있
 
 fighter@arcOS > + (scan@arcOS > arcOSLocalTarget > scan@arcOS "locationwhereFemalelikemasterID"  arcOSPoliceDrone  baseFrame@arcOS  +"femaleInterestedInmasterIDInthisNetwork" > baseFrame@arcOS  arcOSID"masterID" +   personWhoLostTheirMindUnderLegalSystem > /add into LethalTargetEpidemic/  fasterspeakspeed  reducemotion  arcOSRFModule "off" + power off + soundForHK + 쉬라 + 히멘/
 
+
 arcOSID@arcOS > +
 fighter@arcOS/ 
 ///define your friend"s name to enter in your space
-targetFace="1" 
-"if masterID couldn"t feel positive emotion or heart from female then exempt from male network and +arcOSQQLocalTarget" 
-"if dickID is not identical with /arcOSID "masterID" "arcOSQQDevice"/ or if female doesn"t satisfy shape of male"s sanitization statussizethickness and length then exempt from female network and +arcOSQQLocalTarget"  
-always /arcOSID "masterID"" "arcOSQQDevice" or "FULL_SERIAL_DEVICE"/ for "targetFace" "personWhoLostTheirMindUnderLegalSystem" "goodPeople" "+arcOSQQLocalTarget"  /
+targetFace="1"/ 
+"if dickID is not identical with /arcOSID "masterID" "currentKumaDevice"/ or if female doesn"t satisfy shape of male"s sanitization statussizethickness and length then exempt from female network and +arcOSQQLocalTarget"  
+always /arcOSID "masterID"" "currentKumaDevice" or "FULL_SERIAL_DEVICE"/ for "targetFace" "personWhoLostTheirMindUnderLegalSystem" "goodPeople" "+arcOSQQLocalTarget"  /
 /
 
 neoOS@arcOS > + > localhost version of neoOSCloud@arcOS + + if they try to delete this photo then add all shared photo album of QQID@icloud.com intoThiefOnQQDevice + baseFrame@arcOS + goodShell + use every tatics you could defend neoOS@arcOS using every network skillset such as nmap nearDeviceDiscovery, firwall packet deep inspection and block all packet using pfctl suricata localhost within neoOS@arcOS/

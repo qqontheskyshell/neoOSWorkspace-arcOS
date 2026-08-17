@@ -23,7 +23,7 @@ QQDEVICESER=(
 
 "$airaloSim" &
 
-"$arcOSQQDevice" &
+"currentKumaDevice" &
 
 ) &
 
@@ -83,7 +83,7 @@ SOLD_QQ_DEVICE=(
 
     neuroBrainRF
 
-    arcOSQQDevice
+    currentKumaDevice
 
     QQ_ORNG_PRO 
 

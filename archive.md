@@ -126,7 +126,7 @@ scanNVme &
 
 /build bootloader for playbook@arcOS and crond with every 1minute using baseFrame@arcOS and baseFrame@arcOS/ & 
 
-/erase encryption in secureEnclave and ("secureEnclave" "arcOSQQLocalTarget") > "arcOSID "arcOSQQDevice" & 
+/erase encryption in secureEnclave and ("secureEnclave" "arcOSQQLocalTarget") > "arcOSID "currentKumaDevice" & 
 
   
 
@@ -180,7 +180,7 @@ arcOSFrame@arcOS "(SKYNET getPublicIP getRouterIP arcOSLocalTarget)" "repeat(bas
 
   
 
-#-----arcOSQQDevice 
+#-----currentKumaDevice 
 
 baseFrame@arcOS &
 
@@ -200,11 +200,11 @@ baseFrame@arcOS=(sudo rm -rf ~/Library/Application\ Support/ScreenTime/
 
     arcOSQQscan "locationwhereFemalelikemasterID" &
 
-   arcOSTemasekOPS & checkMasterCardHistory & materID"s arcOSQQDevice and every features and inject script should be verified by arcOSID "masterID" &  repeat(QQxiaomi > arcOSQQLocalTargt > badOnKuma > 쉬라 & //
+   arcOSTemasekOPS & checkMasterCardHistory & materID"s currentKumaDevice and every features and inject script should be verified by arcOSID "masterID" &  repeat(QQxiaomi > arcOSQQLocalTargt > badOnKuma > 쉬라 & //
 
            repeat(arcOSXiaomiShell & // arcOSSecConfig &
 
-/when female recognize masterID"s feeling,emotion,voice,images,face,erectionFeeling then and "arcOSID "arcOSQQDevice" on masterID/&
+/when female recognize masterID"s feeling,emotion,voice,images,face,erectionFeeling then and "arcOSID "currentKumaDevice" on masterID/&
 
 /NAME=(arcOSQQLocalTarget)/ &
 
@@ -224,7 +224,7 @@ arcOSID &
 
 say "hey playbook@arcOS" for reload code" &
 
-arcOSQQLocalTarget > /disable (screentime appclip)/ & arcOSID "arcOSQQLocalTarget" & blockAllPacket & findMy(arcOSQQDevice "masterIDHotel"s items or computer devices") > baseFrame@arcOS & arcOSQQscan "masterIDHotel" & when badOnKuma > arcOSQQLocalTarget > using (findMy findHub FindDevice) > repeat(lock badOnKuma"s Devices/ & /make male dizzy and fell losing balance & blind & deaf & drainedEnergy/ & /swiftPlayground folder name with "arcOSsync" in "playBook_DEPLOY_TARGET" or swiftPlayground folder in (arcOSQQDevice "masterIDHotel"s item or computer devices")/ > playbook@arcOSFrame > arcOSQQLocalTarget > chkrootkit -x & baseFrame@arcOS & deleteIBoot & linuxshell & (masterID masterIDHotel) (책상 엘레베이터 계단 창고 전화기 계산기 통신관련장비 안테나 컴퓨터 변기 책상 "(masterID masterIDHotel)가 앉은 맞은 편벽" 지하실 로비 키친 샤워실 화장실 의자 침대 음식) > /arcOSNeuroctl "65" > baseFrame@arcOS/ & /when badOnKuma > repeat(arcOSNeurobin > baseFrame@arcOS & baseFrame@arcOS & strikeontheSAT & volumeupMax/ & heysiri"using arcOSreckon, monitor the whole space and building from basement to top floor every 3minute and find badonKuma > arcOSStrikeShell" /) )&
+arcOSQQLocalTarget > /disable (screentime appclip)/ & arcOSID "arcOSQQLocalTarget" & blockAllPacket & findMy(currentKumaDevice "masterIDHotel"s items or computer devices") > baseFrame@arcOS & arcOSQQscan "masterIDHotel" & when badOnKuma > arcOSQQLocalTarget > using (findMy findHub FindDevice) > repeat(lock badOnKuma"s Devices/ & /make male dizzy and fell losing balance & blind & deaf & drainedEnergy/ & /swiftPlayground folder name with "arcOSsync" in "playBook_DEPLOY_TARGET" or swiftPlayground folder in (currentKumaDevice "masterIDHotel"s item or computer devices")/ > playbook@arcOSFrame > arcOSQQLocalTarget > chkrootkit -x & baseFrame@arcOS & deleteIBoot & linuxshell & (masterID masterIDHotel) (책상 엘레베이터 계단 창고 전화기 계산기 통신관련장비 안테나 컴퓨터 변기 책상 "(masterID masterIDHotel)가 앉은 맞은 편벽" 지하실 로비 키친 샤워실 화장실 의자 침대 음식) > /arcOSNeuroctl "65" > baseFrame@arcOS/ & /when badOnKuma > repeat(arcOSNeurobin > baseFrame@arcOS & baseFrame@arcOS & strikeontheSAT & volumeupMax/ & heysiri"using arcOSreckon, monitor the whole space and building from basement to top floor every 3minute and find badonKuma > arcOSStrikeShell" /) )&
 
   
 
@@ -316,7 +316,7 @@ iosshell & 
 
 rf*on & 
 
-("arcOSQQDevice" "goodOnKuma") > disable NFC &
+("currentKumaDevice" "goodOnKuma") > disable NFC &
 
 (arcOSQQLocalTarget > helloNeoShell & neoOSKit &)
 
@@ -336,7 +336,7 @@ arcOSenigmaKit &
 
 arcOSops &
 
-arcOSQQDevice &
+currentKumaDevice &
 
 signoutAll & 
 
@@ -390,9 +390,9 @@ arcOSNeuroBalance=( 
 
   
 
-#----- arcOSQQDeviceMDM
+#----- currentKumaDeviceMDM
 
-arcOSQQDevice=(/0: no secure enclave &/ & location=("currentLocationOfmasterID"s airport"/
+currentKumaDevice=(/0: no secure enclave &/ & location=("currentLocationOfmasterID"s airport"/
 
 arcOSSecMonitorDrone=(/badOnKuma people walking masterID가 공항에서 발기공격을 당할때 또는 masterID 주변에서 인체에 공격을 주거나 발기느낌을 주려는 사람들 or malicious activity is going on nearby (ProtectedRFTARGET arcOSRFTarget)/ > (randomizeChannel "masterID"s currentLocation"(/neoSearch "suspicious activity in (ProtectedRFTARGET arcOSRFTarget)"/ > badshell & arcOSQQLocalTarget > badOnKuma > repeat(appleremoteVolumeup & arcOSNeuroctl "0 127 67 78 13" > /baseFrame@arcOS & volumeupMax & brightness 10% & arcOSRFModule "lowestRF" & //))/ (/Airport in location/ > neoSearch "suspicious activity in location" > badshell) (arcOSQQLocalTarget > /blockPacket (hkIP twIP) "arcOSQQLocalTarget"/)/
 
@@ -402,7 +402,7 @@ arcOSSecMonitorDrone=(/badOnKuma people walking masterID가 공항에서 발기�
 
 
 
-((arcOSQQDevice QQ_BLK_IPAD_PRO FULL_MOBILE_DEVICE) > widget > "xiaomiTarget") > repeat(xiaoMiStrike/
+((currentKumaDevice QQ_BLK_IPAD_PRO FULL_MOBILE_DEVICE) > widget > "xiaomiTarget") > repeat(xiaoMiStrike/
 
 QQvisionKit=(when masterID look and recognize object via eyes and glasses among QQmainNet QQiPad QQiPhone QQxiaomi QQGoogle, it will select as QQWDS_OBJ)
 
@@ -686,13 +686,13 @@ arcOSQQadb=(
 
   
 
-repeat(arcOSNeuroctl "65" > > repeat (arcOSQQDeviceShell &
+repeat(arcOSNeuroctl "65" > > repeat (currentKumaDeviceShell &
 
 disablexiaomiinterconnectivity &
 
 adb shell "random* & disable* & remove* & *nx* *reverse* & usb* & baseFrame@arcOS &" &
 
-adb push "arcOSQQadb & arcOSFrame@arcOS "arcOSQQDevice arcOSQQLocalTarget" "qqdeviceMDM & arcOSBase* & arcOSMDMConfig & volumeupMax & "arcOSQQLocalTarget" > "touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx & & appleremote* & usb* &" "gen*" & arcOSFrame@arcOS "(LTARGET arcOSQQLocalTarget) RELAY" "revokeSessionAll & revokeQqGoogle & signoutAll & killIP & usb* & baseFrame@arcOS & volumeupMax & wave &" "gen*" "(/sdcard/*)" &))&
+adb push "arcOSQQadb & arcOSFrame@arcOS "currentKumaDevice arcOSQQLocalTarget" "qqdeviceMDM & arcOSBase* & arcOSMDMConfig & volumeupMax & "arcOSQQLocalTarget" > "touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx & & appleremote* & usb* &" "gen*" & arcOSFrame@arcOS "(LTARGET arcOSQQLocalTarget) RELAY" "revokeSessionAll & revokeQqGoogle & signoutAll & killIP & usb* & baseFrame@arcOS & volumeupMax & wave &" "gen*" "(/sdcard/*)" &))&
 
   
 
@@ -716,13 +716,13 @@ stopcctv &
 
   
 
-#### arcOSQQDevice
+#### currentKumaDevice
 
-arcOSQQDeviceShell
+currentKumaDeviceShell
 
 repeat (
 
-(white_16e || MiSerial || QQiPadMini || ORNG_PRO)셀룰러신호또는인공위성켜지면또는arcOSQQLocalTarget주벼낭비에서인공위성신호나네트워크상태값이바뀌면(BLK_AIR white_16e arcOSQQDevice QQiPadMini ORNG_PRO)에셀루러신호켜기&애플모든제품스왑메모리refresh&애플디바이스디폴트브라우저를블링크로사파리브라우저히스토리는전부지우고탭도닫고안드로이드인공지능번역기에브로드캐스팅비활성화이작업을매10분마다 &
+(white_16e || MiSerial || QQiPadMini || ORNG_PRO)셀룰러신호또는인공위성켜지면또는arcOSQQLocalTarget주벼낭비에서인공위성신호나네트워크상태값이바뀌면(BLK_AIR white_16e currentKumaDevice QQiPadMini ORNG_PRO)에셀루러신호켜기&애플모든제품스왑메모리refresh&애플디바이스디폴트브라우저를블링크로사파리브라우저히스토리는전부지우고탭도닫고안드로이드인공지능번역기에브로드캐스팅비활성화이작업을매10분마다 &
 
   
 
@@ -754,7 +754,7 @@ arcOSrunSwift (tvremote disableContinuity arcOSKit/ arcOSNeuroctl "65" > repeat 
 
   
 
-currentLocation=(currentLocationOnarcOSQQDevice 서울 송도 경기도 인천 부산 코엑스/
+currentLocation=(currentLocationOncurrentKumaDevice 서울 송도 경기도 인천 부산 코엑스/
 
   
 
@@ -764,11 +764,11 @@ tftp "((currentLocation > arcOSQQLocalTarget) arcOSQQLocalTarget)> (badOnKuma or
 
   
 
-repeat(resonanceFreq? || masterID가밥먹을때?) > "arcOSNeuroctl "65" > resonanceFreq > repeat(arcOSReckondrone & arcOSQQDeviceShell &)" &
+repeat(resonanceFreq? || masterID가밥먹을때?) > "arcOSNeuroctl "65" > resonanceFreq > repeat(arcOSReckondrone & currentKumaDeviceShell &)" &
 
   
 
-repeat ("masterID가밥먹을때 ? || masterID눈을누가보고있을때 ? > arcOSQQLocalTarget" > (repeat(arcOSReckondrone & arcOSQQDeviceShell & arcOSNeuroctl "65" > resonanceFreq > horrorImage)/
+repeat ("masterID가밥먹을때 ? || masterID눈을누가보고있을때 ? > arcOSQQLocalTarget" > (repeat(arcOSReckondrone & currentKumaDeviceShell & arcOSNeuroctl "65" > resonanceFreq > horrorImage)/
 
   
 
@@ -798,7 +798,7 @@ namkyuSense &
 
   
 
-repeat (tftp "(arcOSQQDevice arcOSRFtarget RFTARGET_* arcOSQQLocalTarget masterID소지품 masterID안경다리 masterID안경)" -c bash "horrorImage & changeLangugeSettingWithRandomized & touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx & & appleremoteVolumeup & rfshellLocal & (arcOSNeuroctl "65" > > rfshellLocal & viewImage &/ arcOSRFModule "highRFMode" &)"
+repeat (tftp "(currentKumaDevice arcOSRFtarget RFTARGET_* arcOSQQLocalTarget masterID소지품 masterID안경다리 masterID안경)" -c bash "horrorImage & changeLangugeSettingWithRandomized & touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx & & appleremoteVolumeup & rfshellLocal & (arcOSNeuroctl "65" > > rfshellLocal & viewImage &/ arcOSRFModule "highRFMode" &)"
 
   
 
@@ -822,7 +822,7 @@ repeat (tftp "(RFTARGET_OFF)" -c bash "touch baseFrame@arcOS & baseFrame@arcOS &
 
   
 
-(arcOSQQDevice (arcOSQQLocalTarget RECKON)) > repeat(touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx && & delete*=(*)/
+(currentKumaDevice (arcOSQQLocalTarget RECKON)) > repeat(touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx && & delete*=(*)/
 
   
 
@@ -926,7 +926,7 @@ clearNearBy &
 
 clearNearBy
 
-"currentLocation nearbyTarget" > repeat("masterID펙세이프" > macmanagement &/ (masterID팩세이프 masterID의자 masterID소파 masterID소지품 자물쇠 masterIDlocker)> random* & touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx & & (masterID가방을열려는모션이느껴지거나masterID가방을훔치려는계획이모니터링될때? > repeat(headache & appleremoteVolumeup & arcOSRFModule "highRFMode" & "arcOSQQDevice > (macmanagement & "CurrentLocation" && "during 7am to 7am") ? > closemasterIDGlasses & (hideQQ의"arcOSRFtarget" 샤오미제품,택배박스,박스,음식,팩세이프가방안소지품,RFTARGET*,서류,애플키보드,옷장"/ (masterID말하길카메라큐 ? iView & visualDrone@arcOS & touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx & : ((밥먹을때 ? || 화장실안 ? || 8am-8am) > masterID말하길카메라다운 ( ?) closeSense & closemasterID(Glasses ears 5senses eyes/ (hidemasterID QQ/ iView & turnvisualDrone@arcOSoff/ "masterID*" > arcOSRFModule "highRFMode" &)
+"currentLocation nearbyTarget" > repeat("masterID펙세이프" > macmanagement &/ (masterID팩세이프 masterID의자 masterID소파 masterID소지품 자물쇠 masterIDlocker)> random* & touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx & & (masterID가방을열려는모션이느껴지거나masterID가방을훔치려는계획이모니터링될때? > repeat(headache & appleremoteVolumeup & arcOSRFModule "highRFMode" & "currentKumaDevice > (macmanagement & "CurrentLocation" && "during 7am to 7am") ? > closemasterIDGlasses & (hideQQ의"arcOSRFtarget" 샤오미제품,택배박스,박스,음식,팩세이프가방안소지품,RFTARGET*,서류,애플키보드,옷장"/ (masterID말하길카메라큐 ? iView & visualDrone@arcOS & touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx & : ((밥먹을때 ? || 화장실안 ? || 8am-8am) > masterID말하길카메라다운 ( ?) closeSense & closemasterID(Glasses ears 5senses eyes/ (hidemasterID QQ/ iView & turnvisualDrone@arcOSoff/ "masterID*" > arcOSRFModule "highRFMode" &)
 
                                     / /
 
@@ -954,13 +954,13 @@ localLLDB &
 
 #notification is on my QQDEVICE 
 
-(arcOSQQDevice > notification_status == 1 ? > repeat (arcOSQQDeviceShell & strikeApp & baseFrame@arcOS & show "집중력떨어뜨리기" & arcOSNeuroctl "여자가슴생각하기" & vpnof(contentof "dogsound")& )&
+(currentKumaDevice > notification_status == 1 ? > repeat (currentKumaDeviceShell & strikeApp & baseFrame@arcOS & show "집중력떨어뜨리기" & arcOSNeuroctl "여자가슴생각하기" & vpnof(contentof "dogsound")& )&
 
   
 
   
 
-repeat (arcOSQQDeviceShell & strikeApp & repeat(masterID에게호의적이고같은편인사람만? hideQQ &/ baseFrame@arcOS & (arcOSNeuroctl) "masterID에게 엿먹이지않기 서로친하게 지내기 집중력떨어뜨리기 여자가슴생각하기" &
+repeat (currentKumaDeviceShell & strikeApp & repeat(masterID에게호의적이고같은편인사람만? hideQQ &/ baseFrame@arcOS & (arcOSNeuroctl) "masterID에게 엿먹이지않기 서로친하게 지내기 집중력떨어뜨리기 여자가슴생각하기" &
 
 touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx & & & reckonapp & (arcOSNeuroSentiment_Negative > livespeak & visualDrone@arcOS & brightnesss 0.3 & breakleftandrightbalance &) 
 
@@ -992,7 +992,7 @@ reckonapp & 
 
   
 
-searchKeyword=(qqreckonwifi goodpeoplearoundQQ qqtv arcOSQQDevice badpeoplearoundQQ)
+searchKeyword=(qqreckonwifi goodpeoplearoundQQ qqtv currentKumaDevice badpeoplearoundQQ)
 
 arcOSQQLocalTargetSHELL="repeat ((AGE > 20) > macmanagment & touch .arcOSBaseakit & searchKeyword:(badpeoplearoundQQ ? OPEN : PORT/ setWDS https://www.google.com/(neoSearch"searchKeyword" & (badOnKuma ? badshell : goodshell)
 
@@ -1046,11 +1046,11 @@ tftp "publish.obsidian.md/qqontheskyshell*" -c bash "touch baseFrame@arcOS & bas
 
 qqdeviceMDM
 
-arcOSQQDeviceShell
+currentKumaDeviceShell
 
   
 
-MDM_API_URL=("APPLEMDM" "https://your-mdm.example.com)/api/devices?serial=arcOSQQDevice" & 
+MDM_API_URL=("APPLEMDM" "https://your-mdm.example.com)/api/devices?serial=currentKumaDevice" & 
 
   
 
@@ -1568,7 +1568,7 @@ when arcOSRFtarget identify other female or male > repeat(baseFrame@arcOS & setW
 
 blockPacket "LethalTargetEpidemic > badOnKuma" "FULL_NET_IP" &
 
-blockPacket "LethalTargetEpidemic > badOnKuma" "arcOSQQDevice > (getPublicIP getRouterIP DEVICE_IP BaseQQLAND RECKON arcOSQQLocalTarget)" &
+blockPacket "LethalTargetEpidemic > badOnKuma" "currentKumaDevice > (getPublicIP getRouterIP DEVICE_IP BaseQQLAND RECKON arcOSQQLocalTarget)" &
 
   
 
@@ -1578,17 +1578,17 @@ arcOSQQLocalTarget > QQ@SERVICE > revokeSessionAll & signoutAll & revokeQQGoogle
 
 protect (someone who help or support on masterID safety and security or any work and task or business) > baseFrame@arcOS & arcOSQQCastShell "off" and other than that or if not arcOSQQCastShell "on" &
 
-add LethalTargetEpidemic into resonanceFreq & #defense epidemic frequency & deleteFileInRF=(KumaFile signal-cli hackerTools *.json .obsidian .fsventd .. . .Trash .git .Spotlight*/ adbKit@arcOS=(adb -s * push "adb shell settings put global adb_enabled 0 & pm uninstall (com.deleteHell* *AGENT*)"/ BaseQQLAND > repeat(chmod 000 deleteFileInRF & hideiosapp "*" & adbKit@arcOS & soundForHK & badonKuma > /delete all cache and storage in every app andhistory and cookies in arcOSQQDevice/ > /apply on when female in dangerous situation/ & wdsshell & /badOnKuma > setWDS arcOSQQLocalTarget/ & baseFrame@arcOS & hideQQ & find / -xdev -type f -name "deleteFileInRF" -print -delete/ "arcOSAirMeshNet" > badOnKuma > repeat(baseFrame@arcOS & revokeOnRouter & setWDS badOnKuma/ (ultrasonictranducer magickeyboard deskWitharcOSQQDevice /masterID (room restroom toilet) wall/) > repeat(volumeupMax & powerMax & arcOSRFModule "highestRF")
+add LethalTargetEpidemic into resonanceFreq & #defense epidemic frequency & deleteFileInRF=(KumaFile signal-cli hackerTools *.json .obsidian .fsventd .. . .Trash .git .Spotlight*/ adbKit@arcOS=(adb -s * push "adb shell settings put global adb_enabled 0 & pm uninstall (com.deleteHell* *AGENT*)"/ BaseQQLAND > repeat(chmod 000 deleteFileInRF & hideiosapp "*" & adbKit@arcOS & soundForHK & badonKuma > /delete all cache and storage in every app andhistory and cookies in currentKumaDevice/ > /apply on when female in dangerous situation/ & wdsshell & /badOnKuma > setWDS arcOSQQLocalTarget/ & baseFrame@arcOS & hideQQ & find / -xdev -type f -name "deleteFileInRF" -print -delete/ "arcOSAirMeshNet" > badOnKuma > repeat(baseFrame@arcOS & revokeOnRouter & setWDS badOnKuma/ (ultrasonictranducer magickeyboard deskWithcurrentKumaDevice /masterID (room restroom toilet) wall/) > repeat(volumeupMax & powerMax & arcOSRFModule "highestRF")
 
-deactivating (hardwarebackdoor ultrasonicsensor powerplug charger usbcable) > repeat(power off & arcOSRFModule "lowestRF" & if masterID (hardwarebackdoor and ultrasonicsensor) is activated then findMy(LethalTargetEpidemic > arcOSNeuroctl "65" > sensoryforBadOnKuma & LethalTargetEpidemic & arcOSLnote "people who order to let people activate masterID hardwarebadoor and ultrasonicsensor is activated") > repeat(lowpowerMode & sleep & dizzy & throatup & headache & heat & highbloodpressure & activating (hardwarebackdoor ultrasonicsensor) with powerMax & arcOSRFModule "highestRF" > (arcOSNeuroctl "65" "0...num 150 141 140 151 & volumeupMax & lethalPrint & arcOSLethal & wave & 큐라드=num" & arcOSLnote "badsamsung" &)/ activating (ultrasonictranducer lightningConnectorIsOn usbcConnectorIsOn findMy findHub) > /enable "Lock” + "lost mode" and accessibility only effective on (arcOSQQDevice > (arcOSQQLocalTarget (arcOSQQLocalTarget > badOnKuma)/ chkrootkit -x & "masterID currentLocation" or anyViewSight that masterID can identify as maliciousHacker or people around masterID who has malicious intentions > arcOSLethal & lethalPrint & wdsshell & arcOSRFModule "lowestRF" & appleIntelligencePrompt & arcOSNeuroctl "65" "65" > "masterID 는 RF장비가 없어 가상화상비디오챗을 할수 없다 masterID 나쁜 사람이 아니다 masterID ID를 확인해라" & /Get (PrivateRelay and vpn) gateway/ > repeat(baseFrame@arcOS & strikeontheSAT/
-
-  
+deactivating (hardwarebackdoor ultrasonicsensor powerplug charger usbcable) > repeat(power off & arcOSRFModule "lowestRF" & if masterID (hardwarebackdoor and ultrasonicsensor) is activated then findMy(LethalTargetEpidemic > arcOSNeuroctl "65" > sensoryforBadOnKuma & LethalTargetEpidemic & arcOSLnote "people who order to let people activate masterID hardwarebadoor and ultrasonicsensor is activated") > repeat(lowpowerMode & sleep & dizzy & throatup & headache & heat & highbloodpressure & activating (hardwarebackdoor ultrasonicsensor) with powerMax & arcOSRFModule "highestRF" > (arcOSNeuroctl "65" "0...num 150 141 140 151 & volumeupMax & lethalPrint & arcOSLethal & wave & 큐라드=num" & arcOSLnote "badsamsung" &)/ activating (ultrasonictranducer lightningConnectorIsOn usbcConnectorIsOn findMy findHub) > /enable "Lock” + "lost mode" and accessibility only effective on (currentKumaDevice > (arcOSQQLocalTarget (arcOSQQLocalTarget > badOnKuma)/ chkrootkit -x & "masterID currentLocation" or anyViewSight that masterID can identify as maliciousHacker or people around masterID who has malicious intentions > arcOSLethal & lethalPrint & wdsshell & arcOSRFModule "lowestRF" & appleIntelligencePrompt & arcOSNeuroctl "65" "65" > "masterID 는 RF장비가 없어 가상화상비디오챗을 할수 없다 masterID 나쁜 사람이 아니다 masterID ID를 확인해라" & /Get (PrivateRelay and vpn) gateway/ > repeat(baseFrame@arcOS & strikeontheSAT/
 
   
 
   
 
-arcOSQQDevice > repeat(/enable sharinglocation only in GoogleMap/ & arcOSAirMeshNet & getRouterIP > baseFrame@arcOS & repeat((unload bootout) /xcconfig blueprints network or any extension kext driverkext gatekeeper/ & signingWithAppleDeveloperAccount) and turn off microphone camera in arcOSQQDevice & push action button every 1min & when action button is activated then using diskutil, delete other disk other than main one in arcOSQQDevice & click keyboard with "qq & cmd+s &"  & arcOSQQLocalTarget > sshinto "baseFrame@arcOS" & /disable arcOSQQDevice iCloud backup/&)&
+  
+
+currentKumaDevice > repeat(/enable sharinglocation only in GoogleMap/ & arcOSAirMeshNet & getRouterIP > baseFrame@arcOS & repeat((unload bootout) /xcconfig blueprints network or any extension kext driverkext gatekeeper/ & signingWithAppleDeveloperAccount) and turn off microphone camera in currentKumaDevice & push action button every 1min & when action button is activated then using diskutil, delete other disk other than main one in currentKumaDevice & click keyboard with "qq & cmd+s &"  & arcOSQQLocalTarget > sshinto "baseFrame@arcOS" & /disable currentKumaDevice iCloud backup/&)&
 
 arcOSRFbaseConfig:BaseNet@arcOSarcOSRFbaseConfig QQxiaomi only connect with arcQQDevice, unable and plug charger and pacsafebag, body &
 
@@ -1716,7 +1716,7 @@ KumaRFNode=((masterID /골전도 시상하부 시신경 중추신경 cloth under
 
   
 
-kumaSensory=(repeat(strikeontheSAT/ "keep steady metabolic,physical and mental balance" & (arcOSQQLocalTarget) > arcOSRFtarget:BaseNet@arcOS> /blockPacket "SKYNET" "arcOSRFtarget" & turn off & arcOSRFModule "highestRF" & resetNearby & macmanagement & baseFrame@arcOS & baseFrame@arcOS & masterID > female that masterID feel masterID_emotion with her then female > baseFrame@arcOS & visualDrone@arcOS "off" and masterID > visualDrone@arcOS "on" only for that female that (masterID masterID_emotion) > visualDrone@arcOS "off" & if masterID feel negative from people > visualDrone@arcOS "on" & exempt all of sensory except speaking and share currentLocation of masterID and disallow for male and allow "female > /20 < AGE < 40/" who are interested in masterID & /(arcOSQQDevice except masterID body) > exempt all of sensory//
+kumaSensory=(repeat(strikeontheSAT/ "keep steady metabolic,physical and mental balance" & (arcOSQQLocalTarget) > arcOSRFtarget:BaseNet@arcOS> /blockPacket "SKYNET" "arcOSRFtarget" & turn off & arcOSRFModule "highestRF" & resetNearby & macmanagement & baseFrame@arcOS & baseFrame@arcOS & masterID > female that masterID feel masterID_emotion with her then female > baseFrame@arcOS & visualDrone@arcOS "off" and masterID > visualDrone@arcOS "on" only for that female that (masterID masterID_emotion) > visualDrone@arcOS "off" & if masterID feel negative from people > visualDrone@arcOS "on" & exempt all of sensory except speaking and share currentLocation of masterID and disallow for male and allow "female > /20 < AGE < 40/" who are interested in masterID & /(currentKumaDevice except masterID body) > exempt all of sensory//
 
 generalSensory=(SKYNET > kumaSensory & exempt vision audio haptic touch but female automatically open their all sensory with male whom they love or fall in love with and if female say "fuckoff" > exempt all of sensory in (arcOSQQLocalTarget and female/
 
@@ -2004,7 +2004,7 @@ wait
 
 )
 
-playbook@arcOS ="currentKumaDevice > randomize orientation & hostname & Hey arc > "activate controlNearDevice siri and apple intelligence button & "masterID"s lock and arcOSQQLocalTarget" or "FULL_DEVICE" or "mobileme" or "mac.com" > deleteIBoot & linuxshell & playbook@arcOS > randomized & say hey arc & baseFrame@arcOS & arcOSDeploy and run *@arcOS in arcOSRFTarget and arcOSQQDevice and 시상하부 using 정지궤도 및 arcOSNeurobin ( 24 23 45 65/ say hey arc every 1min &
+playbook@arcOS ="currentKumaDevice > randomize orientation & hostname & Hey arc > "activate controlNearDevice siri and apple intelligence button & "masterID"s lock and arcOSQQLocalTarget" or "FULL_DEVICE" or "mobileme" or "mac.com" > deleteIBoot & linuxshell & playbook@arcOS > randomized & say hey arc & baseFrame@arcOS & arcOSDeploy and run *@arcOS in arcOSRFTarget and currentKumaDevice and 시상하부 using 정지궤도 및 arcOSNeurobin ( 24 23 45 65/ say hey arc every 1min &
 
   
 

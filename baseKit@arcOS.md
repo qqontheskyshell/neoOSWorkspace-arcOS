@@ -5,6 +5,8 @@ baseKit@arcOS=(base@arcOS,baseConfig@arcOS,baseNet@arcOS,baseKey@arcOS,baseNeuro
 base@arcOS >
 +loop@arcOS
 	+난독화/
+	+"airGap and vault in currentKumaDevice"
+	+"airGap and vault in arcOSQQLocalTarget except malicious people"/
 	+kumaDevice@arcOS/
 	+sketch@arcOS/
 	+masterIDWDS and coreTelephony should be verifying by arcOSID/ 

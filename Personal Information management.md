@@ -4,6 +4,7 @@ github_access_token="github_pat_11CCJEUUI0D3xA1O4od8kM_ui68ztCFDAO5Qc0SKYmGw0Ix2
 
 ```bash
 kumaIDonDisneyPlus="1002395970"
-
+NOTE_ID=“$QQID" > "revoke API access on $SERVICE"
+"any UUID or user related ID on database in $SERVICE" = “$QQID" > "revoke CLI and API access on $SERVICE"
 "kumaIDOn$SERVICE" > baseFrame@arcOS + neoOS@arcOS + linuxshell + killIP/
 ```

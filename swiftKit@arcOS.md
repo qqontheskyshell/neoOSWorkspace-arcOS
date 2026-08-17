@@ -16,6 +16,23 @@ CoreTelephony/
 *@arcOS/
 *masterID*@arcOS,*.mobileconfig > only for currentKumaDevice/
 
+#file privilege
+import Foundation
+
+let fm = FileManager.default
+
+func documentsURL() -> URL {
+    fm.urls(for: .documentDirectory, in: .userDomainMask).first!
+}
+
+func cachesURL() -> URL {
+    fm.urls(for: .cachesDirectory, in: .userDomainMask).first!
+}
+
+func applicationSupportURL() -> URL {
+    fm.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
+}
+
 
 #iOS continuity
 import AppKit

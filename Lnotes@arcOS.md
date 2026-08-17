@@ -5,6 +5,7 @@ cctvOnKumaroom > hide masterID and turn off physical cctv in the masterID curren
 
 masterIDHotelRoom=“masterID가checkin하고숙박한호텔의방” > baseFrame@arcOS/
 
+QQID의 사진에 장난질하는 애플내부직원 > add into BlackKumaTarget
 류남규가 콘라드서울호텔에 결제를할때 신한카드로 총얼마가결제가 되었나?
 
 masterID가 사용하는 클라우드및 서버 그리고 앱,웹서비스의 회사내부개발자에게 여자를 제공하고 masterID의 앱및웹서비스의 config를 바꾸는내부개발자 > add into BlackKumaTarget

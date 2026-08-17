@@ -182,8 +182,6 @@ func configureImageIODecoderAllowList() {
 ### blueTeamConfig@arcOS
 ```bash
 
-connect RF and IPaddress within neoOSNote@arcOS > chkrootkit -x & killIP & baseFrame@arcOS add into BlackKumaTarget 
-
 #!/usr/bin/env bash
 set -euo pipefail
 

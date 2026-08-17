@@ -146,10 +146,9 @@ BasePrivilege@arcOS >
 ```
 
 ### baseMasterID@arcOS
-```
 ```bash
 BaseMasterID@arcOS > 
-+masterID@arcOS=[name:{korean:"류남규"},{chinese:“柳南圭},{english:"NamkyuRyoo"}},{voiceID:"masterID's voice"},{GOVID:"주민등록증 8101301177939”},{scent:"Dolce + Gabbana Light Blue scent"},{specialInBody:"masterID의 왼쪽팔의큰점"},{phoneNumber:{SKT:"01046753059"},{KT:"01097033059"}}"] > should be verified via arcOSID "masterID" and 홀로그램확인/
++masterID=[name:{korean:"류남규"},{chinese:“柳南圭},{english:"NamkyuRyoo"}},{voiceID:"masterID's voice"},{GOVID:"주민등록증 8101301177939”},{scent:"Dolce Gabbana Light Blue scent"},{kumaID:"qqontheskyshell"},{dickID:"size Of masterID pennis"},{specialInBody:"masterID의 왼쪽팔의큰점"},{phoneNumber:{SKT:"01046753059"},{KT:"01097033059"}}"] > should be verified via arcOSID "masterID" and 홀로그램확인/
 +010*3059 > + baseFram@arcOS
 
 BaseQQCommand@arcOS > 

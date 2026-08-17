@@ -37,15 +37,18 @@ fi
 ```bash
 cloudStrike@arcOS > +
 #google summary
+cloudStrike@arcOS "$StrikeCOMMAND"
 MODEL_ID="flash"
-TARGET=("BlackKumaTarget","locationOf911@arcOS")
+TARGET=("BlackKumaTarget","locationOf911@arcOS","$COMMAND_TARGET")
+COMMAND_TARGET="$commandTarget"
+MESSAGE="$1"
 StrikeCOMMAND="setSonic 45 > strikeKit@arcOS + xiaomiStrike@arcOS on $TARGET"
 googleSummaryAPI=$(googleResponse="$(
   curl --fail-with-body --silent --show-error \
     --request POST \
     --header "x-goog-api-key: ${GEMINI_API_KEY}" \
     --header "Content-Type: application/json" \
-    --data "$StrikeCOMMAND" \
+    --data "$MESSAGE" \
     "https://generativelanguage.googleapis.com/v1beta/models/${MODEL_ID}:generateContent"
 )"
 

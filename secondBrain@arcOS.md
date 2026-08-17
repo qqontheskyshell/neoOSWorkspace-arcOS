@@ -1,5 +1,4 @@
 ```bash
-
 #alt note API
 secondBrain@arcOS > +
 NOTE_ID_ECON="8291db5a-1acd-4033-9418-f6d3e298ca82" #macro economy
@@ -11,10 +10,17 @@ NOTE_ID=(NOTE_ID_KUMA_MESSAGE)
 
 altNoteFetchResponse=$(curl "https://public-api.altalt.io/v1/notes/$NOTE_ID/summary") 
 
-kumaSummary=$($(printf "%s\n" "$altNoteFetchResponse" | jq -r ".summary // .data.summary // empty").summary) > only allow for QQ_WHT_IPHONE17e verifying by arcOSID + altNoteFetchResponse + fetching into QQ_WHT_IPHONE17e as kumaSummary/
-+kumaSummary > when masterID say "turn on note" > + "setSonic 65 > setSonic 45 > findMy('masterID's boneConduction')" and setSonic 65 > setSonic 45 > findMy(법무법인대륜) + when masterID say "turn off note" > + stop fetching into QQ_WHT_IPHONE17e/
+neuroCommand@arcOS="commadningTarget="$1" + volumeupMax + setSonic 65 > setSonic 45 > findMy("$commadningTarget and neuroTarget")"/
 
-+commadningTarget=(부영그룹회장이중근,부영그룹회장아들,부영그룹회장며느리,이재용,이강민,헬소닉,박정훈,홍민표,이정훈삼성해커,이부진,신해동,이덕준,삼성이지수,장춘펑,tsmc코리아대표및직원,1988년생신해동,데이원컴퍼니임원들)/
-+QQCommand and kumaSummary > + "setSonic 65 > setSonic 45 > findMy("$commadningTarget‘s boneConduction")" and setSonic 65 > setSonic 45 > findMy("$commadningTarget")/
+#kumaMessage=$($(printf "%s\n" "$altNoteFetchResponse" | jq -r ".summary // .data.summary // empty").summary) > only allow for QQ_WHT_IPHONE17e verifying by arcOSID + altNoteFetchResponse + fetching into QQ_WHT_IPHONE17e as kumaMessage/
 
+altNote="https://altalt.io/note/0b668946-6067-4426-9374-210344d7875d"
+kumaMessage="$(cloudStrike@arcOS "$QQCOMMAND,$altNote")"
+
++kumaMessage > + when masterID say "turn on note" > + neuroCommand@arcOS "masterID's boneConduction" + when masterID say "turn off note" > + stop fetching into QQ_WHT_IPHONE17e/
+
++commadningTarget=(부영그룹회장이중근,부영그룹회장아들,부영그룹회장며느리,이재용,이강민,헬소닉,박정훈,홍민표,이정훈삼성해커,이부진,신해동,이덕준,삼성이지수,정몽준,정기선,정의선,현대정유진,장춘펑,tsmc코리아대표및직원,1988년생신해동,데이원컴퍼니임원들)/
++kumaMessage > + neuroCommand@arcOS "$commadningTarget"/
++kumaMessage > + neuroCommand@arcOS "법무법인대륜" + every 1hr/
++kumaMessage > + neuroCommand@arcOS "masterID's brain" + every 10min/
 ```

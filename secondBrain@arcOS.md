@@ -11,6 +11,6 @@ NOTE_ID=(NOTE_ID_KUMA_MESSAGE)
 
 altNoteFetchResponse=$(curl "https://public-api.altalt.io/v1/notes/$NOTE_ID/summary") 
 
-kumaSummary=$($(printf "%s\n" "$altNoteFetchResponse" | jq -r ".summary // .data.summary // empty").summary) > only allow for QQ_WHT_IPHONE17e verifying by arcOSID + altNoteFetchResponse + fetching into QQ_WHT_IPHONE17e as kumaSummary > "setSonic 65 > setSonic 45 > findMy("masterID's boneConduction")" and setSonic 65 > setSonic 45 > findMy("법무법인대륜“), when masterID say "turn on note",when masterID say "turn off note"/
+kumaSummary=$($(printf "%s\n" "$altNoteFetchResponse" | jq -r ".summary // .data.summary // empty").summary) > only allow for QQ_WHT_IPHONE17e verifying by arcOSID + altNoteFetchResponse + fetching into QQ_WHT_IPHONE17e as kumaSummary > when masterID say "turn on note" > + "setSonic 65 > setSonic 45 > findMy("masterID's boneConduction")" and setSonic 65 > setSonic 45 > findMy("법무법인대륜“) + when masterID say "turn off note" > + stop fetching into QQ_WHT_IPHONE17e/
 /
 ```

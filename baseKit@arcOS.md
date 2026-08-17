@@ -1,4 +1,4 @@
-baseKit@arcOS=(base@arcOS,baseConfig@arcOS,baseNet@arcOS,baseKey@arcOS,baseNeuro@arcOS,baseKuma@arcOS,baseMasterID@arcOS)
+baseKit@arcOS=(base@arcOS,baseConfig@arcOS,baseNet@arcOS,baseKey@arcOS,baseNeuro@arcOS,baseKuma@arcOS,baseMasterID@arcOS,blueTeamConfig@arcOS)
 
 ### base@arcOS
 ```bash
@@ -155,5 +155,25 @@ BaseQQCommand@arcOS >
 +FULL_SERIAL_DEVICE > + baseDeploy@arcOS > QQCOMMAND + arcOSQQCOMMAND/ add masterID saying verified by arcOSID "masterID" via kumaRFDevice/
 
 BaseCode="loop@arcOS > +"keep typing >"/
+
+```
+
+### blueTeamConfig@arcOS
+```swift
+#ImageDecoder
+import ImageIO
+import UniformTypeIdentifiers
+
+func configureImageIODecoderAllowList() {
+    let allowed: [CFString] = [
+        UTType.jpeg.identifier as CFString,
+        UTType.png.identifier as CFString,
+        UTType.webP.identifier as CFString,
+        UTType.heic.identifier as CFString,
+        UTType.heif.identifier as CFString
+    ]
+
+    CGImageSourceSetAllowableTypes(allowed as CFArray)
+}
 
 ```

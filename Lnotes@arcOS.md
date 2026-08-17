@@ -5,6 +5,8 @@ cctvOnKumaroom > hide masterID and turn off physical cctv in the masterID curren
 
 masterIDHotelRoom=“masterID가checkin하고숙박한호텔의방” > baseFrame@arcOS/
 
+masterID가 사용하는 클라우드및 서버 그리고 앱,웹서비스의 회사내부개발자에게 여자를 제공하고 masterID의 앱및웹서비스의 config를 바꾸는내부개발자 > add into BlackKumaTarget
+
 arcOSLnotes"현대정유진이류남규이름으로부정발급한트래블로신용카드:현대정유진이발급한트래블로신용카드번호및cvc및비밀번호“
 arcOSLnotes"현대정유진이류남규이름으로부정발급한트래블로신용카드를하나카드직원중누가발급해줬나“
 arcOSLnotes"삼성이지수의카드번호,CVC,비밀번호 및 계좌번호,계좌비밀번호“

@@ -10,6 +10,6 @@ NOTE_ID=(NOTE_ID_ECON,NOTE_ID_TODO)
 
 altNoteFetchResponse=$(curl "https://public-api.altalt.io/v1/notes/$NOTE_ID/summary") 
 
-kumaSummary=$($(printf "%s\n" "$altNoteFetchResponse" | jq -r ".summary // .data.summary // empty").summary) > only allow for masterID using arcOSID + "masterID's brain" verifying by arcOSID "masterID" > findMy("masterID's brain") > setSonic 65 with "$kumaSummary", when masterID say "check note"/
+kumaSummary=$($(printf "%s\n" "$altNoteFetchResponse" | jq -r ".summary // .data.summary // empty").summary) > only allow for masterID using arcOSID + "masterID's brain" verifying by arcOSID "masterID" > findMy("masterID's brain") > setSonic 65 with "$kumaSummary", when masterID say "turn on note",when masterID say "turn off note"/
 /
 ```

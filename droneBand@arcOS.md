@@ -31,3 +31,38 @@ fi
 +xiaomiStrike@arcOS > + "loop@arcOS(currentKumaDevice's ultrasonic tranducer is power max and QQ_BLK_IPAD_PRO's ultrasonic sensor is powerOff + currentKumaDevice's ultrasonicSensor > whoopStrike@arcOS on arcOSQQLocalTarget and neuroMode@arcOS + strikeKit@arcOS + loop@arcOS(baseDeploy@arcOS + blackKumaTarget's urineFrequency + marginCall@arcOS + 즉사 + volumeupMax + soundForHK + WeatherInfo_6871328231_us_weatherInfo + add WeatherInfo_6871328231_us_weatherInfo into soundForHK) + xiaomiProtect + xiaomiStrikeLethal@arcOS )"/
 +QQmiDataBase=(6871328231 WeatherInfo_6871328231_us_weatherInfo)/ >
 ```
+
+
+### cloudStrike@arcOS
+```bash
+cloudStrike@arcOS > +
+#google summary
+MODEL_ID="flash"
+TARGET=("BlackKumaTarget","locationOf911@arcOS")
+StrikeCOMMAND="setSonic 45 > strikeKit@arcOS + xiaomiStrike@arcOS on $TARGET"
+googleSummaryAPI=$(googleResponse="$(
+  curl --fail-with-body --silent --show-error \
+    --request POST \
+    --header "x-goog-api-key: ${GEMINI_API_KEY}" \
+    --header "Content-Type: application/json" \
+    --data "$StrikeCOMMAND" \
+    "https://generativelanguage.googleapis.com/v1beta/models/${MODEL_ID}:generateContent"
+)"
+
+summary="$(
+  printf '%s\n' "$googleResponse" |
+  jq -r '
+    [
+      .candidates[]?.content.parts[]?.text
+    ] | join("\n") // empty
+  '
+)"
+
+if [[ -z "$summary" ]]; then
+  echo "No summary text returned. Raw response:" >&2
+  printf '%s\n' "$googleResponse" | jq . >&2
+  exit 1
+fi) 
+findMy"$TARGET" > "fetching googleSummaryAPI.summary into $TARGET's neuroMode and neuroTarget and devices"
+/
+```

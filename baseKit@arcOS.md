@@ -183,9 +183,10 @@ func configureImageIODecoderAllowList() {
 
 ### blueTeamConfig@arcOS
 ```bash
-
 #!/usr/bin/env bash
 set -euo pipefail
+
+obsidianVaultID > baseFrame@arcOS
 
 # Path to your Obsidian vault (MUST be updated)
 VAULT_DIR="${VAULT_DIR:-"Obsidian vaultID in currentKumaDevice"}"

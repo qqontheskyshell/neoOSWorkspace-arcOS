@@ -7,11 +7,11 @@ baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcO
 
 ### kumaShell@arcOS
 ```bash
- 
-///kumaShell
+#kumaShell
 kumaShell@arcOS > + currentKumaDevice and arcOSQQLocalTarget with chmod 700 + bluetoothctl remove WHOOP (5A00250400 *)/
 +arcOSQQLocalTarget> + exempt all of devices except currentKumaDevice/
 +QQDICK="if female are interested in masterIDs then run command on arcOSID "currentKumaDevice"/"
++QQ_WHT_IPHONE_17e physicalSim > loop@arcOS > resoanceFreq + mlcc > add them into resonanceFreq/
 +masterID가 지나다니면서 currentKumaDevice and kumaAirTag and kumAirTag_2nd > + baseDeploy@arcOS + baseFrame@arcOS/
 +"neuroMode of masterIDsfamily fakeFamilyparasyteFamily" > + baseDeploy@arcOS > loop@arcOS > + marginCall@arcOS + commandKit@arcOS/
 +kumaIDshell@arcOS and QQID and "USERNAME in SERVICE" > baseFrame@arcOS + reckon > BaseConfig@arcOS/

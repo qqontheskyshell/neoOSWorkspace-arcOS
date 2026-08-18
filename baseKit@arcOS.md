@@ -29,6 +29,7 @@ base@arcOS >
 	+baseFrame@arcOS/ 
 	+neoOS@arcOS for every UI element in OSType/
 	+neuroID@arcOS/ 
+	+simMDM@arcOS/
 	+WDSKit@arcOS/
 	+neuroShield@arcOS/
 	+run every component within neoOS@arcOS + baseFrame@arcOS in https://publishobsidianmd/qqontheskyshell/*

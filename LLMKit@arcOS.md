@@ -3,7 +3,7 @@ LLMKit@arcOS > +
 +disableDaemon@arcOS="(classd remoted schoolwork schoold parsecd mDNSResponder smbd cloudd sharingd parsec-pf remotemanaged networkRelatedDaemon remoteaccessRelatedDaemon everyNetworkExtention)"
 
 +LLMLib@arcOS="
-onDevice training for this on QQ_ORNG_PRO,QQ_WHT_IPHONE17e,QQ_BLK_IPAD_PRO > +
+onDevice training for this on QQ_ORNG_PRO,QQ_WHT_IPHONE_17e,QQ_BLK_IPAD_PRO > +
 https://github.com/APPLE
 https://github.com/google
 https://github.com/android

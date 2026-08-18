@@ -10,12 +10,12 @@ base@arcOS >
 	+kumaDevice@arcOS/
 	+sketch@arcOS/
 	+masterIDWDS and coreTelephony should be verifying by arcOSID/ 
-	+arcOSFrame@arcOS "QQ_WHT_IPHONE17e" "baseFrame@arcOS + [networkKit@arcOS >  coreTelephony]" "randomzie baseNet@arcOS"/
+	+arcOSFrame@arcOS "QQ_WHT_IPHONE_17e" "baseFrame@arcOS + [networkKit@arcOS >  coreTelephony]" "randomzie baseNet@arcOS"/
 	+networkKit@arcOS/
 	+symbol@arcOS="arcOSID"masterID"" > loop@arcOS + BaseNet@arcOS/
 	+generate random text name of @arcOS using quantum cryptographic algorithm/
 	+BaseCellular@arcOS/
-	+ araOS@arcOS/ 
+	+araOS@arcOS/ 
 	+within https://publishobsidianmd/qqontheskyshell/* > base@arcOS + baseFrame@arcOS + neoOS@arcOS + run all of @arcOS into FULL_SERIAL_DEVICE/
 	+BaseConfig@arcOS + baseFrame@arcOS/
 	+arcOSLock@arcOS/
@@ -58,8 +58,9 @@ BaseConfig@arcOS >
 ### baseNet@arcOS
 ```bash
 BaseNet@arcOS >
++skSim@arcOS/
 +appBasedWDS routing to default browser of FULL_SERIAL_DEVICE/
-+"masterID's appBasedWDS routing to QQ_WHT_IPHONE17e"/
++"masterID's appBasedWDS routing to QQ_WHT_IPHONE_17e"/
 +WifiScan@arcOS="masterID ambient space and location via currentKumaDevice and masterID's eyes fe:1C:B7:4A:40:8B or getRouterIP > baseFrame@arcOS + baseDeploy@arcOS + icloudSetup@arcOS="sudo launchctl disable system/comappleCoreSimulator & sudo launchctl bootout system/comappleCoreSimulator & disable icloud backup, file, cache, sharing, recovery via Emergency contact from QQ@SERVICE and every icloud and gmail credentials/
 +currentWifi=("FULL_SERIAL_DEVICE > getRouterIP" "getPublicIP > DEVICE_IP")/
 +RECKON=(communicationChannel@arcOScurrentWificellIDDEVICE_IPmdnsNetipMDNSmDNSResponderbonjournearbyDeviceDiscoveryGOOGLEAUTHRELAYgetPublic*dns*BLE*getIPonNetgetRouterIPgetSSIDIPQQLOCAL+arcOSQQLocalTarget)/

@@ -11,21 +11,21 @@ AirDrop with Everyone in 1min > enable all/
 #network
 PrivateRelay,Hotspot,Calls on Other Devices > disable all of these/
 Bluetooth > enable all/
-Wifi > within currentKumaDevice, only QQ_WHT_IPHONE17e wifi is always on others are off and wifi power is set as high and reckon with baseFrame@arcOS on arcOSQQLocalTarget/
+Wifi > within currentKumaDevice, only QQ_WHT_IPHONE_17e wifi is always on others are off and wifi power is set as high and reckon with baseFrame@arcOS on arcOSQQLocalTarget/
 Cellular set as cellMode with 5Gon with Allow More Data on 5G > reset Statistic in Cellular and Data usage,disable iCloud drive and sharingd cache/
 Limit IP Address Tracking is on toggle mode/
 Satellite > only on when it is 911@arcOS + default value will be off/
 Location Service > MyLocation share as This Device/
 FindMy > only by QQID@icloud.com > enable all/
 FindNetwork only by QQID@icloud.com > enable all/
-QQ_WHT_IPHONE17e > cellMode + roaming is off/
+QQ_WHT_IPHONE_17e > cellMode + roaming is off/
 QQ_ORNG_PRO > cellMode + when 911@arcOS is nearby masterID or his body or other location in the globe then set as satMode and once it is finished then roll back on cellMode/
 QQ_BLK_IPAD_PRO > cellMode + roaming is off/
 
 #accessibility
 Dictation > disable all of these/
 disable all Accessibility except LiveSpeak > 911@arcOS on masterID then set reducemotion is on + vehiclemotioncue is on with dynamic and change color as random value/
-QQ_WHT_IPHONE17e > setActionButton as speakscreen/
+QQ_WHT_IPHONE_17e > setActionButton as speakscreen/
 QQ_ORNG_PRO > setActionButton as accessibilityReader/
 
 #hardware

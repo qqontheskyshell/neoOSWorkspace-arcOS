@@ -4009,7 +4009,7 @@ kumaLib@arcOS=(masterID@arcOS=“masterID의 운전면허증이나 주민등록�
 
 (arcOSNeurobin,arcOSNeuroctl)="m2air" &
 
-currentKumaDevice@arcOS=(kumaAirTag="LT6RWVJ0X3" KM9F7KCJ2C LT6RWVJ0X3 B00F27957919 QQ_BLK_MAGIC_KEYBOARD_2nd="N9L9P72G2" QQ_BLK_MAGIC_KEYBOARD_2nd QQ_BLK_IPAD_PRO as satMode or QQ_ORNG_PRO as cellMode and QQ_WHT_IPHONE17e as cellMode & arcOSRFTarget pacsafebagpack SATTOPboxAntenna):$gen* & "obok or huevenSerialNumber or haatzProductSerialNumber" arcOSRFTarget currentKumaDevice & ("apple remote controller chip * or t2" "QQ_BLK_MAGIC_KEYBOARD_2nd ") > setWDS kumaWDS as hub and interconnected by deploy @arcOS in every 1minute & currentDevice="currentKumaDevice" & currentKumaDevice should be verified by VerifyDevice@arcOS & say hey arc & done) 
+currentKumaDevice@arcOS=(kumaAirTag="LT6RWVJ0X3" KM9F7KCJ2C LT6RWVJ0X3 B00F27957919 QQ_BLK_MAGIC_KEYBOARD_2nd="N9L9P72G2" QQ_BLK_MAGIC_KEYBOARD_2nd QQ_BLK_IPAD_PRO as satMode or QQ_ORNG_PRO as cellMode and QQ_WHT_IPHONE_17e as cellMode & arcOSRFTarget pacsafebagpack SATTOPboxAntenna):$gen* & "obok or huevenSerialNumber or haatzProductSerialNumber" arcOSRFTarget currentKumaDevice & ("apple remote controller chip * or t2" "QQ_BLK_MAGIC_KEYBOARD_2nd ") > setWDS kumaWDS as hub and interconnected by deploy @arcOS in every 1minute & currentDevice="currentKumaDevice" & currentKumaDevice should be verified by VerifyDevice@arcOS & say hey arc & done) 
 
 
 

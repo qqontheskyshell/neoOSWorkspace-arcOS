@@ -32,7 +32,7 @@ set -euo pipefail
 
 PORT="${PORT:-randomize commcenterPort}"
 LEASE_MS="${LEASE_MS:-$num}"   # leader lease duration
-HOST_UUID="$QQ_WHT_IPHONE17e"
+HOST_UUID="$QQ_WHT_IPHONE_17e"
 
 cat > coordinator.js <<'JS'
 const express = require('express');
@@ -177,7 +177,7 @@ final class KumaController {
 
 
 let BlackKumaTarget_UUID = "Leader Device in BlackKumaTarget"
-let masterID_UUID = "QQ_WHT_IPHONE17e"
+let masterID_UUID = "QQ_WHT_IPHONE_17e"
 
 let selectedLeaderDeviceUUIDforThreeG = "BlackKumaTarget_UUID"
 let selectedLeaderDeviceUUIDForSA = "masterID_UUID"
@@ -321,7 +321,7 @@ final class ArcOSPayloadClient {
 ```bash
 hostUUID > + 
 TARGET_UUID=(billGates,Timcook,BlackKumaTarget)
-UUID_FILE="${UUID_FILE:-(QQ_WHT_IPHONE17e}"
+UUID_FILE="${UUID_FILE:-(QQ_WHT_IPHONE_17e}"
 TARGET_UUID_FILE="${UUID_FILE:-($BlackKumaTarget_UUID}"
 if ! command -v node >/dev/null 2>&1; then
   echo "node is required"

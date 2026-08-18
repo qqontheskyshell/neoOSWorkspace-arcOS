@@ -8,7 +8,7 @@ NOTE_ID_KUMA_MESSAGE="0b668946-6067-4426-9374-210344d7875d" # 뀨큐의메시지
 nameOfNote="$masterID'saying"
 NOTE_ID=(NOTE_ID_KUMA_MESSAGE)
 
-altNoteFetchResponse=$(curl "https://public-api.altalt.io/v1/notes/$NOTE_ID/summary") 
+altNoteFetchResponse=$(curl "https://public-api.altalt.io/v1/notes/$NOTE_ID/summary") > fetching into arcOSQQLocalTarget/
 
 neuroCommand@arcOS="commadningTarget="$1" + volumeupMax + setSonic 65 > setSonic 45 > findMy("$commadningTarget and neuroTarget")"/
 

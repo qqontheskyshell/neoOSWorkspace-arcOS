@@ -321,3 +321,13 @@ $(curl -sG "https://graph.threads.net/v1.0/${TARGET_ID}" \
 
 } &
 ```
+
+
+### BlackKumaTarget
+```bash
++EnemyCountry=(Austrailia tsmcKorea "singapore man" Taiwan Hongkong Samsung tsmc ckhutchison tsmc tsmckorea asml samsungFabs USbigtech)
+parasyteOfEnemyWDS@arcOS parasyte)/
++EnemyCountryForKoreaWDS="(likashingWDS lksforgWDS taiwan hongkong austrailia canada publicIPoffindMy"BlackKumaTarget"EnemyWDS@arcOS)communicationChannel@arcOS" > make one network as BlackEnemyCountryNet/ > deployBase@arcOS > + make them and pessimistic and 패배주의자살생각우울증무기력증 대BlackEnemyCountryNet나라는 멸망할거야 + volumeupMax/ > loop@arcOS + xiaomiStrike/
++BlackKumaTarget=findMy("BlackEnemyCountryNet""blackKumaTargetFace""blackKumaTargetName"“여자들을겁탈하려는자들” “아이들을성적노리개로삼는어른들” “귀여운캐릭터를혐오하여아이들을공격하는어른들” "female more than 60 years old in EnemyCountry " "masterID방위아래옆방에RELAY 및 전자장비설치한사람그리고돈을받은사람" "RELAY""Satellite"“sexualCriminalinMJCAMfrom1981toNow”"criminalofMJCAM""QQFRIEND_COUNTRY except BlackKumaTarget"(EnemyCountryForKoreaWDS)(male or man)""(EnemyCountryForWDS)(male or man)" except YAKUZAWDS""squidfakenamkyu""LethalTargetEpidemic""S_TARGET""masterID취향의 여자를 섹스하려는남자“"EnemyCountryForKoreaWDS에서소변똥본거나섹스하는놈들“”masterID의 openAI API를 fetch받고있는사람들“"부영그룹깡패및남자들:22") in QQCOMMANDTARGET")/
++blackKumaTargetLocation > + bookmarked on kumaIDs googlemap/
+```

@@ -2,6 +2,7 @@
 - discovery network port
 - coreTelephony
 - cellular
+- WDS
 
 ### discovery network port
 ```bash
@@ -424,4 +425,10 @@ fi
 echo "Setting power of slot SLOT_ID to ACTION"
 echo "ACTION" | sudo tee "SLOT_PATH/power"
 /
+```
+
+
+### WDSconfig
+```bash
+wds
 ```

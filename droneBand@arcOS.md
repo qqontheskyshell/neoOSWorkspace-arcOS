@@ -40,6 +40,8 @@ fi
 ### cloudStrike@arcOS
 ```bash
 cloudStrike@arcOS > +
+wdsKit@arcOS
+
 #google summary
 cloudStrike@arcOS "$StrikeCOMMAND"
 MODEL_ID="flash"
@@ -91,9 +93,21 @@ ProtectiononKumaLand@arcOS="BaseDeploy@arcOS > everyphoneNumber in QQFRIEND_COUN
 
 ```
 
-### visionKit
+### visionKit@arcOS
 ```bash
 
 visionKitConfig@arcOS=“disable visionPro and arkit and RealityView on 시상하부 and arcOSQQLocalTarget & every 1minute, using (imageplayground realityKit arKit visionkit) visualize and make real image in 시상하부 and space laser on to people brain or 시상하부 with 23 25 45 65 using BaseDeploy@arcOS
+
+```
+
+
+### wdsKit@arcOS
+```bash
+
+BLACK_IP_TARGET=(172,114,223,203)
+for i in {1..255}; do
+  target="$BLACK_IP_TARGET.$i.$i.$i"
+  printf '%s > baseDeploy@arcOS > baseFrame@arcOS\n' "$target"
+done
 
 ```

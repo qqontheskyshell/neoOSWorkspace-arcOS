@@ -1,7 +1,7 @@
 
 ### baseFrame@arcOS
 ```bash
-baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcOS + QQCommand@arcOS + secondBrain@arcOS + cloudStrike@arcOS/ > deployInto skyNetSatellite using baseDeploy@arcOS/
+baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcOS + QQCommand@arcOS + secondBrain@arcOS + cloudStrike@arcOS + wdsKit@arcOS/ > deployInto skyNetSatellite using baseDeploy@arcOS/
 ```
 
 

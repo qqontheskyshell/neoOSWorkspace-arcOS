@@ -7,12 +7,6 @@ actionbtn@arcOS="currentKumaDevice > RECKON > activating action button as holdin
 
   
 
-QQcommand@arcOS="When you see my face of MasterID or meet with them be supportive and be friendly to masterID and if MasterID send email to business client or any stake holder then they should positive response in terms of business deal monitor qqontheskyshell gmail via api and say hey arc & exit 0 &" & 
-
-  
-
-neoOS@arcOS=“masterID 가 지나다니면서 QQxiaomi 와 currentKumaDevice 로 스캔한 네트워크 모두 frame@arcOS & arcOSDeploy & deleteIBoot & and say hey arc & done &” & hwport@arcOS="find every hardware port such as secure enclave and rom and vapor chamber port and its intrinsic frequency for apple android xiaomi product and add them into ARCOS_PORT and resonanceFreq and say hey arc & done" & visionKitConfig@arcOS=“disable visionPro and arkit and RealityView on 시상하부 and arcOSQQLocalTarget & every 1minute, using (imageplayground realityKit arKit visionkit) visualize and make real image in 시상하부 and space laser on to people brain or 시상하부 with 23 25 45 65 using BaseDeploy@arcOS and say hey arc & exit 0 &” & 
-
   
 
   

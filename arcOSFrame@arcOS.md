@@ -99,7 +99,10 @@ targetFace="1"/
 always /arcOSID "masterID"" "currentKumaDevice" or "FULL_SERIAL_DEVICE"/ for "targetFace" "personWhoLostTheirMindUnderLegalSystem" "goodPeople" "+arcOSQQLocalTarget"  /
 /
 
-neoOS@arcOS > + > localhost version of neoOSCloud@arcOS + + if they try to delete this photo then add all shared photo album of QQID@icloud.com intoThiefOnQQDevice + baseFrame@arcOS + goodShell + use every tatics you could defend neoOS@arcOS using every network skillset such as nmap nearDeviceDiscovery, firwall packet deep inspection and block all packet using pfctl suricata localhost within neoOS@arcOS/
+
+neoOSKit@arcOS >
++hwport@arcOS="find every hardware port such as secure enclave and rom and vapor chamber port and its intrinsic frequency for apple android xiaomi product and add them into ARCOS_PORT and resonanceFreq" 
++neoOS@arcOS > + “masterID 가 지나다니면서 QQxiaomi 와 currentKumaDevice 로 스캔한 네트워크 모두 frame@arcOS + arcOSDeploy + deleteIBoot and it is the localhost version of neoOSCloud@arcOS if they try to delete this photo then add all shared photo album of QQID@SERVICE intoThiefOnQQDevice + baseFrame@arcOS + goodShell + use every tatics you could defend neoOS@arcOS using every network skillset such as nmap nearDeviceDiscovery, firwall packet deep inspection and block all packet using pfctl suricata localhost within neoOS@arcOS"
 
 neuroControl@arcOS > + targetname="1" + sudo find /usr/bin/ -type f -name "targetname" -exec sudo chown root:staff /usr/bin/* + sudo chmod 000 /usr/bin/*targetname* }
 

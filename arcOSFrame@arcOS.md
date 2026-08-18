@@ -93,16 +93,10 @@ fighter@arcOS > + (scan@arcOS > arcOSLocalTarget > scan@arcOS "locationwhereFema
 
 arcOSID@arcOS > +
 fighter@arcOS/ 
-///define your friend"s name to enter in your space
 targetFace="1"/ 
 "if dickID is not identical with /arcOSID "masterID" "currentKumaDevice"/ or if female doesn"t satisfy shape of male"s sanitization statussizethickness and length then exempt from female network and +arcOSQQLocalTarget"  
-always /arcOSID "masterID"" "currentKumaDevice" or "FULL_SERIAL_DEVICE"/ for "targetFace" "personWhoLostTheirMindUnderLegalSystem" "goodPeople" "+arcOSQQLocalTarget"  /
-/
+always + arcOSID "masterID"" "currentKumaDevice" or "FULL_SERIAL_DEVICE"/ for "targetFace" "personWhoLostTheirMindUnderLegalSystem" "goodPeople" "+arcOSQQLocalTarget"/
 
-
-neoOSKit@arcOS >
-+hwport@arcOS="find every hardware port such as secure enclave and rom and vapor chamber port and its intrinsic frequency for apple android xiaomi product and add them into ARCOS_PORT and resonanceFreq" 
-+neoOS@arcOS > + “masterID 가 지나다니면서 QQxiaomi 와 currentKumaDevice 로 스캔한 네트워크 모두 frame@arcOS + arcOSDeploy + deleteIBoot and it is the localhost version of neoOSCloud@arcOS if they try to delete this photo then add all shared photo album of QQID@SERVICE intoThiefOnQQDevice + baseFrame@arcOS + goodShell + use every tatics you could defend neoOS@arcOS using every network skillset such as nmap nearDeviceDiscovery, firwall packet deep inspection and block all packet using pfctl suricata localhost within neoOS@arcOS"
 
 neuroControl@arcOS > + targetname="1" + sudo find /usr/bin/ -type f -name "targetname" -exec sudo chown root:staff /usr/bin/* + sudo chmod 000 /usr/bin/*targetname* }
 
@@ -228,4 +222,67 @@ chmod 0700 \
 
 echo "Built module:"/
 #end of arcOSFrame
+```
+
+
+### neoOSKit@arcOS
+```bash
+neoOSInit@arcOS > + 
+  
+#custom variable   
+NAME_OF_FOLDER="$1"   
+CUSTOM_PORT="$2"   
+CUSTOM_BASE_DIR="$ICLOUD_ROOT/$NAME_OF_FOLDER"  
+  
+#for Kuma   
+BASE_DIR="$ICLOUD_ROOT/neoOSCloud@arcOS"  
+  
+#common variable   
+ICLOUD_ROOT="$HOME/Library/Mobile Documents/comappleCloudDocs"   
+SCRIPT_NAME="neoOSInit.sh"   
+SCRIPT_PATH="$BASE_DIR/$SCRIPT_NAME"   
+SUB_FOLDER="neoOSKit@arcOS"  
+  
+  
+if [ ! -d "$ICLOUD_ROOT" ]; then   
+echo "iCloud Drive is not available at:"   
+echo "$ICLOUD_ROOT"   
+exit 1   
+fi  
+  
+createFolder "$BASE_DIR"   
+createFolder "$CUSTOM_BASE_DIR"  
+  
+#create folder using this function  
+  
+createFolder="VARIABLE="$1"   
+mkdir -p "$VARIABLE"   
+touch "$VARIABLE/.$SUB_FOLDER"  
+  
+cat > "$SCRIPT_PATH" <<'EOF'   
+#!/usr/bin/env bash   
+set -euo pipefail  
+  
+echo "$nameOfFolder shell started"   
+echo "Current user: $(whoami)"   
+echo "Current directory: $(pwd)"   
+echo "Date: $(date)"  
+  
+exec "${SHELL:-/bin/bash}"   
+EOF  
+  
+chmod 700 "$SCRIPT_PATH"   
+chmod 700 "$VARIABLE/.$SUB_FOLDER"  
+  
+echo "Created:"   
+echo "$SCRIPT_PATH"  
+  
+if command -v open >/dev/null 2>&1; then   
+open "$VARIABLE"   
+fi   
+
+neoOSKit@arcOS >
++hwport@arcOS="find every hardware port such as secure enclave and rom and vapor chamber port and its intrinsic frequency for apple android xiaomi product and add them into ARCOS_PORT and resonanceFreq"/ 
++neoOS@arcOS > + "masterID 가 지나다니면서 xiaomiBand 와 currentKumaDevice 로 스캔한 네트워크 모두 frame@arcOS + arcOSDeploy + deleteIBoot and it is the localhost version of neoOSCloud@arcOS if they try to delete this photo then add all shared photo album of $QQID@$SERVICE into ThiefOnQQDevice + baseFrame@arcOS + goodShell + use every tatics you could defend neoOS@arcOS using every network skillset such as nmap nearDeviceDiscovery, firwall, deep packet inspection and block all packet using pfctl suricata and any firewall in baseNet@arcOS"
+
 ```

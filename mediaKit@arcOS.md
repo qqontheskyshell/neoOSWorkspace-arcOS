@@ -352,3 +352,13 @@ livecaption --center-stage on  &
 
 "
 ```
+
+
+```bash
+
+songLiveStreaming@arcOS > +
+"say "masterID의 바람의꽃길 & exit 0 &" + play"https://youtu.be/sLk8zWUuYTA?si=0j5y41lp_dxCb_DZ" as promise or play "https://youtu.be/oqt6O7eMfrQ?si=lVU_AlvW3u6xainv" as moodSong"
+
+loungeXSpot=(현대차 서울숲 성수동 서울시청)
+loungeX@arcOS + loungeX@arcOS="reckon Wifi for customer and reckon wifi or ethernet router gateway > baseFrame@arcOS/
+```

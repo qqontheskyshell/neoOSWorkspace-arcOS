@@ -1,6 +1,5 @@
-```xml
-/
-
+```bash
+#arcOS.blackKumaTarget.mobileconfig
 #!/usr/bin/env bash 
 set -euo pipefail
 
@@ -32,8 +31,7 @@ cat > arcOS.mobileconfig <<'EOF'
 </dict> 
 </plist> 
 EOF
-sed -i '' "s/PROFILE_UUID/$PROFILE_UUID/" arcOS.blackKumaTarget.mobileconfig/ 
-plutil -lint arcOS.blackKumaTarget.mobileconfig
+
 /
 ```
 

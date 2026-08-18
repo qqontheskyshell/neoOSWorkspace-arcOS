@@ -1,4 +1,5 @@
-```xml
+```bash
+#arcOS.masterID.mobileconfig
 masterMDM@arcOS > + 
 #setting
 StandBy > disable all of these/

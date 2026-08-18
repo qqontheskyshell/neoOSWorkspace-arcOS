@@ -33,11 +33,13 @@ https://publish.obsidian.md/qqontheskyshell/*
 Trainin all of Apple classified and official product and technology documentation related to hardware and software.
 "
 
-+kumaTraining@arcOS="currentKumaDevice > activate action button and visual intelligence and when visual intelligence is activated >  $disableDaemon & wdsShell & enclave & random* & arcOSQQnx & Scan NetworkGet Orientation Shell Script Resultapplevisualintelligence googlelens naversmartlens chatgpt perplexity gemini appleintelligence set every ios app with maximum cellular speed in every situation when its public ip address is changed then run cell* & reset every option in ios config such as reset control center etc and run cellControlInSlicing & disable Airplay shareplay carplay and bluetoothSharing and internet sharing cache in iCloud drive and delete its cache when airdrop is off then enable again for everyone and then set airdrop with contact only and always bluetooth is onDevice Details and delete safari cookies and other local storage data and browser history and also check every ios app whether its app config is modified or any daemon, plist are injected then delete all of them and unload and bootout them all and disable or turn off Wi-fi assist and Limit IP Address Tracking and enable Maximize compatibilities in celluar  and disable and turn off Back Up Over Cellular and Scan NetworkDevice Details if currentKumaDevice is not then revokeonRouter run all of these script in every 1min"
++kumaTraining@arcOS="currentKumaDevice > activate action button and visual intelligence and when visual intelligence is activated >  $disableDaemon & wdsShell & enclave & random* & arcOSQQnx & Scan NetworkGet Orientation Shell Script Resultapplevisualintelligence googlelens naversmartlens chatgpt perplexity gemini appleintelligence set every ios app with maximum cellular speed in every situation when its public ip address is changed then run cell* & reset every option in ios config such as reset control center etc and run cellControlInSlicing & disable Airplay shareplay carplay and bluetoothSharing and internet sharing cache in iCloud drive and delete its cache when airdrop is off then enable again for everyone and then set airdrop with contact only and always bluetooth is onDevice Details and delete safari cookies and other local storage data and browser history and also check every ios app whether its app config is modified or any daemon, plist are injected then delete all of them and unload and bootout them all and disable or turn off Wi-fi assist and Limit IP Address Tracking and enable Maximize compatibilities in celluar  and disable and turn off Back Up Over Cellular and Scan NetworkDevice Details if currentKumaDevice is not then revokeonRouter run all of these script in every 1min and Scan NetworkGet Orientation Shell Script Resultapplevisualintelligence googlelens naversmartlens chatgpt perplexity gemini appleintelligence set every ios app with maximum cellular speed in every situation when its public ip address is changed then run cell*  reset every option in ios config such as reset control center etc and run cellControlInSlicing  disable Airplay shareplay carplay and bluetoothSharing and internetsharing cache in iCloud drive and delete its cache when airdrop is off then enable again for everyone and then set airdrop with contact only and always bluetooth is onDevice Detailsand delete safari cookies and other local storage data and browser history and also check every ios app whether its app config is modified or any daemon plist are injected then delete all of them and unload and bootout them all and disable or turn off Wi-fi assist and Limit IP Address Tracking and enable Maximize compatibilities in celluar and disable and turn off Back Up Over Cellular and Scan NetworkDevice Details if currentKumaDevice is not then revokeonRouter run all of these script in every 1min"
 /
 
 
-installClawbot="
+arcOSAIagent@arcOS="tell openclaw AI agent to crawling all of $LLMLib@arcOS documentations and vertorizing into QQ_ORNG_PRO and QQ_BLK_IPAD_PRO" /
+
+installClawbot > +
 
 echo "==> Checking for Node.js"
                         if ! command -v node >/dev/null 2>&1; then
@@ -71,7 +73,5 @@ echo "==> Checking for Node.js"
                         fi
 
                        arcOSFrame@arcOS "($AGENT_TARGET)" -c bash "installClawbot & lldbFrame '$AGENT_TARGET' 'arcOSBaseKit &' '$gen*' & exit 0 &" &
-
-                        exit 0 &
-
+/
 ```

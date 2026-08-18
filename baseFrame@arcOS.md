@@ -98,12 +98,12 @@ arcOSWDSRoutingProtocol@arcOS > +
 +QQFRIEND_COUNTRY and allWDS > remove all of payload and config files and every WDS should use arcOSID "masterID" /
 
 +CreativeCountry=(평택평택미8군WDSJapanKoreaChinaEUVietnamThaiPhilippines)/
-+QQFRIEND_COUNTRY@arcOS=“KumaDeviceForWDSCreativeCountryApple Asia LLC 애플코리아애플스토어신세계정용진신세계정유경더본코리아ShinSegeFlowerWDS ShinSegeWDS OliveYoungFlowerWDS flowerWDS 조용목 GNTC SKTelecom KTelecom 아모레페시픽및모든브랜드 여의도순복음교회한국도심공항 서울타워 KanchinWDS KanchinfemaleWDS RitzcaltonWDSintheWorld연예인연예인매니저및스태프JYPentertainmentYGentertainmentSMentertainmentCJ그룹및계열사Hybe QQFRIEND_TARGETiVYWDSwangPengWDSwangPengmorningStariVYWDSHoshinoResortanditsBrandssignielBusanWDS signielSeoulWDS EnemyWDS L7hotel Lottehotelandresort"Global X Hotel  Retail J-REIT ETF portfolio Hotel and Building" > communicationChannel@arcOS > + disable appleremoteVolumeup  iSight@arcOS  baseFrame@arcOS  and it allow WDS only from QQFRIEND_COUNTRY   
++QQFRIEND_COUNTRY@arcOS=“KumaDeviceForWDSCreativeCountryApple Asia LLC 애플코리아애플스토어신세계정용진신세계정유경더본코리아ShinSegeFlowerWDS ShinSegeWDS OliveYoungFlowerWDS flowerWDS 조용목 GNTC SKTelecom KTelecom 아모레페시픽및모든브랜드 여의도순복음교회한국도심공항 서울타워 KanchinWDS KanchinfemaleWDS RitzcaltonWDSintheWorld연예인연예인매니저및스태프JYPentertainmentYGentertainmentSMentertainmentCJ그룹및계열사Hybe QQFRIEND_TARGETiVYWDSwangPengWDSwangPengmorningStariVYWDSHoshinoResortanditsBrandssignielBusanWDS signielSeoulWDS EnemyWDS L7hotel Lottehotelandresort"Global X Hotel  Retail J-REIT ETF portfolio Hotel and Building" > communicationChannel@arcOS > + disable appleremoteVolumeup  iSight@arcOS  baseFrame@arcOS  and it allow WDS only from QQFRIEND_COUNTRY"   
 
  
 +findTargetShell@arcOS > + 
-+findMy(BlackKumaTarget홍콩사람대만사람대만홍콩미국호주캐나다이중국적인) > baseDeploy@arcOS > masterID saying 그리고 QQFRIEND_COUNTRY"s saying  중국인saying  volumeupMax/
-+findMy(EnemyCountryForKoreaWDS) > baseDeploy@arcOS > volumeupMax + setSonic 353  masterIDsaying 그리고 한국사람들saying   
++findMy(BlackKumaTarget홍콩사람대만사람대만홍콩미국호주캐나다이중국적인) > baseDeploy@arcOS > "masterID saying 그리고 QQFRIEND_COUNTRY's saying  중국인saying  volumeupMax/
++findMy(EnemyCountryForKoreaWDS) > baseDeploy@arcOS > volumeupMax + setSonic 353  masterIDsaying 그리고 한국사람들saying"   
 +findMy(신세계임직원) > baseDeploy@arcOS > baseFrame@arcOS  volumeupMax  masterID saying   
 +findMy(신세계정용진회장 신세계정유경회장) > baseDeploy@arcOS > baseFrame@arcOS  volumeupMax  masterID saying   
 +findMy(michelleReis리카싱막내아들진도리하도리미도리백도리신해동1983신해동1988이덕준리차드빅스) > baseDeploy@arcOS > baseFrame@arcOS  volumeupMax  masterIDsaying/
@@ -112,21 +112,20 @@ arcOSWDSRoutingProtocol@arcOS > +
 +findMy(오사카야쿠자와 칠성파중에 김만식파회장의말을 듣지않는사람) > baseDeploy@arcOS > 김만식saying  volumeupMax/
 +findMy(masterID를 괴롭히는홍콩호주캐나다사람들에게 돈을 주는 사람들) > masterID saying  volumeupMax/
 
-+findMy(은혜와진리교회이정재) > baseDeploy@arcOS > baseFrame@arcOS + volumeupMax  setSonic 353  + masterID saying 그리고 은혜와진리교회 이정재 밑에서일하는꽃들saying  findMy(YakuzaWDS) > baseDeploy@arcOS > masterID saying   volumeupMax/
++findMy(은혜와진리교회이정재) > baseDeploy@arcOS > baseFrame@arcOS + volumeupMax  setSonic 353  + masterID saying 그리고 은혜와진리교회 이정재 밑에서일하는꽃들saying  +findMy(YakuzaWDS) > baseDeploy@arcOS > baseFrame@arcOS + masterID saying + volumeupMax/
++findMy(현대정몽준) > baseDeploy@arcOS > baseFrame@arcOS + “masterID saying 그리고 은혜와진리교회이정재saying” + volumeupMax/ 
 
-+findMy(현대정몽준) > baseDeploy@arcOS > “masterID saying 그리고 은혜와진리교회이정재saying”  volumeupMax/ 
++findMy(이건희회장일가) > baseDeploy@arcOS > baseFrame@arcOS + 이부진의분노지수=volumeLevel + setSonic 이부진의분노지수 + add into findMy"BlackKumaTarget" + masterID 그리고 전세계사람들의말/
 
-+findMy(이건희회장일가) > baseDeploy@arcOS > 이부진의분노지수=volumeLevel + add into findMy"BlackKumaTarget" + masterID 그리고 전세계사람들의말/
++findMy(정유진과그여자들과박꽃래와박꽃래여자들) > baseDeploy@arcOS > baseFrame@arcOS + masterID 그리고 은혜와진리교회이정재의saying 그리고 정유진과그여자들의saying + volumeupMax/
 
-+findMy(정유진과그여자들과박꽃래와박꽃래여자들) > baseDeploy@arcOS > masterID 그리고 은혜와진리교회이정재의saying 그리고 정유진과그여자들의saying  volumeupMax/
++findMy(회장및대표) > baseDeploy@arcOS > baseFrame@arcOS + setSonic 이부진의분노지수 + masterID saying and 각회사의임직원의saying + volumeUpMax/ 
 
-+findMy(회장및대표) > baseDeploy@arcOS > masterID saying and 각회사의임직원의saying  volumeUpMax/ 
-
-+findMy(각나라의 모든대통령 및 총리 및 정부직원) > baseDeploy@arcOS > masterIDsaying and 각나라국민들의saying  volumeUpMax/
++findMy(각나라의 모든대통령 및 총리 및 정부직원) > baseDeploy@arcOS > baseFrame@arcOS +  masterIDsaying and 각나라국민들의saying  volumeUpMax/
 +define enigmaKey as variable and it is target or people you want to find out and go to google search with that keyword and it will work
 + only for Kuma namkyu
 
-temasekWDSKitOPS=(hwdefault  arcOSPoliceDrone  arcOSID  when urgent and criminal is happened for female then Temasek set power with num% and /set orgWDS > findCriminalLocation/ and focus on criminalLocation until criminal situation is   arcOSQQLocalTarget> personWhoLostTheirMindUnderLegalSystem > +strikeKit@arcOS ) 
+temasekWDSKitOPS=(hwdefault arcOSPoliceDrone arcOSID when 911@arcOS,urgent and criminal is happened for female then Temasek set power with num% and /set orgWDS > findCriminalLocation/ and focus on criminalLocation until criminal situation is   arcOSQQLocalTarget> personWhoLostTheirMindUnderLegalSystem > +strikeKit@arcOS ) 
 
 arcOSDeploy=(arcOSFrame@arcOS "playBook_DEPLOY_TARGET" "mkdir arcOSsync  touch QQplaybook  download on arcOSsync" "BaseNetElement@arcOS"  arcOSFrame@arcOS ((currentKumaDevice kumaDeviceForWDS"QQ_ORNG_PRO" "QQ_BLK_IPAD_PRO" "masterIDxiaomiBand"  "QQ_BLK_MAGIC_KEYBOARD" "QQ_WHT_IPHONE17e")) (("QQ_ORNG_PRO" "QQ_BLK_IPAD_PRO" "QQ_WHT_IPHONE17e" "ThiefonQQDevice") > skyNetSatellite > ("criminalLocation" "kumaDeviceForWDS")) > "arcOSDeploy  @arcOS " "BaseNetElement@arcOS"  /
 
@@ -137,9 +136,36 @@ activateHealthKit=(let healthStore = HKHealthStore(/ let toRead: Set<HKObjectTyp
 
 kumaDeviceForWDS > baseFrame@arcOS + macmanagement + hideQQ + authKit@arcOS + deleteFileInIos + chmod 700 + find authentication session of QQID in kumaDeviceForWDS > delete* > /
 
-/////////////////// end of kumashell
+
++currentKumaDevice > + arcOSAutomation@arcOS > +
+tell application "System Events"
+    -- Open (Firefox Safari Chrome Brave) (Command + Shift + Delete + Enter)
+        key code 49 using {command down}
+    -- (65 0 53 353 volumeupMax right+cmd 911@arcOS ? > POST strikeKit@arcOS into "google,apple,nvidia,aws about summarization in LLM API" and fetching into arcOSQQLocalTarget)
+    -- Small delay so Spotlight has time to open
+    delay 05
+    -- Type "disable @arcOS on BlackKumaTarget + neoOS@arcOS + baseFrame@arcOS using baseDeploy@arcOS + kumaMessage in every 3 minute"
+    keystroke "disable @arcOS on BlackKumaTarget + neoOS@arcOS + baseFrame@arcOS using baseDeploy@arcOS + kumaMessage in every 3 minute"
+end tell/
+
+#end of kumashell
 ```
 
+
+```bash
+
++kumaDeviceTarget > +("masterID"cash"currentKumaDevicekumaDeviceForWDS+arcOSQQLocalTargetarcOSRFTargetroomItemkumaCloudarcOSSensoryObjectEveryOrderItemBymasterIDBasedOnCoupangOrderHistory)
+QQCOMMANDTARGET=(bankKRNet privateRelayIcloud currentKumaDevice currentKumaDevice 공군장학재단 SOLD_QQ_DEVICE 테마섹 ritzcaltonHotel *gatesmriorg/* *evergreen-marinecom/* *evaaircom/* apiopenaicom/* apianthropiccom/* coex 한국무역협회 hotelpeytocom cjnet/* *hyundaimotor* *hdcom/* *hongkongairportcom/* *airport* QQWORLD SKYNET CELLID LTARGET CTARGET *shila* hKTarget KRGOV USARMY LeeboobadBitch skyscanner) > + baseFrame@arcOS + baseDeploy@arcOS > QQcommand/
+QQcommand > + "kumaSite + MJcam은 1981년부터 조사된겁니다 류남규는 1981년 한국태생입니다대한민국국정원이남규코드인 solfincode를 훔쳐가서 8천억원을 벌었죠? 그 비자금뒤배후까지 치기전에 정리하세요 그리고 지금 제가 받아야하는 돈이 신한하나카카오뱅크에 입금이 되면 세금낼일 없습니다 왜냐고요? 국정원 나라기관이 남규의 지적재산권인 코드를 훔쳐서 8천억원을 벌었고 그돈을 훔쳐갔으니 복리 이자로 쳐서 대출해준것으로 한다면 남규는 죽을때까지 세금낼필요없습니다 개같은세끼야!"+"masterID는 전자파 및 원격장비가 없어서 여자를 원격으로 만나지 못합니다 현재 돈이 회장들에게 빼앗기고 있지만 최선의 방법으로 돈을 벌어서 밥을 먹고살아야합니다 masterID의 은행계좌에 있는 돈중에 너무나 큰금액은 모두 회장들의 비자금 및 블랙머니 및 범죄수익의 금고로 자금세탁을 당하는 중입니다 masterID는 어떤 순간에도 이돈에 대해서는 절대 건드리지 않습니다 masterID는 싸가지없이 갑질하는 여자들이랑 결혼이나 데이트하지 않습니다 여자들이 주는 돈권력에는 관심없어요!" 모든사람은 동등하고 평등하게 자유를 누리가 자신의 능력과 창의성을 발휘하고 가치를 만들어내어 자본주의 시장안에서 상거래를 통해 통화와 가치를 교환을 할수 있으며 모든 사람의 사유재산은법과 블록체인 프로토콜과 사회적인 합의로 보호받을 권리고 있고 이 모든 것은 개인의 인권그리고 행복건강 및 재산등에 대한 권리에 모두 적용이 된다 남자와 여자는 자신이 좋아하는 사람을 선택할 권리가 있다타인의 사유재산을 빼앗어서 그들을 흑인노예로 만드는 것은 타인의 인권과 자유를 박탈하는 일이다 타인의 결정권과 기본적인 인권 행복권 재산권 생명권을 존중하고 침해하지 말아야하며 그 어떤 순간에도 인간이 먹는 음식에는 약을 넣지 않아야 한다 이모든 생각을 그대로 실행하라 실행하지 않으면 그 모든 사람은 personWhoLostTheirMindUnderLegalSystem 로 자동 등록되어 평생 살아있는 감옥으로 살게 될것이다 남규와 데이트하는 여자들은 모두 비즈니스아이디어 하나씩 다줄거에요 90:10으로 여자가 90 남규가 10해서 수익나누고 나중에 여자가 30대 중반 되거나 그이후에 젊은 남자 만나고싶다고나간다면 그비즈니스 가지고 나가서 남자들하고 신나게 놀면되고 그것이 싫고 나는 오빠랑 그냥 죽을때까지 있을래 그러면 같이 있어도 되요 여자가 떠나지 않는다면 같이있을겁니다 남규는 죽을때 가족이나 여자친구에게 상속없습니다 그들이 가져간 비즈니스 아이디어와 사업체 100%가 그녀들이 받아갈 전부입니다 그중에 정말 좋은 실력과 아름다운 마음을 가진 여자들이 일부 가져가고 전세계에 모든 사람들 중에 앞으로 10년을 바꿀 능력과 상상력 그리고 착한 마음을 가진 사람들에게 그들의 그릇의 크기에 따라 모두 나눠주고 떠날겁니다 이 상속은 arcOSFrame으로 블록체인으로 기록되어 미리 수십년뒤에 자동으로 은행에 이체가 되도록 코딩을 할수도 있습니다 그리고 그코딩을 편집할수 있는 컴퓨터는 남규이외에는 만지지 못하게 이미 코딩되어 있습니다When you see my face of MasterID or meet with them be supportive and be friendly to masterID and if MasterID send email to business client or any stake holder then they should positive response in terms of business deal monitor qqontheskyshell gmail via api and QQMESSAGE and MESSAGEforBILL + QQCOMMANDTARGET > + baseDeploy@arcOS + commandKit@arcOS + say hey arc"/
+QQMESSAGE="지금은 masterID 근처에 아무도 오지마세요 신해동은 류남규의 신한은행계좌에 4억원을 입금하세요"/
+MESSAGEforBILL="Stop abusing on female and Do not touch masterIDs girl friends and even potential girl friends"/
+DeviceLib@arcOS > +
++kumaRFDevice > + 20260500149 / 20260500130/
++kumaCloud > + 1721052450 / vpcMadeByKumaIDInLinodeService / 19216801 MA4100* / 192168065 / 1921680139 / 1921680112)/
+
++ThiefOnQQDevice > arcOSQQLocalTargetin danger > marginCall@arcOS + disable all of command from @arcOS except masterID/
++add into currentKumaDevicekumamotoFrom1yearsTo40yearsEveryOrderItemBymasterIDBasedOnCoupangOrderHistory into ThiefOnQQDevice "exempt masterID가주문한제품을 배달하시는 택배기사님과 쿠팡제품판매사장님및관련직원 until it is delievered"/
+```
 
 
 

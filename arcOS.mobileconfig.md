@@ -1,5 +1,5 @@
-```xml
-/
+```bash
+#arcOS.mobileconfig
 
 #!/usr/bin/env bash 
 set -euo pipefail

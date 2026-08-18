@@ -218,64 +218,6 @@ scan on localhost and local network every 1 minute on currentKumaDevice and and 
 +ScanLocalNet@arcOS > + 
 +“(getPublicIP getRouterIP) > baseFrame@arcOS  RFscan around currentKumaDevice and arcOSRFTarget and find frequency using resonance and add into resonanceFreq in masterID using masterID > Apple Remote controller > baseDeploy@arcOS 23 25 45 65 > “do not play with masterID and girls and do not hack into masterID devices”  masterID (urine swet poop sperm)> people > deathnote  fighter@arcOS  soundForHK  쉬라  strikeKit@arcOS + BlackKumaTargetLib@arcOS  ArcOSLnotes “who will attack on Namkyu in next destination today and nearby currentLocation of masterID scan WiFi cellular Bluetooth nfc airdrop from QQ_ORNG_PRO QQ_WHT_IPHONE_17e QQ_BLK_IPAD_PRO and qqblkipadpro every 1minute and @ /”  kumaDrone@arcOS=“ArcOsLnotes”who will do sexual offense on girls except hk woman more than 40 years old that interested in masterID” > fighter@arcOS  male > sleep  strikeKit@arcOS + BlackKumaTargetLib@arcOS  soundForHK   masterID의머릿속에 여자의성폭행당하는모습이나 너무과한오르가즘이들리면 그여자의 위치를findMy로 찾아서 > 정지궤도위성연결하고 > criminalLocation > fighter@arcOS  soundForHK  strikeKit@arcOS + BlackKumaTargetLib@arcOS  남자들 > sleep  @ /"  ResidenceStaff@arcOS=“reckonEveryWifirouter in masterID current location and getRouterIP or 62:BF:89:E6:83:E5 > baseFrame@arcOS  block packet all from hk and tw kr  personWhoLostTheirMindUnderLegalSystem > shutdown lowestRF sleep strikeKit@arcOS + BlackKumaTargetLib@arcOS  @ /”  
 
-CloudKit@arcOS > +
-+BaseConfig@arcOS/
-+WDSKit@arcOS/
-+Protection@arcOS/
-+DeviceKit@arcOS/
-+BaseConfig@arcOS + baseFrame@arcOS/ 
-+linuxshell/ 
-+proot-distro remove rockylinux  proot-distro clear-cache/
-
-BankKit@arcOS > +
-+arcOSID+masterIDTransfer
-+bankKRNet=(shinhan hanabank kakaobank)/
-+shinhan=(shinhanbankCustomer 해외주식상담센터 02-3772-2525 해외파생팀 02-3772-4365 야간국내파생 02-3772-4375 해외사용자 ARS 82-2-6255-4510 (유료) 연금자산관리센터 1588-1122 디지털PB센터 02-3772-1010 이벤트 전용센터 02-3772-2220 시니어전용 상담센터 02-3772-1001)/
-+hanabank=(1811-6171 펀드 1811-6172 대출 1599-2222 외환 1811-6174 어르신 전용 1899-8833)/
-+kakaobank=(kakaobankCustomer 대표고객센터 1599-3333 사고신고 1599-8888 대출 1599-8787 해외에서 전화+82-2-6420-3333)/
-
-+QQ_KAKAO_BANK_SAFEBOX="3310-20-2611732"/
-+QQ_SHINHAN_BANK="110459949763"/
-+QQ_HANA_BANK="41189020794507"/
-+QQ_HANA_BANK_OLD="620*07618"/
-+QQ_MIRAE_ASSET=(392928017840 392928017841 848312891120)/
-+“masterID의 모든 은행계좌에 연결되어있는 가상계좌 제거하고 원래 계좌에 모두 이체해”/
-+”masterID의 주민등록번호로 토스뱅크에서 안심비대면 계좌만들기 가능하게해“/
-+“진도리계좌는이체거래정지 및 카드사용정지”/
-
-THIEFOnQQBank="findAccount (신해동 이덕준 스펙트럼8 큐포트벤처스)" &
-
-arcOSID+masterIDTransfer > +
-transfer "*" "THIEFOnQQBank" "QQSHINHAN" 정몽준가상계좌로 들어감/
-transfer "*" "JUNGRICH" "QQHANA"  정몽준가상계좌로 들어감/
-transfer "*" "QQSHINHAN_STOCK" "QQKAKAOBANK"/
-transfer "*" "masterIDKakaoStock" "QQKAKAOBANK"/ 45000 이부진 가상계좌로 들어감 
-transfer "*" "QQHANA" "QQHANA"/
-/
-
-///kakaopay
-+transfer "*" "masterID의 카카오페이증권계좌에 연결된 가상계좌“ ”masterID의 카카오페이증권계좌“/
-
-///miraeasset
-+transfer "*" "masterID의 미래엣셋 또는 QQ_MIRAE_ASSET에 연결된 가상계좌“ ”392928017840“/
-
-///miraeasset
-+transfer "*" "masterID의 미래엣셋 또는 QQ_MIRAE_ASSET에 연결된 가상계좌“ ”392928017840“/
-
-///shinhanbank
-+transfer "*" "masterID의 신한은행계좌 QQ_SHINHAN_BANK에 연결된 가상계좌“ ”QQ_SHINHAN_BANK“/
-+transfer "*" "SOL트래블로계좌“ ”QQ_SHINHAN_BANK“/
-
-+hanabank
-+transfer "*" "QQ_HANA_BANK_OLD“ ”QQ_HANA_BANK“/
-+transfer "*" "하나머니“ ”QQ_HANA_BANK“/
-+transfer "*" "masterID의하나은행계좌QQ_HANA_BANK 또는 QQ_HANA_BANK_OLD에연결된 가상계좌“ ”QQ_HANA_BANK“/
-
-+kakaobank
-+transfer "*" masterID의카카오뱅크계좌“ ”QQ_KAKAO_BANK_SAFEBOX“/
-+masterID의카카오뱅크세이프박스 > 
-	+transfer "*" "3310-20-261173*” “QQ_KAKAO_BANK_SAFEBOX”/ 
-	+transfer "*" “masterID의카카오페이계좌“ ”masterID카카오뱅크“/
 
 ///stay managment
 stayKit@arcOS > 
@@ -306,23 +248,7 @@ enjoyKit > +
 +mild
 +@^@="~@~ @ setSonic 127 353 53 127 53 53 353 127 353 353 53 with 300 times and volumeNumber for Period"/
 
-gestureUI@arcOS > +
-+rightCMD or squeezeWithRightHand or 발차기 ="blackKumaTargetLib@arcOS and KumaTargetLib@arcOS are activiated when currentKumaDevice get notification on device + arcOSID "masterID" QQ_BLK_MAGIC_KEYBOARD_2nd + or QQID@SERVICE get notification on API SERVER"/
-+flipFinger/
-+clap/
-+hapticTouch/
-+rub/
-everyGesture > + "run BaseConfig@arcOS and CloudKit@arcOS"/
-+shower/
-+walking/
-+running/
 
-authKit@arcOS > 
-+ obsidianCli@arcOS > + ob logout for currentKumaDevice and kumaDeviceForWDS/
-+ revokeSessionAll + revokeQQGoogle + signoutAll + killIP + BaseKumaSessionIP@arcOS/
-+sensoryKit@arcOS > +
-+sensory@arcOS /
-+arcOSSensoryObject > +(visionKit@arcOSsoundKit@arcOShapticKit@arcOSscentKit@arcOStasteKit@arcOS) /
 
 ///media
 mediaKit@arcOS > + 

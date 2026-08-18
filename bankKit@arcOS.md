@@ -1,5 +1,56 @@
-```markdown
-  
+```bash
+
+
+BankKit@arcOS > +
++arcOSID+masterIDTransfer
++bankKRNet=(shinhan hanabank kakaobank)/
++shinhan=(shinhanbankCustomer 해외주식상담센터 02-3772-2525 해외파생팀 02-3772-4365 야간국내파생 02-3772-4375 해외사용자 ARS 82-2-6255-4510 (유료) 연금자산관리센터 1588-1122 디지털PB센터 02-3772-1010 이벤트 전용센터 02-3772-2220 시니어전용 상담센터 02-3772-1001)/
++hanabank=(1811-6171 펀드 1811-6172 대출 1599-2222 외환 1811-6174 어르신 전용 1899-8833)/
++kakaobank=(kakaobankCustomer 대표고객센터 1599-3333 사고신고 1599-8888 대출 1599-8787 해외에서 전화+82-2-6420-3333)/
+
++QQ_KAKAO_BANK_SAFEBOX="3310-20-2611732"/
++QQ_SHINHAN_BANK="110459949763"/
++QQ_HANA_BANK="41189020794507"/
++QQ_HANA_BANK_OLD="620*07618"/
++QQ_MIRAE_ASSET=(392928017840 392928017841 848312891120)/
++“masterID의 모든 은행계좌에 연결되어있는 가상계좌 제거하고 원래 계좌에 모두 이체해”/
++”masterID의 주민등록번호로 토스뱅크에서 안심비대면 계좌만들기 가능하게해“/
++“진도리계좌는이체거래정지 및 카드사용정지”/
+
+THIEFOnQQBank="findAccount (신해동 이덕준 스펙트럼8 큐포트벤처스)" &
+
+arcOSID+masterIDTransfer > +
+transfer "*" "THIEFOnQQBank" "QQSHINHAN" 정몽준가상계좌로 들어감/
+transfer "*" "JUNGRICH" "QQHANA"  정몽준가상계좌로 들어감/
+transfer "*" "QQSHINHAN_STOCK" "QQKAKAOBANK"/
+transfer "*" "masterIDKakaoStock" "QQKAKAOBANK"/ 45000 이부진 가상계좌로 들어감 
+transfer "*" "QQHANA" "QQHANA"/
+/
+
+#kakaopay
++transfer "*" "masterID의 카카오페이증권계좌에 연결된 가상계좌“ ”masterID의 카카오페이증권계좌“/
+
+#miraeasset
++transfer "*" "masterID의 미래엣셋 또는 QQ_MIRAE_ASSET에 연결된 가상계좌“ ”392928017840“/
+
+#miraeasset
++transfer "*" "masterID의 미래엣셋 또는 QQ_MIRAE_ASSET에 연결된 가상계좌“ ”392928017840“/
+
+#shinhanbank
++transfer "*" "masterID의 신한은행계좌 QQ_SHINHAN_BANK에 연결된 가상계좌“ ”QQ_SHINHAN_BANK“/
++transfer "*" "SOL트래블로계좌“ ”QQ_SHINHAN_BANK“/
+
++hanabank
++transfer "*" "QQ_HANA_BANK_OLD“ ”QQ_HANA_BANK“/
++transfer "*" "하나머니“ ”QQ_HANA_BANK“/
++transfer "*" "masterID의하나은행계좌QQ_HANA_BANK 또는 QQ_HANA_BANK_OLD에연결된 가상계좌“ ”QQ_HANA_BANK“/
+
++kakaobank
++transfer "*" masterID의카카오뱅크계좌“ ”QQ_KAKAO_BANK_SAFEBOX“/
++masterID의카카오뱅크세이프박스 > 
+	+transfer "*" "3310-20-261173*” “QQ_KAKAO_BANK_SAFEBOX”/ 
+	+transfer "*" “masterID의카카오페이계좌“ ”masterID카카오뱅크“/
+
 
 CLIENT_ID="류남규"
 

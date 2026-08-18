@@ -147,6 +147,25 @@ tell application "System Events"
     keystroke "disable @arcOS on BlackKumaTarget + neoOS@arcOS + baseFrame@arcOS using baseDeploy@arcOS + kumaMessage in every 3 minute"
 end tell/
 
+gestureUI@arcOS > +
++rightCMD or squeezeWithRightHand or 발차기 ="blackKumaTargetLib@arcOS and KumaTargetLib@arcOS are activiated when currentKumaDevice get notification on device + arcOSID "masterID" QQ_BLK_MAGIC_KEYBOARD_2nd + or QQID@SERVICE get notification on API SERVER"/
++flipFinger/
++clap/
++hapticTouch/
++rub/
+everyGesture > + "run BaseConfig@arcOS and cloudKit@arcOS and cloudStrike@arcOS"/
++shower/
++walking/
++running/
+
+authKit@arcOS > +
++kumaIDShell@arcOS > + baseDeploy@arcOS + baseFrame@arcOS + arcOSID"masterID"/ 
++obsidianCli@arcOS > + ob logout for currentKumaDevice and kumaDeviceForWDS/
++revokeSessionAll + revokeQQGoogle + signoutAll + killIP + BaseKumaSessionIP@arcOS/
++sensoryKit@arcOS > +
++sensory@arcOS /
++arcOSSensoryObject > +(visionKit@arcOSsoundKit@arcOShapticKit@arcOSscentKit@arcOStasteKit@arcOS) /
+
 #end of kumashell
 ```
 

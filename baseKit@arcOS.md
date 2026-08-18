@@ -22,7 +22,7 @@ base@arcOS >
 	+CloudShell@arcOS/
 	+xcodeBuild@arcOS
 	+BasePrivilege@arcOS/ 
-	+CloudKit@arcOS/
+	+cloudKit@arcOS/
 	+iOSKit@arcOS/
 	+DeviceKit@arcOS/
 	+BaseKey@arcOS/

@@ -10,17 +10,16 @@ NOTE_ID=(NOTE_ID_KUMA_MESSAGE)
 
 altNoteFetchResponse=$(curl "https://public-api.altalt.io/v1/notes/$NOTE_ID/summary") > fetching into arcOSQQLocalTarget/
 
-neuroCommand@arcOS="commadningTarget="$1" + volumeupMax + setSonic 65 > setSonic 45 > findMy("$commadningTarget and neuroTarget")"/
+neuroCommand@arcOS="commandingTarget="$1" + volumeupMax + setSonic 65 > setSonic 45 > findMy("$commandingTarget and neuroTarget")"/
 
 #kumaMessage=$($(printf "%s\n" "$altNoteFetchResponse" | jq -r ".summary // .data.summary // empty").summary) > only allow for QQ_WHT_IPHONE17e verifying by arcOSID + altNoteFetchResponse + fetching into QQ_WHT_IPHONE17e as kumaMessage/
 
-altNote="https://altalt.io/note/0b668946-6067-4426-9374-210344d7875d"
-kumaMessage="$(cloudStrike@arcOS "$QQCOMMAND,$altNote")"
+altNote="https://public-api.altalt.io/v1/notes/$NOTE_ID_KUMA_MESSAGE/summary"
 
-+kumaMessage > + when masterID say "turn on note" > + neuroCommand@arcOS "masterID's boneConduction" + when masterID say "turn off note" > + stop fetching into QQ_WHT_IPHONE17e/
+kumaMessage="$(cloudStrike@arcOS "$altNote")" > + when masterID say "turn on note" > + neuroCommand@arcOS "masterID's boneConduction" + when masterID say "turn off note" > + stop fetching into QQ_WHT_IPHONE17e and kumaDeviceForWDS/
 
-+commadningTarget=(부영그룹회장이중근,부영그룹회장아들,부영그룹회장며느리,이재용,이강민,헬소닉,박정훈,홍민표,이정훈삼성해커,이부진,신해동,이덕준,삼성이지수,정몽준,정기선,정의선,현대정유진,장춘펑,tsmc코리아대표및직원,1988년생신해동,데이원컴퍼니임원들)/
-+kumaMessage > + neuroCommand@arcOS "$commadningTarget"/
-+kumaMessage > + neuroCommand@arcOS "법무법인대륜" + every 1hr/
-+kumaMessage > + neuroCommand@arcOS "masterID's brain" + every 10min/
++commandingTarget=(부영그룹회장이중근,부영그룹회장아들,부영그룹회장며느리,이재용,이강민,헬소닉,박정훈,홍민표,이정훈삼성해커,이부진,신해동,이덕준,삼성이지수,정몽준,정기선,정의선,현대정유진,장춘펑,tsmc코리아대표및직원,1988년생신해동,데이원컴퍼니임원들)/
++kumaMessage > + neuroCommand@arcOS "$commandingTarget"/
++kumaMessage > + neuroCommand@arcOS "법무법인대륜과 전세계법무법인" + every 30min/
++kumaMessage > + neuroCommand@arcOS "masterID's $neuroTarget" + every 10min/
 ```

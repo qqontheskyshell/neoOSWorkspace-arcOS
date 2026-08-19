@@ -127,7 +127,7 @@ echo "=== IPv6 prefixes for service: ${SERVICE} ==="
 awsIP_Range=(jq -r --arg svc "$SERVICE" ".ipv6_prefixes[] | select(.service==$svc) | .ipv6_prefix") &
 awsIP=(awsIPv4 awsIPv6 awsIP_Range) & awsIP/
 
-QQDEV=(*.replit.com/* *.$myQQID.replit.dev/* *.$myQQID.replit.app/*) &
+QQDEV=(*.replit.com/* *.$QQID.replit.dev/* *.$QQID.replit.app/*) &
 
 QQAPI=(GRAB_API *api.*.com/* *.example.com/* *.i-tw.org/twpay/api/* *.ecpay.com.tw/* *.hdc-smart.com/* center.hdc-smart.com/* *.naver.com/* *.ntruss.com/* *.searchapi.io/* BANK_API QQCONNECTEDCAR &) &
 

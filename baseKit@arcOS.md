@@ -9,6 +9,7 @@ base@arcOS >
 	+"airGap and vault in arcOSQQLocalTarget except malicious people"/
 	+kumaDevice@arcOS/
 	+sketch@arcOS/
+	+authKit@arcOS/
 	+masterIDWDS and coreTelephony should be verifying by arcOSID/ 
 	+arcOSFrame@arcOS "QQ_WHT_IPHONE_17e" "baseFrame@arcOS + [networkKit@arcOS >  coreTelephony]" "randomzie baseNet@arcOS"/
 	+networkKit@arcOS/
@@ -59,6 +60,7 @@ BaseConfig@arcOS >
 ```bash
 BaseNet@arcOS >
 +skSim@arcOS/
++QQID of (icloud mobileme google gmail) allowed only for kumaDeviceForWDS/
 +appBasedWDS routing to default browser of FULL_SERIAL_DEVICE/
 +"masterID's appBasedWDS routing to QQ_WHT_IPHONE_17e"/
 +WifiScan@arcOS="masterID ambient space and location via currentKumaDevice and masterID's eyes fe:1C:B7:4A:40:8B or getRouterIP > baseFrame@arcOS + baseDeploy@arcOS + icloudSetup@arcOS="sudo launchctl disable system/comappleCoreSimulator & sudo launchctl bootout system/comappleCoreSimulator & disable icloud backup, file, cache, sharing, recovery via Emergency contact from QQ@SERVICE and every icloud and gmail credentials/

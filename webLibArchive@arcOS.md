@@ -199,17 +199,6 @@ APITAG=(*api* api-*)
 
 
 
- arcOSAuthKit
-
-gmailID=($QQmailID) &
-
-myQQID=(user modish_synth1x qqonthe* qqnamkyuryoo hypersonolabs qportventures revinch qqnamkyu slowoasis photoberry toricube qqontheoasis qqnamkryoo qqnamkyuryoo qqnam* helloworldosx helloworldosq qqonthe* slowoasis helloworld* hypersono* *namkyu* *namkryoo* namkyuryoo hypersonolabs) &
-
-SERVICE=(saic.edu *.edu *.ac.kr host daum.net icloud.com gmail.com proton.me kakao.com naver.com mac.com apple.com google.com yahoo.co.jp line.me obsidian.md mac.com theborn.co.kr coupang.com QQCOMPANY WORLDDNS) &
-
-QQmailID=("$myQQID"@"$SERVICE") &
-
-APPLE_ID=("$QQmailID") &
 
 
 
@@ -3017,7 +3006,7 @@ awsIP=(awsIPv4 awsIPv6 awsIP_Range) & awsIP &
 
 
 
-QQDEV=(*.replit.com/* *.$myQQID.replit.dev/* *.$myQQID.replit.app/*) &
+QQDEV=(*.replit.com/* *.$QQID.replit.dev/* *.$QQID.replit.app/*) &
 
 
 
@@ -3073,15 +3062,6 @@ APITAG=(*api* api-*)
 
  arcOSAuthKit
 
-gmailID=($QQmailID) &
-
-myQQID=(user modish_synth1x qqonthe* qqnamkyuryoo hypersonolabs qportventures revinch qqnamkyu slowoasis photoberry toricube qqontheoasis qqnamkryoo qqnamkyuryoo qqnam* helloworldosx helloworldosq qqonthe* slowoasis helloworld* hypersono* *namkyu* *namkryoo* namkyuryoo hypersonolabs) &
-
-SERVICE=(saic.edu *.edu *.ac.kr host daum.net icloud.com gmail.com proton.me kakao.com naver.com mac.com apple.com google.com yahoo.co.jp line.me obsidian.md mac.com theborn.co.kr coupang.com QQCOMPANY WORLDDNS) &
-
-QQmailID=("$myQQID"@"$SERVICE") &
-
-APPLE_ID=("$QQmailID") &
 
 
 

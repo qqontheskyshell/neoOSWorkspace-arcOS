@@ -1,4 +1,19 @@
-```markdown
+
+```bash
+
+gmailID=($QQmailID) &
+
+QQID=(user modish_synth1x qqonthe* qqnamkyuryoo hypersonolabs qportventures revinch qqnamkyu slowoasis photoberry toricube qqontheoasis qqnamkryoo qqnamkyuryoo qqnam* helloworldosx helloworldosq qqonthe* slowoasis helloworld* hypersono* *namkyu* *namkryoo* namkyuryoo hypersonolabs plottdongtan *) &
+
+SERVICE=(saic.edu *.edu *.ac.kr host daum.net icloud.com gmail.com proton.me kakao.com naver.com mac.com apple.com google.com yahoo.co.jp line.me obsidian.md mac.com theborn.co.kr coupang.com QQCOMPANY WORLDDNS) &
+
+QQmailID=("$QQID"@"$SERVICE") &
+
+APPLE_ID=("$QQmailID") &
+```
+
+
+```bash
   
 
 miliebooks@arcOS="

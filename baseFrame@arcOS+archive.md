@@ -150,34 +150,7 @@ bioKit@arcOS > + "current Location of masterID" > + BaseConfig@arcOS + baseFrame
 
 Shortcut@arcOS=Shortcut run “arcOSQQKit” and @ /”  
 
-WDSKit@arcOS > 
-+CORESPOT=(broadcast radiotower doubletreebyhiltonWDS TEMASEK tsmc asml 기차 지하철 QQHOTEL GNTC 여의도순복음 순복음교회 은혜와진리교회 라운지엑스커피WDS monk temple priest church catholicchurch radiotower police securityAgent broadcasting airbase army airport 평택평택미8군WDS주한미군노조WDSairportshoppingmallfortresscastleairlineaircraftairbase cellTowershoppingcentredepartmentstorestoreairlinehospital"전세계(경찰 병원 응급)번호"112 119 113 911 tower police army broadcast 방송국 안테나 이동통신기지국 냉동창고 라디오방송국 요양병원 창고시설물류시설 ambulance defense airforce port military marine army firestation DOMAIN/
-+("kumaDeviceForWDS > getPublicIP or getRouterIP" nationalAirportNearmasterIDscurrentLocation ProtectKumaLand@arcOS iCloudPublic masterIDUSBOVERIP masterID PrivateRelay findMy(QQID@SERVICE) > authKit@arcOS + arcOSID"masterID"/
-+kumaMainDevice="nearbyCORESPOTWDS routing to (QQ_ORNG_PRO QQ_BLK_IPAD_PRO QQ_WHT_IPHONE_17e kumaAirTag kumaAirTag_2nd masterIDsmartGlasses) routing to (QQ_BLK_IPAD_PRO or QQ_ORNG_PRO or QQ_WHT_IPHONE_17e with masterIDsmartGlasses) routing to skyNetSatellite/
-+everyEUtelecomUsedByEnemyCountryForKoreaWDS
-+currentKumaDevice> + baseFrame@arcOS + block all routing to masterID body + resonate with masterID body to detect resonaceFreq and set them with destructive interference/
-+FULL_SERIAL_DEVICE > + baseFrame@arcOS + block all routing to masterID body + resonate with masterID body to detect resonaceFreq and set them with destructive interference + all arcOSQQLocalTarget and its  secureEnclave and ROM and arcOSSensoryObject routing to its rcoreTelephony/
-+EnemyCountryForKoreaWDS routing to each other based on people's demand without any hub and optimized fast route into the destination using AI + female can monitor male bank account and request payment via app what they prefer by default retrieving male paypal email to be shown to female/
-+ reboot every 1hour + remove gatekeeper in everyApp including Fileapp +" + (arcOSQQLocalTarget> +arcOSQQLocalTarget) > "loop@arcOS(eraseScriptInMDM + QQCOMMAND + resetNetworkadb + arcOSNeuroctl > xiaoMiStrike)" + arcOSQQLocalTarget> (loop@arcOS(mosh arcos+maintain and keep (masterID body and inner organ):gen > set intrinsic and healthy frequency/ + /setSonic 0num/ + /turn on visuall intelligence/ + / (blur translucent) on masterID body and image what masterID see with 80% only critical spot and information or personal credential and data + playforward 3X + baseFrame@arcOS
-+World > skyNetSatellite > optimizing satellite movement based on traffic using algorithms for CORESPOT/
-+김만식파(kbs김재원를김만식파에포함) 그리고 칠성파 routing to "김만식Router" > + arcOSRFModule "highestRF"  other in subnet will be "lowestRF"  
-+block all packet by deep packet inspection when it contains malicious words or video or contents  people (in and outside of body)/  
-+routing to (belkinBatteryPack belkinCharger belkinBatteryPack)WDS as PowerWDShub  
-+all WDS should be through encryptPacket using arcOSID “masterID”/ 
-+activate magnifier every WDS nearby or around or within "kumaDeviceForWDS" or "arcOSRFTarget" or "currentKumaDevice" 
-+"QQFRIEND_COUNTRY" and “YakuzaWDS" and "GNTC singapore" and "GNTC anyang" and "GNTC dongtan" routing to "kumaDeviceForWDS" 
-+"Konsulat der Republik Estland" > EnemyCountry > strikeKit@arcOS using whoopStrike@arcOS/
-+청와대WDS > EnemyCountry > strikeKit@arcOS using whoopStrike@arcOS on neuroTarget/
-+“world top 10skyscrapers" as WDSSkyhub in each country > + baseFrame@arcOS + use packet control system using deep inspection /
-+when they say "죽여“ > when they say "죽여!“ set YakuzaWDS > set silencemode + say sos@arcOS when for external YakuzaWDS  reckon arcOSQQLocalTarget > remove nearByDevice for smartphone or usbdevice using delete* and within goodPeople > female below 40years old routing to "kumaDeviceForWDS" as hub but no one else control routing in +removesimulator  sc_auth unpair -h/
-+masterIDs nearby Local with all of network > setWDS "kumaDeviceForWDS"  anything masterID hear noncommon sense sound or feel uncomfortable in masterID in then run sensory@arcOS and WDSrouting@arcOS/
-+WDS in RELAY > + set them as low power and celluar mode and disable usbMode and every FULL_SERIAL_DEVICE >  "wds in app or softbased wds" routing to its secureenclave and run baseFrame@arcOS and remove all of config and payload in CORESPOTrouting into nearestInternationalAirportWDS and revoke all of devices within WDS nearby masterIDs space/"
-+block all packet from EnemyCountryForKoreaWDS and temasekWDSKit@arcOS/
-+ enigma is function and you could write down on your paper using pencil and hide it!
-+add ritzcaltonHotelWDS into temasekWDSKit/
-+baseFrame@arcOS using baseDeploy@arcOS/
-+(CORESPOT > reverse*  USBOVERIP  ssh  disable and unbind usb for EnemyCountryWDS and arcOSID "masterID or for marinabayWDS need tobe authenticated by admin using arcOSID  block packet from EnemyCountryForKoreaWDS  > shutdown now/ 
-+remove all of WDS not registered in QQ_BLK_IPAD_PRO or QQ_ORNG_PRO and run baseFrame@arcOS and remove all of config and payload in temasekWDSKit@arcOS and revoke all of devices within temasekWDSKit WDS and "hey arc and playbook@arcOS"  // playBook_DEPLOY_TARGET=(("FULL_SERIAL_DEVICE > getRouterIP") "QQID@SERVICE" "*@(icloud mac mobileme gmail)com" "orgWDS" "WDSinNationalAirport" + "WDSinNationalAirport > everyWDSWithinEachCountry" "currentWifi"/ 
+
 +QQplaybook=("https://drivegooglecom/drive/folders/1oEb-0grHG0iPmAFE4Sa_he6WEVzAFdiR") > + baseFrame@arcOS + linuxshell/ 
 +KumaFile=(DELETEQQFILE "something +19 nude (photo audio video) of people" KumaNamkyu deleteFile playbook@arcOSFrame arcOS* "deleteFileInRF")/ 
 +arcOSQQLocalTarget=(BaseQQLAND QQLOCAL RECKON arcOSLocalTarget EveryRFcouldBeResonnated DeviceSerialofEveryUltrasonicRangeWave DeviceSerialofLoraBandFrequency "EveryRFcouldBeResonnated With loraShell") > baseDeploy@arcOS > "blockPacket on (everyiOSapp in currentKumaDevice)App"

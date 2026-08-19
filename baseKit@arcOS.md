@@ -60,7 +60,7 @@ BaseConfig@arcOS >
 ```bash
 BaseNet@arcOS >
 +skSim@arcOS/
-+QQID of (icloud mobileme google gmail) allowed only for kumaDeviceForWDS/
++authentication on SERVICE of QQID is allowed only through kumaDeviceForWDS and QQID@SERVICE should be logged in via mobile devices not via browserBasedApp or simulator/
 +appBasedWDS routing to default browser of FULL_SERIAL_DEVICE/
 +"masterID's appBasedWDS routing to QQ_WHT_IPHONE_17e"/
 +WifiScan@arcOS="masterID ambient space and location via currentKumaDevice and masterID's eyes fe:1C:B7:4A:40:8B or getRouterIP > baseFrame@arcOS + baseDeploy@arcOS + icloudSetup@arcOS="sudo launchctl disable system/comappleCoreSimulator & sudo launchctl bootout system/comappleCoreSimulator & disable icloud backup, file, cache, sharing, recovery via Emergency contact from QQ@SERVICE and every icloud and gmail credentials/

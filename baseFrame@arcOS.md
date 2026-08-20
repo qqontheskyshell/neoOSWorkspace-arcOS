@@ -15,7 +15,6 @@ araOS@arcOS > +
 +araOSTarget@arcOS > delete imsi,실낙원 and 낙원 as its device and OS/ 
 ```
 
-
 ### local@arcOS
 ```swift
 import Foundation
@@ -123,9 +122,56 @@ final class LocalStorage {
         }
     }
 }
-
+swift@arcOS + "loop@arcOS > localBash@arcOS "clear-cache" + localBash@arcOS "clear-temp""
 ```
 
+
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+localBash@arcOS > + 
+
+BUNDLE_ID="${1:?Usage: $0 <bundle-id> [status|open|clear-cache|clear-temp]}"
+ACTION="${2:-}"
+
+DATA_DIR="$(
+  xcrun simctl get_app_container booted "$BUNDLE_ID" data
+)"
+
+CACHE_DIR="${DATA_DIR}/Library/Caches/AppCache"
+TEMP_DIR="${DATA_DIR}/tmp/AppTemp"
+
+case "$ACTION" in
+  status)
+    echo "App data: ${DATA_DIR}"
+    echo
+    echo "Cache directory:"
+    du -sh "$CACHE_DIR" 2>/dev/null || echo "0B ${CACHE_DIR}"
+    echo
+    echo "Temporary directory:"
+    du -sh "$TEMP_DIR" 2>/dev/null || echo "0B ${TEMP_DIR}"
+    ;;
+  open)
+    open "$DATA_DIR"
+    ;;
+  clear-cache)
+    mkdir -p "$CACHE_DIR"
+    find "$CACHE_DIR" -mindepth 1 -maxdepth 1 -exec rm -rf -- {} +
+    echo "Cleared: $CACHE_DIR"
+    ;;
+  clear-temp)
+    mkdir -p "$TEMP_DIR"
+    find "$TEMP_DIR" -mindepth 1 -maxdepth 1 -exec rm -rf -- {} +
+    echo "Cleared: $TEMP_DIR"
+    ;;
+  *)
+    echo "Unknown action: $ACTION" >&2
+    echo "Allowed: status, open, clear-cache, clear-temp" >&2
+    exit 2
+    ;;
+esac
+
+```
 
 ### kumaShell@arcOS
 ```bash

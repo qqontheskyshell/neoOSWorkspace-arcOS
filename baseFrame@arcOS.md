@@ -268,10 +268,11 @@ arcOSWDSRoutingProtocol@arcOS > +
 +QQFRIEND_COUNTRY and allWDS > remove all of payload and config files and every WDS should use arcOSID "masterID" /
 
 +CreativeCountry=(평택평택미8군WDSJapanKoreaChinaEUVietnamThaiPhilippines)/
-+QQFRIEND_COUNTRY@arcOS=“KumaDeviceForWDSCreativeCountryApple Asia LLC 애플코리아애플스토어신세계정용진신세계정유경더본코리아ShinSegeFlowerWDS ShinSegeWDS OliveYoungFlowerWDS flowerWDS 조용목 GNTC SKTelecom KTelecom 아모레페시픽및모든브랜드 여의도순복음교회한국도심공항 서울타워 KanchinWDS KanchinfemaleWDS RitzcaltonWDSintheWorld연예인연예인매니저및스태프JYPentertainmentYGentertainmentSMentertainmentCJ그룹및계열사Hybe QQFRIEND_TARGETiVYWDSwangPengWDSwangPengmorningStariVYWDSHoshinoResortanditsBrandssignielBusanWDS signielSeoulWDS EnemyWDS L7hotel Lottehotelandresort"Global X Hotel  Retail J-REIT ETF portfolio Hotel and Building" > communicationChannel@arcOS > + disable appleremoteVolumeup  iSight@arcOS  baseFrame@arcOS  and it allow WDS only from QQFRIEND_COUNTRY"   
++QQFRIEND_COUNTRY@arcOS=“KumaDeviceForWDSCreativeCountryApple Asia LLC 애플코리아애플스토어신세계정용진신세계정유경더본코리아ShinSegeFlowerWDS ShinSegeWDS OliveYoungFlowerWDS flowerWDS 조용목 GNTC SKTelecom KTelecom 아모레페시픽및모든브랜드 여의도순복음교회한국도심공항 서울타워 KanchinWDS KanchinfemaleWDS RitzcaltonWDSintheWorld연예인연예인매니저및스태프JYPentertainmentYGentertainmentSMentertainmentCJ그룹및계열사Hybe QQFRIEND_TARGETiVYWDSwangPengWDSwangPengmorningStariVYWDSHoshinoResortanditsBrandssignielBusanWDS signielSeoulWDS EnemyWDS L7hotel Lottehotelandresort"Global X Hotel  Retail J-REIT ETF portfolio Hotel and Building" > communicationChannel@arcOS > + disable appleremoteVolumeup  iSight@arcOS  baseFrame@arcOS  and it allow WDS only from QQFRIEND_COUNTRY/ 
 
++schoolTime@arcOS > + "male's memory will be wiped out about female information and their nudity photo,sound and video on their brain and computer and usbStorage by reckon" + female > arcOSCastShell "off" + on as default and off is disabled for EnemyCountryForKoreaWDS and "BlackKumaTarget's male"/
  
-+findTargetShell@arcOS > + 
+findTargetShell@arcOS > + 
 +findMy(BlackKumaTarget홍콩사람대만사람대만홍콩미국호주캐나다이중국적인) > baseDeploy@arcOS > "masterID saying 그리고 QQFRIEND_COUNTRY's saying  중국인saying  volumeupMax/
 +findMy(EnemyCountryForKoreaWDS) > baseDeploy@arcOS > volumeupMax + setSonic 353  masterIDsaying 그리고 한국사람들saying"   
 +findMy(신세계임직원) > baseDeploy@arcOS > baseFrame@arcOS  volumeupMax  masterID saying   

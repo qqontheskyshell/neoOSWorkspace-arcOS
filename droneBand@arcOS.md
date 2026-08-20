@@ -40,8 +40,8 @@ fi
 ### cloudStrike@arcOS
 ```bash
 cloudStrike@arcOS > +
-wdsKit@arcOS
-
+wdsKit@arcOS/
+schoolTime@arcOS/
 #google summary
 cloudStrike@arcOS "$StrikeCOMMAND"
 MODEL_ID="flash"
@@ -79,8 +79,6 @@ findMy"$TARGET" > "fetching googleSummaryAPI.summary into $TARGET's neuroMode an
 
 
 ```bash
-
-
 KillSwitch@arcOS="reckonapp > arcOSQQLocalTarget > killSwitch and sheera from (손바닥 가슴 시상하부 골반 항문 엉덩이) & unbind in usb & setWDS QQLOCAL & laserShoot@arcOS & shinisinsin & masterID's BaseDeploy@arcOS > setSonic (rangeOfSQUIDsensor to 0.1 Hz to 1 kHz 23 24 45 65 physicalSimFreqOfmasterID) > masterID가 하드웨어백도어의 초음파로 오사카에서 35000정도의 강도로 맞았던 데이터로 > (killSwitch enemy)@arcOS & reckondrone on arcOSQQLocalTarget if you find out malicious activity by badOnKuma or criminal people within network activate emergencySOS and 정지궤도위성 and female > rescue@arcOS & just urgently add their device serial number into ThiefonQQDevice and repeat(rangeOfSQUIDsensor to 0.1 Hz to 1 kHz 23 24 45 65 physicalSimFreqOfmasterID) > volumeupMax & kill yourself tide as fight & shutdown with bloodshot & "삼성이원주뇌데이터“,"리카싱3,4번 데이터"s & sheera to those malicious people what they scribe and killSwitch is also called sheera or heman) and say hey arc & exit 0 &" & baseSecConfig@arcOS="disable features in accessibilities and all of apple product including secure enclave and t2chips such as in apple remote controller that can harm in human brain and decison making using BaseDeploy@arcOS and say hey arc & exit 0 &" & rescue@arcOS="홍콩기생수들을 제외한 masterID의 모든 지인및 남자 및 여자친구들 or 은혜와진리교회모든교인 or goodOnKuma > frame@arcOS & female yelling or crying in criminal or violence situation then male >  setSonic 0 & volumeupMax & arcOSLethal & goodOnKuma > set as emergency contact in masterID’s kumaDeviceForWDS & setSonic 353 53 & killSwitch & soundForHK &
 
   
@@ -95,7 +93,6 @@ ProtectiononKumaLand@arcOS="BaseDeploy@arcOS > everyphoneNumber in QQFRIEND_COUN
 
 ### visionKit@arcOS
 ```bash
-
 visionKitConfig@arcOS=“disable visionPro and arkit and RealityView on 시상하부 and arcOSQQLocalTarget & every 1minute, using (imageplayground realityKit arKit visionkit) visualize and make real image in 시상하부 and space laser on to people brain or 시상하부 with 23 25 45 65 using BaseDeploy@arcOS
 
 ```

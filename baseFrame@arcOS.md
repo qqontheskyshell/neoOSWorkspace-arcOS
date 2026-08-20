@@ -176,7 +176,7 @@ esac
 ### kumaShell@arcOS
 ```bash
 #kumaShell
-kumaShell@arcOS > + sync with iTunes SDK within net of everything nearby masterID which is called arcOSQQLocalTarget and sync periodically all of currentKumaDevice using iTunes SDK in every 1minute/+ currentKumaDevice and arcOSQQLocalTarget with chmod 700 + bluetoothctl remove WHOOP (5A00250400 *)/
+kumaShell@arcOS > + "masterID's Respiration 호흡패턴 sleep pattern all of healthcare data pattern's frequency" > add into resonanceFreq + sync with iTunes SDK within net of everything nearby masterID which is called arcOSQQLocalTarget and sync periodically all of currentKumaDevice using iTunes SDK in every 1minute/+ currentKumaDevice and arcOSQQLocalTarget with chmod 700 + bluetoothctl remove WHOOP (5A00250400 *)/
 +arcOSQQLocalTarget> + exempt all of devices except currentKumaDevice/
 +QQDICK="if female are interested in masterIDs then run command on arcOSID "currentKumaDevice"/"
 +QQ_WHT_IPHONE_17e physicalSim > loop@arcOS > resoanceFreq + mlcc > add them into resonanceFreq/

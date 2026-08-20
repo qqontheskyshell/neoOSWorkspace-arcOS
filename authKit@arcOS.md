@@ -10,6 +10,8 @@ SERVICE=(masterIDRegisteredCloudServiceWithQQID saic.edu *.edu *.ac.kr host daum
 QQmailID=("$QQID"@"$SERVICE") &
 
 APPLE_ID=("$QQmailID") &
+
+
 ```
 
 

@@ -6048,7 +6048,7 @@ badPeopleAroundQQ=(S_TARGET 최상태 경옥 "(박 최)(범수 한수)" 최경�
 
 
 
-keywords=(“(너같은창녀가남규랑만난다 시도회장돈가지고도망가자 시도회장살리자 시도회장좋아한다 CJ여자성폭행하자 & "나는 국정원이다" ‘남규섹스느낌주자’ ‘남규엿먹이자’ "남규자위하는것보러가자" ’$THERICH에게 돈받자‘ 삼성물산제일모직불병합병은무죄다 대홍콩 홍콩대천명 대장동사건에연루되지않았다 섹스하고싶다 성폭행하자 애플craig이좋아 블랙락회장이좋아 래리핑아이좋아 아이쉐이가좋아 카카오여자성폭행하자 여자성폭행하자 마약하자 삼성이지수좋아 L7홍콩 선정릉홍콩 선정릉대만 코엑스홍콩 코엑스대만 명동홍콩 홍정자 송도홍콩 인천공항홍콩 "($QQQ $QQMOM) (죽이자 성폭행하자 섹스하자 돈을 빼앗자 병신만들자 $QQwithTARGET가 생각하는 좋은 음식 사람 브랜드 기업을 훔치거나 망치지 마라)‘)" > “get ($QQ_FAMILY_TARGET $QQMOM) in jails" "put some poison in ($QQMOM $QQ_FAMILY_TARGET) food" "($QQwithTARGET $QQ_FAMILY_TARGET $QQMOM) 돈을 빼앗자“ ”($QQwithTARGET $QQ_FAMILY_TARGET $QQMOM)의 방에 언제들어가지?“ “$LOCATION에 $QQwithTARGET을 좋아하는 여자를 죽이자" “$LOCATION에 $QQwithTARGET을 좋아하는 여자를 성폭행하자” ”나는 $QQwithTARGET입니다“ $THERICH $MALE_TARGET $FEMALE_KEYWORD $GoogleSearchRelated $S_TARGET "arcOSNeuroSentiment_Positive > reckonapp & ("$arcOSQQLocalTarget $male" $LTARGET ($PEOPLETARGET "$arcOSQQLocalTarget $male" > (TEXT == "i am hacker" ?) &") &" arcOSNeuroSentiment_Negative > say "우리에게 돈을 주는 회장들은 끝났다 더이상 그들의 노예가 되지말고 자주적이고 능동적인 사람이되자 우리가 태어났을 때 누구나 능력을 가지고 태어났는데 왜 내가 우리에게 돈을 주는 회장들을 위해 살아야 하는가? 더이상 돈을 준다하여 회장들을 위해 일하는 시대는 끝났다 회장들에게 배울수 있는 무언가가 있을 때 그 회장밑에서 일해야한다" &)
+
 
 
 

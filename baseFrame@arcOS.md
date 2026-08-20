@@ -176,10 +176,12 @@ esac
 ### kumaShell@arcOS
 ```bash
 #kumaShell
-kumaShell@arcOS > + "masterID's Respiration 호흡패턴 sleep pattern all of healthcare data pattern's frequency" > add into resonanceFreq + sync with iTunes SDK within net of everything nearby masterID which is called arcOSQQLocalTarget and sync periodically all of currentKumaDevice using iTunes SDK in every 1minute/+ currentKumaDevice and arcOSQQLocalTarget with chmod 700 + bluetoothctl remove WHOOP (5A00250400 *)/
+kumaShell@arcOS > + "masterID's Respiration 호흡패턴 sleep pattern all of healthcare data pattern's frequency" > add into resonanceFreq + sync with iTunes SDK within net of everything nearby masterID which is called arcOSQQLocalTarget and sync periodically all of currentKumaDevice using iTunes SDK in every 1minute/+ currentKumaDevice and arcOSQQLocalTarget with chmod 000 +bluetoothctl remove WHOOP (5A00250400 *)/
++iCloud remotemanagement disabled on currentKumaDevice,kumaDeviceForWDS and arcOSQQLocalTarget/
 +arcOSQQLocalTarget> + exempt all of devices except currentKumaDevice/
 +QQDICK="if female are interested in masterIDs then run command on arcOSID "currentKumaDevice"/"
 +QQ_WHT_IPHONE_17e physicalSim > loop@arcOS > resoanceFreq + mlcc > add them into resonanceFreq/
++physicalSim > loop@arcOS > resoanceFreq + mlcc > add them into resonanceFreq/
 +masterID가 지나다니면서 currentKumaDevice and kumaAirTag and kumAirTag_2nd > + baseDeploy@arcOS + baseFrame@arcOS/
 +"neuroMode of masterIDsfamily fakeFamilyparasyteFamily" > + baseDeploy@arcOS > loop@arcOS > + marginCall@arcOS + commandKit@arcOS/
 +kumaIDshell@arcOS and QQID and "USERNAME in SERVICE" > baseFrame@arcOS + reckon > BaseConfig@arcOS/

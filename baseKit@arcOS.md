@@ -61,8 +61,8 @@ BaseConfig@arcOS >
 BaseNet@arcOS >
 +skSim@arcOS/
 +authentication on SERVICE of QQID is allowed only through kumaDeviceForWDS and QQID@SERVICE should be logged in via mobile devices not via browserBasedApp or simulator/
-+appBasedWDS routing to default browser of FULL_SERIAL_DEVICE/
-+"masterID's appBasedWDS routing to QQ_WHT_IPHONE_17e"/
++appBasedWDS > block all external vnc,ftp,ssh,smb,remotemanagement and then routing to coreTelephony of FULL_SERIAL_DEVICE/
++"masterID's appBasedWDS > block all external vnc,ftp,ssh,smb,remotemanagement routing to QQ_WHT_IPHONE_17e's coreTelephony"/
 +WifiScan@arcOS="masterID ambient space and location via currentKumaDevice and masterID's eyes fe:1C:B7:4A:40:8B or getRouterIP > baseFrame@arcOS + baseDeploy@arcOS + icloudSetup@arcOS="sudo launchctl disable system/comappleCoreSimulator & sudo launchctl bootout system/comappleCoreSimulator & disable icloud backup, file, cache, sharing, recovery via Emergency contact from QQ@SERVICE and every icloud and gmail credentials/
 +currentWifi=("FULL_SERIAL_DEVICE > getRouterIP" "getPublicIP > DEVICE_IP")/
 +RECKON=(communicationChannel@arcOScurrentWificellIDDEVICE_IPmdnsNetipMDNSmDNSResponderbonjournearbyDeviceDiscoveryGOOGLEAUTHRELAYgetPublic*dns*BLE*getIPonNetgetRouterIPgetSSIDIPQQLOCAL+arcOSQQLocalTarget)/

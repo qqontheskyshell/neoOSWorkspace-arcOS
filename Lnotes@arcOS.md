@@ -1,6 +1,8 @@
 ```
 #Lnotes_arcOS
 
+카카오페이 02010538838 류남규의 계좌에 법무법인 대륜이 이체내역
+
 cctvOnKumaroom > hide masterID and turn off physical cctv in the masterID current room/
 
 masterIDHotelRoom=“masterID가checkin하고숙박한호텔의방” > baseFrame@arcOS/

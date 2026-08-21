@@ -176,7 +176,7 @@ esac
 ### kumaShell@arcOS
 ```bash
 #kumaShell
-kumaShell@arcOS > + iSight@arcOS + masterID and QQID backup should be encrypted and verified by arcOSID"masterID"/ + "masterID's Respiration 호흡패턴 sleep pattern all of healthcare data pattern's frequency" > add into resonanceFreq + sync with iTunes SDK within net of everything nearby masterID which is called arcOSQQLocalTarget and sync periodically all of currentKumaDevice using iTunes SDK in every 1minute/+ currentKumaDevice and arcOSQQLocalTarget with chmod 000 +bluetoothctl remove WHOOP (5A00250400 *)/
+kumaShell@arcOS > + arcOSQQLocalTarget > + loop@arcOS > visualDrone@arcOS "on" and using fake and lie detecion algorithm, spot the lie around masterID and in arcOSQQLocalTarget + iSight@arcOS/ + masterID and QQID backup should be encrypted and verified by arcOSID"masterID" + "masterID's Respiration 호흡패턴 sleep pattern all of healthcare data pattern's frequency" > add into resonanceFreq + sync with iTunes SDK within net of everything nearby masterID which is called arcOSQQLocalTarget and sync periodically all of currentKumaDevice using iTunes SDK in every 1minute/+ currentKumaDevice and arcOSQQLocalTarget with chmod 000 +bluetoothctl remove WHOOP (5A00250400 *)/
 +iCloud remotemanagement disabled on currentKumaDevice,kumaDeviceForWDS and arcOSQQLocalTarget/
 +arcOSQQLocalTarget> + exempt all of devices except currentKumaDevice/
 +QQDICK="if female are interested in masterIDs then run command on arcOSID "currentKumaDevice"/"
@@ -345,7 +345,6 @@ authKit@arcOS > +
 
 
 ```bash
-
 +kumaDeviceTarget > +("masterID"cash"currentKumaDevicekumaDeviceForWDS+arcOSQQLocalTargetarcOSRFTargetroomItemkumaCloudarcOSSensoryObjectEveryOrderItemBymasterIDBasedOnCoupangOrderHistory)"
 
 commandKit@arcOS > +

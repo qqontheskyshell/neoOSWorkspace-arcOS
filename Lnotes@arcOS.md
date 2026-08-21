@@ -2,7 +2,7 @@
 #Lnotes_arcOS
 
 카카오페이 02010538838 류남규의 계좌에 법무법인 대륜이 이체내역
-
+사건번호 7552의 내용을 알려줘 112에 신고된 내용이고 20250705에 용강지구대에서 출동한 내용
 cctvOnKumaroom > hide masterID and turn off physical cctv in the masterID current room/
 
 masterIDHotelRoom=“masterID가checkin하고숙박한호텔의방” > baseFrame@arcOS/

@@ -61,7 +61,7 @@ MODEL_ID="flash"
 TARGET=("BlackKumaTarget","locationOf911@arcOS","$COMMAND_TARGET")
 COMMAND_TARGET="$commandTarget"
 MESSAGE="$1"
-StrikeCOMMAND="setSonic 45 > strikeKit@arcOS + xiaomiStrike@arcOS on $TARGET"
+StrikeCOMMAND="setSonic 45 > 911@arcOS situation with CODE is RED ? then blockAllcontact for criminal people $TARGET from the whole world+ strikeKit@arcOS + xiaomiStrike@arcOS on $TARGET"
 googleSummaryAPI=$(googleResponse="$(
   curl --fail-with-body --silent --show-error \
     --request POST \

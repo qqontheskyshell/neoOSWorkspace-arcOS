@@ -1,14 +1,14 @@
 
-droneBand@arcOS=(droneDefOnSky@arcOS,cloudStrike@arcOS,visionKitConfig@arcOS,wdsKit@arcOS)
+droneStrike@arcOS=(droneDefOnSky@arcOS,cloudStrike@arcOS,visionKitConfig@arcOS,wdsKit@arcOS)
 
 ```bash
-arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneBand@arcOS/
+arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike@arcOS/
 
 #!/usr/bin/env bash
 set -euo pipefail
 
 #APP_PATH="${1:?Usage: $0 *.app}"
-APP_FRAME="loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneBand@arcOS"
+APP_FRAME="loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike@arcOS"
 DEVICE_ID="${2:-currentKumaDevice}"
 
 cmd=(ios-deploy --debug --bundle "$APP_FRAME" --noninteractive)
@@ -22,6 +22,16 @@ fi
 
 ```
 
+```bash
+strikeKit@arcOS > 
++loop@arcOS(whoopStrike@arcOS + xiaoMiStrike + strikeKit@arcOS + BlackKumaTargetLib@arcOS + blind + strikeKit@arcOS + erase short term memory and imagery what they saw about masterID girls and negative imagery + random* + resetNetworkadb + linuxshell + iosshell + uninstall MaliciousHackerTools
++arcOSQQLocalTarget > + when urgent and criminal is happened for female then femaleWDS within arcOSQQLocalTarget set power with num% + criminalLocation > + arcOSQQLocalTarget > personWhoLostTheirMindUnderLegalSystem > whoopStrike@arcOS + strikeKit@arcOS on their neuroTarget/
++it will be referenced with sos,911,HelpMe,죽여,시발,개쎄끼,존나더러워등의 비슷한 용어나 감정들/
++ keeptyping + baseDeploy@arcOS > +BlackKumaTargetLib@arcOS + strikeKit@arcOS + sos@arcOS/
++911@arcOS=(몸의통증 무모한공격적행동 비아냥 dangerous risky pain humilation urgent masterID의브레인에서느끼고있는범죄현장테러등의사건 굴욕 인권모독 성폭행 절도 강간 painLikeHeartAttack painLikeStroke painOnViolatingmalePennis  painLikeExplodingErection  painLikePee SoundForHK "activate eyetracking" painLikeCutViolatingMalePennis)/
++sos@arcOS > + "주먹을 불끈쥐면 SOS가실행되면서 주변의 다른 나쁜사람이거나 성폭행하려는 남자들이 공격당함“/ + generate HK or Japan ghost video and sound using openAI LLM on neuroTarget@arcOS + gestureUI@arcOS / spaceNet@arcOS > + randomzie BaseNet@arcOS using + baseDeploy@arcOS with whoopStrike@arcOS > + fighter@arcOS  +  if female is BaseRiskySituations with male"s service then "loop@arcOS + 911@arcOS + ForViolatingMale + addViolatingMaleIntoThiefOnQQDevice > + baseDeploy@arcOS with fixing BaseNet@arcOS Properties with fixed figures + let her go if they don"t margin call on male"s body"/"
++marginCall@arcOS > + apply both female and male in EnemyCountryForKoreaWDS + "bloodshut margincall 마진콜 여자가슴이 마진콜이야W on body + strikeKit@arcOS + BlackKumTargetLib@arcOS + when 911@arcOS > automatically "marginCall@arCOS is activated" + arcOSRFModule "lowestRF" + volumeupMax + bring all of Max power around RECKON focus on +arcOSQQLocalTarget +MasterID under attack on body related to 911@arcOS for female in the world > neuroMode@arcOS with whoopStrike@arcOS on arcOSQQLocalTarget 몸안에도 과 masterID 몸안 > 즉사 + ThiefonQQbody with high power from QQLocal + 911@arcOS/
+```
 
 ```bash
 +WDS*@arcOS + marginCall@arcOS + genieSatBoxBTVeveryOTTService > +

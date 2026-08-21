@@ -22,6 +22,7 @@ arcOSLnotes"QQID@SERVICE로로그인한사람들"
 arcOSLnotes"qqontheskyshells@SERVICE 쓰는 사람",arcOSLnotes"과거masterID의여자친구를성폭행한사람“ ,vipTarget중에masterID가예약한호텔에서masterID의현금및기타가치있는것을훔친사람들,진도리가masterID의37만원을latecheckout fee로받아내게조작을한호텔나루직원 > loop@arcOS + add into blackKumaTarget/
 
 arcOSLnotes"2025년정의선의아키호텔투숙은어땠나?남규의트래블로신용카드를사용하고 예약을했자나“ as 현대정의선홍콩아키호텔
+nvdia employee and jensenHuang's MJCAM
 
 vipTarget=(대한민국역대대통령,정몽준,정기선,정의선,정성이,정경선,신해동,삼성이지수,삼성이부진,장충펑,하도리,미도리,백도리,부영이중근회장,진도리,부영이중근회장세아들,진도리,하도리,장충펑,timcook,라이칭더,국정원아들이홍규,국정원부산장건영,빅터리,삼성이지수캐나다호주아들들,홍정자,이화선,홍콩이경옥,미쉘레이스,CCWEI,모리스창,장중모,forbesCEO)
 

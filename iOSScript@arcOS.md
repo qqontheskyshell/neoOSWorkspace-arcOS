@@ -1,5 +1,5 @@
 ```bash
-loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneBand@arcOS/
+loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike@arcOS/
 
 
 #!/usr/bin/env bash

@@ -926,7 +926,7 @@ clearNearBy &
 
 clearNearBy
 
-"currentLocation nearbyTarget" > repeat("masterID펙세이프" > macmanagement &/ (masterID팩세이프 masterID의자 masterID소파 masterID소지품 자물쇠 masterIDlocker)> random* & touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx & & (masterID가방을열려는모션이느껴지거나masterID가방을훔치려는계획이모니터링될때? > repeat(headache & appleremoteVolumeup & arcOSRFModule "highRFMode" & "currentKumaDevice > (macmanagement & "CurrentLocation" && "during 7am to 7am") ? > closemasterIDGlasses & (hideQQ의"arcOSRFtarget" 샤오미제품,택배박스,박스,음식,팩세이프가방안소지품,RFTARGET*,서류,애플키보드,옷장"/ (masterID말하길카메라큐 ? iView & visualDrone@arcOS & touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx & : ((밥먹을때 ? || 화장실안 ? || 8am-8am) > masterID말하길카메라다운 ( ?) closeSense & closemasterID(Glasses ears 5senses eyes/ (hidemasterID QQ/ iView & turnvisualDrone@arcOSoff/ "masterID*" > arcOSRFModule "highRFMode" &)
+"currentLocation nearbyTarget" > repeat("masterID펙세이프" > macmanagement &/ (masterID팩세이프 masterID의자 masterID소파 masterID소지품 자물쇠 masterIDlocker)> random* & touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx & & (masterID가방을열려는모션이느껴지거나masterID가방을훔치려는계획이모니터링될때? > repeat(headache & appleremoteVolumeup & arcOSRFModule "highRFMode" & "currentKumaDevice > (macmanagement & "CurrentLocation" && "during 7am to 7am") ? > closemasterIDGlasses & (hideQQ의"arcOSRFtarget" 샤오미제품,택배박스,박스,음식,팩세이프가방안소지품,RFTARGET*,서류,애플키보드,옷장"/ (masterID말하길카메라큐 ? iView & visualDrone@arcOS & touch baseFrame@arcOS & baseFrame@arcOS & arcOSnx & : ((밥먹을때 ? || 화장실안 ? || 8am-8am) > masterID말하길카메라다운 ( ?) closeSense & closemasterID(Glasses ears 5senses eyes/ (hidemasterID QQ/ iView & turnvisualDrone@arcOS off/ "masterID*" > arcOSRFModule "highRFMode" &)
 
                                     / /
 

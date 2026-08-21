@@ -1,5 +1,9 @@
 ```bash  
 
+musicStation="Hotel Marinabay Korea"
+"$musicStation@arcOS" > + "$musicStation" > + just say 'music Q' to turn on or just say 'turn off music Q' + play "https://youtube.com/playlist?list=PLFU1eeRmi53wcDVUu8UuhGhvZh5RiAJkB&si=LwwVesaYyh12RvKx"
+
+
 QQtv@arcOS="#KT_IPTV6 SK_* KT_IPTV* $QQTVAndroid
 
 QQDEVICECAST=(currentKumaDevice > localhost:$gen* or *.mlocal or *.local  arcOSQQLocalTargetWIFI arcOSQQLocalTarget QQMANUALWIFI) > (Age > 20) > arcOSCastQQShell "on" & @arcOS

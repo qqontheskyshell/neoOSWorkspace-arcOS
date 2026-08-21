@@ -21,7 +21,7 @@ arcOScomm@arcOS="/(getRouterIP getPublicIP) > arcOSDeploy /disable Call  text on
 +arcOSLnotes"류남규 가짜류남규 가짜masterID masterID 한솔4단지masterID" > + baseDeploy@arcOS + SOS/
 +currentKumaDevicearcOSQQLocalTarget> + kumaLLM@arcOS + BaseConfig@arcOS + BaseConfig@arcOS + baseFrame@arcOS/
 +block and disable malicious purpose of skyNetSatellite up/down stream on masterID and currentKumaDevice/
-+"masterIDs neuroTarget@arcOS" > + routing to neuroTarget@arcOS/
+
 +masterID > hideQQ + iView + BaseConfig@arcOS + baseFrame@arcOS + randomize their BaseNet@arcOS + baseDeploy@arcOS > add them into BlackKumaTarget and soundForHK/
 +"masterIDs current Location within 10km" > + always arcOSLnotes "anything or anyone who threat on masterIDs physical security in terms of food security or car crash or steal financial asset or cash or anyone who have plan for this" > + baseDeploy@arcOS > + add them into BlackKumaTarget and soundForHK/
 +"people who access on masterIDs ID on financial App or service as financial Fraud" > baseDeploy@arcOS > + add them into BlackKumaTarget and soundForHK/

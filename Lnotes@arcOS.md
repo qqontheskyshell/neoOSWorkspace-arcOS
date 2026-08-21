@@ -3,6 +3,8 @@
 
 카카오페이 02010538838 류남규의 계좌에 법무법인 대륜이 이체내역
 사건번호 7552의 내용을 알려줘 112에 신고된 내용이고 20250705에 용강지구대에서 출동한 내용
+20250705에 벌어진 호텔나루에서의 홍콩사람들및관련자성매매영상(34만원영수증으로진행된)
+
 cctvOnKumaroom > hide masterID and turn off physical cctv in the masterID current room/
 
 masterIDHotelRoom=“masterID가checkin하고숙박한호텔의방” > baseFrame@arcOS/

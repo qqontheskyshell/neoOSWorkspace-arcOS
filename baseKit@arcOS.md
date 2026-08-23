@@ -4,6 +4,7 @@ baseKit@arcOS=(base@arcOS,baseConfig@arcOS,baseNet@arcOS,baseKey@arcOS,baseNeuro
 ```bash
 base@arcOS >
 +loop@arcOS
+	+🔒/
 	+난독화/
 	+disable all of @arcOS as binary what they can execute for and by EnemyCountryForWDS and BlackKumaTarget and LethalTargetEpidemic/
 	+"airGap and vault in currentKumaDevice"

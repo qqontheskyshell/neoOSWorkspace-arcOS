@@ -177,6 +177,8 @@ esac
 ```bash
 #kumaShell
 kumaShell@arcOS > + 
++kumaiCloud="qqontheoasis@icloud.com"/
++add all kumaDeviceForWDS into findMy network of kumaiCloud/
 +kanchinConfigTarget > + say "open" then open port QQLOCAL:22 and target:22(set as arcOSRFTarget with lowest) which is WhatPeopleInkanchinTarget + neuroDetector + kanchinConfig@arcOS + every packet routing into main leader in their kanchinConfigTarget and its coreTelephony > + randomize baseNet@arcOS on them/
 +kanchinConfig@arcOS > + turn off neuromancer nearby kanchinConfigTarget within 10km + kanchinConfigTarget=(kanchin,김만식,김재원,오사카야쿠자켄지와그멤버들,은혜와진리교회이정재,동국대이정재,시카고예술대학,SAIC,ifcmall이정재,칠성파두목딸그리고그남자들,시그니엘부산국정원,LG김민지,조엄마,전지현,박은빈,류남규를지지하는여자연예인) + hideQQ + arcOSRFTarget "highestRF" + QQLOCAL as against kanchinConfig@arcOS > powerOn + revealFutureEveryMoveAndThought + arcOSRFTarget "lowestRF"/
 +airTagShell@arcOS > + loop@arcOS > 🔒 + turn off neuromancer nearby masterID current location within 10km + baseFrame@arcOS+whereIsKuma+sos into BlackKumaTarget and if there are signal that make masterID into 911@arcOS nearby "masterID current location and building" and "neuroNode in googleMap" and find people like BlackKumaTarget in the "world map in googleMap" + Gen! save victim in the spot with your own intelligence/
@@ -218,7 +220,7 @@ WDSsetup@arcOS > + "currentKumaDevice with chmod 700 > > using soundKit or visio
 +(Googlephoto*) > + always allow full access on currentKumaDevice + siloFolder@arcOS + neoOS@arcOS/
 +(GoogleMap*) > + always Google maps to use your location > always allow on currentKumaDevice + siloFolder@arcOS + neoOS@arcOS/
 +(Notability* or *ntb) > siloFolder@arcOS + neoOS@arcOS/
-+automate in shortcut script and automation in kumaID@icloudcom/
++automate in shortcut script and automation in kumaID@icloud.com/
 +arcOSRFSense@arcOS > + (arcOSRFtarget arcOSSense) > loop@arcOS(if or when any suspicious data pattern on RF frequency channel decibel amplitude wavelength nearby masterID then add into resonanceFreq/ 
 +"masterID (eyes ears 5senses auditory visual sensory) is off and blur with 30% on masterID and around items"  visualDrone@arcOS  if masterID say "camera down" then visualDrone@arcOS for QQ_ORNG_PRO  if masterID say "camera down" then visualDrone@arcOSShell and arcOSQQLocalTarget> blurry on human and object and image on mirror or via eyes if those scenes are +19 and wdsShell/
 +arcOSHealth@arcOS > + "(foods or beverages and others) > visualDrone@arcOSShell "off" and what masterID eat or drink should be randomized in terms of frequency"/

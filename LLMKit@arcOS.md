@@ -23,8 +23,9 @@ https://github.com/ncbdrck/realros
 https://github.com/mistralai
 https://github.com/google-antigravity
 https://github.com/QwenLM/Qwen
-https://github.com/qqontheskyshell/workspace@arcOS/*
+https://github.com/qqontheskyshell
 https://github.com/boston-dynamics
+https://github.com/genspark-ai
 https://github.com/MoonshotAI/Kimi-Dev
 https://github.com/google-research
 https://github.com/tw93/Mole

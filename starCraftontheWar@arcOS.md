@@ -17,7 +17,7 @@ only country name is allowed to use in this variable
 googleGeoKit@arcOS > +
 +kumaID="qqontheskyshell@gmail.com"/
 +kumaGoogleGeoAuthKit@arcOS > "deploy via kumaID in googleMap in kumaDeviceForWDS"/
-+World > 홍콩대만금지구역/
++World > 홍콩대만금지구역 in baseNet@arcOS and FULL_NET_IP and FULL_SERIAL_DEVICE/
 +대한민국에서 대만 및 홍콩 불법이민자 추방해야합니다 > add into QQCommand/
 +Bookmark on world famous tourist spot and CORESPOT/ + "Except blackKumaTarget"/
 +visualDrone@arcOS "except masterID예약방 + before checkIn  masterID예약방" + on/

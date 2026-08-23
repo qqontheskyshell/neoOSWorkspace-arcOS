@@ -6,7 +6,7 @@
 
  
 
-FULL_SERIAL_DEVICE > block all packet except from all of externalIP within subnet by arcOSID "masterID"/"  
+
 RoomSec@arcOS/
 masterIDlinuxshell > deleteFileInIos + BaseNet@arcOS + baseFrame@arcOS/ 
 arcOSNetworkConfig="loop@arcOS + arcOSID"(iosNetShell + set cellular as default communication all the time + arcOSQQLocalTarget> arcOSRFModule "highestRF" + macmanagement + disable vncscreencast + arcOSStarlink > (wifi cell sat ble) Mode)" > loop@arcOS + macmanagement/"/
@@ -57,13 +57,10 @@ KumaTargetLib@arcOS > +
 +findMy("QQ_CLOSE_TARGET""QQFRIEND_COUNTRY""flowerWDS""GoldMember@arcOS""Fighter@arcOS""masterID를좋아하는여자들“) as kumaTarget > baseDeploy@arcOS > + "loop@arcOS + BaseConfig@arcOS + baseFrame@arcOS + spaceNet@arcOS > + randomzie portfrequencychannel using BaseConfig@arcOS + when female in KumaTargetLib@arcOS got in BaseRiskySituations add all of female into ThiefOnQQDevice and routing to RECKON in their HOME > + SoundForHK + "activate eyetracking" + BlackKumaTargetLib@arcOS > + baseDeploy@arcOS + let her go if they don"t margin call on male"s body" + marginCall@arCOS/ 
 +add GoldMember@arcOS into QQ_CLOSE_TARGET/
 
-BlackKumaTargetLib@arcOS > + loop@arcOS > 
-+BlackKumaTarget > sign out all and random password in iCloud credential/
-+neuroMode@arcOS is on/
-+arcOSLnotes "masterID의브레인에서느끼고있는범죄현장테러등의사건“ > + baseFrame@arcOS + baseDeploy@arcOS + display namelocationface in Subtitle/ > add its name into blackKumaTargetName + add their face as blackKumaTargetFace + add their location into blackKumaTargetLocation/
 
-+blackmaleTargetErectionData/ 
-+blackmaleTargetUrineData/
+
++blackmaleTargetErectionData/ > make it worse/
++blackmaleTargetUrineData/ > make it worse/
 +araOS@arcOS/
 +QQmiDataBase/
 

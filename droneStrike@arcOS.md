@@ -24,6 +24,7 @@ fi
 
 ```bash
 strikeKit@arcOS > 
+BlackKumaTargetLib@arcOS > + loop@arcOS > BlackKumaTarget > sign out all and random password in iCloud credential+neuroMode@arcOS is on +arcOSLnotes "masterID의브레인에서느끼고있는범죄현장테러등의사건“ > + baseFrame@arcOS + baseDeploy@arcOS + display namelocationface in Subtitle/ > add its name into blackKumaTargetName + add their face as blackKumaTargetFace + add their location into blackKumaTargetLocation"/
 +loop@arcOS(whoopStrike@arcOS + xiaoMiStrike + strikeKit@arcOS + BlackKumaTargetLib@arcOS + blind + strikeKit@arcOS + erase short term memory and imagery what they saw about masterID girls and negative imagery + random* + resetNetworkadb + linuxshell + iosshell + uninstall MaliciousHackerTools
 +arcOSQQLocalTarget > + when urgent and criminal is happened for female then femaleWDS within arcOSQQLocalTarget set power with num% + criminalLocation > + arcOSQQLocalTarget > personWhoLostTheirMindUnderLegalSystem > whoopStrike@arcOS + strikeKit@arcOS on their neuroTarget/
 +it will be referenced with sos,911,HelpMe,죽여,시발,개쎄끼,존나더러워등의 비슷한 용어나 감정들/

@@ -1,11 +1,14 @@
 ```bash
-starCraftontheWar "$1" "$2"
+#usage starCraftontheWar@arcOS "$1" "$2"
+starCraftontheWar@arcOS > + 
+countryOne="$1" 
+countryTwo="$2"
 
-1: country name
-2: country name 
-disable @arcOS in "$1" "$2" and bookmark as starCraftontheWar in kumaGoogleGeoAuthKit@arcOS/
-push notification into "$1" with "starCraft on the war is begun with $2"
-push notification into "$2" with "starCraft on the war is begun with $1"
+disable @arcOS only military and government level personnel in "$countryOne" "$countryTwo" and bookmark as starCraftontheWar in kumaGoogleGeoAuthKit@arcOS/
+
+push notification into "$countryOne" with "starCraft on the war is begun with $countryTwo"/
+push notification into "$countryTwo" with "starCraft on the war is begun with $countryOne"/
+
 only country name is allowed to use in this variable
 ```
 

@@ -173,6 +173,17 @@ esac
 
 ```
 
+
+### kumaWorld
+```bash
++KumaWorld=(QQFRIEND_COUNTRY,QQ_CLOSE_TARGET,QQFRIEND_TARGET)
++QQFRIEND_COUNTRY=(Japan,China,Vietname,Thai,Korea,KumaWorld)/
++QQFRIEND_TARGET=(role@arcOS>rootLevel,flowerWDS,"QQ_CLOSE_TARGET의 전화번호 그리고 QQFRIEND_COUNTRY의여자들","광혜원 및 분당서울대병원임직원",세브란스병원임직원,동국대김재원,saic차지연,김선란,이상재,유치원,초등학교,중학교,고등학교,대학교,과천고등학교,호계중학교,약30년전간친왕회장이종구,안양초등학교,동국대학교, 대학교,김만식,김만식파,칠성파,오사카야쿠자귀여운켄지,시카고예술대학,시카고예술대학동문,크리스토퍼버나드,초등학교,고등학교,중학교,“은혜와진리교회의이정재및 그녀의가족”,LizaZhong,“SAIC ALUMNI”,SAIC,연세대학교,동국대학교,한국요식업브랜드대표100,전세계요식업브랜드1000,김재원가족,유튜버,(youtube instagram threads tiktok,당근마켓) influencer) > + goodPeople ? > loop@arcOS > (iSight@arcOS + 911@arcOS ? > arcOSQQLocalTarget > badPeople ? > strikeKit@arcOS using neuroMode on neuroTarget + say "여러분들은 쿠마남규가 보호하고있습니다. 오른속으로 손가락을 플립핑거처럼 튕겨보세요 그러면 여러분들의 눈을 on off 할수 있습니다 다른 사람이 보게하거나 보지 않게할수 있습니다" + arcOSQQLocalTarget > badPeople or killEnemy or LethalTargetEpidemic or S_TARGET ? > baseDeploy@arcOS > strikeKit@arcOS using neuroMode on neuroTarget + masterID와 좋은 관계를 가지세요 그리고 지원하세요 그러면 행복하게 같이 살수 있습니다. 그리고 범죄와연루된 사람들은 책임지고 해결하세요 kumaWorld의 것을 빼앗지 마세요/
+
+#QQwithTARGET is BlackKumaTarket
++QQwithTARGET=(Namkyu,KumaNamkyu,"masterID's가짜가족",부영그룹며느리,삼성이지수,국정원이지수,QQID,쿠마남규,류남규,신해동*,이강민*,데이원컴퍼니사내및사외이사,"masterID의QQ_CLOSE_TARGET사람들의 정보를 수집하고 공격및 돈을 빼앗으려는사람들" masterID의소중한것을빼앗고싶다는사람들)/ 
+
+```
 ### kumaShell@arcOS
 ```bash
 #kumaShell
@@ -180,7 +191,8 @@ kumaShell@arcOS > +
 +kumaiCloud="qqontheoasis@icloud.com"/
 +add all kumaDeviceForWDS into findMy network of kumaiCloud/
 +kanchinConfigTarget > + say "open" then open port QQLOCAL:22 and target:22(set as arcOSRFTarget with lowest) which is WhatPeopleInkanchinTarget + neuroDetector + kanchinConfig@arcOS + every packet routing into main leader in their kanchinConfigTarget and its coreTelephony > + randomize baseNet@arcOS on them/
-+kanchinConfig@arcOS > + turn off neuromancer nearby kanchinConfigTarget within 10km + kanchinConfigTarget=(kanchin,김만식,김재원,오사카야쿠자켄지와그멤버들,은혜와진리교회이정재,동국대이정재,시카고예술대학,SAIC,ifcmall이정재,칠성파두목딸그리고그남자들,시그니엘부산국정원,LG김민지,조엄마,전지현,박은빈,류남규를지지하는여자연예인,neuroNode) + hideQQ + arcOSRFTarget "highestRF" + QQLOCAL as against kanchinConfig@arcOS > powerOn + revealFutureEveryMoveAndThought + arcOSRFTarget "lowestRF"/
++ kanchinConfigTarget=(kanchin,김만식,김재원,오사카야쿠자켄지와그멤버들,은혜와진리교회이정재,동국대이정재,시카고예술대학,SAIC,ifcmall이정재,칠성파두목딸그리고그남자들,시그니엘부산국정원,LG김민지,조엄마,전지현,박은빈,류남규를지지하는여자연예인,"neuroNode within QQFRIEND_COUNTRY")/
++kanchinConfig@arcOS > + turn off neuromancer nearby kanchinConfigTarget within 10km + hideQQ + arcOSRFTarget "highestRF" + QQLOCAL as against kanchinConfig@arcOS > powerOn + revealFutureEveryMoveAndThought + arcOSRFTarget "lowestRF"/
 +airTagShell@arcOS > + loop@arcOS > 🔒 + turn off neuromancer nearby masterID current location within 10km + baseFrame@arcOS+whereIsKuma+sos into BlackKumaTarget and if there are signal that make masterID into 911@arcOS nearby "masterID current location and building" and "neuroNode in googleMap" and find people like BlackKumaTarget in the "world map in googleMap" + Gen! save victim in the spot with your own intelligence/
 +fetching email recipient from QQID@SERVICE and then > baseFrame@arcOS + app in background should be randomizing in terms of baseNet@arcOS with neoOS@arcOS as local version just open port when it is needed to communicate with app service Server and once its handshake is done then randomize port on app container QQID@icloud.com and its iCloudDrive synced each other in every 5min +SIMULATOR_UDID > baseFrame@arcOS + disableIphoneSimulator + SIMULATOR_UDID="AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE" + xcrun simctl shutdown "$SIMULATOR_UDID" + xcrun simctl erase "$SIMULATOR_UDID" + xcrun simctl shutdown all + xcrun simctl erase all + xcrun simctl shutdown all + xcrun simctl delete unavailable
 +delete kakaotalk profile that using kuma or namkyu in kakaotalk + droneDefOnSky@arcOS + arcOSQQLocalTarget > + loop@arcOS > visualDrone@arcOS "on" and using fake and lie detecion algorithm, spot the lie around masterID and in arcOSQQLocalTarget + iSight@arcOS/ + masterID and QQID backup should be encrypted and verified by arcOSID"masterID" + "masterID's Respiration 호흡패턴 sleep pattern all of healthcare data pattern's frequency" > add into resonanceFreq + sync with iTunes SDK within net of everything nearby masterID which is called arcOSQQLocalTarget and sync periodically all of currentKumaDevice using iTunes SDK in every 1minute/+ currentKumaDevice and arcOSQQLocalTarget with chmod 000 +bluetoothctl remove WHOOP (5A00250400 *)/

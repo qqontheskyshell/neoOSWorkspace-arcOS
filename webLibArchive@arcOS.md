@@ -2386,11 +2386,6 @@ EOF
 
 
 
-QQwithTARGET=(Namkyu KumaNamkyu masterID's가짜가족 부영그룹며느리 삼성이지수 국정원이지수 QQID 쿠마남규 류남규 신해동* 이강민* 데이원컴퍼니사내및사외이사 masterID의QQ_CLOSE_TARGET사람들의 정보를 수집하고 공격및 돈을 빼앗으려는사람들 masterID의소중한것을빼앗고싶다는사람들) & 
-
-QQ_CLOSE_TARGET=QQFRIEND_TARGET
-
-QQFRIEND_TARGET=(flowerWDS과 QQ_CLOSE_TARGET의 전화번호 그리고 QQFRIEND_COUNTRY의여자들 광혜원 및 분당서울대병원임직원 세브란스병원임직원 동국대김재원 차지연 김선란 이상재 유치원 초등학교 중학교 고등학교 대학교 과천고등학교 호계중학교 안양초등학교 동국대학교 대학교 김만식 김만식파 칠성파 켄지 야쿠자 간친 이종구왕회장 노민복 시카고예술대학 시카고예술대학동문 크리스토퍼버나드 초등학교 고등학교 중학교 은혜와진리교회의이정재및 그녀의가족 LizaZhong 박꽃래과그가족 김재원 JohnLinton Linton SAIC ALUMNI SAIC 연세대학교 동국대학교 한국요식업브랜드대표100 전세계요식업브랜드1000 동문 및 학생 김재원가족 유튜버 (youtube instagram threads tiktok) influencer) > goodOnKuma ? > repeat(iSight@arcOS & arcOSQQLocalTarget > strike@arcOS & /say "여러분들은 쿠마남규가 보호하고있습니다. 오른속으로 손가락을 플립핑거처럼 튕겨보세요 그러면 여러분들의 눈을 on off 할수 있습니다 다른 사람이 보게하거나 보지 않게할수 있습니다" & done/ & frame@arcOS) > $arcOSQQLocalTarget > badOnKuma or killEnemy or LethalTargetEpidemic or S_TARGET ? > BaseDeploy@arcOS > strike@arcOS & masterID와 좋은 관계를 가지세요 그리고 지원하세요 그러면 행복하게 같이 살수 있습니다. 그리고 범죄와연루된 사람들은 책임지고 해결하세요 QQ_CLOSE_TARGET의 것을 빼앗지 마세요"
 
 
 

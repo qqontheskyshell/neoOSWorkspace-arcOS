@@ -419,6 +419,8 @@ RFKit@arcOS > +
 +RFTarget@arcOS="smartCardNFCRFIDsmartChipsInCard"
 +arcOSRFModule/
 
+bioSensoryKit@arcOS > + starbucksFreq@arcOS+arcOSID"masterID"/ 
+
 NeuroKit@arcOS > +
 +baseDeploy@arcOS=(freq="1" + (adjustment* RFGenerator appleRemote ultrasonicsensor ultravioletradiator ultrasonictranducer androidRemote androidTV appleTV xiaomiTVremoteController iOSService schumannGenerator qqcommandbin setSonic signalGenerator soundWaveGenerator) > (23 45 65 13 150 151 140 141) > "(freq "arcOSRFtarget" resonanceFrequencyOfSimcard meshFreq resonanceFreq findLorabandFrequency findLowBandFrequency 65 volumeupMax 53 45 433MHz470MHz510MHz 863928MHz "24GHz5GHz" 1MHz "9200Mhz9230 MHz" "01THz10 THz")" > loop@arcOS(baseFrame@arcOS  linuxshell / "masterID currentKumaDevice hostname access only via arcOSID "masterID" "currentKumaDevice"" > "baseFrame@arcOS  getRouterIP > baseFrame@arcOS  deleteIBoot  linuxshell  wdsShell "  soundForHK / 
 

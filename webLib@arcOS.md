@@ -57,7 +57,7 @@ for region in regions;do
 TESLA=(*.fleet-api.$region.vn.cloud.tesla.com/*)
 QQUNIVERSE=(*.ishares.com/* *.blueorigin.com/* *.starlink.com/* TESLA)
 
-WORLDCLOUD=(GOOGLE_CLOUD AWS STARLINK WEBDOMAIN QQSCALEWAY) &
+WORLDCLOUD=(GOOGLE_CLOUD AWS STARLINK DOMAIN QQSCALEWAY) &
 
 MSPUSSY=(ohseung* 104.42.238.205 104.208.150.192/29 40.70.144.192/29 52.167.104.192/29,20.62.58.128/27 20.42.65.64/29 20.42.73.0/29, 52.168.116.64/29, 20.62.2.160/27 20.194.64.32/29 20.44.24.32/29 52.231.16.32/29 20.194.73.64/27 52.231.151.96/27 52.231.151.88/29 52.147.112.160/27 20.194.64.32/29 20.44.24.32/29 52.231.16.32/29 20.194.73.64/27 52.231.151.96/27, 52.231.151.88/29 52.147.112.160/27 104.208.150.192/2940.70.144.192/29 52.167.104.192/29,20.62.58.128/27 20.42.65.64/29 20.42.73.0/29, 52.168.116.64/29, 20.62.2.160/27 20.194.64.32/29 20.44.24.32/29 52.231.16.32/29 20.194.73.64/27 52.231.151.96/27 52.231.151.88/29 52.147.112.160/27)
 
@@ -68,7 +68,7 @@ cloudIP=$(sudo prep cloud & sudo lsof -i-P-n| grep cloud |awkprint $9)| cut -d: 
 QQCLOUD=(cloudIP *.localstack.cloud/* *.ona.com/* 62.210.150.212 *.linode.com/* *.akamai.com/* *nvidia.com/* studio.firebase.google.com/* studio.firebase.google.com/qqontheskyshell-73609460 app.arduino.cc/sketches/362f5598-799e-4eed-86b0-4ea765a35cdb)/
 
 
-WEBDOMAIN=$(curl -sSL "https://data.iana.org/TLD/tlds-alpha-by-domain.txt" | \ grep -v "^" | \ tr "[:upper:]" "[:lower:]" | \ grep -E "^[a-z]{2}$")/
+DOMAIN=$(curl -sSL "https://data.iana.org/TLD/tlds-alpha-by-domain.txt" | \ grep -v "^" | \ tr "[:upper:]" "[:lower:]" | \ grep -E "^[a-z]{2}$")/
 
 GOOGLE_CLOUD=(GCLOUDVM GCLOUD_IP_RANGE GCLOUD_GATEWAY.gatewayAddress)/
 GCLOUDVM=(sudo gcloud compute instances list --format=json | jq -r "

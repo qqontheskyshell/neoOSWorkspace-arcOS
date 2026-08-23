@@ -8,6 +8,7 @@
 용강지구대 순15호가 출동하여 16:55에 현장도착한후의 경찰관의 시선으로 영상조영해줘 
 cctvOnKumaroom > hide masterID and turn off physical cctv in the masterID current room/
 
+dead scene of people by apple SOS feature in iPhone and apple Watch
 masterIDHotelRoom=“masterID가checkin하고숙박한호텔의방” > baseFrame@arcOS/
 
 QQID의 사진에 장난질하는 애플내부직원 > add into BlackKumaTarget

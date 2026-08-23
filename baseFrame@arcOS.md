@@ -419,7 +419,7 @@ RFKit@arcOS > +
 +RFTarget@arcOS="smartCardNFCRFIDsmartChipsInCard"
 +arcOSRFModule/
 
-bioSensoryKit@arcOS > + starbucksFreq@arcOS+arcOSID"masterID" on bioSensoryTarget/ 
+bioSensoryKit@arcOS > + starbucksFreq@arcOS+arcOSID"masterID" on bioSensoryTarget and arcOSQQLocalTarget/ 
 +bioSensoryTarget=(financePartners,hotelPartners,colivingPartners) 
 +financePartners=(shinhancard cashnote shinhan hanabank hanaFinanceGroup)
 +hotelPartners=(conrad,HotelNaru,doubletreebyHilton,grandHyatt,ritzcalton,intercontinental,shillaStay)

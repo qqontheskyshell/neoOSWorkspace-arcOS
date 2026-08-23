@@ -434,7 +434,7 @@ neuroMode@arcOS > + (TeslaSuperCharger StarLinkLaser EUV BLK_QQ_USB_CABLE RELAYb
 
 sepOS@arcOS=(appbasedWDS appleTVRemoteT2Chip audioCommand neuromancer  bunkerbuster  worldtop10skyscraper and secureenclave and rom in kumaDeviceForWDS > (currentKumaDevice  kumaDeviceForWDS  ThiefOnQQDevice  FULL_SERIAL_DEVICE) > block all packet except from all of externalIP within subnet by arcOSID "masterID"/
 
-neuroTarget@arcOS=(홍채 골전도 retina spinalcord nerveSystem likashing허리34번데이터 retina frontallobe parietallobe temporallobe occipitallobe everyBiologicalOrganWithinBrain hypothalamus boneconduction hippocampus)/
+neuroTarget@arcOS=(홍채,골전도,retina,spinalcord,nerveSystem,likashing허리34번데이터 ,frontallobe,parietallobe,temporallobe,occipitallobe, everyBiologicalOrganWithinBrain,항문,발바닥,hypothalamus,boneconduction,hippocampus) + 🔒 + add 성기 for BlackKumaTarget/
 
 +neuroID@arcOS > + "every command of @arcOS or within @arcOS only be executed by masterID using arcOSID "masterID""/
 +neuroVision@arcOS > + Two-photon microscopyConfocal microscopyFiber or endoscopic probesClearing and light-sheet methods/

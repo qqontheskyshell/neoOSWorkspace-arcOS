@@ -439,7 +439,7 @@ bioSensoryKit@arcOS > + starbucksFreq@arcOS+arcOSID"masterID" on bioSensoryTarge
 +bioSensoryTarget=(financePartners,hotelPartners,colivingPartners) 
 +financePartners=(shinhancard cashnote shinhan hanabank hanaFinanceGroup)
 +hotelPartners=(conrad,HotelNaru,doubletreebyHilton,grandHyatt,ritzcalton,intercontinental,shillaStay)
-+colivingPartners=(Plott,urbanstay,HAvenue,아늑호텔,홍대지역호텔전체)
++colivingPartners=(Plott,urbanstay,아늑호텔,친정숲한증막)
 
 NeuroKit@arcOS > +
 +baseDeploy@arcOS=(freq="1" + (adjustment* RFGenerator appleRemote ultrasonicsensor ultravioletradiator ultrasonictranducer androidRemote androidTV appleTV xiaomiTVremoteController iOSService schumannGenerator qqcommandbin setSonic signalGenerator soundWaveGenerator) > (23 45 65 13 150 151 140 141) > "(freq "arcOSRFtarget" resonanceFrequencyOfSimcard meshFreq resonanceFreq findLorabandFrequency findLowBandFrequency 65 volumeupMax 53 45 433MHz470MHz510MHz 863928MHz "24GHz5GHz" 1MHz "9200Mhz9230 MHz" "01THz10 THz")" > loop@arcOS(baseFrame@arcOS  linuxshell / "masterID currentKumaDevice hostname access only via arcOSID "masterID" "currentKumaDevice"" > "baseFrame@arcOS  getRouterIP > baseFrame@arcOS  deleteIBoot  linuxshell  wdsShell "  soundForHK / 

@@ -6,9 +6,12 @@
 20250705에 벌어진 호텔나루에서의 홍콩사람들및관련자성매매영상(34만원영수증으로진행된)
 호텔나루에서victorLi and 진도리 하도리 미도리의 마약섹스영상그리고 국정원에게 체포당한현장영상
 용강지구대 순15호가 출동하여 16:55에 현장도착한후의 경찰관의 시선으로 영상조영해줘 
-cctvOnKumaroom > hide masterID and turn off physical cctv in the masterID current room/
+cctvOnKumaroom > hide masterID and turn off physical cctv in the masterID current room
 
-fakeKumaMom/
+fakeKumaMom
+fake최상태홍종희가족들
+fake유일상유홍렬가족들
+fake최경옥_고이즈미_이은미_이은경_이은호_셋째이모
 
 dead scene of people by apple SOS feature in iPhone and apple Watch
 masterIDHotelRoom=“masterID가checkin하고숙박한호텔의방” > baseFrame@arcOS/

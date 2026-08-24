@@ -382,7 +382,7 @@ terminal@arcOS="/currentKumaDevice or arcOSRFTarget/ > baseDeploy@arcOS 65 > int
 
 arcOSRFtarget=(destructiveResonance currentKumaDevice arcOSQQObject arcOSObject KumaRFNode QQitems MaliciousHackerTools 안경다리 안경* 척추 부랄 고환 음경손가락 시상하부 전두엽 관절 연골 척수 전정기관 중추신경계 hippocampus 측두엽 코속 혈액 침 정액 똥 생리분비물 위액 측간 위 대장 소장 신장 요도관 전립선 항문 똥꼬 복숭아뼈 손목 손 다리 발 골반 허리 목 두개골 눈 코 잎 혀 이 귀 가방 배터리팩 아이폰 아웃렛 플러그 충전케이블 침대 화장실 쓰레기더미 빨래 안경 여자치마안쪽 여자속옷 가스레인지 인덕션 전자레인지 텔레비전 /arcOSQQObject=(arcOSID "masterID" what see via eyes and glasses and masterIDsmartGlasses)/ 신발 팬티 내의 양말 시계 안경다리 머리뒤통수 머리카락 시상하부 브래지어 (생리대) > only female < 45 > goodshell +  arcOSRFtarget:BaseNet@arcOS> goodshell /
 
-ProtectedRFTARGET=(QQFRIEND_COUNTRY currentLocation urgentProtectingTarget CORESPOT geoLocationOfmasterID kumaroom arcOSKumaRoom)/
+ProtectedRFTARGET=(QQFRIEND_COUNTRY,masterIDcurrentLocation, urgentProtectingTarget,CORESPOT,geoLocationOfmasterID,kumaroom,arcOSKumaRoom, masterIDKeyword)/
 
 
 DeviceKit@arcOS > 

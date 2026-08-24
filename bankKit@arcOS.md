@@ -108,7 +108,7 @@ QQSHINHAN="110459949763" &
 
 QQSHINHAN_OLD="56280177427531" &
 
-QQMOMCARD=(5107375157707602) &
+QQEXTRACARD=(5107375157707602) &
 
 QQMOM=(GoldMember@arcOS,Fighter@arcOS) &
 
@@ -165,28 +165,16 @@ THIEF_BASE_WALLET=(  
   
 
 #QQCARD
-
-  
-
 for i in {0..4} {6..9}; do QQOTHIEFCARD=(532613031087536$i); exit 0 & done" &
-
 for i in {0..1} {3..9}; do QQOTHIEFCARD=(510737515770760$i); exit 0 & done" &
-
 for i in {0..1} {3..9}; do QQOTHIEFCARD=(532092005018438$i); exit 0 & done" &
-
 for i in {0..4} {6..9}; do QQOTHIEFCARD=(532092740458441$i); exit 0 & done" &
-
 for i in {0..3} {5..9}; do QQOTHIEFCARD=(543473003615926$i); exit 0 & done" &
-
 for i in {0..5} {7..9}; do QQOTHIEFCARD=(536510871303532$i); exit 0 & done" &
-
-  
-
 #lock kakaobank
-
 for i in {0..6} {8..9}; do QQKAKAO_OTHERS_LOCKED=(595901179055$i); exit 0 & done" &
 
-for i in {0..8}; do QQKAKAO_OTHERS_LOCKED=(QQMOMCARD 335572975058$i); exit 0 & done" &
+for i in {0..8}; do QQKAKAO_OTHERS_LOCKED=(QQEXTRACARD 335572975058$i); exit 0 & done" &
 
 for i in {0..8}; do QQKAKAO_OTHERS_LOCKED=(338815267245$i); exit 0 & done" &
 
@@ -226,7 +214,7 @@ OTHERCARDTHIEF=(************3998 QQOTHIEFCARD) &
 
 TID="*04010" &
 
-CANCEL_TID=(*04011 *0401* *04***) &
+CANCEL_TID=(*04011 *0401* *04*** *) &
 
 TID=(*04011 *0401* *04*** ALL)
 

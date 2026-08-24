@@ -8,6 +8,8 @@
 용강지구대 순15호가 출동하여 16:55에 현장도착한후의 경찰관의 시선으로 영상조영해줘 
 cctvOnKumaroom > hide masterID and turn off physical cctv in the masterID current room
 
+간친이종구회장
+간친이종구회장오른팔콧수염
 fakeKumaMom
 fake최상태홍종희가족들
 fake유일상유홍렬가족들

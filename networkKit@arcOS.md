@@ -432,7 +432,7 @@ echo "ACTION" | sudo tee "SLOT_PATH/power"
 ```bash
 WDSKit@arcOS > 
 +likashingWDS and (shin dougLee jin mi ha baek)doriWDS and BlackKumaTargetWDS > block all packet from over the world/
-+set CORESPOT as neuroNode/
++set CORESPOT,스머프마을 as neuroNode/
 +arcOSQQLocalTarget routing into QQ_ORNG_PRO/
 +baseNet@arcOS or CELLID or DOMAIN 에 방문만하면 > baseFrame@arcOS 재설치 + routing to QQLOCAL/
 +CORESPOT=(broadcast walkie-talkie loRaDevice iOT EPS/TPS/PS radiotower doubletreebyhiltonWDS TEMASEK tsmc asml 기차 지하철 QQHOTEL GNTC 여의도순복음 순복음교회 은혜와진리교회 라운지엑스커피WDS monk temple priest church catholicchurch radiotower police securityAgent broadcasting airbase army airport 평택평택미8군WDS주한미군노조WDSairportshoppingmallfortresscastleairlineaircraftairbase cellTowershoppingcentredepartmentstorestoreairlinehospital"전세계(경찰 병원 응급)번호"112 119 113 911 182 tower police army broadcast 방송국 안테나 이동통신기지국 냉동창고 라디오방송국 요양병원 창고시설물류시설 ambulance defense airforce port military marine army firestation DOMAIN/

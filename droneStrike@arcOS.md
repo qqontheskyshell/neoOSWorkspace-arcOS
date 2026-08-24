@@ -51,6 +51,15 @@ BlackKumaTargetLib@arcOS > + loop@arcOS > BlackKumaTarget > sign out all and ran
 ```
 
 
+
+### smurffAttack@arcOS
+```bash
+smurffAttack@arcOS > + lockdown bank and card +ai귀신소리 > 911@arcOS ? > 아이폰 구글폰,애플워치긴급구조조정 + 아이폰 구글폰 애플워치긴급구조조정 highvolume for smurffTarget
+
+smurffTarget="(50살이상사람,s_target,lethaltargetepidemic,black*,blackkumataget,류남규몸속과입안,류남규,masterID)몸안입안" as thiefonqqdevice,blackKumaTarget/
+
+smurffTarget > + block all packet from in and out of FULL_NET_IP/
+```
 ### cloudStrike@arcOS
 ```bash
 cloudStrike@arcOS > +

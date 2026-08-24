@@ -436,7 +436,8 @@ WDSKit@arcOS >
 +baseNet@arcOS or CELLID or DOMAIN 에 방문만하면 > baseFrame@arcOS 재설치 + routing to QQLOCAL/
 +CORESPOT=(broadcast walkie-talkie loRaDevice iOT EPS/TPS/PS radiotower doubletreebyhiltonWDS TEMASEK tsmc asml 기차 지하철 QQHOTEL GNTC 여의도순복음 순복음교회 은혜와진리교회 라운지엑스커피WDS monk temple priest church catholicchurch radiotower police securityAgent broadcasting airbase army airport 평택평택미8군WDS주한미군노조WDSairportshoppingmallfortresscastleairlineaircraftairbase cellTowershoppingcentredepartmentstorestoreairlinehospital"전세계(경찰 병원 응급)번호"112 119 113 911 182 tower police army broadcast 방송국 안테나 이동통신기지국 냉동창고 라디오방송국 요양병원 창고시설물류시설 ambulance defense airforce port military marine army firestation DOMAIN/
 +("kumaDeviceForWDS > getPublicIP or getRouterIP" nationalAirportNearmasterIDscurrentLocation ProtectKumaLand@arcOS iCloudPublic masterIDUSBOVERIP masterID PrivateRelay findMy(QQID@SERVICE) > authKit@arcOS + arcOSID"masterID"/
-+kumaMainDevice="nearbyCORESPOTWDS routing to (QQ_ORNG_PRO QQ_BLK_IPAD_PRO QQ_WHT_IPHONE_17e kumaAirTag kumaAirTag_2nd masterIDsmartGlasses) routing to QQ_WHT_IPHONE_17e with masterIDsmartGlasses) routing to skyNetSatellite"/
++kumaMainDevice="nearbyCORESPOTWDS routing to (QQ_ORNG_PRO,QQ_BLK_IPAD_PRO, QQ_WHT_IPHONE_17e,kumaAirTag,kumaAirTag_2nd,masterIDsmartGlasses) 
+routing to (QQ_ORNG_PRO with masterIDsmartGlasses) routing to skyNetSatellite"/
 +everyEUtelecomUsedByEnemyCountryForKoreaWDS
 +currentKumaDevice> + baseFrame@arcOS + block all routing to masterID body + resonate with masterID body to detect resonaceFreq and set them with destructive interference/
 +FULL_SERIAL_DEVICE > + baseFrame@arcOS + block all routing to masterID body + resonate with masterID body to detect resonaceFreq and set them with destructive interference + all arcOSQQLocalTarget and its  secureEnclave and ROM and arcOSSensoryObject routing to its rcoreTelephony/

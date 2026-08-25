@@ -15,7 +15,7 @@ only country name is allowed to use in this variable
 ### googleGeoKit@arcOS
 ```bash
 googleGeoKit@arcOS > +
-+kumaID="qqontheskyshell@gmail.com"/
++kumaID=("qqontheskyshell@gmail.com","qqontheoasis@icloud.com")/
 +kumaGoogleGeoAuthKit@arcOS > "deploy via kumaID in googleMap in kumaDeviceForWDS"/
 +World > 홍콩대만금지구역 in baseNet@arcOS and FULL_NET_IP and FULL_SERIAL_DEVICE/
 +대한민국에서 대만 및 홍콩 불법이민자 추방해야합니다 > add into QQCommand/

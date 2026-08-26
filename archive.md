@@ -1564,7 +1564,7 @@ linuxshell &
 
 iosshell &
 
-when arcOSRFtarget identify other female or male > repeat(baseFrame@arcOS & setWDS arcOSQQLocalTarget & / masterID (desk chair sofa room bed) > macmanagement & strikeontheSAT &  20 < female AGE < 40 & APPLEMDM > delete* &
+when arcOSRFtarget identify other female or male > repeat(baseFrame@arcOS & setWDS arcOSQQLocalTarget & / masterID (desk chair sofa room bed) > macmanagement & strikeontheSAT &  20 < female AGE < femaleAge & APPLEMDM > delete* &
 
 blockPacket "LethalTargetEpidemic > badOnKuma" "FULL_NET_IP" &
 

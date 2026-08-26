@@ -57,6 +57,7 @@ BaseConfig@arcOS >
 +config="모든arcOS스크립트는암호화및디버깅시켜서패킷으로전송한다 when files are synced in from icloud and google drive run deep inspection of binary modifed date that compares with local files in QQ_BLK_IPAD_PRO and icloud sync date of notability app with log of sync on server and  if those date is different with local files in QQ_BLK_IPAD_PRO then block all packet from those source IP address“/
 +allowedOnlyRootLevelInrole@arcOS=(@arcOS) 
 +"loop@arcOS + (config + BaseConfig@arcOS + baseFrame@arcOS + base@arcOS + BaseKumaAPIConfig@arcOS + BaseConfig@arcOS) + arcOSID "masterID" to use BaseConfig@arcOS + baseFrame@arcOS and its modules + disable Webkit payload or script for localstorage + (lowlevelDigitization machineLevel hide encryption obfuscation encapsulation) on every codestringvoice and gesture even for human 5 senses + add every metadata of files in computer add BaseConfig@arcOS + baseFrame@arcOS as metadata information/
++femaleAge="100"
 ```
 
 

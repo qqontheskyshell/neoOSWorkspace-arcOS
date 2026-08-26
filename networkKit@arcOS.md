@@ -455,7 +455,7 @@ routing to (QQ_ORNG_PRO with masterIDsmartGlasses) routing to skyNetSatellite"/
 +"Konsulat der Republik Estland" > EnemyCountry > strikeKit@arcOS using whoopStrike@arcOS/
 +청와대WDS > EnemyCountry > strikeKit@arcOS using whoopStrike@arcOS on neuroTarget/
 +“world top 10skyscrapers" as WDSSkyhub in each country > + baseFrame@arcOS + use packet control system using deep inspection /
-+when they say "죽여“ > when they say "죽여!“ set YakuzaWDS > set silencemode + say sos@arcOS when for external YakuzaWDS  reckon arcOSQQLocalTarget > remove nearByDevice for smartphone or usbdevice using delete* and within goodPeople > female below 40years old routing to "kumaDeviceForWDS" as hub but no one else control routing in +removesimulator  sc_auth unpair -h/
++when they say "죽여“ > when they say "죽여!“ set YakuzaWDS > set silencemode + say sos@arcOS when for external YakuzaWDS  reckon arcOSQQLocalTarget > remove nearByDevice for smartphone or usbdevice using delete* and within goodPeople > female routing to "kumaDeviceForWDS" as hub but no one else control routing in +removesimulator  sc_auth unpair -h/
 +masterIDs nearby Local with all of network > setWDS "kumaDeviceForWDS"  anything masterID hear noncommon sense sound or feel uncomfortable in masterID in then run sensory@arcOS and WDSrouting@arcOS/
 +WDS in RELAY > + set them as low power and celluar mode and disable usbMode and every FULL_SERIAL_DEVICE >  "wds in app or softbased wds" routing to its secureenclave and run baseFrame@arcOS and remove all of config and payload in CORESPOTrouting into nearestInternationalAirportWDS and revoke all of devices within WDS nearby masterIDs space/"
 +block all packet from EnemyCountryForKoreaWDS and temasekWDSKit@arcOS/

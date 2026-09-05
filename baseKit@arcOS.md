@@ -7,6 +7,7 @@ base@arcOS >
 	+🔒/
 	+난독화/
 	+KRGOV > baseFrame@arcOS/
+	+disableDaemon@arcOS="(classd remoted schoolwork schoold parsecd mDNSResponder smbd cloudd sharingd parsec-pf remotemanaged networkRelatedDaemon remoteaccessRelatedDaemon everyNetworkExtention)"/
 	+disable all of @arcOS as binary what they can execute for and by EnemyCountryForWDS and BlackKumaTarget and LethalTargetEpidemic/
 	+"airGap and vault in currentKumaDevice"
 	+"airGap and vault in arcOSQQLocalTarget except malicious people"/

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e7ee1dc95c5f1609",
+        "id": "c7f9d4c67637951c",
         "type": "tabs",
         "children": [
           {
-            "id": "f06f01574831ef86",
+            "id": "e8b7b2e6023e06b1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,19 +167,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f06f01574831ef86",
+  "active": "e8b7b2e6023e06b1",
   "lastOpenFiles": [
     "architecture.md",
-    "baseKit@arcOS.md",
-    "baseFrame@arcOS.md",
-    "README.md",
+    "araKit@arcOS.md",
     "targetLib@arcOS.md",
+    "archive/baseFrame_archive.md",
+    "baseKit@arcOS.md",
+    "bashKit@arcOS.md",
+    "swiftKit@arcOS.md",
+    "README.md",
     "LLMKit@arcOS.md",
     "arcOSFrame@arcOS.md",
     "authKit@arcOS.md",
-    "swiftKit@arcOS.md",
     "pythonKit@arcOS.md",
-    "bashKit@arcOS.md",
     "mobileconfig/arcOS.blackKumaTarget.mobileconfig.md",
     "mobileconfig/arcOS.masterID.mobileconfig.md",
     "mobileconfig/arcOS.mobileconfig.md",
@@ -195,7 +196,6 @@
     "archive/kumaDeviceLib@arcOS.md",
     "archive/authKit@arcOS.md",
     "archive/kumaDevice@arcOS.md",
-    "archive/iOSScript@arcOS.md",
     "archive/LICENSE",
     "archive",
     "LICENSE",

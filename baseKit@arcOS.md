@@ -1,4 +1,7 @@
+```bash
 baseKit@arcOS=(base@arcOS,baseConfig@arcOS,baseNet@arcOS,baseKey@arcOS,baseNeuro@arcOS,baseKuma@arcOS,baseMasterID@arcOS,blueTeamConfig@arcOS,starCraftontheWar@arcOS)
+
+```
 
 ### base@arcOS
 ```bash

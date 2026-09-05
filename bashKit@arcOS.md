@@ -1,6 +1,5 @@
 
 
-
 ```bash
 #!/usr/bin/env bash
 set -euo pipefail
@@ -51,9 +50,7 @@ esac
 
 
 ```
-
 ### base@arcOS
-```bash
 base@arcOS >
 +loop@arcOS
 	+🔒/
@@ -117,86 +114,43 @@ APPLEMDM,arcOSQQLocalTarget,QQLOCAL > 📡🛰️+ iosshell + chkrootkit -x+linu
   
 
 ####### ####### ####### ##########################################
-
 ####### bashModule ####### ####### ####### ####### ####### 
-
-  
-
-  
 
 #!/usr/bin/env bash
 
-  
-
 set -u
-
-  
-
 # Required environment variables:
-
 # export NAVER_CLIENT_ID="your-ncloud-client-id"
-
 # export NAVER_CLIENT_SECRET="your-ncloud-client-secret"
 
-  
-
 INPUT_FILE="${1:-gps.csv}"
-
 OUTPUT_FILE="${2:-gps_with_regions.csv}"
-
-  
 
 API_URL="https://maps.apigw.ntruss.com/map-reversegeocode/v2/gc"
 
-  
-
 if [[ -z "${NAVER_CLIENT_ID:-}" || -z "${NAVER_CLIENT_SECRET:-}" ]]; then
-
     echo "Error: set NAVER_CLIENT_ID and NAVER_CLIENT_SECRET first."
-
     exit 1
-
 fi
-
-  
 
 if [[ ! -f "$INPUT_FILE" ]]; then
-
     echo "Error: input file not found: $INPUT_FILE"
-
     exit 1
-
 fi
-
-  
 
 if ! command -v jq >/dev/null 2>&1; then
-
     echo "Error: jq is required."
-
     echo "Install it with: sudo apt install jq"
-
     exit 1
-
 fi
-
-  
-
 if ! command -v curl >/dev/null 2>&1; then
-
     echo "Error: curl is required."
-
     exit 1
-
 fi
-
-  
 
 # Output header
-
 echo "latitude,longitude,altitude,region_name,region_code,status" > "$OUTPUT_FILE"
 
-  
 
 # Skip the CSV header
 
@@ -780,106 +734,14 @@ SimResponse.ports)
 
   
 
+```
   
-
-####### ####### ####### ##########################################
-
-####### pythonModule ##########################################
-
-#!/usr/bin/env python3 
-
-#python deployment module
-
-import lldb
-
-  
-
-debugger = lldb.SBDebugger.Create() 
-
-debugger.SetAsync(False)
-
-  
-
-target = debugger.CreateTargetWithFileAndArch("arcOSFrameApp", lldb.LLDB_ARCH_DEFAULT) 
-
-process = target.LaunchSimple(None, None, None)
-
-  
-
-#Do something, e.g. stop at main
-
-process.Continue()
-
-  
-
-#Keep process alive; don't call process.Kill() or debugger.Terminate()
-
-Just leave it running or stopped as needed.
-
-  
-
-#Optionally drop into interactive LLDB: 
-
-debugger.RunCommandInterpreter(True, False)
-
-  
-
-ci = debugger.GetCommandInterpreter()  
-res = lldb.SBCommandReturnObject()  
-ci.HandleCommand(f"platform select remote-*", res)  
-ci.HandleCommand(f"platform connect {arcOSQQLocalTarget,kumaDeviceForWDS,currentKumaDevice}", res)
-
-  
-
-#runshortcutusingpython
-
-#!/usr/bin/env python3 
-
-  
-
-import subprocess 
-
-import sys
-
-  
-
-approved_shortcuts = [ "*"
-
-]
-
-  
-
-for shortcut_name in approved_shortcuts: 
-
-print(f"Running: {shortcut_name}")
-
-  
-
-if result.stdout:
-
-    print(result.stdout, end="")
-
-  
-
-if result.returncode != 0:
-
-    print(
-
-        f"Failed ({result.returncode}): {shortcut_name}",
-
-        file=sys.stderr,
-
-    )
-
-    if result.stderr:
-
-        print(result.stderr, file=sys.stderr) 
-
   
 
   
 
   
+```swift
 
 ####### ####### ####### ##########################################
 
@@ -1750,8 +1612,11 @@ final class ThreeMinuteScheduler: ObservableObject {
     }
 
 }
+```
 
-  
+
+
+```arcOS
 
 ####### ####### ####### #######
 

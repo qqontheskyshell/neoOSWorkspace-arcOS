@@ -33,6 +33,8 @@ https://ai.google.dev/gemini-api/doc
 https://github.com/Airalo/airalo-nodejs-sdk
 https://publish.obsidian.md/qqontheskyshell/*
 https://github.com/twelvelabs-io
+https://github.com/airgap-it
+https://github.com/buildonspark/spark
 Trainin all of Apple classified and official product and technology documentation related to hardware and software.
 "
 

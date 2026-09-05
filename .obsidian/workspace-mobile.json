@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "02dc4a8b81475fe1",
+        "id": "148f8a8bc50948d8",
         "type": "tabs",
         "children": [
           {
-            "id": "045b277511cc62ac",
+            "id": "3b590df4d2762b5b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,10 +167,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "045b277511cc62ac",
+  "active": "3b590df4d2762b5b",
   "lastOpenFiles": [
-    "baseKit@arcOS.md",
     "bashKit@arcOS.md",
+    "droneKit@arcOS.md",
+    "baseKit@arcOS.md",
     "swiftKit@arcOS.md",
     "pythonKit@arcOS.md",
     "baseConfig@arcOS.md",
@@ -195,7 +196,6 @@
     "archive/androidKit@arcOS.md",
     "archive/cloudKit@arcOS.md",
     "archive/skyNet@arcOS.md",
-    "archive/baseFrame@arcOS+archive.md",
     "archive/LICENSE",
     "archive",
     "LICENSE",

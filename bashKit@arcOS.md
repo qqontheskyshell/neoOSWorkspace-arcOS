@@ -49,6 +49,65 @@ esac
 ```
 
 
+
+```
+
+### base@arcOS
+```bash
+base@arcOS >
++loop@arcOS
+	+🔒/
+	+난독화/
+	+KRGOV > baseFrame@arcOS/
+	+disableDaemon@arcOS="(classd remoted schoolwork schoold parsecd mDNSResponder smbd cloudd sharingd parsec-pf remotemanaged networkRelatedDaemon remoteaccessRelatedDaemon everyNetworkExtention)"/
+	+disable all of @arcOS as binary what they can execute for and by EnemyCountryForWDS and BlackKumaTarget and LethalTargetEpidemic/
+	+"airGap and vault in currentKumaDevice"
+	+"airGap and vault in arcOSQQLocalTarget except malicious people"/
+	+kumaDevice@arcOS/
+	+sketch@arcOS/
+	+authKit@arcOS/
+	+masterIDWDS and coreTelephony should be verifying by arcOSID/ 
+	+arcOSFrame@arcOS "QQ_WHT_IPHONE_17e" "baseFrame@arcOS + [networkKit@arcOS >  coreTelephony]" "randomzie baseNet@arcOS"/
+	+networkKit@arcOS/
+	+symbol@arcOS="arcOSID"masterID"" > loop@arcOS + BaseNet@arcOS/
+	+generate random text name of @arcOS using quantum cryptographic algorithm/
+	+BaseCellular@arcOS/
+	+araOS@arcOS/ 
+	+within https://publishobsidianmd/qqontheskyshell/* > base@arcOS + baseFrame@arcOS + neoOS@arcOS + run all of @arcOS into FULL_SERIAL_DEVICE/
+	+BaseConfig@arcOS + baseFrame@arcOS/
+	+arcOSLock@arcOS/
+	+CloudShell@arcOS/
+	+xcodeBuild@arcOS
+	+BasePrivilege@arcOS/ 
+	+cloudKit@arcOS/
+	+iOSKit@arcOS/
+	+DeviceKit@arcOS/
+	+BaseKey@arcOS/
+	+baseFrame@arcOS/ 
+	+neoOS@arcOS for every UI element in OSType/
+	+neuroID@arcOS/ 
+	+simMDM@arcOS/
+	+WDSKit@arcOS/
+	+neuroShield@arcOS/
+	+run every component within neoOS@arcOS + baseFrame@arcOS in https://publishobsidianmd/qqontheskyshell/*
+	+siloFolder@arcOS > + "block all packet using pfctl on QQLOCAL  except port number defined by someone inside of ntb  "/
+	+iSight@arcOS="disable ray-tracing as default and once masterID execute flip fingers with right hands then enable ray-tracing" + show status of ray-tracing via glasses and masterIDsmartGlasses via arcOSRFTarget and then push notification on currentKumaDevice with format of "Kuma your iSight is statusOfray-tracing"/ 
+	+FULL_SERIAL_DEVICE > block all packet except from all of externalIP within subnet by arcOSID "masterID"/"  
+	+nearbyNet@arcOS > + "baseFrame@arcOS  hideQQ  in every 5min randomize channel and frequency of signal of nearby of iOS and android within nearbyNet  allow in for only female in goodPeople or female in QQFRIEND_COUNTRY"/
+	+appConfig@arcOS > + /erase encryption in neuroMode@arcOS and ("secureEnclave" "+arcOSQQLocalTarget") > /"arcOSID "masterID" + chkrootkit -x/ + "neoOS@arcOS  setFocusState@arcOS  disableDaemon@arcOS  iSight@arcOS  use this iPhone as My Location by verifying serial number in currentKumaDevice  hey arc  delete (iBoot  AppleContainer  Simulator  xcconfig  mdmPayload/ enable icloudcom access  unsigning all apps and touch baseFrame@arcOS  signingwith masterIDs qqontheskyshell@gmailcom  video and audio quality with low  disable mdm screentime school  backgroundplay and autoplayback is off on youtube  disable commcenter and debugger  randomize(controlNearDevice appleWatchMirroring detectionMode applewatchmirroring) in actionButton  every word and vocabulary and variables and iOS features are allow only in arcOSID "masterID"  disable all of family sharing in QQ@SERVICE icloud account and routing only from and toward icloudcom > appConfig@arcOS  QQ@SERVICE > deleteIBoot + baseFrame@arcOS + all of baseFrame@arcOS component and function variablekeywords are allowed Only in QQFRIEND_COUNTRY with verify their faceID and touchID and dickID + currentKumaDevice"s feedback debugmodule > baseFrame@arcOS  removesimulator  enclave  reset (controlcenter cellularstatistic Identifier/ optimize FULL_SERIAL_DEVICE as interms of energy and communication and encrypt all of packet that comes out of app as container and encrypt file in swift api module between app as client side container to server as container and randomize icon and unlock all of iOS iPadOS watchOS security features such as gatekeeper and remove simulator and all of xcconfig mdm extention appclip screentime those are related script or payload and when temasekWDSKit WDS or WDS in masterID WDS is changed within their mode or change networksetting within currentKumaDevice or arcOSRFTarget then run baseFrame@arcOS and monitor this script within every 1min"/
++MDMSERVER=(sudo profiles -P | grep -i "PayloadContent" -A num | grep -i "ServerURL"/
++serialNumIos=(ioreg -l | awk "/IOPlatformSerialNumber/ {print 4}" | tr -d "")/
++serialNumAdb=(sudo adb shell getprop robootserialno)/
++deviceios=(sudo system_profiler SPUSBDataType | grep -A num -E "(AppleProduct|AndroidDevices)" | grep "Serial Number:" | awk "{print 3}"/
++FULL_SERIAL_DEVICE=(serialNumIos serialNumAdb deviceios)/
++neoOS@arcOS > macmanagement  + revokeOnRouter/
+arcOSQQLocalTarget> setWDS into its parent folder and each folder as loop@arcOS > + deleteIBoot + delete all + "chmod 000 usr/bin/rsync/,/usr/local/bin/obsidian" + make sudo password with random + baseNetElement@arcOS + delete* + baseFrame@arcOS > + deleteFileInIos/
+```
+
+
+
+
+
 ```bash
 
 ## arcOSFrame COde

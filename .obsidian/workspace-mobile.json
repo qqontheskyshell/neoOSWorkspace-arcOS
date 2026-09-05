@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e87c610ff99fec89",
+        "id": "2537d8f66036426c",
         "type": "tabs",
         "children": [
           {
-            "id": "b66935cd3a4cb7f2",
+            "id": "a5b32606f357d06c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,8 +167,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b66935cd3a4cb7f2",
+  "active": "a5b32606f357d06c",
   "lastOpenFiles": [
+    "README.md",
     "targetLib@arcOS.md",
     "baseKit@arcOS.md",
     "LLMKit@arcOS.md",
@@ -195,7 +196,6 @@
     "archive/authKit@arcOS.md",
     "archive/kumaDevice@arcOS.md",
     "archive/iOSScript@arcOS.md",
-    "archive/LLMKit@arcOS.md",
     "archive/LICENSE",
     "archive",
     "LICENSE",

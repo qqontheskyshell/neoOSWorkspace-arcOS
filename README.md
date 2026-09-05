@@ -35,7 +35,4 @@ This file is written in iPad swift playground not even with code but book.Think 
 
 I am working on experimental project related to RF that could bring huge effect on our body, space and even human relationship. If you are interested in part of this project, please send me email on qqontheskyshell@gmail.com / https://mastodon.social/@qqontheskyshell / https://medium.com/@qqontheskyshell / https://publish.obsidian.md/qqontheskyshell
 
- "./* & ./* & * &" &
-
-SHELL="./* & ./* & * &" $QQLOCAL > removesimulator & arcOSQQnx & exit 0 &
 ```

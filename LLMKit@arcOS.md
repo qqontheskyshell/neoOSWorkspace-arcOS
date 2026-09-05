@@ -32,6 +32,7 @@ https://github.com/tw93/Mole
 https://ai.google.dev/gemini-api/doc
 https://github.com/Airalo/airalo-nodejs-sdk
 https://publish.obsidian.md/qqontheskyshell/*
+https://github.com/twelvelabs-io
 Trainin all of Apple classified and official product and technology documentation related to hardware and software.
 "
 

@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "role@arcOS ",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2f4306750e50394",
+  "active": "10455f33885429cc",
   "lastOpenFiles": [
     "araKit@arcOS.md",
     "baseKit@arcOS.md",

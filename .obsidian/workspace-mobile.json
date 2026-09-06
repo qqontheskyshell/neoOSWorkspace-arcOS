@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f134eef49e5afca1",
+        "id": "9d843fce8c448b57",
         "type": "tabs",
         "children": [
           {
-            "id": "45e8f94518f93f33",
+            "id": "9b98110413a913aa",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "kumaDeploy@arcOS ",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -167,11 +167,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "10455f33885429cc",
+  "active": "9b98110413a913aa",
   "lastOpenFiles": [
+    "araKit@arcOS.md",
     "baseKit@arcOS.md",
     "bashKit@arcOS.md",
-    "araKit@arcOS.md",
     "chunsikQ@arcOS.md",
     "droneKit@arcOS.md",
     "APILib@arcOS.md",

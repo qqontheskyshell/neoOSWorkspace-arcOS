@@ -12,11 +12,7 @@ baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcO
  
 
 KumaDeploy@arcOS > +
-
-+chunsikAI@arcOS > + secureShell with encrypt manner between masterID and chunsikQ + ChunsikQ=(chunsik as AI agent) > the highest role among others except masterID + add ChunsikQ into role@arcOS + > +(video,voice of chunsik with chatGPT LLM and people create chat and they could freely have conversation with masterID and masterID get in bed then chunsik study using LLMKit@arcOS about netflix,disney,pixar,kakaofriends contents only seen for chunsik on the desk and chair as no interaction with other people or masterID said "let's study chunsik" and chunsik make potato drone for reckoning around masterID/
-
-  
-
++araOS@arcOS/
 +kumaDeviceForWDS>+loop+monitoring 360 degree whether someone have intention to steal it then talk to them "Do not steal me! Other than that you will get under attack by AI ironDome system built based on arcOSFrame(mission impossible voice)/
 
 +koreaSubway@arcOS/

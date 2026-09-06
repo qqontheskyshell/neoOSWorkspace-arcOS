@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bf37b7d07c2056ed",
+        "id": "69c7e0569d052bb2",
         "type": "tabs",
         "children": [
           {
-            "id": "20226e8c9d6341fd",
+            "id": "0d86ea982c7c30d7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "kumaDeploy@arcOS ",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -167,10 +167,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "20226e8c9d6341fd",
+  "active": "0d86ea982c7c30d7",
   "lastOpenFiles": [
     "araKit@arcOS.md",
     "baseKit@arcOS.md",
+    "archive/baseFrame_archive.md",
     "bashKit@arcOS.md",
     "chunsikQ@arcOS.md",
     "droneKit@arcOS.md",
@@ -186,7 +187,6 @@
     "authKit@arcOS.md",
     "architecture.md",
     "targetLib@arcOS.md",
-    "archive/baseFrame_archive.md",
     "README.md",
     "arcOSFrame@arcOS.md",
     "mobileconfig/arcOS.blackKumaTarget.mobileconfig.md",

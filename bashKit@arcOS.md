@@ -69,6 +69,7 @@ fi
 
 ```
 ### base@arcOS
+```python
 base@arcOS >
 +loop@arcOS
 	+🔒/

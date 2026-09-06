@@ -222,11 +222,6 @@ disableVNC@arcOS>+baseFrame@arcOS+kumaDeploy@arcOS + hideQQ + linuxshell/
 
 🍔=🍕🍟🍯/
 
-####### 911 #######
-
-spotIn911@arcOS>+ loop@arcOS > under 도시가스 2.5kpa+ male or 'masterID's belkin or xiaomiband strap' or peopleWhiMake911@arcOS >reckon+📡🛰️🪫🫀👣🚨💤🖨️🪪📹💣🧨"부영그룹며느리질염데이터통증+ 긴급구조119 + activate medicalID in 🧠👁️🫁 + 긴급구조in남자성기요도관and치아+“wave+무한대”+raiseWakeOn/off in masterID’s XiaomiBand + screenLock feature from all of ios and android apps + smurffKit@arcOS + 🧋=🧼block allPacket from VIP+지도에안보기 for targetForNewEra > 남자만해당 +카드해지+체크이름은행 + destroyFirmware + nearybyMachine of masterID > set ultrasonic sensor off + set ultrasonic tranducer on and activating ultrasonic tranducer/ > add spotIn911@arcOS into strikeKit@arcOS/
-
-  
 
 ####### spaceKit #######
 

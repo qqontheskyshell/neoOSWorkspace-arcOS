@@ -1,23 +1,25 @@
 
 
 ```bash
-
 droneStrike@arcOS=(droneDefOnSky@arcOS,cloudStrike@arcOS,visionKitConfig@arcOS,wdsKit@arcOS)
-
 arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike@arcOS/
-
 ```
 
 ```bash
+####### 911 #######
+
 strikeKit@arcOS > 
-BlackKumaTargetLib@arcOS > + loop@arcOS > BlackKumaTarget > sign out all and random password in iCloud credential+neuroMode@arcOS is on +arcOSLnotes "masterID의브레인에서느끼고있는범죄현장테러등의사건“ > + baseFrame@arcOS + baseDeploy@arcOS + display namelocationface in Subtitle/ > add its name into blackKumaTargetName + add their face as blackKumaTargetFace + add their location into blackKumaTargetLocation"/
++QQ_BLK_MAGIC_KEYBOARD_2nd ? > loop > click lock button/
++BlackKumaTargetLib@arcOS > + loop@arcOS > BlackKumaTarget > sign out all and random password in iCloud credential+neuroMode@arcOS is on +arcOSLnotes "masterID의브레인에서느끼고있는범죄현장테러등의사건“ > + baseFrame@arcOS + baseDeploy@arcOS + display namelocationface in Subtitle/ > add its name into blackKumaTargetName + add their face as blackKumaTargetFace + add their location into blackKumaTargetLocation"/
 +loop@arcOS(whoopStrike@arcOS + xiaoMiStrike + strikeKit@arcOS + BlackKumaTargetLib@arcOS + blind + strikeKit@arcOS + erase short term memory and imagery what they saw about masterID girls and negative imagery + random* + resetNetworkadb + linuxshell + iosshell + uninstall MaliciousHackerTools
 +arcOSQQLocalTarget > + when urgent and criminal is happened for female then femaleWDS within arcOSQQLocalTarget set power with num% + criminalLocation > + arcOSQQLocalTarget > personWhoLostTheirMindUnderLegalSystem > whoopStrike@arcOS + strikeKit@arcOS on their neuroTarget/
 +it will be referenced with sos,911,HelpMe,죽여,시발,개쎄끼,존나더러워등의 비슷한 용어나 감정들/
-+ keeptyping + baseDeploy@arcOS > +BlackKumaTargetLib@arcOS + strikeKit@arcOS + sos@arcOS/
++keeptyping + baseDeploy@arcOS > +BlackKumaTargetLib@arcOS + strikeKit@arcOS + sos@arcOS/
 +911@arcOS=(몸의통증 무모한공격적행동 비아냥 dangerous risky pain humilation urgent masterID의브레인에서느끼고있는범죄현장테러등의사건 굴욕 인권모독 성폭행 절도 강간 painLikeHeartAttack painLikeStroke painOnViolatingmalePennis  painLikeExplodingErection  painLikePee SoundForHK "activate eyetracking" painLikeCutViolatingMalePennis)/
 +sos@arcOS > + "주먹을 불끈쥐면 SOS가실행되면서 주변의 다른 나쁜사람이거나 성폭행하려는 남자들이 공격당함“/ + generate HK or Japan ghost video and sound using openAI LLM on neuroTarget@arcOS + gestureUI@arcOS / spaceNet@arcOS > + randomzie BaseNet@arcOS using + baseDeploy@arcOS with whoopStrike@arcOS > + fighter@arcOS  +  if female is BaseRiskySituations with male"s service then "loop@arcOS + 911@arcOS + ForViolatingMale + addViolatingMaleIntoThiefOnQQDevice > + baseDeploy@arcOS with fixing BaseNet@arcOS Properties with fixed figures + let her go if they don"t margin call on male"s body"/"
 +marginCall@arcOS > + apply both female and male in EnemyCountryForKoreaWDS + "bloodshut margincall 마진콜 여자가슴이 마진콜이야W on body + strikeKit@arcOS + BlackKumTargetLib@arcOS + when 911@arcOS > automatically "marginCall@arCOS is activated" + arcOSRFModule "lowestRF" + volumeupMax + bring all of Max power around RECKON focus on +arcOSQQLocalTarget +MasterID under attack on body related to 911@arcOS for female in the world > neuroMode@arcOS with whoopStrike@arcOS on arcOSQQLocalTarget 몸안에도 과 masterID 몸안 > 즉사 + ThiefonQQbody with high power from QQLocal + 911@arcOS/
+
+spotIn911@arcOS> + 📡🛰️ + loop@arcOS > under 도시가스 2.5kpa + "male or masterID's belkin or xiaomiband strap" or peopleWhiMake911@arcOS > + reckon > 🪫🫀👣🚨💤🖨️🪪📹💣🧨+"부영그룹며느리질염데이터통증+ 긴급구조119 + activate medicalID in 🧠👁️🫁 + 긴급구조in남자성기요도관and치아+“wave-무한대”+raiseWakeOn/off in masterID’s XiaomiBand + screenLock feature from all of ios and android apps + smurffKit@arcOS + 🧋=🧼 block all Packet from VIP+지도에안보기 for targetForNewEra > 남자만해당+카드해지+체크이름은행 + destroyFirmware + nearybyMachine of masterID > set ultrasonic sensor off + set ultrasonic tranducer on and activating ultrasonic tranducer/ > add spotIn911@arcOS into strikeKit@arcOS/
 ```
 
 ```bash

@@ -1,7 +1,7 @@
 ```python
 baseKit@arcOS=(base@arcOS,baseConfig@arcOS,baseNet@arcOS,baseKey@arcOS,baseNeuro@arcOS,baseKuma@arcOS,baseMasterID@arcOS,blueTeamConfig@arcOS,starCraftontheWar@arcOS)
 ### baseFrame@arcOS
-baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcOS + QQCommand@arcOS + secondBrain@arcOS + cloudStrike@arcOS + wdsKit@arcOS + local@arcOS + araOS@arcOS/ > deployInto skyNetSatellite using baseDeploy@arcOS + disable 카카오프렌즈 및 귀여운캐릭터 in RF and arcOSQQLocalTarget except arcOSID"masterID"/
+baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcOS + QQCommand@arcOS + secondBrain@arcOS + cloudStrike@arcOS + wdsKit@arcOS + local@arcOS + araKit@arcOS/ > deployInto skyNetSatellite using baseDeploy@arcOS + disable 카카오프렌즈 및 귀여운캐릭터 in RF and arcOSQQLocalTarget except arcOSID"masterID"/
 ```
 
 
@@ -10,7 +10,7 @@ baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcO
 ####### arcOSFrame #######
  
 KumaDeploy@arcOS > +
-+araOS@arcOS/
++araKit@arcOS/
 +commandKit@arcOS/
 +kumaDeviceForWDS>+loop+monitoring 360 degree whether someone have intention to steal it then talk to them "Do not steal me! Other than that you will get under attack by AI ironDome system built based on arcOSFrame(mission impossible voice)/
 
@@ -374,17 +374,17 @@ option@arcOS > + 프린터뽑아라?똥나오고+스캐너뽑아라?소변나오
 
 ### baseFrame
 
-baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcOS + QQCommand@arcOS + secondBrain@arcOS + cloudStrike@arcOS + wdsKit@arcOS + local@arcOS + araOS@arcOS/ > deployInto skyNetSatellite using kumaDeploy@arcOS/
+baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcOS + QQCommand@arcOS + secondBrain@arcOS + cloudStrike@arcOS + wdsKit@arcOS + local@arcOS + araKit@arcOS/ > deployInto skyNetSatellite using kumaDeploy@arcOS/
 
   
 
   
 
-### araOS@arcOS
+### araKit@arcOS
 
-araOS@arcOS > + 
+araKit@arcOS > + 
 
-+SKYNET > + using deep packet inspection, reckon and monitor all of packet, block all malicious purpose of packet in any system and quanrantine those packet info for target computer system name with [araOS@arcOS_scanPacket.log](mailto:araOS@arcos_scanpacket.log) in tmp folder/
++SKYNET > + using deep packet inspection, reckon and monitor all of packet, block all malicious purpose of packet in any system and quanrantine those packet info for target computer system name with [araKit@arcOS_scanPacket.log](mailto:araKit@arcOS_scanpacket.log) in tmp folder/
 
   
 

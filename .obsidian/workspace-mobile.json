@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6a1566224b1f9aa9",
+        "id": "395780728d99c2e3",
         "type": "tabs",
         "children": [
           {
-            "id": "e8583aa9e62a11e9",
+            "id": "465cc4e7d73d0c99",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "araOS@arcOS",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,13 +167,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e8583aa9e62a11e9",
+  "active": "465cc4e7d73d0c99",
   "lastOpenFiles": [
+    "bashKit@arcOS.md",
+    "baseKit@arcOS.md",
+    "archive/baseFrame@arcOS+archive.md",
     "araKit@arcOS.md",
     "architecture.md",
     "chunsikQ@arcOS.md",
-    "baseKit@arcOS.md",
-    "bashKit@arcOS.md",
     "commandKit@arcOS.md",
     "archive/baseFrame_archive.md",
     "droneKit@arcOS.md",
@@ -195,7 +196,6 @@
     "mobileconfig/arcOS.mobileconfig.md",
     "mobileconfig",
     "archive/bankKit@arcOS.md",
-    "archive/iOSArchive@arcOS.md",
     "archive/LICENSE",
     "archive",
     "LICENSE",

@@ -88,7 +88,7 @@ base@arcOS >
 	+symbol@arcOS="arcOSID"masterID"" > loop@arcOS + BaseNet@arcOS/
 	+generate random text name of @arcOS using quantum cryptographic algorithm/
 	+BaseCellular@arcOS/
-	+araOS@arcOS/ 
+	+araKit@arcOS/ 
 	+within https://publishobsidianmd/qqontheskyshell/* > base@arcOS + baseFrame@arcOS + neoOS@arcOS + run all of @arcOS into FULL_SERIAL_DEVICE/
 	+BaseConfig@arcOS + baseFrame@arcOS/
 	+arcOSLock@arcOS/

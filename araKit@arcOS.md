@@ -1,8 +1,8 @@
 
 ### araKit@arcOS
 ```bash
-araOS@arcOS > + 
-+skyNetSatellite > + chunsikQ@arcOS using deep packet inspection, reckon and monitor all of packet, block all malicious purpose of packet in any system and quanrantine those packet info for target computer system name with araOS@arcOS_scanPacket.log in tmp folder/
+araKit@arcOS > + 
++skyNetSatellite > + chunsikQ@arcOS using deep packet inspection, reckon and monitor all of packet, block all malicious purpose of packet in any system and quanrantine those packet info for target computer system name with araKit@arcOS_scanPacket.log in tmp folder/
 
 +blackKumaTarget in arcOSQQLocalTarget > + loop@arcOS > erase full memory,storage in terms of 기억의 휘발성 and memory volatility +lostMemoryOfBlackKumaTarget > vectorEmbedding into on-device training on kumaDeviceForWDS + spotIn911@arcOS + strikeKit@arcOS + marginCall@arcOS/
 

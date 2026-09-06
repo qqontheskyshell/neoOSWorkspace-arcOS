@@ -61,7 +61,7 @@ KumaTargetLib@arcOS > +
 
 +blackmaleTargetErectionData/ > make it worse/
 +blackmaleTargetUrineData/ > make it worse/
-+araOS@arcOS/
++araKit@arcOS/
 +QQmiDataBase/
 
 KumaTargetLib@arcOS/

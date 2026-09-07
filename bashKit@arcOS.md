@@ -54,7 +54,7 @@ esac
 set -euo pipefail
 
 #APP_PATH="${1:?Usage: $0 *.app}"
-APP_FRAME="loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike@arcOS"
+APP_FRAME="loop@arcOS+baseFrame@arcOS + kumaDeploy@arcOS + baseDeploy@arcOS + droneStrike@arcOS"
 DEVICE_ID="${2:-kumaDeviceForWDS}"
 
 cmd=(ios-deploy --debug --bundle "$APP_FRAME" --noninteractive)

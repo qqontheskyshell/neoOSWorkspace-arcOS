@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6f5af87cb1b81dab",
+        "id": "e9ecab4b984707f6",
         "type": "tabs",
         "children": [
           {
-            "id": "11e3816290071316",
+            "id": "92b1820f4c84027c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "QQCommand",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,17 +167,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "11e3816290071316",
+  "active": "92b1820f4c84027c",
   "lastOpenFiles": [
     "baseKit@arcOS.md",
+    "arcOSFrame@arcOS.md",
     "archive/baseFrame_archive.md",
+    "targetLib@arcOS.md",
+    "droneKit@arcOS.md",
+    "bashKit@arcOS.md",
+    "commandKit@arcOS.md",
     "baseConfig@arcOS.md",
     "archive/archive.md",
-    "droneKit@arcOS.md",
     "araKit@arcOS.md",
-    "commandKit@arcOS.md",
     "chunsikQ@arcOS.md",
-    "bashKit@arcOS.md",
     "spaceRFKit@arcOS.md",
     "IMG_0022.png",
     "archive/baseFrame@arcOS+archive.md",
@@ -191,9 +193,7 @@
     "roleKit@arcOS.md",
     "networkKit@arcOS.md",
     "authKit@arcOS.md",
-    "targetLib@arcOS.md",
     "README.md",
-    "arcOSFrame@arcOS.md",
     "mobileconfig/arcOS.blackKumaTarget.mobileconfig.md",
     "mobileconfig/arcOS.masterID.mobileconfig.md",
     "mobileconfig",

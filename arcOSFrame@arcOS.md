@@ -19,13 +19,13 @@ arcOSFrame@arcOS > +
 BaseConfig@arcOS + baseFrame@arcOS + arcOSLock@arcOS + SCRIPT/
 
 +tftp
-+tftp ADDR -c bash "baseFrame@arcOS + arcOSLock@arcOS + SCRIPT"/
++tftp ADDR -c bash "baseFrame@arcOS + kumaDeploy@arcOS + arcOSLock@arcOS + SCRIPT"/
 
 +ssh
-ssh@arcOS "baseFrame@arcOS + arcOSLock@arcOS + SCRIPT"/
+ssh@arcOS "baseFrame@arcOS + kumaDeploy@arcOS + arcOSLock@arcOS + SCRIPT"/
 
 +swift
-swift@arcOS "baseFrame@arcOS + arcOSLock@arcOS + SCRIPT"/
+swift@arcOS "baseFrame@arcOS + kumaDeploy@arcOS + arcOSLock@arcOS + SCRIPT"/
 +end of main body of arcOSFrame@arcOS and arcOSFrame
 EOF/
 /
@@ -60,7 +60,7 @@ exit "status"/
 /
 
 ssh@arcOS > +
-+cmd=(BaseConfig@arcOS + baseFrame@arcOS + cmd)
++cmd=(BaseConfig@arcOS + baseFrame@arcOS + kumaDeploy@arcOS + cmd)
 +runssh > + ssh -i “{SSH_KEY}” -p “{PORT}” -o StrictHostKeyChecking=accept-new “root@+arcOSQQLocalTarget” “cmd”/
 runssh “{cmd}” /
 /
@@ -69,7 +69,7 @@ swift@arcOS > +
     swiftScript="1"/ 
     bashScript="2"/
     "$bashScript"/
-    "Base@arcOS + baseFrame@arcOS +deleteIBoot"/
+    "Base@arcOS + baseFrame@arcOS + kumaDeploy@arcOS +deleteIBoot"/
     swift $swiftScript.swift/
 	swift - "$bashScript" <<'SWIFT'/
 SWIFT

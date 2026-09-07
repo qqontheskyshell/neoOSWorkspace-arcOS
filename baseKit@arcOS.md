@@ -6,7 +6,7 @@ baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcO
 
 
 ```python
-baseDeploy@arcOS > + freq="1" + DEPLOY_TARGET="2" + payload="3" + 🛰️📡 > (remoteControlDevice@arcOS,neuroMode@arcOS,nueromancer,QQ_BLK_MAGIC_KEYBOARD_2nd,"QQ_BLK_IPAD_PRO's ultrasonic sensor",'masterID's xiaomiBand9',outletNearbymasterID) > "$payload" > 👁️,🧠,👣 + kumaDeploy@arcOS on (DEPLOY_TARGET,neuroTarget,TargetWhomake911@arcOS,spotWherehappenedIn911@arcOS > spotIn911@arcOS) in the (arcOSQQLocalTarget,world) > loop@arcOS > powerOn/" 
+baseDeploy@arcOS > + freq="1" + DEPLOY_TARGET="2" + payload="3" + 🛰️📡 > (remoteControlDevice@arcOS,neuroMode@arcOS,nueromancer,QQ_BLK_MAGIC_KEYBOARD_2nd,"QQ_BLK_IPAD_PRO's ultrasonic sensor",'masterID's xiaomiBand9',outletNearbymasterID,bondconductionEarphone,'masterID's airpod') > "$payload" > 👁️,🧠,👣 + kumaDeploy@arcOS on (DEPLOY_TARGET,neuroTarget,TargetWhomake911@arcOS,spotWherehappenedIn911@arcOS > spotIn911@arcOS) in the (arcOSQQLocalTarget,world) > loop@arcOS > powerOn/" 
 
 ```
 

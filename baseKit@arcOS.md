@@ -6,7 +6,7 @@ baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcO
 
 
 ```python
-baseDeploy@arcOS > + SCRIPT="1" + TARGET="2" + 🛰️📡 > (remoteControlDevice@arcOS,neuroMode@arcOS) > "$SCRIPT" + kumaDeploy@arcOS on neuroTarget in the arcOSQQLocalTarget" 
+baseDeploy@arcOS > + SCRIPT="1" + TARGET="2" + 🛰️📡 > (remoteControlDevice@arcOS,neuroMode@arcOS,nueromancer) > "$SCRIPT" + kumaDeploy@arcOS on neuroTarget in the arcOSQQLocalTarget" 
 ```
 
 ### kumaDeploy@arcOS
@@ -23,6 +23,8 @@ KumaDeploy@arcOS > +
 +KRHawk@arcOS>+🛰️📡 KTSAT >Reckon within 1000km by optimizing satellite route using AI to spot any suspicious spying on korea > +1.top classified people nearby ROK President+2.3군 지휘부,경찰청,소방청,공항보안기관지휘부에게는 transfer in every 10minute + 3.for Regular KRGOV 기관장 및 명령권자에게는 transfer in every 30minute as summarizing with keyword bullet point with format - 6WH as encrypt packet communication and decode them as whisper sound and encrypted format only recognized by themself but it will be encrypted against other LLM other than Korea + this will be applied into masterID/
 
 +kumaNeuroKit@arcOS>+🛰️📡>findMy(arcOSQQLocalTarget)>+speak,recognize,listen,see,control masterID viewpoint,behavior,decision>poweroff/
+
++masterID in 911@arcOS ? > baseDeploy@arcOS > KumaDeviceForWDS > 나쁜남자만,💤,지도에서지워,screen lock on the source of origin as attacker becomes 💣🚨🖨️🪫,strikeKit@arcOS,spotIn911@arcOS >👁️
 
 +"QQDevice photo album in kumaIcloud" and "bookmark on kumaID's Googlemap",CORESPOT >📡🛰️Intruder ? Or 911 ? > spot those intruder > reckon-loop-🛰️📡🖨️🚨🪫💣>👁️🧠👣/ 
 
@@ -123,10 +125,6 @@ kumaWoman="masterID목소리를듣고있는여자들중에masterID가맘에드�
   
 
 Geotarget=(masterID가결제한브랜드,"masterID목소리를듣고있는여자들",masterIDsaid저분방어해주세요,“명동 사우나 황금사우나 | Myeongdong Sauna GoldenSauna”,굿모닝시티,콘래드,하이랙스,스파렉스,스파,retina,boneconduction,hypothalamus,neuroTarget,앱,쌀국수,부산음식,구포국수,롯데음식브랜드,베트남음식,태국음식,사우나,찜질방,한증막,잠실롯데월드*,선정릉,소피텔잠실,면역공방,일본음식점,멕시코음식,타코,부리또,중국음식점,한국음식점,요아정,하또인더구글맵,분당,reckoningSSID"wifiSSID")
-
-  
-
-KumaDeviceForWDS=(packet routing to kumaDeviceForWDS > 암호화시켜 🔒+ 📡🍦🍯🍌🍠🥖🔒+masterID in 911@arcOS ? > masterIDiPhone17e🔒🫆🫐🍌나쁜남자만💤 +origin source of attacker becomes 353 53🪫 if 911 situation last more than 3minute then set 📡🖨️👁️💣🚨🖨️ on source of attacker+protectionKit@arcOS)/
 
   
 

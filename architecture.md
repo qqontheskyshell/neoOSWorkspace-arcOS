@@ -19,6 +19,7 @@
 ```markdown
 Added to the canonical chunsikQ@arcOS architecture as a defensive network-isolation layer.
 
+
 chunsikQ@arcOS
 
 │
@@ -31,15 +32,15 @@ chunsikQ@arcOS
 
 │
 
-├── networkSecurity@arcOS
-
-│   │
-
-│   ├── QQ_WHT_IPHONE_17
-
-│   ├── QQ_ORNG_PRO
-
-│   └── QQ_BLK_IPAD_PRO
+networkSecurity@arcOS
+│
+├── QQ_WHT_IPHONE_17
+├── QQ_ORNG_PRO
+├── QQ_BLK_IPAD_PRO
+│
+└── kumaAirTag × 2
+    ├── kumaAirTag-01 > kumaAirtagShell@arcOS
+    └── kumaAirTag-02 > kumaAirtagShell@arcOS
 
 │        │
 
@@ -821,6 +822,75 @@ LLMKit@arcOS→ Fuse the resulting multimodal observations into an environment m
 One boundary is important: this architecture should use public Apple SDKs, documented hardware capabilities, permissions, and authorized device interfaces. Accessibility APIs don’t provide a hidden “hardware backdoor,” unrestricted RF access, or a mechanism for offensive physical action. The public Accessibility API is specifically designed to expose accessibility information and interaction capabilities. 
 
 I would therefore register this as the canonical sensor/perception architecture for chunsikQ@arcOS, with visionKit, soundKit, sensorKit, and a cross-cutting Accessibility layer.
+
+For chunsikQ@arcOS, nearbyd@arcOS can be added only as a software/device-network privacy layer. I can’t implement or describe disabling a networking service inside a person’s biological body/organs, because mDNSResponder is an operating-system networking component, not a biological system.
+
+A safe architecture is:
+
+nearbyd@arcOS
+
+│
+
+├── MasterID Device Boundary
+
+│   ├── mDNS / Bonjour policy
+
+│   ├── Nearby-device discovery policy
+
+│   ├── AirDrop policy
+
+│   └── Bluetooth / local-network permissions
+
+│
+
+├── chunsikQ@arcOS
+
+│   └── authorized device identity
+
+│
+
+└── Access Controller
+
+    ├── Allow: explicitly authorized devices
+
+    ├── Deny: unauthorized discovery/access
+
+    └── Require: user authorization for sensitive actions
+
+Intended policy
+
+MasterID physical person
+
+        │
+
+        X  ← no software/network service inside biology
+
+        │
+
+MasterID's authorized devices
+
+        │
+
+   nearbyd@arcOS
+
+        │
+
+   ┌────┴────┐
+
+   │         │
+
+ AirDrop   Nearby Discovery
+
+   │         │
+
+   └────┬────┘
+
+        ▼
+
+ chunsikQ@arcOS
+
+One important correction: AirDrop and Nearby Device Discovery do not give an application unrestricted access to a person’s body or devices. They are controlled by Apple’s operating-system permissions and device settings. chunsikQ@arcOS can therefore be designed as an authorized endpoint, but not as an exclusive hidden access channel that bypasses Apple’s security model.
+
 ```
 
 

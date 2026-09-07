@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3e7cfe2ffc8d48a6",
+        "id": "71b7022f712a4ad1",
         "type": "tabs",
         "children": [
           {
-            "id": "129b9d279b3f74e9",
+            "id": "449f54e40ed0fe64",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "chunsikQ@arcOS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "chunsikQ@arcOS"
             }
           }
         ]
@@ -167,7 +171,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "129b9d279b3f74e9",
+  "active": "449f54e40ed0fe64",
   "lastOpenFiles": [
     "architecture.md",
     "chunsikQ@arcOS.md",

@@ -16,6 +16,80 @@
 ```
 
 
+```markdown
+Added to the canonical chunsikQ@arcOS architecture as a defensive network-isolation layer.
+
+chunsikQ@arcOS
+
+│
+
+├── visionKit@arcOS
+
+├── soundKit@arcOS
+
+├── sensorKit@arcOS
+
+│
+
+├── networkSecurity@arcOS
+
+│   │
+
+│   ├── QQ_WHT_IPHONE_17
+
+│   ├── QQ_ORNG_PRO
+
+│   └── QQ_BLK_IPAD_PRO
+
+│        │
+
+│        ├── Network Slicing / Isolation
+
+│        ├── Default-Deny Unauthorized Inbound
+
+│        ├── Same-Subnet Access Control
+
+│        ├── Router/Subnet Access Revocation
+
+│        ├── Authorized Management Allowlist
+
+│        └── Emergency / Recovery Channel
+
+│
+
+└── kumaDeploy@arcOS
+
+        ▲
+
+        │ 🛰️
+
+   deployment/update trigger
+
+Policy
+
+ALLOW
+
+  authorized devices
+
+  authorized management traffic
+
+  required service traffic
+
+  recovery/emergency channel
+
+  
+
+DENY
+
+  unauthorized same-subnet sources
+
+  unauthorized router access
+
+  unrecognized device-to-device traffic
+
+I would implement this as firewall/VLAN/ACL/network-policy enforcement, not packet interference or attacks against other devices. The 🛰️ component is treated as an authorized update/deployment signal, not a mechanism for bypassing network controls.
+```
+
 
 ### iOS SDK in chunsikQ@arcOS
 ```markdown

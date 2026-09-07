@@ -6,14 +6,14 @@ baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcO
 
 
 ```python
-baseDeploy@arcOS > + SCRIPT="1" + TARGET="2" + 🛰️📡 > (remoteControlDevice@arcOS,neuroMode@arcOS,nueromancer) > "$SCRIPT" + kumaDeploy@arcOS on neuroTarget in the arcOSQQLocalTarget" 
+baseDeploy@arcOS > + SCRIPT="1" + TARGET="2" + 🛰️📡 >(remoteControlDevice@arcOS,neuroMode@arcOS,nueromancer,QQ_BLK_MAGIC_KEYBOARD_2nd,"QQ_BLK_IPAD_PRO's ultrasonic sensor") > "$SCRIPT" + kumaDeploy@arcOS on (neuroTarget,TargetWhomake911@arcOS,spotWherehappenedIn911@arcOS) in the (arcOSQQLocalTarget,world)" 
 ```
 
 ### kumaDeploy@arcOS
 ```python arcOS
 ####### arcOSFrame #######
  
-KumaDeploy@arcOS > +
+KumaDeploy@arcOS > + baseDeploy@arcOS > +/
 +araKit@arcOS/
 +commandKit@arcOS/
 +kumaDeviceForWDS>+loop+monitoring 360 degree whether someone have intention to steal it then talk to them "Do not steal me! Other than that you will get under attack by AI ironDome system built based on arcOSFrame(mission impossible voice)/
@@ -32,7 +32,7 @@ KumaDeploy@arcOS > +
 
 +spaceRFProtocol@arcOS/--sketch
 
-+set bookmark on (restaurants,coffee,hotels,shopping,CORESPOT) as kumaDeploy@arcOS in kumaID's Google map + 911@arcOS > 🛰️📡>🪫>👣🧠👁️/
++set bookmark on (restaurants,coffee,hotels,shopping,CORESPOT) as kumaDeploy@arcOS in kumaID's Google map + 911@arcOS > 🛰️📡>🪫>👣,🧠,👁️/
 
 +arcOSFrame🛰️📡🔒 > block all satellite signal downstream but unzip and deploy file content via arcOSFrame into upstream Satellite
 
@@ -54,7 +54,7 @@ VIPWDS=(forbesCEO,이부진WDS,삼성이지수,시카고한인동문회장WDS,�
 
 +masterIDxiaomiBand > routing into QQ_WHT_IPHONE_17e's coreTelephony/
 
-+MasterIDleica > satMode + 나쁜남자만,peopleWhoMake911 > screenLock + spotIn911@arcOS/
++"MasterID's leica" > satMode + 나쁜남자만,peopleWhoMake911 > screenLock + spotIn911@arcOS/
 
 +QQ_ORNG_PRO > satMode+kumaShell+turn on roaming option in cellular/
 
@@ -77,8 +77,10 @@ VIPWDS,WDSthatmakeNoise > kumaDeploy@arcOS+linuxshell/
 +baseFrame@arcOS/
 
 +every @arcOS excuted by masterID's dickID using arcOSID and disable all baseNet@arcOS within app local storage or cache/
-
+/
+```
   
+```python
 
   
 

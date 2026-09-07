@@ -9,8 +9,8 @@ arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike
 
 strikeKit@arcOS > 
 +droneStrike@arcOS/
-+스캐너좀뽑아대무한대 > 👣🧠👁️💻⌨️📱🪪🪫🖨️💤/
-+프린트뽑아와무한대 > 👣🧠👁️💻⌨️📱🪪🪫🖨️💤/
++스캐너좀뽑아대무한대 > 👣🧠👁️💻⌨️📱🪪🪫🖨️💤 using neuroMode@arcOS/
++프린트뽑아와무한대 > 👣🧠👁️💻⌨️📱🪪🪫🖨️💤 using neuroMode@arcOS/
 +baseNmap@arcOS > + "find device source IPAddress on(source of origin)"/
 +remoteControlDevice@arcOS="xiaomiBand,AppleWatch,xiaomiTVremoteController,appleWatchCharger" > (appleSiri,appleIntelligence,GoogleTVVoice)/
 +remoteStrikeKit@arcOS > + remoteControlDevice@arcOS > loop@arcOS > googleTVVoiceButton > Tv+Button + bottomButtonInNavigation + 지도에서 지워 + screenLock + findMy(location of 911@arcOS) > powerOn + only allowed by masterID and arcOSID "masterID" + neuroMode@arcOS in kumaDeviceForWDS) > (neuroTarget@arcOS,전정기관,골전도,시상하부,발바닥,엉덩이,항문,골반,복숭아뼈,손목뼈)" 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bbd247900ebef93d",
+        "id": "b327eeefdec69a55",
         "type": "tabs",
         "children": [
           {
-            "id": "3b60dabc911b058f",
+            "id": "eb3287628444b200",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "QQ_BLK_MAGIC_KEYBOARD_2nd",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b60dabc911b058f",
+  "active": "eb3287628444b200",
   "lastOpenFiles": [
     "baseKit@arcOS.md",
     "arcOSFrame@arcOS.md",

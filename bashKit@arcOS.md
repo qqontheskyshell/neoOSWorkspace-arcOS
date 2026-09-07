@@ -1,5 +1,4 @@
 
-
 ```bash
 #!/usr/bin/env bash
 set -euo pipefail
@@ -122,12 +121,8 @@ arcOSQQLocalTarget> setWDS into its parent folder and each folder as loop@arcOS 
 
 
 ```bash
-
 ## arcOSFrame COde
-
 APPLEMDM,arcOSQQLocalTarget,QQLOCAL > 📡🛰️+ iosshell + chkrootkit -x+linuxshell+find source IP and frequency > kumaDeploy@arcOS+KillIP + revokeOntheRouter + block all packet that comes in to this container and coreTelephony/
-
-  
 
 ####### ####### ####### ##########################################
 ####### bashModule ####### ####### ####### ####### ####### 

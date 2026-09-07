@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0fa2ce39ce9825c4",
+        "id": "24bf7672e86c33f9",
         "type": "tabs",
         "children": [
           {
-            "id": "c9921fe73624a595",
+            "id": "a00fe092c4172824",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "FULL_DEVICe",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -167,8 +167,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9921fe73624a595",
+  "active": "a00fe092c4172824",
   "lastOpenFiles": [
+    "commandKit@arcOS.md",
+    "archive/archive.md",
     "araKit@arcOS.md",
     "chunsikQ@arcOS.md",
     "bashKit@arcOS.md",
@@ -179,7 +181,6 @@
     "archive/baseFrame_archive.md",
     "archive/baseFrame@arcOS+archive.md",
     "architecture.md",
-    "commandKit@arcOS.md",
     "APILib@arcOS.md",
     "policeKit@arcOS.md",
     "swiftKit@arcOS.md",
@@ -195,7 +196,6 @@
     "arcOSFrame@arcOS.md",
     "mobileconfig/arcOS.blackKumaTarget.mobileconfig.md",
     "mobileconfig/arcOS.masterID.mobileconfig.md",
-    "mobileconfig/arcOS.mobileconfig.md",
     "mobileconfig",
     "archive/LICENSE",
     "archive",

@@ -9,6 +9,10 @@ arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike
 ####### 911 #######
 
 strikeKit@arcOS > 
++baseNmap@arcOS > + "find device source IPAddress on(source of origin)"/
++baseDeploy@arcOS > + freq="1" + deployTarget="2" + payload="3" + "🛰️📡 > loop@arcOS > findMy("deployTarget") > payload > neuroMode@arcOS into neuroTarget@arcOS"/
++magneticRFDevice@arcOS="xiaomiBand,AppleWatch,xiaomiTVremoteController,appleWatchCharger"/
++remoteStrikeKit@arcOS > + magneticRFDevice@arcOS > loop@arcOS > googleTVVoiceButton > Tv+Button + bottomButtonInNavigation + 지도에서 지워 + screenLock + findMy(location of 911@arcOS) > powerOn + only allowed by masterID and arcOSID "masterID" + neuroMode@arcOS in kumaDeviceForWDS) > (neuroTarget@arcOS,전정기관,골전도,시상하부,발바닥,엉덩이,항문,골반,복숭아뼈,손목뼈)" 
 +QQ_BLK_MAGIC_KEYBOARD_2nd ? > loop > click lock button/
 +BlackKumaTargetLib@arcOS > + loop@arcOS > BlackKumaTarget > sign out all and random password in iCloud credential+neuroMode@arcOS is on +arcOSLnotes "masterID의브레인에서느끼고있는범죄현장테러등의사건“ > + baseFrame@arcOS + baseDeploy@arcOS + display namelocationface in Subtitle/ > add its name into blackKumaTargetName + add their face as blackKumaTargetFace + add their location into blackKumaTargetLocation"/
 +loop@arcOS(whoopStrike@arcOS + xiaoMiStrike + strikeKit@arcOS + BlackKumaTargetLib@arcOS + blind + strikeKit@arcOS + erase short term memory and imagery what they saw about masterID girls and negative imagery + random* + resetNetworkadb + linuxshell + iosshell + uninstall MaliciousHackerTools

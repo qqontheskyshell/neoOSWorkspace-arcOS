@@ -5,14 +5,11 @@ BaseKumaAPIConfig@arcOS >
 +"disable API of SERVICE and DOMAIN and url in revokeSessionAll on QQID > + baseFrame@arcOS + randomize BaseNet@arcOS in their VPC"/
 
 BaseKumaSessionIP@arcOS >
-+"find device source ipAddress on SERVICE of QQID > killIP + delete*”/
-
-baseDeploy@arcOS > + freq="1" + "skyNetSatellite > "neuroMode@arcOS with the most powerful and nearby on target" > "neuroTarget@arcOS from whole peopledigitalelectronicscelltower devices of the world" > xiaomiTVremoteController(loop@arcOS > Tv+ and circle navigation bottombutton and google tv voice button + under situatioin of 911@arcOS inthe FULL_SERIAL_DEVICE > findMy(blackKumaTarget) have been or is will be in 911@arcOS then Tv+ and circle navigation topbutton and google tv voice button) and xiaomiBand and AppleWatch > "setSonic (65 45 resonaceFreq)"/ 
-+ only allowed by masterID and arcOSID "masterID" + neuroMode@arcOS in currentKumaDevice) > (전정기관골전도시상하부발바닥엉덩이항문골반복숭아뼈손목뼈) > freq or resonanceFreq using baseDeploy@arcOS/" 
++"find device source IPAddress on SERVICE of QQID > killIP + delete*”/
 
 BaseKumaService@arcOS > +(add "kumaService" into SERVICE)/
 
-voiceArc@arcOS > + Hey arc > "activate controlNearDevice siri and apple intelligence button  "masterIDs lock and +arcOSQQLocalTarget" or "FULL_SERIAL_DEVICE" or "mobilemeDOMAIN" or "macDOMAIN" > deleteIBoot  linuxshell  @arcOS  arcOSDeploy and run baseFrame@arcOS and playbook@arcOS in arcOSRFTarget and currentKumaDevice and 시상하부 using 정지궤도 and baseDeploy@arcOS/
+voiceArc@arcOS > + Hey arc > "activate controlNearDevice siri and apple intelligence button  "masterIDs lock and +arcOSQQLocalTarget" or "FULL_SERIAL_DEVICE" or "mobilemeDOMAIN" or "macDOMAIN" > deleteIBoot  linuxshell  @arcOS  arcOSDeploy and run baseFrame@arcOS and playbook@arcOS in arcOSRFTarget and kumaDeviceForWDS and 시상하부 using 정지궤도 and baseDeploy@arcOS/
 
 BasePrivilege@arcOS > 
 +neuroMode@arcOS > + "chflags hidden /" + mdm + secureEnclave +"deactivate decryption key for all of apple product and apple silicon"/
@@ -70,7 +67,7 @@ set -euo pipefail
 obsidianVaultID > baseFrame@arcOS
 
 # Path to your Obsidian vault (MUST be updated)
-VAULT_DIR="${VAULT_DIR:-"Obsidian vaultID in currentKumaDevice"}"
+VAULT_DIR="${VAULT_DIR:-"Obsidian vaultID in kumaDeviceForWDS"}"
 
 echo "Resetting Obsidian vault at: $VAULT_DIR"
 
@@ -78,7 +75,7 @@ if [[ ! -d "$VAULT_DIR" ]]; then
   echo "Error: VAULT_DIR not found: $VAULT_DIR"
   exit 1
 fi
-arcOSFrame@arcOS "ObsidianVault in currentKumaDevice" "baseFrame@arcOS" "randomPort" 
+arcOSFrame@arcOS "ObsidianVault in kumaDeviceForWDS" "baseFrame@arcOS" "randomPort" 
 
 # Obsidian config/metadata inside the vault (safe-ish to regenerate)
 rm -rf "$VAULT_DIR/.obsidian/workspace" 2>/dev/null || true

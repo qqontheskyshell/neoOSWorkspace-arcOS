@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "24bf7672e86c33f9",
+        "id": "8e1f171529548560",
         "type": "tabs",
         "children": [
           {
-            "id": "a00fe092c4172824",
+            "id": "47959707e6bafd90",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "FULL_DEVICe",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -167,16 +167,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a00fe092c4172824",
+  "active": "47959707e6bafd90",
   "lastOpenFiles": [
     "commandKit@arcOS.md",
-    "archive/archive.md",
-    "araKit@arcOS.md",
+    "droneKit@arcOS.md",
+    "baseConfig@arcOS.md",
     "chunsikQ@arcOS.md",
     "bashKit@arcOS.md",
+    "archive/archive.md",
+    "araKit@arcOS.md",
     "spaceRFKit@arcOS.md",
     "IMG_0022.png",
-    "droneKit@arcOS.md",
     "baseKit@arcOS.md",
     "archive/baseFrame_archive.md",
     "archive/baseFrame@arcOS+archive.md",
@@ -185,7 +186,6 @@
     "policeKit@arcOS.md",
     "swiftKit@arcOS.md",
     "pythonKit@arcOS.md",
-    "baseConfig@arcOS.md",
     "LLMKit@arcOS.md",
     "neuroKit@arcOS.md",
     "roleKit@arcOS.md",

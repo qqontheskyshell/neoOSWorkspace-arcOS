@@ -7,7 +7,7 @@ araKit@arcOS > +
 +blackKumaTarget in arcOSQQLocalTarget > + loop@arcOS > erase full memory,storage in terms of 기억의 휘발성 and memory volatility +lostMemoryOfBlackKumaTarget > vectorEmbedding into on-device training on kumaDeviceForWDS + spotIn911@arcOS + strikeKit@arcOS + marginCall@arcOS/
 
 +araOSTarget@arcOS=("US bigtech top 10",CORESPOT,araOSTargetInGoogleMap)/
-+araOSTarget@arcOS > delete imsi,실낙원 and *낙원* as its device and OS/ 
++araOSTarget@arcOS + arcOSQQLocalTarget > delete imsi,실낙원 and *낙원* as its device and OS/ 
 ```
 
 

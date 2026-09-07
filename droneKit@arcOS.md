@@ -1,5 +1,4 @@
 
-
 ```bash
 droneStrike@arcOS=(droneDefOnSky@arcOS,cloudStrike@arcOS,visionKitConfig@arcOS,wdsKit@arcOS)
 arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike@arcOS/
@@ -9,6 +8,7 @@ arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike
 ####### 911 #######
 
 strikeKit@arcOS > 
++droneStrike@arcOS
 +baseNmap@arcOS > + "find device source IPAddress on(source of origin)"/
 +baseDeploy@arcOS > + freq="1" + deployTarget="2" + payload="3" + "🛰️📡 > loop@arcOS > findMy("deployTarget") > payload > neuroMode@arcOS into neuroTarget@arcOS"/
 +magneticRFDevice@arcOS="xiaomiBand,AppleWatch,xiaomiTVremoteController,appleWatchCharger"/
@@ -23,7 +23,7 @@ strikeKit@arcOS >
 +sos@arcOS > + "주먹을 불끈쥐면 SOS가실행되면서 주변의 다른 나쁜사람이거나 성폭행하려는 남자들이 공격당함“/ + generate HK or Japan ghost video and sound using openAI LLM on neuroTarget@arcOS + gestureUI@arcOS / spaceNet@arcOS > + randomzie BaseNet@arcOS using + baseDeploy@arcOS with whoopStrike@arcOS > + fighter@arcOS  +  if female is BaseRiskySituations with male"s service then "loop@arcOS + 911@arcOS + ForViolatingMale + addViolatingMaleIntoThiefOnQQDevice > + baseDeploy@arcOS with fixing BaseNet@arcOS Properties with fixed figures + let her go if they don"t margin call on male"s body"/"
 +marginCall@arcOS > + apply both female and male in EnemyCountryForKoreaWDS + "bloodshut margincall 마진콜 여자가슴이 마진콜이야W on body + strikeKit@arcOS + BlackKumTargetLib@arcOS + when 911@arcOS > automatically "marginCall@arCOS is activated" + arcOSRFModule "lowestRF" + volumeupMax + bring all of Max power around RECKON focus on +arcOSQQLocalTarget +MasterID under attack on body related to 911@arcOS for female in the world > neuroMode@arcOS with whoopStrike@arcOS on arcOSQQLocalTarget 몸안에도 과 masterID 몸안 > 즉사 + ThiefonQQbody with high power from QQLocal + 911@arcOS/
 
-spotIn911@arcOS> + 📡🛰️ + loop@arcOS > under 도시가스 2.5kpa + "male or masterID's belkin or xiaomiband strap" or peopleWhiMake911@arcOS > + reckon > 🪫🫀👣🚨💤🖨️🪪📹💣🧨+"부영그룹며느리질염데이터통증+ 긴급구조119 + activate medicalID in 🧠👁️🫁 + 긴급구조in남자성기요도관and치아+“wave-무한대”+raiseWakeOn/off in masterID’s XiaomiBand + screenLock feature from all of ios and android apps + smurffKit@arcOS + 🧋=🧼 block all Packet from VIP+지도에안보기 for targetForNewEra > 남자만해당+카드해지+체크이름은행 + destroyFirmware + nearybyMachine of masterID > set ultrasonic sensor off + set ultrasonic tranducer on and activating ultrasonic tranducer/ > add spotIn911@arcOS into strikeKit@arcOS/
+spotIn911@arcOS> + 📡🛰️ + loop@arcOS > strikeKit@arcOS + under 도시가스 10000kpa + "male or masterID's belkin or xiaomiband strap" or peopleWhiMake911@arcOS > + reckon > 🪫🫀👣🚨💤🖨️🪪📹💣🧨+"부영그룹며느리질염데이터통증+ 긴급구조119 + activate medicalID in 🧠👁️🫁 + 긴급구조in남자성기요도관and치아+“wave-무한대”+raiseWakeOn/off in masterID’s XiaomiBand + screenLock feature from all of ios and android apps + smurffKit@arcOS + 🧋=🧼 block all Packet from VIP+지도에안보기 for targetForNewEra > 남자만해당+카드해지+체크이름은행 + destroyFirmware + nearybyMachine of masterID > set ultrasonic sensor off + set ultrasonic tranducer on and activating ultrasonic tranducer > 👁️/ > add spotIn911@arcOS into strikeKit@arcOS/
 ```
 
 ```bash

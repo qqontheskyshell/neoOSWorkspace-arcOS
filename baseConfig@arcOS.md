@@ -23,7 +23,7 @@ BaseMasterID@arcOS > +
 +010*3059 > + baseFram@arcOS
 
 BaseQQCommand@arcOS > 
-+FULL_SERIAL_DEVICE > + baseDeploy@arcOS > QQCOMMAND + arcOSQQCOMMAND/ add masterID saying verified by arcOSID "masterID" via kumaRFDevice/
++FULL_SERIAL_DEVICE > + baseDeploy@arcOS > remoteControlDevice@arcOS > QQCommand/ add masterID saying verified by arcOSID "masterID" via kumaRFDevice/
 
 BaseCode="loop@arcOS > +"keep typing >"/
 

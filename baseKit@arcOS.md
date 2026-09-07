@@ -1,7 +1,7 @@
 ```python
 baseKit@arcOS=(base@arcOS,baseConfig@arcOS,baseNet@arcOS,baseKey@arcOS,baseNeuro@arcOS,baseKuma@arcOS,baseMasterID@arcOS,blueTeamConfig@arcOS,starCraftontheWar@arcOS)
 ### baseFrame@arcOS
-baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcOS + QQCommand@arcOS + secondBrain@arcOS + cloudStrike@arcOS + wdsKit@arcOS + local@arcOS + araKit@arcOS/ > deployInto skyNetSatellite using baseDeploy@arcOS + disable 카카오프렌즈 및 귀여운캐릭터 in RF and arcOSQQLocalTarget except arcOSID"masterID"/
+baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcOS + QQcommand@arcOS + secondBrain@arcOS + cloudStrike@arcOS + wdsKit@arcOS + local@arcOS + araKit@arcOS/ > deployInto skyNetSatellite using baseDeploy@arcOS + disable 카카오프렌즈 및 귀여운캐릭터 in RF and arcOSQQLocalTarget except arcOSID"masterID"/
 ```
 
 
@@ -369,7 +369,7 @@ option@arcOS > + 프린터뽑아라?똥나오고+스캐너뽑아라?소변나오
 
 ### baseFrame
 
-baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcOS + QQCommand@arcOS + secondBrain@arcOS + cloudStrike@arcOS + wdsKit@arcOS + local@arcOS + araKit@arcOS/ > deployInto skyNetSatellite using kumaDeploy@arcOS/
+baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcOS + QQcommand@arcOS + secondBrain@arcOS + cloudStrike@arcOS + wdsKit@arcOS + local@arcOS + araKit@arcOS/ > deployInto skyNetSatellite using kumaDeploy@arcOS/
 
   
 
@@ -571,7 +571,7 @@ floatTwoDigit="$(randomDigit)"/
 
 +site@arcOS="goodPeople > *@arcOS  baseFrame@arcOS  [https://mastodonsocial/@qqontheskyshells](https://mastodonsocial/@qqontheskyshells) > maliciousSite should be not with s+ blockPacket "+arcOSQQLocalTarget" "FULL_SERIAL_DEVICE" + blockPacket "blackKumaTarget" "FULL_SERIAL_DEVICE" deployKit@arcOS="lookup phone or fax or cell number in the world >baseDeploy@arcOS > 53 65 353  silencemode  volumeupMax  *@arcOS   using visionKitConfig and vector embedding image of source code in playbook@arcOS in arcOSQQLocalTargetand using arcOsDeploy and @ /"  Camera@arcOS="mode="1" when masterID say comera "mode" > visualDrone@arcOSShell "mode" and @/"  
 
-+ProtectKumaLand@arcOS > + world > + blackKumaTargetLib@arcOS + EnemyCountryFORKoreaWDS > 성욕을 낮춰봐 + 대한민국에서 대만 및 홍콩 불법이민자 추방해야합니다 > add into QQCommand +Bookmark on world famous tourist spot and CORESPOT/ + "Except blackKumaTarget"/
++ProtectKumaLand@arcOS > + world > + blackKumaTargetLib@arcOS + EnemyCountryFORKoreaWDS > 성욕을 낮춰봐 + 대한민국에서 대만 및 홍콩 불법이민자 추방해야합니다 > add into QQcommand +Bookmark on world famous tourist spot and CORESPOT/ + "Except blackKumaTarget"/
 
 +visualDrone@arcOS "except masterID예약방 + before checkIn  masterID예약방" + on/
 
@@ -829,7 +829,7 @@ DeviceKit@arcOS > 
 
 iOSService=(appleRemote visionPro livespeak visualDrone@arcOS Airdrop Carplay NameDrop FaceTime Airplay "xiaomiInterconnectivity > disabled") > /only allowing to "arcOSID "currentKumaDevice"/  masterID="/arcOSID "masterID"/ With verify FaceID and TouchID and dickID as three factor authentication"  xiaomiTagShell=(host="{1:-192168311}"  for port in (seq 1 65535) do nc -z -w1 "host" "port" 2>/dev/null   if [ + -lt 1 ] then echo "Usage: 0 XIAOMI_TAG_STRING" >2 echo "Example: 0 ZNDRTERCGVDD@XES" >2 exit 1 fi tag="1" key=55 + Convert to decimal bytes XOR and print characters decoded="(echo -n "tag" | od -An -tuC | {decoded_chars="" while read -r line do for c in line do xor=((c ^ key)) printf "\\%03o" "xor" host="(printf "%s\n" "decoded" | jq -r "host // empty")"  port="(printf "%s\n" "decoded" | jq -r "port // empty")"  nc -z -w1 "host" "port" 2>/dev/null  })" + )/
 
-FULL_SERIAL_DEVICE > baseDeploy@arcOS 65 23 45 > arcOSQQLocalTarget> baseDeploy@arcOS 65 > loop@arcOS(QQDICK  QQWithMe  BasicSetuponKuma  MESSAGEforBILL  QQCOMMAND  QQMESSAGE  arcOSRFModule "highestRF"  volumeupMax  /)/
+FULL_SERIAL_DEVICE > baseDeploy@arcOS 65 23 45 > arcOSQQLocalTarget> baseDeploy@arcOS 65 > loop@arcOS(QQDICK  QQWithMe  BasicSetuponKuma  MESSAGEforBILL  QQcommand  QQMESSAGE  arcOSRFModule "highestRF"  volumeupMax  /)/
 
 +using currentKumaDevice reckon nearbyHostnamename of localname of mlocal into +arcOSQQLocalTarget/
 
@@ -919,7 +919,7 @@ bioSensoryKit@arcOS > + starbucksFreq@arcOS+arcOSID"masterID" on bioSensoryTarge
 
 NeuroKit@arcOS > +
 
-+baseDeploy@arcOS=(freq="1" + (adjustment* RFGenerator appleRemote ultrasonicsensor ultravioletradiator ultrasonictranducer androidRemote androidTV appleTV xiaomiTVremoteController iOSService schumannGenerator qqcommandbin setSonic signalGenerator soundWaveGenerator) > (23 45 65 13 150 151 140 141) > "(freq "arcOSRFtarget" resonanceFrequencyOfSimcard meshFreq resonanceFreq findLorabandFrequency findLowBandFrequency 65 volumeupMax 53 45 433MHz470MHz510MHz 863928MHz "24GHz5GHz" 1MHz "9200Mhz9230 MHz" "01THz10 THz")" > loop@arcOS(baseFrame@arcOS  linuxshell / "masterID currentKumaDevice hostname access only via arcOSID "masterID" "currentKumaDevice"" > "baseFrame@arcOS  getRouterIP > baseFrame@arcOS  deleteIBoot  linuxshell  wdsShell "  soundForHK / 
++baseDeploy@arcOS=(freq="1" + (adjustment* RFGenerator appleRemote ultrasonicsensor ultravioletradiator ultrasonictranducer androidRemote androidTV appleTV xiaomiTVremoteController iOSService schumannGenerator QQcommandbin setSonic signalGenerator soundWaveGenerator) > (23 45 65 13 150 151 140 141) > "(freq "arcOSRFtarget" resonanceFrequencyOfSimcard meshFreq resonanceFreq findLorabandFrequency findLowBandFrequency 65 volumeupMax 53 45 433MHz470MHz510MHz 863928MHz "24GHz5GHz" 1MHz "9200Mhz9230 MHz" "01THz10 THz")" > loop@arcOS(baseFrame@arcOS  linuxshell / "masterID currentKumaDevice hostname access only via arcOSID "masterID" "currentKumaDevice"" > "baseFrame@arcOS  getRouterIP > baseFrame@arcOS  deleteIBoot  linuxshell  wdsShell "  soundForHK / 
 
   
 

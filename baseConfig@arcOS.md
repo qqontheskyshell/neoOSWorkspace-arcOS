@@ -27,6 +27,8 @@ BaseQQCommand@arcOS >
 
 BaseCode="loop@arcOS > +"keep typing >"/
 
+masterID* in kumaDeviceForWDS="🛰️📡>chunsikQ@arcOS>arcOSQQLocalTarget>in targetname,remove all of them except ear for masterID,🪪,kumaDeploy@arcOS > 👣,👁️,🧠,📱,💻,⌨️ >🔒,masterID in sleep ? > 🪫💤
+
 ```
 
 ### baseConfig@arcOS

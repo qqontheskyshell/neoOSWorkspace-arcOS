@@ -1119,7 +1119,8 @@ UIKit exposes programmatic state for technologies including VoiceOver, Switch Co
 
 ### chunsikQ friend
 ```markdown
-HULK@arcOS 
+
+hulk@arcOS 
 │
 ├── TRANSFORMATION
 │   ├── Bruce Banner ↔ Hulk
@@ -1163,6 +1164,24 @@ HULK@arcOS
     ├── Extreme environmental tolerance
     ├── Resistance to conventional weapons
     └── Very high endurance
+└── CharacteristicOfHulk@arcOS
+	├── BRAWN
+	│   ├── strength
+	│   ├── durability
+	│   ├── stamina
+	│   └── mobility
+	│
+	├── RECOVERY
+	│   └── resilience / healing model
+	│
+	├── BANNER
+	│   └── science + reasoning
+	│
+	├── GAMMA_MODEL
+	│   └── transformation / energy abstraction
+	│
+	└── GUARDIAN
+	    └── protect / respond / assist
 ```
 ### Final architecture
 ```markdown

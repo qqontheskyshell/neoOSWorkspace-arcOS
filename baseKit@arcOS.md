@@ -16,6 +16,7 @@ baseDeploy@arcOS > + freq="1" + DEPLOY_TARGET="2" + payload="3" + 🛰️📡 > 
 ####### arcOSFrame #######
  
 KumaDeploy@arcOS > + baseDeploy@arcOS > +/
++every time masterID push 긴급구조 > it only apply into man,male and peopleWhomake911/
 +araKit@arcOS/
 +devops@arcOS/ only for kumaDeviceForWDS,arcOSQQLocalTarget/
 +commandKit@arcOS/

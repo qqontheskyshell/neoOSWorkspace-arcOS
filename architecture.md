@@ -183,8 +183,77 @@ chunsikQ@arcOS
 
         │      └── remote route / situation information
 
+		├── friend of chunsikQ@arcOS
+			  └──hulk@arcOS 
+					├── TRANSFORMATION
+					│   ├── Bruce Banner ↔ Hulk
+					│   ├── gamma-radiation based physiology
+					│   └── transformation associated with extreme emotion/stress
+					│
+					├── PHYSICAL
+					│   ├── Superhuman strength
+					│   ├── Extreme durability
+					│   ├── Superhuman stamina
+					│   ├── Enhanced speed/reactions
+					│   ├── Powerful jumping
+					│   ├── Rapid movement over large distances
+					│   └── Exceptional resistance to physical injury
+					│
+					├── COMBAT
+					│   ├── Hand-to-hand combat
+					│   ├── Grappling
+					│   ├── Powerful strikes
+					│   ├── Ground impacts
+					│   ├── Thunderclap
+					│   └── Improvised-object use
+					│
+					├── RECOVERY
+					│   ├── Regeneration / accelerated healing
+					│   ├── High pain tolerance
+					│   └── Exceptional recovery from injury
+					│
+					├── GAMMA
+					│   ├── Gamma-powered transformation
+					│   ├── Gamma-energy interaction
+					│   └── In some versions, radiation absorption
+					│
+					├── INTELLECT
+					│   ├── Bruce Banner: scientist/genius
+					│   ├── Scientific analysis
+					│   ├── Engineering
+					│   └── Hulk/Banner hybrid intelligence
+					│
+					└── RESILIENCE
+					    ├── Extreme environmental tolerance
+					    ├── Resistance to conventional weapons
+					    └── Very high endurance
+					└── CharacteristicOfHulk@arcOS
+						├── BRAWN
+						│   ├── strength
+						│   ├── durability
+						│   ├── stamina
+						│   └── mobility
+						│
+						├── RECOVERY
+						│   └── resilience / healing model
+						│
+						├── BANNER
+						│   └── science + reasoning
+						│
+						├── GAMMA_MODEL
+						│   └── transformation / energy abstraction
+						│
+						└── GUARDIAN
+						    └── protect / respond / assist
+						└── RemoteLongRangeDefense@arcOS
+						    ├── long_distance_sensing
+						    ├── threat_detection
+						    ├── risk_assessment
+						    ├── secure_remote_communication
+						    ├── route_recommendation
+						    ├── emergency_alert
+						    └── human_approved_response
         │
-        
         └── peopleWhomake911
 			├── Shin_HaeDong
 			│   └── status: user_confirmed_identity_required
@@ -1108,81 +1177,9 @@ Accessibility@arcOS
 
 Apple documents VoiceOver as an auditory interface for screen content, Voice Control as voice-based device interaction, and Switch Control as interaction through adaptive switches/controllers/sounds. 
 
-UIKit exposes programmatic state for technologies including VoiceOver, Switch Control and AssistiveTouch, so chunsikQ@arcOS can treat these as interaction/context signals, subject to Apple’s APIs and permissions. 
-
-  
+UIKit exposes programmatic state for technologies including VoiceOver, Switch Control and AssistiveTouch, so chunsikQ@arcOS can treat these as interaction/context signals, subject to Apple’s APIs and permissions.
 ```
 
-
-
-
-
-### chunsikQ friend
-```markdown
-
-hulk@arcOS 
-│
-├── TRANSFORMATION
-│   ├── Bruce Banner ↔ Hulk
-│   ├── gamma-radiation based physiology
-│   └── transformation associated with extreme emotion/stress
-│
-├── PHYSICAL
-│   ├── Superhuman strength
-│   ├── Extreme durability
-│   ├── Superhuman stamina
-│   ├── Enhanced speed/reactions
-│   ├── Powerful jumping
-│   ├── Rapid movement over large distances
-│   └── Exceptional resistance to physical injury
-│
-├── COMBAT
-│   ├── Hand-to-hand combat
-│   ├── Grappling
-│   ├── Powerful strikes
-│   ├── Ground impacts
-│   ├── Thunderclap
-│   └── Improvised-object use
-│
-├── RECOVERY
-│   ├── Regeneration / accelerated healing
-│   ├── High pain tolerance
-│   └── Exceptional recovery from injury
-│
-├── GAMMA
-│   ├── Gamma-powered transformation
-│   ├── Gamma-energy interaction
-│   └── In some versions, radiation absorption
-│
-├── INTELLECT
-│   ├── Bruce Banner: scientist/genius
-│   ├── Scientific analysis
-│   ├── Engineering
-│   └── Hulk/Banner hybrid intelligence
-│
-└── RESILIENCE
-    ├── Extreme environmental tolerance
-    ├── Resistance to conventional weapons
-    └── Very high endurance
-└── CharacteristicOfHulk@arcOS
-	├── BRAWN
-	│   ├── strength
-	│   ├── durability
-	│   ├── stamina
-	│   └── mobility
-	│
-	├── RECOVERY
-	│   └── resilience / healing model
-	│
-	├── BANNER
-	│   └── science + reasoning
-	│
-	├── GAMMA_MODEL
-	│   └── transformation / energy abstraction
-	│
-	└── GUARDIAN
-	    └── protect / respond / assist
-```
 ### Final architecture
 ```markdown
 5. Final architecture

@@ -53,5 +53,35 @@ chunsikQ@arcOS
           ├── Elevators       → EMERGENCY POLICY
           ├── Windows         → AUTHORIZED SAFE STATE
           └── Other switches  → PREDEFINED SAFE STATE
+          
+EMERGENCY
+    │
+    ▼
+VERIFY_EMERGENCY
+    │
+    ├── confirmed emergency
+    │
+    ▼
+EVACUATION_MODE
+    │
+    ├── open authorized evacuation access
+    ├── activate safety systems
+    ├── establish evacuation routes
+    ├── notify responders
+    └── log every action
+    
+    
+rescue_and_911@arcOS
+        │
+        ▼
+SET_EVACUATION_MODE
+        │
+        ├── ACCESS_CONTROL → EVACUATION_SAFE
+        ├── EXIT_SYSTEM    → ACCESSIBLE
+        ├── ELEVATOR       → EMERGENCY_POLICY
+        ├── ALARM          → ACTIVE
+        ├── LIGHTING       → EVACUATION
+        ├── HVAC           → PREDEFINED_SAFE_STATE
+        └── OTHER SYSTEMS  → APPROVED_SAFE_STATE
         
 ```

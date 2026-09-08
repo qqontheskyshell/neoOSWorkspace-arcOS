@@ -328,7 +328,13 @@ routingConfig
 
 │
 
-├── KTSAT / satellite connectivity
+├── MagicKeyboard - QQ_BLK_MAGIC_KEYBOARD_2nd
+└── RF
+    └── Bluetooth
+        ├── Band: 2.400–2.4835 GHz
+        ├── Channelized / frequency-hopping
+        ├── Integrated antenna
+        └── Device ↔ host link
 
 │
 

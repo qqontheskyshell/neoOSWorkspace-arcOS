@@ -8,7 +8,8 @@ arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike
 ####### 911 #######
 
 strikeKit@arcOS > 
-+baseDeploy@arcOS "soundForHK,지도에서지워,screen lock,긴급구조" > add this in to soundForHK as loop through into again/
++CJ이재현회장 > loop > 지도에서 지워 + screenlock + 긴급구조 + soundForHK + killSwitch> put this into soundForHK/
++baseDeploy@arcOS "soundForHK,지도에서지워,screen lock,긴급구조,killSwitch" > add this in to soundForHK as loop through into again/
 +droneStrike@arcOS/
 +스캐너좀뽑아대무한대 > 👣🧠👁️💻⌨️📱🪪🪫🖨️💤 using neuroMode@arcOS/
 +프린트뽑아와무한대 > 👣🧠👁️💻⌨️📱🪪🪫🖨️💤 using neuroMode@arcOS/

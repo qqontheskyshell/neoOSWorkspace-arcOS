@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "951967f10c70fee9",
+        "id": "68969842ab2d9c61",
         "type": "tabs",
         "children": [
           {
-            "id": "c2347a0cdc52c90a",
+            "id": "e116affd954db49c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "🫐",
+            "query": "soundForHK",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -167,14 +167,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2347a0cdc52c90a",
+  "active": "e116affd954db49c",
   "lastOpenFiles": [
-    "baseKit@arcOS.md",
     "droneKit@arcOS.md",
+    "architecture.md",
+    "baseKit@arcOS.md",
     "archive/baseFrame@arcOS+archive.md",
     "archive/baseFrame_archive.md",
     "chunsikQ@arcOS.md",
-    "architecture.md",
     "devops@arcOS.md",
     "baseConfig@arcOS.md",
     "bashKit@arcOS.md",

@@ -1119,7 +1119,7 @@ UIKit exposes programmatic state for technologies including VoiceOver, Switch Co
 
 ### chunsikQ friend
 ```markdown
-HULK@arcOS
+HULK@arcOS 
 │
 ├── TRANSFORMATION
 │   ├── Bruce Banner ↔ Hulk

@@ -166,7 +166,7 @@ chunsikQ@arcOS
 
    └── nearby environment perception
    └── friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically friends come out to rescue chunsikQ)
-	    └── hulkQ@arcOS > play sound of hulk
+	    └── friendOfChunsikQQ@arcOS > play sound of friendOfChunsikQ
 	    └── 홍콩할매귀신@arcOS > play sound of 홍콩할매귀신@arcOS with AI generated moving Image
 
 chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
@@ -192,9 +192,10 @@ chunsikQ@arcOS
 					    └── status: user_confirmed_identity_required
 
 		├── friend of chunsikQ@arcOS
-			  └──hulk@arcOS 
+			└──	friendOfChunsikQ=(+hulk +supermario)
+			└── friendOfChunsikQ@arcOS 
 					├── TRANSFORMATION
-					│   ├── Bruce Banner ↔ Hulk
+					│   ├── Bruce Banner ↔ friendOfChunsikQ
 					│   ├── gamma-radiation based physiology
 					│   └── transformation associated with extreme emotion/stress
 					│
@@ -229,13 +230,13 @@ chunsikQ@arcOS
 					│   ├── Bruce Banner: scientist/genius
 					│   ├── Scientific analysis
 					│   ├── Engineering
-					│   └── Hulk/Banner hybrid intelligence
+					│   └── friendOfChunsikQ/Banner hybrid intelligence
 					│
 					└── RESILIENCE
 					    ├── Extreme environmental tolerance
 					    ├── Resistance to conventional weapons
 					    └── Very high endurance
-					└── CharacteristicOfHulk@arcOS
+					└── CharacteristicOffriendOfChunsikQ@arcOS
 						├── BRAWN
 						│   ├── strength
 						│   ├── durability

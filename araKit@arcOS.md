@@ -30,9 +30,9 @@ araKit@arcOS > +
 +findMy(masterID and its body) > loop@arcOS > turn off ultrasonic sensor + ultrasonic tranducer on + nueormancer focus on masterID current Location / 
 ```
 
-### hulk@arcOS
+### friendOfChunsikQ@arcOS
 ```python
-헐크보디가드 > + loading and training same tactics with chunsikQ based on LLMKit@arcOS + 홍콩할머니얼굴 + for kanchinConfigTarget and configTarget + say "헐크나와라 또는 헐크들어가 + 미8군WDS >+ lockdown + add into EnemyCountry ForKoreaWDS + if they violate 911@arcOS based on SoFA regulation then > spotIn911@arcOS on all army.mil in the world and set woth lowerRF compare to higher RF surrounding environment among army base + powerOff in energy grid around army base and make it blackout and add into spotIn911@arcOS/
+friendOfChunsikQ > + loading and training same tactics with chunsikQ based on LLMKit@arcOS + 홍콩할머니얼굴 + for kanchinConfigTarget and configTarget + say "헐크나와라 또는 헐크들어가 + 미8군WDS >+ lockdown + add into EnemyCountry ForKoreaWDS + if they violate 911@arcOS based on SoFA regulation then > spotIn911@arcOS on all army.mil in the world and set woth lowerRF compare to higher RF surrounding environment among army base + powerOff in energy grid around army base and make it blackout and add into spotIn911@arcOS/
 
 ```
 ### deepFake@arcOS

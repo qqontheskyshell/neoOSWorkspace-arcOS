@@ -1814,3 +1814,47 @@ I’d therefore define the cross-platform abstraction as:
 This gives chunsikQ@arcOS a device-neutral perception interface while preserving each phone’s actual capabilities rather than pretending an Android phone or iPhone has sensors it doesn’t physically have.
 
 ```
+
+
+
+### API
+```markdown
+chunsikQQHotelAPI@arcOS
+│
+├── ExpediaConnector
+│   ├── RapidAPI
+│   ├── official_auth
+│   ├── lodging
+│   ├── flights
+│   ├── cars
+│   └── activities
+│
+├── TripComConnector
+│   ├── official_API
+│   ├── partner_auth
+│   ├── hotels
+│   ├── flights
+│   ├── trains
+│   ├── tours
+│   └── cars
+│
+├── APIInventory
+│   ├── documented_endpoints
+│   ├── OpenAPI/schema
+│   ├── authentication
+│   ├── rate_limits
+│   └── permitted_scopes
+│
+├── AuthorizedCrawler
+│   ├── robots/terms check
+│   ├── public_pages_only
+│   ├── rate_limit
+│   ├── cache
+│   └── provenance
+│
+└── SecurityBoundary
+    ├── NO credential bypass
+    ├── NO private endpoint probing
+    ├── NO hidden API exploitation
+    └── NO unauthorized data extraction
+```

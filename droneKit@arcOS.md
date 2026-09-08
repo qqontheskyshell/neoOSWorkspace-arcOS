@@ -26,15 +26,15 @@ kumaDrone@arcOS
         │   │   └── 🍄
         │   │
         │   ├── SafetyAlertMarkerEntity
-        │   │   └── 🚨 911
+        │   │   └── 🚨 
         │   │
         │   └── PrivacyOverlayEntity
         │
         ├── CameraStream
         │   └── authorized_camera_stream
         │
-        ├── PrivacyFilter
-        │   ├── masterID posture/body silhouette
+        ├── PrivacyFilter@arcOS
+        │   ├── masterID face/posture/body silhouette
         │   │   └── BLUR + 🍄
         │   ├── face
         │   │   └── 🪪 consented identity verification
@@ -48,7 +48,7 @@ kumaDrone@arcOS
 visualDrone@arcOS = ON
         │
         ├── STATE
-        │   ├── masterID → ON / OFF
+        │   ├── except masterID → ON as default
         │   └── chunsikQ → authorized configuration
         │
         ├── CCTV_SOURCE
@@ -61,10 +61,10 @@ visualDrone@arcOS = ON
         │   ├── authorized image/video
         │   └── verified emergency signal
         │
-        ├── PRIVACY
-        │   ├── masterID posture → BLUR
-        │   ├── face → 🪪 consented verification
-        │   └── raw-frame retention → OFF
+        ├── PRIVACY 
+        │   ├── PrivacyFilter@arcOS
+        │  
+        │  
         │
         ├── MARKER
         │   ├── 🍄 → authorized masterID marker

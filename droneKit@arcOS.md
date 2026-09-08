@@ -5,12 +5,39 @@ arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike
 ```
 
 
-### kumaDrone@arcOS
+### kumaDrone@arcOS as masterID_CCTV
 ```python
 findMy(masterID)
         │
         ▼
-masterID_CCTV
+kumaDrone@arcOS
+		│
+		├── visionOS
+		│   ├── WindowGroup
+		│   ├── ImmersiveSpace
+		│   ├── RealityView
+		│   └── spatial input
+		│
+		├── RealityKit
+		│   ├── CCTVFeedEntity
+		│   ├── ProtectedVisualFeed
+		│   ├── MasterIDMarkerEntity
+		│   │   └── ★ shiny star
+		│   └── PrivacyOverlayEntity
+		│
+		├── CameraStream
+		│   └── authorized_camera_stream
+		│
+		├── PrivacyFilter
+		│   ├── masterID posture/body silhouette
+		│   │   └── BLUR
+		│   ├── face
+		│   │   └── 🪪 consented identity verification
+		│   └── raw-frame retention
+		│       └── DISABLED_BY_DEFAULT
+		│
+		└── Output
+		    └── protected_visual_feed
         │
         ▼
 visualDrone@arcOS = ON
@@ -38,6 +65,20 @@ visualDrone@arcOS = ON
 		│   └── ★ masterID = consented/authorized marker
 		└── OUTPUT
 		    └── privacy-preserving visual stream
+		└── visionOS
+                │
+        ┌───────▼────────┐
+        │ masterID_CCTV  │
+        │                │
+        │  CCTV Feed     │
+        │                │
+        │     [ BLUR ]   │
+        │        ★       │
+        │   masterID     │
+        │                │
+        └────────────────┘
+                │
+         RealityKit scene
 ```
 
 

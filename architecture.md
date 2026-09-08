@@ -328,14 +328,21 @@ routingConfig
 
 │
 
-├── MagicKeyboard - QQ_BLK_MAGIC_KEYBOARD_2nd
-└── RF
-    └── Bluetooth
-        ├── Band: 2.400–2.4835 GHz
-        ├── Channelized / frequency-hopping
-        ├── Integrated antenna
-        └── Device ↔ host link
-
+└── QQ_BLK_MAGIC_KEYBOARD_2nd > baseNet@arcOS with randomizing AI algorithm
+    └── RF
+        └── Bluetooth
+	        ├── Band: 2.400–2.4835 GHz
+	        ├── Channelized / frequency-hopping
+	        ├── Integrated antenna
+	        └── Device ↔ host link
+            ├── channelized_transport
+            ├── frequency_hopping
+            ├── integrated_antenna
+            └── channel_randomization
+                ├── pseudo-random sequence
+                ├── session-scoped seed
+                ├── channel selection
+                └── collision avoidance
 │
 
 └── satAI@arcOS

@@ -99,7 +99,7 @@ chunsikQ@arcOS
 
                 │                             │
 
-      QQ_WHT_IPHONE_17                 QQ_ORNG_PRO
+      QQ_WHT_IPHONE_17e                 QQ_ORNG_PRO
 
                 │                             │
 
@@ -512,7 +512,7 @@ model
 
              │               │               │
 
-       QQ_WHT_IPHONE_17 QQ_ORNG_PRO QQ_BLK_IPAD_PRO
+       QQ_WHT_IPHONE_17e QQ_ORNG_PRO QQ_BLK_IPAD_PRO
 
              │               │               │
 

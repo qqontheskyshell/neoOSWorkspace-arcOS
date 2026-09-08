@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "99086ab50bcaa737",
+        "id": "c55c68a1ef6dcb76",
         "type": "tabs",
         "children": [
           {
-            "id": "423f833da645f1d8",
+            "id": "d09f970c610bf3ff",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "423f833da645f1d8",
+  "active": "d09f970c610bf3ff",
   "lastOpenFiles": [
     "architecture.md",
     "araKit@arcOS.md",

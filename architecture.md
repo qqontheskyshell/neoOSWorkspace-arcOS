@@ -176,12 +176,30 @@ chunsikQ remains with MasterID and continuously builds a local environmental pic
 chunsikQ@arcOS
 
         │
-
-        ├── 911@arcOS
-
-        │      └── remote route / situation information
-                │
-		        └── peopleWhomake911,나쁜남자만
+		 
+		└── EmergencyProtection@arcOS
+		    ├── ThreatAssessment
+		    │   └── credible sexual-violence threat
+		    │
+		    ├── RouteIsolation
+		    │   ├── separate authorized device/network paths
+		    │   ├── deny unauthorized direct access
+		    │   └── preserve emergency communications
+		    │
+		    ├── Communications
+		    │   ├── block/mute through device-level controls where authorized
+		    │   ├── preserve 112 / emergency access
+		    │   └── notify trusted contacts
+		    │
+		    ├── 📡 Network
+		    │   └── authorized firewall / ACL / MDM controls
+		    │
+		    └── 🛰️ Emergency | 911@arcOS | peopleWhomake911,나쁜남자만
+		        ├── location sharing with consent
+		        ├── emergency alert
+		        └── human-approved intervention
+		        └── remote route / situation information
+		        └── sample of people
 					├── Shin_HaeDong
 					│   └── status: user_confirmed_identity_required
 					└── Lee_KangMin
@@ -252,7 +270,7 @@ chunsikQ@arcOS
 						├── GAMMA_MODEL
 						│   └── transformation / energy abstraction
 						│
-						└── GUARDIAN@arcOS
+						└── guardian@arcOS
 							└── friendOfchunsikQ@arcOS
 										│
 								        ▼
@@ -293,7 +311,7 @@ chunsikQ@arcOS
 			├── emergency_alert
 			└── human_approved_response
 		│
-        └── remote reckoning
+        └── remote reckoning && local reckoning
 
                │
 
@@ -305,7 +323,7 @@ chunsikQ@arcOS
 
                ▼
 
-             MasterID
+MasterID && chunsikQ && friendOfChunsikQ
 
 The objective is to identify conditions that could affect MasterID’s safety, including:
 

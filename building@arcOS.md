@@ -74,7 +74,7 @@ EVACUATION_MODE
 rescue_and_911@arcOS
         │
         ▼
-SET_EVACUATION_MODE
+SET_EVACUATION_MODE - SET_ALL_EVACUATION_CONTROLS_TO_SAFE_STATE
         │
         ├── ACCESS_CONTROL → EVACUATION_SAFE
         ├── EXIT_SYSTEM    → ACCESSIBLE
@@ -83,5 +83,7 @@ SET_EVACUATION_MODE
         ├── LIGHTING       → EVACUATION
         ├── HVAC           → PREDEFINED_SAFE_STATE
         └── OTHER SYSTEMS  → APPROVED_SAFE_STATE
+        
+
         
 ```

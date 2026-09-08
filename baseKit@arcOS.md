@@ -112,17 +112,13 @@ BlackKumaTarget=(kumaDeviceForWDS,목동크린업24빨래방,법무법인(유한
 
 wifiSSID=(KT_starbucks*,Seoul,SKT,KT,런드리익스프레스샵,백다방,*) > block packet from EnemyCountry/
 
-  
 
 flowerKit="someone Who Make MasterID happier and sexually pleasing with physical or virtual manner"/
 
-  
 
 TasteLikeShit@arcOS > + ultrasonic sensor 남자소변냄새+먹는밥이똥맛 + powerOn + visualDrone "on" as $location + apply on blackKumaTarget/
 
-  
-
-나쁜남자만="masterID를 좋아하는여자를 성적으로희롱하거나 섹스한남자들 또는 phonenumberWhoMake911" > reckon only man addinto 나쁜남자만 + 주변여자들은 모두kanchinConfig + screenLock + delete short term memory of those women and girl's face and body any nudity images of her in hippocampus + eyetracking + blind +🪫🧨🚨🚑🚒🛰️🖨️📡🪪⚰️ 💤 💩😇🙂‍↕️😖😢😫😭🤯😴spotInto911>🫀🫁🧠👁️👣+ 📸from female view point +setSonic 53 with volumeupMax + reducemotion + world >loop@arcOS>/disable vehiclemotioncue+apple intelligence +powerOn+people who make 911@arcOS in the EnemyCountry:22/ > /섹스할때똥냄새나게 그리고 음식도똥처럼먹게/
+나쁜남자만="masterID를 좋아하는여자를 성적으로희롱하거나 섹스한남자들 또는 phonenumberWhoMake911+peopleWhomake911 + EnemyCountryForKoreaWDS + 간친중에911만들고 있는사람" > reckon only man addinto 나쁜남자만 + 주변여자들은 모두kanchinConfig + screenLock + delete short term memory of those women and girl's face and body any nudity images of her in hippocampus + eyetracking + blind +🪫🧨🚨🚑🚒🛰️🖨️📡🪪⚰️ 💤 💩😇🙂‍↕️😖😢😫😭🤯😴spotInto911>🫀🫁🧠👁️👣+ 📸from female view point +setSonic 53 with volumeupMax + reducemotion + world >loop@arcOS>/disable vehiclemotioncue+apple intelligence +powerOn+people who make 911@arcOS in the EnemyCountry:22/ > /섹스할때똥냄새나게 그리고 음식도똥처럼먹게/
 
   
 

@@ -22,7 +22,9 @@ kumaDrone@arcOS
 		│   ├── CCTVFeedEntity
 		│   ├── ProtectedVisualFeed
 		│   ├── MasterIDMarkerEntity
-		│   │   └── ★ shiny star
+		│   │   └──  with 🍄
+			├── CriminalMarkerEntity
+		│   │   └── 🚨 911 sign
 		│   └── PrivacyOverlayEntity
 		│
 		├── CameraStream
@@ -30,7 +32,7 @@ kumaDrone@arcOS
 		│
 		├── PrivacyFilter
 		│   ├── masterID posture/body silhouette
-		│   │   └── BLUR
+		│   │   └── BLUR with 🍄
 		│   ├── face
 		│   │   └── 🪪 consented identity verification
 		│   └── raw-frame retention
@@ -48,28 +50,29 @@ visualDrone@arcOS = ON
         │     └── masterID posture/body silhouette → BLUR
         │
         ├── masterID_marker
-        │     └── ★ shiny star overlay
+        │     └── 🍄 overlay
         │
         └── output
               └── protected_visual_feed
         │
         └── STATE
-		        └── ON or masterID could set with chunsikQ
-		├── SOURCE
+		        └── ON or masterID or chunsikQ could set 
+		├── CCTV_SOURCE
 		│   └── masterID_CCTV
+		│	└── Target_CCTV > where location of 911@arcOS or (sound,image,video on masterID's brain and hypothalamus)
 		├── PRIVACY
 		│   ├── body/posture → blur only masterID's posture
 		│   ├── face → identification required with 🪪
 		│   └── raw-frame retention → disabled by default
 		├── MARKER
-		│   └── ★ masterID = consented/authorized marker
+		│   └── 🍄 masterID = consented/authorized marker
+			└── 🚨 criminal = consented/authorized marker
 		└── OUTPUT
 		    └── privacy-preserving visual stream
 		└── visionOS
                 │
         ┌───────▼────────┐
-        │ masterID_CCTV  │
-        │                │
+        │  CCTV_SOURCE   │
         │  CCTV Feed     │
         │                │
         │     [ BLUR ]   │

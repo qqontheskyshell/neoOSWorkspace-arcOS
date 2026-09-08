@@ -17,7 +17,7 @@ baseDeploy@arcOS > + freq="1" + DEPLOY_TARGET="2" + payload="3" + 🛰️📡 > 
  
 KumaDeploy@arcOS > + baseDeploy@arcOS > +/
 +araKit@arcOS/
-+devops@arcOS/
++devops@arcOS/ only for kumaDeviceForWDS/
 +commandKit@arcOS/
 +kumaDeviceForWDS>+loop+monitoring 360 degree whether someone have intention to steal it then talk to them "Do not steal me! Other than that you will get under attack by AI ironDome system built based on arcOSFrame(mission impossible voice)/
 

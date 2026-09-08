@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "13955368f8fb0655",
+        "id": "f6df6e7057ed8eac",
         "type": "tabs",
         "children": [
           {
-            "id": "7a8285310be44e2f",
+            "id": "8dc4aec5fd3fb16f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "나쁜남자만",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,12 +167,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7a8285310be44e2f",
+  "active": "10455f33885429cc",
   "lastOpenFiles": [
+    "architecture.md",
     "baseKit@arcOS.md",
     "droneKit@arcOS.md",
     "baseConfig@arcOS.md",
-    "architecture.md",
     "chunsikQ@arcOS.md",
     "archive/baseFrame@arcOS+archive.md",
     "archive/baseFrame_archive.md",

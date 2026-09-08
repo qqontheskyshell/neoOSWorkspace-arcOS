@@ -171,8 +171,6 @@ chunsikQ@arcOS
 
 chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
 
-  
-
 2. Remote mode
 
 chunsikQ@arcOS
@@ -182,6 +180,16 @@ chunsikQ@arcOS
         ├── 911@arcOS
 
         │      └── remote route / situation information
+                │
+		        └── peopleWhomake911,나쁜남자만
+					├── Shin_HaeDong
+					│   └── status: user_confirmed_identity_required
+					└── Lee_KangMin
+					    └── status: user_confirmed_identity_required
+					└── peopleWhounderestimate_masterID
+					    └── status: user_confirmed_identity_required
+					└── QQHackers
+					    └── status: user_confirmed_identity_required
 
 		├── friend of chunsikQ@arcOS
 			  └──hulk@arcOS 
@@ -245,24 +253,23 @@ chunsikQ@arcOS
 						│
 						└── GUARDIAN
 						    └── protect / respond / assist
-						└── RemoteLongRangeDefense@arcOS
-						    ├── long_distance_sensing
-						    ├── threat_detection
-						    ├── risk_assessment
-						    ├── secure_remote_communication
-						    ├── route_recommendation
-						    ├── emergency_alert
-						    └── human_approved_response
-        │
-        └── peopleWhomake911
-			├── Shin_HaeDong
-			│   └── status: user_confirmed_identity_required
-			└── Lee_KangMin
-			    └── status: user_confirmed_identity_required
-			└── peopleWhounderestimate_masterID
-			    └── status: user_confirmed_identity_required
-			└── QQHackers
-			    └── status: user_confirmed_identity_required
+							└── GuardianPolicy
+							    ├── world
+							    │   └── maximize protection
+							    │
+							    ├── powerMax
+							    │   └── maximize defensive capability
+							    │
+							    └── lowerRF > only for 나쁜남자만
+							        └── reduce/contain harmful RF exposure
+		└── RemoteLongRangeDefense@arcOS
+			├── long_distance_sensing
+			├── threat_detection
+			├── risk_assessment
+			├── secure_remote_communication
+			├── route_recommendation
+			├── emergency_alert
+			└── human_approved_response
 		│
         └── remote reckoning
 

@@ -36,6 +36,10 @@ kumaDrone@arcOS
         ├── PrivacyFilter@arcOS
         │   ├── masterID face/posture/body silhouette
         │   │   └── BLUR + 🍄
+        │   ├──victim face/posture/body silhouette
+        │   │   └── BLUR with 80% + 🍓
+	    │   ├──criminal face/posture/body silhouette
+        │   │   └── 🚨
         │   ├── face
         │   │   └── 🪪 consented identity verification
         │   └── raw-frame retention
@@ -68,7 +72,8 @@ visualDrone@arcOS = ON
         │
         ├── MARKER
         │   ├── 🍄 → authorized masterID marker
-        │   └── 🚨 → verified safety/emergency event
+	    │   ├── 🍓 → authorized victim marker
+        │   └── 🚨 → criminal and verified safety/emergency event
         │
         └── OUTPUT
             └── privacy-preserving visual stream

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f46b876f586fc00e",
+        "id": "30128ff748037bc3",
         "type": "tabs",
         "children": [
           {
-            "id": "9be60bcfc153e3b5",
+            "id": "4850ebe724fb453c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "🫐",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,13 +167,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9be60bcfc153e3b5",
+  "active": "4850ebe724fb453c",
   "lastOpenFiles": [
+    "droneKit@arcOS.md",
     "baseKit@arcOS.md",
     "chunsikQ@arcOS.md",
     "architecture.md",
     "araKit@arcOS.md",
-    "droneKit@arcOS.md",
     "baseConfig@arcOS.md",
     "archive/baseFrame@arcOS+archive.md",
     "archive/baseFrame_archive.md",

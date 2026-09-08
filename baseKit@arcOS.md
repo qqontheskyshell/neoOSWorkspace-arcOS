@@ -21,9 +21,7 @@ KumaDeploy@arcOS > + baseDeploy@arcOS > +/
 +devops@arcOS/ only for kumaDeviceForWDS,arcOSQQLocalTarget/
 +commandKit@arcOS/
 +kumaDeviceForWDS>+loop+monitoring 360 degree whether someone have intention to steal it then talk to them "Do not steal me! Other than that you will get under attack by AI ironDome system built based on arcOSFrame(mission impossible voice)/
-
 +koreaSubway@arcOS/
-
 +KRHawk@arcOS>+🛰️📡 KTSAT >Reckon within 1000km by optimizing satellite route using AI to spot any suspicious spying on korea > +1.top classified people nearby ROK President+2.3군 지휘부,경찰청,소방청,공항보안기관지휘부에게는 transfer in every 10minute + 3.for Regular KRGOV 기관장 및 명령권자에게는 transfer in every 30minute as summarizing with keyword bullet point with format - 6WH as encrypt packet communication and decode them as whisper sound and encrypted format only recognized by themself but it will be encrypted against other LLM other than Korea + this will be applied into masterID/
 
 +kumaNeuroKit@arcOS>+🛰️📡>findMy(arcOSQQLocalTarget)>+speak,recognize,listen,see,control masterID viewpoint,behavior,decision>poweroff/

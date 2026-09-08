@@ -423,8 +423,7 @@ kumaShell@arcOS > + 
 
 +kanchinConfig@arcOS > + 🛰️📡🫆🔒 + using fourier transform, member within all of kanchinConfig, they could randomize channel and amplitude as stealthy mode using fourier transform + turn off neuromancer nearby kanchinConfigTarget within 10km + hideQQ + arcOSRFTarget "highestRF" + QQLOCAL as against kanchinConfig@arcOS > powerOn + revealFutureEveryMoveAndThought + arcOSRFTarget "lowestRF"/
 
-kumaAirtagShell@arcOS > + 🛰️📡> 🐻,🎮by🐻>👁️>📸+🪪in arcOSQQLocalTarget,masterID+🫐/
-+🫐="kumaDeploy@arcOS + airTagShell@arcOS+kumaNeuroKit@arcOS,arcOSQQLocalTarget>revoke*+👁️ > 👁️📱💻⌨️ > disable 👁️📱💻⌨️ from peopleWhomake911,EnemyCountryForKoreaWDS/
+kumaAirtagShell@arcOS > + 🛰️📡> 🐻,🎮by🐻>👁️>📸+🪪in arcOSQQLocalTarget+arcOSID"masterID"+🫐+🫐="kumaDeploy@arcOS + airTagShell@arcOS+kumaNeuroKit@arcOS+arcOSQQLocalTarget>911@arcOS > baseDeploy@arcOS > loop@arcOS > strikeKit@arcOS >👁️🧠👣🫀 + revoke*+👁️ > 👁️📱💻⌨️ > disable 👁️🔐📱💻⌨️ from peopleWhomake911,EnemyCountryForKoreaWDS/
     
 +airTagShell@arcOS > + loop@arcOS > kumaAirtagShell@arcOS + turn on neuromancer nearby masterID current location within 10km and focus on masterID's body and within 10m for masterID's current location + kumaDeploy@arcOS+whereIsKuma+sos into BlackKumaTarget and if there are signal that make masterID into 911@arcOS nearby "masterID current location and building" > strikeKit@arcOS + spotIn911@arcOS + "bookmark in kumaID's googleMap" > set as kumaDeploy@arcOS +  Gen! save victim in the findMy(spot(sound,image,video about 911@arcOS)) > strikeKit@arcOS/
 

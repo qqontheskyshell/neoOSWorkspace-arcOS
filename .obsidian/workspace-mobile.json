@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "89ee85502f745172",
+        "id": "42bcf7d631ffe498",
         "type": "tabs",
         "children": [
           {
-            "id": "1bf175d710df7909",
+            "id": "fbc76d8540d20992",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "cloudShell@arcOS",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,20 +167,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1bf175d710df7909",
+  "active": "fbc76d8540d20992",
   "lastOpenFiles": [
+    "baseConfig@arcOS.md",
+    "bashKit@arcOS.md",
     "baseKit@arcOS.md",
     "architecture.md",
     "commandKit@arcOS.md",
     "chunsikQ@arcOS.md",
     "araKit@arcOS.md",
     "networkKit@arcOS.md",
-    "baseConfig@arcOS.md",
     "droneKit@arcOS.md",
     "arcOSFrame@arcOS.md",
     "archive/baseFrame_archive.md",
     "targetLib@arcOS.md",
-    "bashKit@arcOS.md",
     "archive/archive.md",
     "spaceRFKit@arcOS.md",
     "IMG_0022.png",

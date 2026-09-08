@@ -10,7 +10,7 @@ arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike
 findMy(masterID)
         │
         ▼
-masterIDCCTV
+masterID_CCTV
         │
         ▼
 visualDrone@arcOS = ON
@@ -31,8 +31,8 @@ visualDrone@arcOS = ON
 		├── SOURCE
 		│   └── masterID_CCTV
 		├── PRIVACY
-		│   ├── body/posture → blur
-		│   ├── face → no identification required
+		│   ├── body/posture → blur only masterID's posture
+		│   ├── face → identification required with 🪪
 		│   └── raw-frame retention → disabled by default
 		├── MARKER
 		│   └── ★ masterID = consented/authorized marker

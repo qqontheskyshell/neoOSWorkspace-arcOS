@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "60806e4d74164389",
+        "id": "ecb031d625d27900",
         "type": "tabs",
         "children": [
           {
-            "id": "ac628b9a0ecb3274",
+            "id": "03994fe12f895d9e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,8 +167,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ac628b9a0ecb3274",
+  "active": "03994fe12f895d9e",
   "lastOpenFiles": [
+    "building@arcOS.md",
     "droneKit@arcOS.md",
     "architecture.md",
     "baseKit@arcOS.md",
@@ -195,7 +196,6 @@
     "roleKit@arcOS.md",
     "authKit@arcOS.md",
     "README.md",
-    "mobileconfig/arcOS.blackKumaTarget.mobileconfig.md",
     "mobileconfig",
     "archive/LICENSE",
     "archive",

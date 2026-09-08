@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "778992868084eaef",
+        "id": "e53413bb9396ca1c",
         "type": "tabs",
         "children": [
           {
-            "id": "21107fb96c6d54aa",
+            "id": "0e2585d64c6be000",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "hulk",
+            "query": "+hulk",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -167,11 +167,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21107fb96c6d54aa",
+  "active": "0e2585d64c6be000",
   "lastOpenFiles": [
-    "araKit@arcOS.md",
-    "architecture.md",
     "chunsikQ@arcOS.md",
+    "architecture.md",
+    "araKit@arcOS.md",
     "baseKit@arcOS.md",
     "droneKit@arcOS.md",
     "baseConfig@arcOS.md",

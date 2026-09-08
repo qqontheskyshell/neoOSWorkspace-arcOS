@@ -192,7 +192,7 @@ chunsikQ@arcOS
 					    └── status: user_confirmed_identity_required
 
 		├── friend of chunsikQ@arcOS
-			└──	friendOfChunsikQ=(+hulk +supermario)
+			└──	friendOfChunsikQ=(+hulkQ +supermarioQ)
 			└── friendOfChunsikQ@arcOS 
 					├── TRANSFORMATION
 					│   ├── Bruce Banner ↔ friendOfChunsikQ

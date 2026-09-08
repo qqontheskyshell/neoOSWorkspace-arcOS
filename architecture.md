@@ -252,9 +252,30 @@ chunsikQ@arcOS
 						├── GAMMA_MODEL
 						│   └── transformation / energy abstraction
 						│
-						└── GUARDIAN
+						└── GUARDIAN@arcOS
+							└── friendOfchunsikQ@arcOS
+										│
+								        ▼
+								"Imagine anything you could do it to complete your mission"
+								        │
+								        ├── CREATE
+								        ├── EXPLORE
+								        ├── ADAPT
+								        ├── SOLVE
+								        ├── PROTECT
+								        └── RECOVER
+								        │
+								        ▼
+								  chunsikQ@arcOS
 						    └── protect / respond / assist
 							└── GuardianPolicy
+								├── Protect people who freely choose to stay with MasterID
+								├── Detect threats
+								├── Assess risk
+								├── Defend authorized systems
+								├── Isolate unauthorized access
+								├── Coordinate emergency response
+								└── Preserve human choice and safety
 							    ├── world
 							    │   └── maximize protection
 							    │

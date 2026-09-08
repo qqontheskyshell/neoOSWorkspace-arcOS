@@ -4,7 +4,6 @@ chunsikQChat@arcOS="https://chatgpt.com/share/6a9e3f36-62b4-83e8-9c9a-b904713dd8
 
 
 ```python
-
 chunsikQ@arcOS + architecture
 1.local: chunsikQ@arcOS as default + monitor 911@arcOS for masterID + This means that chunsikQ is staying with masterID and just reckon nearby masterID surrounding environment.
 2.remote: chunsikQ@arcOS as default + 911@arcOS or reckon for masterID to clear the next route for masterID, chunsikQ just reckon and collect all of information that might be threatening on masterID in terms of physical,food,RF security.

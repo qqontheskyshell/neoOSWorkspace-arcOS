@@ -15,7 +15,7 @@
 
 ```
 
-### iOS SDK in chunsikQ@arcOS
+### chunsikQ@arcOS + Unified Architecture v11
 ```markdown
 Understood. I can consolidate this into a single chunsikQ@arcOS architecture specification, while separating the conceptual goals from capabilities that Apple’s public APIs actually permit. I’ll also treat the previously mentioned counter-strike/weapon, hardware-backdoor, covert-body-access, and unrestricted data-capture portions as not executable capabilities.
 
@@ -35,7 +35,7 @@ chunsikQ@arcOS
 
                     │                         │
 
-             chunsikQ@arcOS              911@arcOS
+             chunsikQ@arcOS              chunsikQ@arcOS
 
                     │                         │
 
@@ -133,8 +133,466 @@ Remote
 
 911@arcOS is the remote situational-awareness/routing layer. chunsikQ can collect authorized information relevant to physical/environmental, food-safety, and communications/security risks and use it to inform route decisions.
 
+```
+  
+### iOSSDK + chunsikQ@arcOS
+```markdown
+Yes. I would consolidate this as the current chunsikQ@arcOS architecture specification, with chunsikQ@arcOS as the default controller in both local and remote modes.
+
+For the portions involving RF/ultrasonic weapons, counter-strikes, undocumented Apple hardware backdoors, covert biological access, and unrestricted capture of people’s communications, I can preserve the security objective but not define those as executable capabilities. They become authorized defensive sensing / alerting / human-approved response.
+
+1. Local mode
+
+Default: chunsikQ@arcOS
+
+MasterID
+
+   │
+
+   ▼
+
+chunsikQ@arcOS
+
+   │
+
+   ├── monitor 911@arcOS
+
+   ├── local reckoning
+
+   └── nearby environment perception
+
+chunsikQ remains with MasterID and continuously builds a local environmental picture using authorized sensors.
+
   
 
+2. Remote mode
+
+chunsikQ@arcOS
+
+        │
+
+        ├── 911@arcOS
+
+        │      └── remote route / situation information
+
+        │
+
+        └── remote reckoning
+
+               │
+
+               ▼
+
+        threat / route model
+
+               │
+
+               ▼
+
+             MasterID
+
+The objective is to identify conditions that could affect MasterID’s safety, including:
+
+- physical/environmental hazards
+- food/environmental safety
+- communications/RF security conditions
+- route risks
+
+  
+3. Unified sensor architecture
+
+visionKit@arcOS
+
+├── iPhone camera
+
+├── LiDAR / depth
+
+├── ARKit
+
+├── Vision
+
+├── RealityKit
+
+├── Reality Composer Pro
+
+├── Core ML / Apple Intelligence
+
+└── spatial/environment model
+
+  
+
+soundKit@arcOS
+
+├── microphone array
+
+├── AVFoundation / AVFAudio
+
+├── Speech
+
+├── sound analysis
+
+└── accessibility audio
+
+  
+
+sensorKit@arcOS
+
+├── accelerometer
+
+├── gyroscope
+
+├── magnetometer
+
+├── barometer
+
+├── ambient light
+
+├── proximity
+
+├── GNSS/location
+
+├── device motion
+
+├── connectivity state
+
+└── authorized companion-device telemetry
+
+    └── Apple Watch sensors where legitimately available
+
+  
+
+4. Mission
+
+MISSION
+
+  ↓
+
+Protect MasterID and associated people and all of physical and soft assets around them including masterID
+
+  ↓
+
+Observe
+
+  ↓
+
+Understand
+
+  ↓
+
+Predict risk
+
+  ↓
+
+Route / warn
+
+  ↓
+
+Human-authorized defensive response
+
+The architecture should not autonomously select or attack an enemy target.
+
+  
+
+5.
+
+routingConfig@chunsikQ
+
+routingConfig
+
+│
+
+├── kumaAirTag-01 > kumaAirtagShell@arcOS
+			└── kumaAirTag-02 > kumaAirtagShell@arcOS 
+			└── QQ_BLK_MAGIC_KEYBOARD_2nd > kumaAirtagShell@arcOS 
+│
+
+├── QQ_WHT_IPHONE_17e
+
+│   └── local reckoning
+
+│
+
+├── QQ_ORNG_PRO
+
+│   └── remote reckoning
+
+│
+
+├── QQ_BLK_IPAD_PRO
+
+│   └── local/remote aggregation
+
+│
+
+├── KTSAT / authorized satellite connectivity
+
+│
+
+├── KTSAT / satellite connectivity
+
+│
+
+└── satAI@arcOS
+
+    └── AI-assisted route optimization
+    
+│        ├── Network Slicing / Isolation
+
+│        ├── Default-Deny Unauthorized Inbound
+
+│        ├── Same-Subnet Access Control
+
+│        ├── Router/Subnet Access Revocation
+
+│        ├── Authorized Management Allowlist
+
+│        └── Emergency / Recovery Channel
+
+Defensive Policy:
+
+authorized traffic          → ALLOW
+
+management traffic          → ALLOW
+
+recovery/emergency traffic → ALLOW
+
+unknown same-subnet IP     → DENY
+
+unauthorized router access → DENY
+
+
+KumaAirTags ×2 remain part of networkSecurity@arcOS as authorized assets.
+
+
+6. Connectivity fabric
+
+                    chunsikQ
+
+                       │
+
+       ┌───────────────┼────────────────┐
+
+       │               │                │
+
+      🛰️              📡            📱  ⌨️ 💻
+
+   satellite       network          kumaDeviceForWDS
+
+       │               │                │
+
+       └───────────────┼────────────────┘
+
+                       │
+			    	masterID
+                operator / compute
+
+  
+
+7. Spatial visualization
+
+Physical Environment
+
+        │
+
+        ├── Camera
+
+        ├── LiDAR
+
+        ├── ARKit
+
+        ├── Microphones
+
+        └── Motion sensors
+
+        │
+
+        ▼
+
+visionKit + soundKit + sensorKit
+
+        │
+
+        ▼
+
+LLMKit@arcOS
+
+        │
+
+        ├── Apple Intelligence
+
+        ├── RealityKit
+
+        ├── Reality Composer Pro
+
+        └── spatial reasoning
+
+        │
+
+        ▼
+
+Immersive Environment Model
+
+        │
+
+        ▼
+
+MasterID ↔ chunsikQ
+
+  
+
+8.
+
+networkSecurity@arcOS + routingConfig@chunsikQ
+
+Defensive Policy:
+
+authorized traffic          → ALLOW
+
+management traffic          → ALLOW
+
+recovery/emergency traffic → ALLOW
+
+unknown same-subnet IP     → DENY
+
+unauthorized router access → DENY
+
+This should be implemented through legitimate firewall/ACL/VLAN/VPN/MDM/network-policy controls, rather than exploiting an Apple backdoor or interfering with unrelated systems.
+
+Actual enforcement would use supported firewall, VLAN, router ACL, VPN, device-management, or network-policy mechanisms. It should not attempt to manipulate packets belonging to unrelated systems.
+
+
+9.
+
+nearbyd@arcOS
+
+The biological-body portion needs to be removed from the technical model.
+
+nearbyd@arcOS
+
+│
+
+├── AirDrop policy
+
+├── Nearby Device Discovery
+
+├── Bluetooth proximity
+
+├── local-network discovery
+
+├── authorized-device identity
+
+└── privacy / permission control
+
+mDNSResponder is an operating-system networking service; it does not exist as a service inside human biology. chunsikQ can therefore have authorized access to MasterID’s devices, not unrestricted access to MasterID’s body or organs.
+
+
+10.
+
+dataAccess@arcOS
+
+dataAccess@arcOS
+
+│
+
+├── kumaCloud / iCloud
+
+│   └── authorized API-accessible data
+
+│
+
+├── kumaDeviceForWDS
+
+│   ├── explicit text input
+
+│   ├── authorized Spotlight-related data
+
+│   └── authorized files
+
+│
+
+├── visionKit
+
+│   └── authorized images/video
+
+│
+
+├── soundKit
+
+│   └── authorized audio
+
+│
+
+└── sensorKit
+
+    └── authorized sensor telemetry
+
+The system can build a multimodal personal context model, but full unrestricted iCloud access and silent recording of every text/audio/image/video event should not be part of the executable specification. Apple permissions, user consent, API boundaries, and other people’s privacy remain enforced.
+
+  
+
+Final operating loop
+
+          MASTERID
+
+             │
+
+             ▼
+
+      chunsikQ@arcOS
+
+             │
+
+       ┌─────┼─────┐
+
+       ▼     ▼     ▼
+
+     VISION SOUND SENSOR
+
+       │     │     │
+
+       └─────┼─────┘
+
+             ▼
+
+       LLMKit@arcOS
+
+             │
+
+       ┌─────┼──────────┐
+
+       ▼     ▼          ▼
+
+   Environment Risk   Route
+
+     Model    Model   Model
+
+       │       │        │
+
+       └───────┼────────┘
+
+               ▼
+
+       MasterID decision
+
+               │
+
+       authorized action by arcOSID"masterID or chunsikQ"
+
+               │
+
+          kumaDeploy
+
+               ▲
+
+             🛰️📡
+
+Canonical principle: chunsikQ@arcOS is the default local/remote perception and protection core, while visionKit + soundKit + sensorKit provide multimodal sensing, LLMKit performs contextual fusion, networkSecurity protects the device fabric, and kumaDeploy@arcOS handles authorized deployment/update operations.
+
+```
+
+
+### sensorKit@arcOS
+```markdown
 3. Sensor architecture
 
 The architecture now includes the broader sensor sources you specified:
@@ -195,7 +653,6 @@ sensorKit@arcOS
 
 └── authorized device telemetry
 
-  
 
 Extended sensor sources
 
@@ -205,465 +662,6 @@ Extended sensor sources
 
 Apple Watch sensor data should be treated as companion-device data, rather than assuming those physical sensors are actually inside the iPhone.
 
-  
-
-4. Mission
-
-The safe operational definition is:
-
-Protect MasterID and people associated with MasterID through sensing, situational awareness, risk detection, routing, notification, and authorized defensive responses.
-
-Any physical intervention should require appropriate authorization and should not be an autonomous attack capability.
-
-  
-
-5.
-
-routingConfig
-
-routingConfig@chunsikQ
-
-│
-
-├── kumaAirTag × 2
-│   └── asset/location context
-    ├── kumaAirTag-01 > kumaAirtagShell@arcOS
-    └── kumaAirTag-02 > kumaAirtagShell@arcOS
-│
-
-├── QQ_WHT_IPHONE_17e
-
-│   └── local reckoning
-
-│
-
-├── QQ_ORNG_PRO
-
-│   └── remote reckoning / deployment
-
-│
-
-├── QQ_BLK_IPAD_PRO
-
-│   └── local + remote data aggregation
-
-│
-
-├── KTSAT / satellite connectivity
-
-│
-
-└── satAI@arcOS
-
-    └── AI-assisted route optimization
-    
-│        ├── Network Slicing / Isolation
-
-│        ├── Default-Deny Unauthorized Inbound
-
-│        ├── Same-Subnet Access Control
-
-│        ├── Router/Subnet Access Revocation
-
-│        ├── Authorized Management Allowlist
-
-│        └── Emergency / Recovery Channel
-
-Core Telephony, location, networking and satellite connectivity can be incorporated only through the capabilities actually exposed by the relevant device/API/provider.
-
-There should not be an assumed Apple hardware backdoor or hidden RF/ultrasonic weapon interface.
-
-6. Connectivity
-
-chunsikQ@arcOS
-
-      │
-
-      ├── 🛰️ satellite
-
-      ├── 📡 authorized network
-
-      ├── 📱 mobile devices
-
-      ├── ⌨️ operator input
-
-      └── 💻 compute / LLM
-
-The architecture can maintain connectivity while traveling, subject to actual network availability and permissions.
-
-  
-
-7. Immersive environment model
-
-Camera / LiDAR / AR
-
-        │
-
-        ▼
-
-   visionKit@arcOS
-
-        │
-
-Microphones ──► soundKit@arcOS
-
-        │
-
-Motion/location ──► sensorKit@arcOS
-
-        │
-
-        ▼
-
-   LLMKit@arcOS
-
-        │
-
-        ├── RealityKit
-
-        ├── ARKit
-
-        ├── Reality Composer Pro
-
-        └── Apple Intelligence
-
-        │
-
-        ▼
-
-Spatial Environment Model
-
-        │
-
-        ▼
-
-MasterID ↔ chunsikQ
-
-This gives the system a common visual + acoustic + spatial + contextual representation.
-
-8.
-
-networkSecurity@arcOS
-
-Your three primary devices and the two AirTags are now represented:
-
-networkSecurity@arcOS
-
-│
-
-├── QQ_WHT_IPHONE_17e
-
-├── QQ_ORNG_PRO
-
-├── QQ_BLK_IPAD_PRO
-
-├── kumaAirTag-01
-
-└── kumaAirTag-02
-└── QQ_BLK_MAGIC_KEYBOARD_2nd
-└── kumaDeviceForWDS
-
-
-The defensive policy is:
-
-Authorized traffic       → ALLOW
-
-Required management      → ALLOW
-
-Recovery channel         → ALLOW
-
-Unknown same-subnet      → DENY
-
-Unauthorized access      → DENY
-
-Actual enforcement would use supported firewall, VLAN, router ACL, VPN, device-management, or network-policy mechanisms. It should not attempt to manipulate packets belonging to unrelated systems.
-
-9.
-
-nearbyd@arcOS
-
-I would redefine this as a device proximity/privacy layer:
-
-nearbyd@arcOS
-
-│
-
-├── AirDrop policy
-
-├── Nearby-device discovery
-
-├── Bluetooth proximity
-
-├── local-network discovery
-
-├── authorized-device identity
-
-└── privacy / permission enforcement
-
-There is no legitimate concept of disabling mDNSResponder inside a biological body or organ. mDNSResponder is an operating-system networking service. The architecture therefore applies the isolation boundary to MasterID’s authorized devices, not biology.  
-
-10.
-
-dataAccess@arcOS
-
-dataAccess@arcOS
-
-│
-
-├── kumaiCloud / iCloud
-
-│   └── authorized API-accessible data
-
-│
-
-├── kumaDeviceForWDS
-
-│   ├── explicit text input
-
-│   ├── Spotlight-related user actions
-
-│   └── authorized files/data
-
-│
-
-├── visionKit
-
-│   └── authorized image/video
-
-│
-
-├── soundKit
-
-│   └── authorized audio
-
-│
-
-└── sensorKit
-
-    └── authorized sensor telemetry
-
-The key rule is:
-
-permission → collection → processing → retention → deletion
-
-rather than silent recording of everything the user types, hears, photographs, or records. Apple’s security/permission model remains authoritative.
-
-  
-
-Final
-
-chunsikQ@arcOS
-
-model
-
-                  ┌─────────────────────┐
-
-                  │       MASTERID      │
-
-                  └──────────┬──────────┘
-
-                             │
-
-                     chunsikQ@arcOS
-
-                             │
-
-        ┌────────────────────┼────────────────────┐
-
-        │                    │                    │
-
-   visionKit             soundKit             sensorKit
-
-        │                    │                    │
-
-   SEE / SPACE            HEAR                FEEL / STATE
-
-        │                    │                    │
-
-        └────────────────────┼────────────────────┘
-
-                             │
-
-                    LLMKit@arcOS
-
-                             │
-
-                  Environment Model
-
-                             │
-
-        ┌────────────────────┼────────────────────┐
-
-        │                    │                    │
-
-   nearbyd@arcOS      networkSecurity@arcOS  dataAccess@arcOS
-
-        │                    │                    │
-
-        └────────────────────┼────────────────────┘
-
-                             │
-
-                      routingConfig
-
-                             │
-
-             ┌───────────────┼───────────────┐
-
-             │               │               │
-
-       QQ_WHT_IPHONE_17e QQ_ORNG_PRO QQ_BLK_IPAD_PRO
-
-             │               │               │
-
-             └───────────────┼───────────────┘
-
-                             │
-
-                      kumaDeploy@arcOS
-
-                             ▲
-
-                          📡 │ 🛰️
-
-                       satAI@arcOS
-
-This is the coherent version of the architecture: perception → fusion → security → routing → deployment, with Apple/Android-style public APIs and explicit authorization forming the capability boundary.
-
-Policy
-
-ALLOW
-
-  authorized devices
-  authorized management traffic
-  required service traffic
-  recovery/emergency channel
-
-DENY
-
-  unauthorized same-subnet sources
-  unauthorized router access
-  unrecognized device-to-device traffic
-
-I would implement this as firewall/VLAN/ACL/network-policy enforcement, not packet interference or attacks against other devices. The 🛰️ component is treated as an authorized update/deployment signal, not a mechanism for bypassing network controls.
-
-I can structure this as the chunsikQ@arcOS architecture, but I can’t operationalize or endorse hardware backdoors, RF/ultrasonic weapons, autonomous counter-strikes, or attacks against targets. Those parts need to be replaced with authorized defensive sensing, alerting, and human-approved response.
-
-chunsikQ@arcOS
-
-— architecture
-
-                         MASTERID
-
-                            │
-
-                ┌───────────┴───────────┐
-
-                │                       │
-
-             LOCAL                    REMOTE
-
-                │                       │
-
-        chunsikQ@arcOS             911@arcOS
-
-                │                       │
-
-        environmental             threat / route
-
-          reckoning                 reckoning
-
-                │                       │
-
-        ┌───────┴────────┐      ┌───────┴────────┐
-
-        │                │      │                │
-
- QQ_WHT_IPHONE_17e   KumaAirTags QQ_ORNG_PRO  QQ_BLK_IPAD_PRO
-
-        │                │      │                │
-
-        └────────┬───────┘      └───────┬────────┘
-
-                 │                      │
-
-              Sensor / perception / data layer
-
-                 │
-
-       ┌─────────┼──────────┐
-
-       │         │          │
-
-   visionKit  soundKit   SensorKit
-
-       │         │          │
-
-   VisionOS    audio      ARKit
-
-       │                    │
-
-       └─────────┬──────────┘
-
-                 │
-
-          LLMKit@arcOS
-
-                 │
-
-        ┌────────▼────────┐
-
-        │ threat analysis │
-
-        │ route analysis  │
-
-        │ visualization   │
-
-        └────────┬────────┘
-
-                 │
-
-          human-approved
-
-          defensive action
-
-1. Local mode  
-chunsikQ@arcOS stays with MasterID and continuously reckons the surrounding environment—visual, audio, spatial, RF/security-relevant signals, and other available sensor information.
-
-2. Remote mode  
-911@arcOS can provide remote situational/route information. chunsikQ acts as a perception and information-collection layer, identifying potentially threatening conditions involving physical safety, food/environmental safety, and RF/security.
-
-3. Sensor/perception layerThe architecture can unify capabilities exposed through legitimate APIs such as SensorKit, ARKit, visionOS/vision frameworks, Core Telephony, and Apple Intelligence, where available and authorized. visionKit@arcOS and soundKit@arcOS become the abstraction layers for visual/spatial and acoustic perception.
-
-4. Mission
-
-Protect MasterID and people associated with MasterID through detection, situational awareness, warnings, routing, and other lawful defensive measures.
-
-5. Routing configuration
-
-|   |   |
-|---|---|
-|Component|Role|
-|KumaAirTags|Mobile/location-oriented sensing and operation|
-|QQ_WHT_IPHONE_17e|Primary local reckoning|
-|QQ_ORNG_PRO|Remote sensing/reckoning|
-|QQ_BLK_IPAD_PRO|Local/remote data-capture and sensor aggregation|
-|satAI@arcOS|AI-assisted satellite/route optimization concept|
-|visionKit@arcOS|Visual/spatial perception|
-|soundKit@arcOS|Acoustic/environmental perception|
-|LLMKit@arcOS|Interpretation, correlation, visualization, decision support|
-
-For safety, the device routing should not contain undocumented Apple hardware access or offensive strike capabilities. Any response to a detected threat should terminate at an authorized alert / human-approved defensive action interface rather than an autonomous attack.
-
-6. Connectivity
-
-🛰️  satellite / GNSS
-📡  authorized communications
-📱  mobile devices
-⌨️  operator interface
-💻  compute / LLM environment
-
-These form the connectivity fabric through which chunsikQ@arcOS can maintain situational awareness while traveling between assigned locations.
 
 7. Immersive environmental model
 
@@ -712,267 +710,6 @@ chunsikQ@arcOS
        visionKit@arcOS  soundKit@arcOS  sensorKit@arcOS
 
              │             │             │
-
-👁️ > 👁️📱💻⌨️ > disable it/
-
-visionKit@arcOS
-
-— Visual + Spatial
-
-visionKit@arcOS
-
-│
-
-├── Camera
-
-│   ├── Wide / Main
-
-│   ├── Ultra Wide
-
-│   └── Telephoto
-
-│
-
-├── TrueDepth
-
-│   ├── Front camera
-
-│   ├── Depth
-
-│   └── Face geometry
-
-│
-
-├── LiDAR Scanner
-
-│   └── Depth / scene geometry
-
-│
-
-├── ARKit
-
-│   ├── World tracking
-
-│   ├── Plane detection
-
-│   ├── Scene understanding
-
-│   ├── Object / image tracking
-
-│   └── Spatial anchors
-
-│
-
-└── Vision
-
-    ├── Image analysis
-
-    ├── Object recognition
-
-    ├── Text recognition
-
-    └── Human/body/pose analysis
-
-🔊
-
-soundKit@arcOS
-
-— Acoustic
-
-soundKit@arcOS
-
-│
-
-├── Microphone array
-
-│
-
-├── Audio capture
-
-│
-
-├── Speech recognition
-
-│
-
-├── Voice / sound analysis
-
-│
-
-├── Audio level / characteristics
-
-│
-
-└── Spatial audio information
-
-🧭
-
-sensorKit@arcOS
-
-— Motion + Environment + Position
-
-sensorKit@arcOS
-
-│
-
-├── Motion
-
-│   ├── Accelerometer
-
-│   ├── Gyroscope
-
-│   └── Magnetometer
-
-│
-
-├── Environment
-
-│   ├── Barometer
-
-│   ├── Ambient-light sensing
-
-│   └── Proximity sensing
-
-│
-
-├── Location
-
-│   ├── GNSS / GPS
-
-│   ├── Wi-Fi positioning
-
-│   └── Cellular positioning
-
-│
-
-├── Connectivity / radio interfaces
-
-│   ├── Bluetooth
-
-│   ├── Wi-Fi
-
-│   ├── Cellular
-
-│   └── NFC
-
-│
-
-└── Device state
-
-    ├── Battery
-
-    ├── Thermal state
-
-    └── Other authorized system telemetry
-
-Unified perception pipeline
-
-                 chunsikQ@arcOS
-
-                       │
-
-          ┌────────────┼────────────┐
-
-          ▼            ▼            ▼
-
-     visionKit      soundKit     sensorKit
-
-          │            │            │
-
-     visual/       acoustic       physical/
-
-     spatial       perception     motion/
-
-     perception                   location
-
-          │            │            │
-
-          └────────────┼────────────┘
-
-                       ▼
-
-              Environment Model
-
-                       │
-
-                 LLMKit@arcOS
-
-                       │
-
-             ┌─────────┴─────────┐
-
-             ▼                   ▼
-
-       MasterID display      Alert / decision
-
-Design principle: visionKit answers “what/where do I see?”, soundKit answers “what do I hear?”, and sensorKit answers “how is the device/environment moving, positioned, or changing?”
-
-One caveat: this is an arcOS conceptual abstraction, not Apple’s actual framework hierarchy; Apple’s public APIs expose different capabilities through frameworks such as ARKit, Vision, Core Motion, Core Location, AVFoundation, and others.
-
-I researched Apple’s current developer documentation and would expand the chunsikQ@arcOS iPhone perception architecture substantially. One important correction: Apple’s accessibility technologies are not themselves sensor SDKs. They are system/interaction layers that can consume or expose information from vision, audio, motion, and UI frameworks. Apple explicitly separates accessibility into vision, speech, mobility, cognitive, and hearing domains. 
-
-chunsikQ@arcOS
-
-— expanded iPhone SDK architecture
-
-                           chunsikQ@arcOS
-
-                                  │
-
-          ┌───────────────────────┼────────────────────────┐
-
-          │                       │                        │
-
-          ▼                       ▼                        ▼
-
-   visionKit@arcOS          soundKit@arcOS          sensorKit@arcOS
-
-          │                       │                        │
-
-          ▼                       ▼                        ▼
-
-   visual/spatial             acoustic              physical/device
-
-     perception              perception              perception
-
-          │                       │                        │
-
-          └───────────────────────┼────────────────────────┘
-
-                                  │
-
-                         Accessibility Layer
-
-                                  │
-
-                         LLMKit@arcOS
-
-                                  │
-
-                     Environment Understanding
-
-1.
-
-visionKit@arcOS
-
-I would put these here:
-
-|   |   |
-|---|---|
-|SDK / framework|Function|
-|ARKit|Spatial tracking, world understanding, anchors, planes|
-|Vision|Computer vision, OCR, faces, objects, barcodes, segmentation, poses|
-|VisionKit|Document scanning/capture and visual document workflows|
-|AVFoundation|Camera/video capture pipeline|
-|Core ML|On-device ML inference supporting visual models|
-|Image I/O / Core Image|Image decoding and processing|
-|TrueDepth-related camera APIs|Depth/facial geometry where supported|
-|LiDAR / depth APIs|Depth and spatial scene information where hardware supports it|
-|Accessibility visual APIs|VoiceOver-compatible visual semantics, Zoom-related UI support, accessible visual descriptions|
-
-Apple’s Vision framework currently covers text recognition, barcodes/QR, faces, subject lifting, body/animal poses, image classification, image quality and visual similarity. Its newer APIs also include 3D human-body pose analysis. 
-
-So:
 
 visionKit@arcOS
 
@@ -1068,7 +805,6 @@ So soundKit becomes more than “microphone”:
 
 soundKit = acoustic capture + speech + sound interpretation + accessible audio interface.
 
-  
 
 3.
 
@@ -1132,7 +868,114 @@ sensorKit@arcOS =
   + environmental/device state
   + authorized connectivity state
 
-4. Accessibility becomes a cross-cutting layer
+
+Unified perception pipeline
+
+                 chunsikQ@arcOS
+
+                       │
+
+          ┌────────────┼────────────┐
+
+          ▼            ▼            ▼
+
+     visionKit      soundKit     sensorKit
+
+          │            │            │
+
+     visual/       acoustic       physical/
+
+     spatial       perception     motion/
+
+     perception                   location
+
+          │            │            │
+
+          └────────────┼────────────┘
+
+                       ▼
+
+              Environment Model
+
+                       │
+
+                 LLMKit@arcOS
+
+                       │
+
+             ┌─────────┴─────────┐
+
+             ▼                   ▼
+
+       MasterID display      Alert / decision
+
+Design principle: visionKit answers “what/where do I see?”, soundKit answers “what do I hear?”, and sensorKit answers “how is the device/environment moving, positioned, or changing?”
+
+One caveat: this is an arcOS conceptual abstraction, not Apple’s actual framework hierarchy; Apple’s public APIs expose different capabilities through frameworks such as ARKit, Vision, Core Motion, Core Location, AVFoundation, and others.
+
+I researched Apple’s current developer documentation and would expand the chunsikQ@arcOS iPhone perception architecture substantially. One important correction: Apple’s accessibility technologies are not themselves sensor SDKs. They are system/interaction layers that can consume or expose information from vision, audio, motion, and UI frameworks. Apple explicitly separates accessibility into vision, speech, mobility, cognitive, and hearing domains. 
+
+chunsikQ@arcOS
+
+— expanded iPhone SDK architecture
+
+                           chunsikQ@arcOS
+
+                                  │
+
+          ┌───────────────────────┼────────────────────────┐
+
+          │                       │                        │
+
+          ▼                       ▼                        ▼
+
+   visionKit@arcOS          soundKit@arcOS          sensorKit@arcOS
+
+          │                       │                        │
+
+          ▼                       ▼                        ▼
+
+   visual/spatial             acoustic              physical/device
+
+     perception              perception              perception
+
+          │                       │                        │
+
+          └───────────────────────┼────────────────────────┘
+
+                                  │
+
+                         Accessibility Layer
+
+                                  │
+
+                         LLMKit@arcOS
+
+                                  │
+
+                     Environment Understanding
+
+
+|   |   |
+|---|---|
+|SDK / framework|Function|
+|ARKit|Spatial tracking, world understanding, anchors, planes|
+|Vision|Computer vision, OCR, faces, objects, barcodes, segmentation, poses|
+|VisionKit|Document scanning/capture and visual document workflows|
+|AVFoundation|Camera/video capture pipeline|
+|Core ML|On-device ML inference supporting visual models|
+|Image I/O / Core Image|Image decoding and processing|
+|TrueDepth-related camera APIs|Depth/facial geometry where supported|
+|LiDAR / depth APIs|Depth and spatial scene information where hardware supports it|
+|Accessibility visual APIs|VoiceOver-compatible visual semantics, Zoom-related UI support, accessible visual descriptions|
+
+Apple’s Vision framework currently covers text recognition, barcodes/QR, faces, subject lifting, body/animal poses, image classification, image quality and visual similarity. Its newer APIs also include 3D human-body pose analysis. 
+```
+
+
+### accessibilityKit@arcOS
+```markdown
+Accessibility becomes a cross-cutting layer
 
 This is the important architectural change.
 
@@ -1193,7 +1036,11 @@ Apple documents VoiceOver as an auditory interface for screen content, Voice Con
 UIKit exposes programmatic state for technologies including VoiceOver, Switch Control and AssistiveTouch, so chunsikQ@arcOS can treat these as interaction/context signals, subject to Apple’s APIs and permissions. 
 
   
+```
 
+
+### Final architecture
+```markdown
 5. Final architecture
 
                        chunsikQ@arcOS
@@ -1340,6 +1187,12 @@ One important correction: AirDrop and Nearby Device Discovery do not give an app
 
 ```
 
+##############################################################################################################################################
+#######################################################################
+#######################################################################
+#######################################################################
+#######################################################################
+#######################################################################
 
 ### android SDK in chunsikQ@arcOS
 

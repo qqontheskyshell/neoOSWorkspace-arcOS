@@ -11,99 +11,107 @@ findMy(masterID)
         │
         ▼
 kumaDrone@arcOS
-		│
-		├── visionOS
-		│   ├── WindowGroup
-		│   ├── ImmersiveSpace
-		│   ├── RealityView
-		│   └── spatial input
-		│
-		├── RealityKit
-		│   ├── CCTVFeedEntity
-		│   ├── ProtectedVisualFeed
-		│   ├── MasterIDMarkerEntity
-		│   │   └──  with 🍄
-			├── CriminalMarkerEntity
-		│   │   └── 🚨 911 sign
-		│   └── PrivacyOverlayEntity
-		│
-		├── CameraStream
-		│   └── authorized_camera_stream
-		│
-		├── PrivacyFilter
-		│   ├── masterID posture/body silhouette
-		│   │   └── BLUR with 🍄
-		│   ├── face
-		│   │   └── 🪪 consented identity verification
-		│   └── raw-frame retention
-		│       └── DISABLED_BY_DEFAULT
-		│
-		└── Output
-		    └── protected_visual_feed
         │
-        ▼
+        ├── visionOS
+        │   ├── WindowGroup
+        │   ├── ImmersiveSpace
+        │   ├── RealityView
+        │   └── spatial_input
+        │
+        ├── RealityKit
+        │   ├── CCTVFeedEntity
+        │   ├── ProtectedVisualFeed
+        │   │
+        │   ├── MasterIDMarkerEntity
+        │   │   └── 🍄
+        │   │
+        │   ├── SafetyAlertMarkerEntity
+        │   │   └── 🚨 911
+        │   │
+        │   └── PrivacyOverlayEntity
+        │
+        ├── CameraStream
+        │   └── authorized_camera_stream
+        │
+        ├── PrivacyFilter
+        │   ├── masterID posture/body silhouette
+        │   │   └── BLUR + 🍄
+        │   ├── face
+        │   │   └── 🪪 consented identity verification
+        │   └── raw-frame retention
+        │       └── DISABLED_BY_DEFAULT
+        │
+        └── Output
+            └── protected_visual_feed
+                    │
+                    ▼
 visualDrone@arcOS = ON
         │
-        ├── authorized_camera_stream
+        ├── STATE
+        │   ├── masterID → ON / OFF
+        │   └── chunsikQ → authorized configuration
         │
-        ├── privacy_filter
-        │     └── masterID posture/body silhouette → BLUR
+        ├── CCTV_SOURCE
+        │   ├── masterID_CCTV
+        │   └── Target_CCTV
+        │       └── authorized location/safety source
         │
-        ├── masterID_marker
-        │     └── 🍄 overlay
+        ├── EVENT_INPUT
+        │   ├── authorized sound
+        │   ├── authorized image/video
+        │   └── verified emergency signal
         │
-        └── output
-              └── protected_visual_feed
+        ├── PRIVACY
+        │   ├── masterID posture → BLUR
+        │   ├── face → 🪪 consented verification
+        │   └── raw-frame retention → OFF
         │
-        └── STATE
-		        └── ON or masterID or chunsikQ could set 
-		├── CCTV_SOURCE
-		│   └── masterID_CCTV
-		│	└── Target_CCTV > where location of 911@arcOS or (sound,image,video on masterID's brain and hypothalamus)
-		├── PRIVACY
-		│   ├── body/posture → blur only masterID's posture
-		│   ├── face → identification required with 🪪
-		│   └── raw-frame retention → disabled by default
-		├── MARKER
-		│   └── 🍄 masterID = consented/authorized marker
-			└── 🚨 criminal = consented/authorized marker
-		└── OUTPUT
-		    └── privacy-preserving visual stream
-		└── visionOS
-                │
-        ┌───────▼────────┐
-        │  CCTV_SOURCE   │
-        │  CCTV Feed     │
-        │                │
-        │     [ BLUR ]   │
-        │        ★       │
-        │   masterID     │
-        │                │
-        └────────────────┘
-                │
-         RealityKit scene
-         
-		        │
-         
-         └── masterID could choose
-			   │
-			   ├── ON / OFF
-			   ├── privacy policy
-			   └── marker policy
-			          │
-			          ▼
-			    chunsikQ@arcOS
-			         │
-					 ├── VERIFY_AUTHORIZATION
-					 │
-					 ├── APPLY_CONFIGURATION
-					 │
-					 ├── ENFORCE_PRIVACY
-					 │
-					 └── DEPLOY_TO_AUTHORIZED_ENDPOINT
-					           │
-					           ▼
-				       kumaDrone@arcOS
+        ├── MARKER
+        │   ├── 🍄 → authorized masterID marker
+        │   └── 🚨 → verified safety/emergency event
+        │
+        └── OUTPUT
+            └── privacy-preserving visual stream
+                    │
+                    ▼
+                 visionOS
+                    │
+             RealityKit Scene
+                    │
+             ┌──────▼───────┐
+             │ CCTV_SOURCE  │
+             │              │
+             │  CCTV Feed   │
+             │              │
+             │   [BLUR]     │
+             │      🍄      │
+             │   masterID   │
+             │              │
+             │      🚨      │
+             │  911 EVENT   │
+             └──────────────┘
+                    │
+                    ▼
+              protected_visual_feed
+                    │
+                    ▼
+              masterID Control
+                    │
+                    ├── ON / OFF
+                    ├── privacy policy
+                    └── marker policy
+                           │
+                           ▼
+                    chunsikQ@arcOS
+                           │
+                           ├── VERIFY_AUTHORIZATION
+                           ├── APPLY_CONFIGURATION
+                           ├── ENFORCE_PRIVACY
+                           └── DEPLOY_TO_AUTHORIZED_ENDPOINT
+                                      │
+                                      ▼
+                              kumaDrone@arcOS
+                              
    
 ```
 

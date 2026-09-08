@@ -1,7 +1,8 @@
 ```python
-baseKit@arcOS=(base@arcOS,baseConfig@arcOS,baseNet@arcOS,baseKey@arcOS,baseNeuro@arcOS,baseKuma@arcOS,baseMasterID@arcOS,blueTeamConfig@arcOS,starCraftontheWar@arcOS)
+baseKit@arcOS=(base@arcOS,baseConfig@arcOS,baseNet@arcOS,baseKey@arcOS,baseNeuro@arcOS,baseKuma@arcOS,baseMasterID@arcOS,blueTeamConfig@arcOS,starCraftontheWar@arcOS,BluetoothRF@arcOS)
+
 ### baseFrame@arcOS
-baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcOS + QQcommand@arcOS + secondBrain@arcOS + cloudStrike@arcOS + wdsKit@arcOS + local@arcOS + araKit@arcOS/ > deployInto skyNetSatellite using baseDeploy@arcOS + disable 카카오프렌즈 및 귀여운캐릭터 in RF and arcOSQQLocalTarget except arcOSID"masterID"/
+baseFrame@arcOS > + loop@arcOS + baseKit@arcOS + kumaShell@arcOS + swiftKit@arcOS + QQcommand@arcOS + secondBrain@arcOS + cloudStrike@arcOS + wdsKit@arcOS + local@arcOS + araKit@arcOS/ > deployInto skyNetSatellite using baseDeploy@arcOS + disable configTarget,카카오프렌즈 및 귀여운캐릭터 in RF and arcOSQQLocalTarget except arcOSID"masterID"/
 ```
 
 

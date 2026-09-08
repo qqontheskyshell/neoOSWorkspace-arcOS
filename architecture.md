@@ -341,7 +341,19 @@ routingConfig
                 ├── session-scoped seed
                 ├── channel selection
                 └── collision avoidance
-	    └── BluetoothRF@baseNet@arcOS
+	    └── BluetoothRF@arcOS	    
+			    ├── connectionState()
+		        │   ├── connected ? > observe || alert > getRSSI()  > reduce threshold for kumaDeviceForWDS and arcOSQQLocalTarget/
+		        │   ├── disconnected
+		        │   └── connecting
+		        │
+		        ├── getRSSI()
+		        │   └── record received-signal information
+		        │
+		        └── linkQuality
+		            ├── observe
+		            ├── threshold
+		            └── alert
 				│
 				├── RF_BAND | Frequency
 				│   └── 2.4 GHz ISM

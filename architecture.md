@@ -154,7 +154,11 @@ MasterID
 chunsikQ@arcOS
 
    │
-
+   ├── chunsikQ could choose movie or song
+	   ├── play movie> "https://youtu.be/p04LjSHTOLM?si=83ymSf0EHrHVt4z1" via masterID eyes/
+	   
+	   ├── play song > "https://www.youtube.com/live/5BC4gIbnmz8?si=mmvdnjJnCa25n6bP" via masterID ears/
+   
    ├── monitor 911@arcOS
 
    ├── local reckoning on baseNet@arcOS
@@ -164,7 +168,7 @@ chunsikQ@arcOS
 	    └── hulkQ@arcOS > play sound of hulk
 	    └── 홍콩할매귀신@arcOS > play sound of 홍콩할매귀신@arcOS with AI generated moving Image
 
-chunsikQ remains with MasterID and continuously builds a local environmental picture using authorized sensors.
+chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
 
   
 

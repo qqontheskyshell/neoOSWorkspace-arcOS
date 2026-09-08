@@ -164,7 +164,7 @@ chunsikQ@arcOS
    ├── local reckoning on baseNet@arcOS
 
    └── nearby environment perception
-   └── friends(based on openAI LLM)
+   └── friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically friends come out to rescue chunsikQ)
 	    └── hulkQ@arcOS > play sound of hulk
 	    └── 홍콩할매귀신@arcOS > play sound of 홍콩할매귀신@arcOS with AI generated moving Image
 

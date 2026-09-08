@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8b96b2bfd9ccf662",
+        "id": "ebf4e6b7436b2b69",
         "type": "tabs",
         "children": [
           {
-            "id": "d9136e08a4e518f6",
+            "id": "a984f000ec61050a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "strikeKit@arcOS > ",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d9136e08a4e518f6",
+  "active": "a984f000ec61050a",
   "lastOpenFiles": [
     "droneKit@arcOS.md",
     "archive/baseFrame@arcOS+archive.md",

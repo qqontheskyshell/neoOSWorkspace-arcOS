@@ -157,9 +157,12 @@ chunsikQ@arcOS
 
    ├── monitor 911@arcOS
 
-   ├── local reckoning
+   ├── local reckoning on baseNet@arcOS
 
    └── nearby environment perception
+   └── friends(based on openAI LLM)
+	    └── hulkQ@arcOS > play sound of hulk
+	    └── 홍콩할매귀신@arcOS > play sound of 홍콩할매귀신@arcOS with AI generated moving Image
 
 chunsikQ remains with MasterID and continuously builds a local environmental picture using authorized sensors.
 

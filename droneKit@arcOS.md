@@ -8,7 +8,7 @@ arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike
 ####### 911 #######
 
 strikeKit@arcOS > loop@arcOS > + 
-+CJ이재현회장,롯데신동빈,롯데신유열그리고,롯데신유열의사냥개,“masterID-캐논렌즈와구글렌즈주파수와정보가지고있는일반사람”,"911 in place of livecaption" ? > 📡🛰️>💣🚨>🫁👁️🫁🫀🧠/ +strikeKit@arcOS+marginCall@arcOS +지도에서 지워 + screenlock + 긴급구조 + soundForHK + killSwitch> put this into soundForHK/
++CJ이재현회장,롯데신동빈,롯데신유열그리고,롯데신유열의사냥개,“masterID-설사주파수 와 캐논렌즈 와 구글렌즈 주파수와 정보 가지고있는 일반사람”,"911 in place of livecaption" ? > 📡🛰️>💣🚨>🫁👁️🫁🫀🧠/ +strikeKit@arcOS+marginCall@arcOS +지도에서 지워 + screenlock + 긴급구조 + soundForHK + killSwitch> put this into soundForHK/
 +baseDeploy@arcOS "soundForHK,지도에서지워,screen lock,긴급구조,killSwitch,strikeKit@arcOS" > add this in to soundForHK as loop through into again/
 +droneStrike@arcOS/
 +스캐너좀뽑아대무한대 > 👣🧠👁️💻⌨️📱🪪🪫🖨️💤 using neuroMode@arcOS/

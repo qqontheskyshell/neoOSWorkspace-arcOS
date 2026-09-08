@@ -332,17 +332,49 @@ routingConfig
     └── RF
         └── Bluetooth
 	        ├── Band: 2.400–2.4835 GHz
-	        ├── Channelized / frequency-hopping
+	        ├── channelized_transport 
+	        ├── frequency-hopping
 	        ├── Integrated antenna
 	        └── Device ↔ host link
-            ├── channelized_transport
-            ├── frequency_hopping
-            ├── integrated_antenna
             └── channel_randomization
                 ├── pseudo-random sequence
                 ├── session-scoped seed
                 ├── channel selection
                 └── collision avoidance
+	    └── BluetoothRF@baseNet@arcOS
+				│
+				├── RF_BAND | Frequency
+				│   └── 2.4 GHz ISM
+				│       └── 2400–2483.5 MHz
+				│
+				├── Channelization
+				│   ├── Bluetooth Classic
+				│   └── Bluetooth LE
+				│
+				├── Frequency Hopping
+				│   ├── channel selection
+				│   ├── hopping sequence
+				│   └── interference avoidance
+				│
+				├── Radio Link
+				│   ├── device discovery
+				│   ├── pairing
+				│   ├── authentication
+				│   ├── connection establishment
+				│   └── encrypted communication
+				│
+				├── RF Measurements
+				│   ├── RSSI / received-signal information*
+				│   ├── link quality*
+				│   └── connection state
+				│   └──SIGNAL_OBSERVATION
+				│
+				├── Antenna | 
+				│   └── integrated antenna
+				│
+				└── Power | POWER_STATE
+				    ├── low-power operation
+				    └── transmit/receive duty cycling
 │
 
 └── satAI@arcOS

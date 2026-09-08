@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a8bab7b89bb58b15",
+        "id": "8d501949b761ffe9",
         "type": "tabs",
         "children": [
           {
-            "id": "2d3997caf45bcd2e",
+            "id": "625340949b1af3c4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "architecture.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "architecture"
             }
           }
         ]
@@ -167,15 +171,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d3997caf45bcd2e",
+  "active": "625340949b1af3c4",
   "lastOpenFiles": [
+    "chunsikQ@arcOS.md",
     "architecture.md",
     "baseKit@arcOS.md",
     "devops@arcOS.md",
     "baseConfig@arcOS.md",
     "bashKit@arcOS.md",
     "commandKit@arcOS.md",
-    "chunsikQ@arcOS.md",
     "araKit@arcOS.md",
     "networkKit@arcOS.md",
     "droneKit@arcOS.md",

@@ -79,6 +79,29 @@ visualDrone@arcOS = ON
         └────────────────┘
                 │
          RealityKit scene
+         
+		        │
+         
+         └── masterID could choose
+			   │
+			   ├── ON / OFF
+			   ├── privacy policy
+			   └── marker policy
+			          │
+			          ▼
+			    chunsikQ@arcOS
+			         │
+					 ├── VERIFY_AUTHORIZATION
+					 │
+					 ├── APPLY_CONFIGURATION
+					 │
+					 ├── ENFORCE_PRIVACY
+					 │
+					 └── DEPLOY_TO_AUTHORIZED_ENDPOINT
+					           │
+					           ▼
+				       kumaDrone@arcOS
+   
 ```
 
 

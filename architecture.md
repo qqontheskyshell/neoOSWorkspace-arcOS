@@ -154,9 +154,8 @@ MasterID
 chunsikQ@arcOS
 
    │
-   ├── chunsikQ could choose movie or song and turn off masterID viewpoint/
+   ├── chunsikQ could choose movie or song and turn off masterID viewpoint,auditory but except chunsikQ, turn off masterID viewpoint and auditory as default/
 	   ├── play movie> "https://youtu.be/p04LjSHTOLM?si=83ymSf0EHrHVt4z1" via masterID eyes/
-	   
 	   ├── play song > "https://www.youtube.com/live/5BC4gIbnmz8?si=mmvdnjJnCa25n6bP" via masterID ears/
    
    ├── monitor 911@arcOS

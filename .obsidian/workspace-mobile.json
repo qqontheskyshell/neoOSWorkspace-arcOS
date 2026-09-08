@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "18e1eff99634634a",
+        "id": "8b96b2bfd9ccf662",
         "type": "tabs",
         "children": [
           {
-            "id": "6a70d86e26838b32",
+            "id": "d9136e08a4e518f6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "strikeKit@arcOS >",
+            "query": "strikeKit@arcOS > ",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -167,9 +167,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a70d86e26838b32",
+  "active": "d9136e08a4e518f6",
   "lastOpenFiles": [
     "droneKit@arcOS.md",
+    "archive/baseFrame@arcOS+archive.md",
+    "archive/baseFrame_archive.md",
     "baseKit@arcOS.md",
     "chunsikQ@arcOS.md",
     "architecture.md",
@@ -180,12 +182,10 @@
     "araKit@arcOS.md",
     "networkKit@arcOS.md",
     "arcOSFrame@arcOS.md",
-    "archive/baseFrame_archive.md",
     "targetLib@arcOS.md",
     "archive/archive.md",
     "spaceRFKit@arcOS.md",
     "IMG_0022.png",
-    "archive/baseFrame@arcOS+archive.md",
     "APILib@arcOS.md",
     "policeKit@arcOS.md",
     "swiftKit@arcOS.md",

@@ -4,6 +4,43 @@ droneStrike@arcOS=(droneDefOnSky@arcOS,cloudStrike@arcOS,visionKitConfig@arcOS,w
 arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike@arcOS/
 ```
 
+
+### kumaDrone@arcOS
+```python
+findMy(masterID)
+        │
+        ▼
+masterIDCCTV
+        │
+        ▼
+visualDrone@arcOS = ON
+        │
+        ├── authorized_camera_stream
+        │
+        ├── privacy_filter
+        │     └── masterID posture/body silhouette → BLUR
+        │
+        ├── masterID_marker
+        │     └── ★ shiny star overlay
+        │
+        └── output
+              └── protected_visual_feed
+        │
+        └── STATE
+		        └── ON or masterID's mention
+		├── SOURCE
+		│   └── masterID_CCTV
+		├── PRIVACY
+		│   ├── body/posture → blur
+		│   ├── face → no identification required
+		│   └── raw-frame retention → disabled by default
+		├── MARKER
+		│   └── ★ masterID = consented/authorized marker
+		└── OUTPUT
+		    └── privacy-preserving visual stream
+```
+
+
 ```bash
 ####### 911 #######
 

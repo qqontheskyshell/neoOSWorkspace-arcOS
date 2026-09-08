@@ -328,7 +328,7 @@ routingConfig
 
 │
 
-└── QQ_BLK_MAGIC_KEYBOARD_2nd > baseNet@arcOS with randomizing AI algorithm
+└── A3203, A3118, A3119,QQ_BLK_MAGIC_KEYBOARD_2nd > baseNet@arcOS with randomizing AI algorithm
     └── RF
         └── Bluetooth
 	        ├── Band: 2.400–2.4835 GHz

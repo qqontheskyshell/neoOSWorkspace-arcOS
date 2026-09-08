@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "68969842ab2d9c61",
+        "id": "6a611af8d9b2b9ee",
         "type": "tabs",
         "children": [
           {
-            "id": "e116affd954db49c",
+            "id": "6c848bf118f5a313",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "soundForHK",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e116affd954db49c",
+  "active": "6c848bf118f5a313",
   "lastOpenFiles": [
     "droneKit@arcOS.md",
     "architecture.md",

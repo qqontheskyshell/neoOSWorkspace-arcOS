@@ -27,7 +27,7 @@ visualDrone@arcOS = ON
               └── protected_visual_feed
         │
         └── STATE
-		        └── ON or masterID's mention
+		        └── ON or masterID could set with chunsikQ
 		├── SOURCE
 		│   └── masterID_CCTV
 		├── PRIVACY

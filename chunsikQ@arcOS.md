@@ -95,7 +95,7 @@ chunsikQ@arcOS
 │   └── QQ_BLK_IPAD_PRO
 │       ├── authorized traffic → ALLOW
 │       ├── unknown traffic → DENY/ALERT
-│       ├── router access → authorized only
+│       ├── router access → authorized only > FriendOfChunsikQ only
 │       ├── credential rotation
 │       └── kumaDeploy@arcOS
 │

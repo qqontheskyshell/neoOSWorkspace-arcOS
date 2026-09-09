@@ -5,7 +5,7 @@ arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike
 ```
 
 
-### kumaDrone@arcOS as masterID_CCTV
+### kumaDrone@arcOS as "KumaNamkyu_CCTV"
 ```python
 findMy(masterID)
         │
@@ -56,7 +56,7 @@ visualDrone@arcOS = ON
         │   └── chunsikQ → authorized configuration
         │
         ├── CCTV_SOURCE
-        │   ├── masterID_CCTV
+        │   ├── masterID_CCTV="KumaNamkyu_CCTV"
         │   └── Target_CCTV
         │       └── authorized location/safety source
         │

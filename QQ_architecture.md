@@ -17,10 +17,17 @@ QQ@arcOS
 └── Identity
     └── fictional_character
 └── Mobility
-    └── IronManStyle
-        ├── walk
-        ├── run
-        ├── flight
-        ├── hover
-        └── rapid_direction_change
+    ├── IronManStyle
+    │   ├── walk
+    │   ├── run
+    │   ├── flight
+    │   ├── hover
+    │   └── rapid_direction_change
+    │
+    └── XiaomiScooter
+        ├── ride
+        ├── accelerate
+        ├── brake
+        ├── turn
+        └── parking
 ```    

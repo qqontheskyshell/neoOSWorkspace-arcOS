@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "070f54a2fbc6eaf2",
+        "id": "a76491609fdd07ea",
         "type": "tabs",
         "children": [
           {
-            "id": "3c43af039a413007",
+            "id": "e07f31286be93b0f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "변신",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3c43af039a413007",
+  "active": "e07f31286be93b0f",
   "lastOpenFiles": [
     "architecture.md",
     "araKit@arcOS.md",

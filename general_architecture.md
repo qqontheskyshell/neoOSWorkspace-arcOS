@@ -18,6 +18,17 @@
 
 ### Final architecture
 ```markdown
+arcOS AuthorityLevel
+├── masterLevel
+│   └── MasterID
+│
+└── kumaLevel
+    └── chunsikQ@arcOS
+        └── privilege
+            └── immediately_below(masterLevel)
+
+
+
 5. Final architecture
 
                        chunsikQ@arcOS

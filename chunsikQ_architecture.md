@@ -296,25 +296,23 @@ chunsikQ@arcOS
 								        └── RECOVER
 								        │
 								        ▼
-								  chunsikQ@arcOS
-								  
-├── DefaultCharacter
-│   └── chunsik
-│
-├── CharacterVariant
-│   └── 춘식이여자
-│       ├── affiliation → chunsikQ@arcOS
-│       ├── capability_profile → SAME_AS(chunsikQ)
-│       ├── personality → friendly
-│       └── safety_policy → SAME_AS(chunsikQ)
-│
-└── CapabilityProfile
-    ├── reasoning
-    ├── vision
-    ├── voice
-    ├── mobility
-    ├── security
-    └── tool_access
+chunsikQ@arcOS
+└── flowerWDS
+    └── ConfigTarget
+        ├── selection
+        │   ├── talent → verified / user-provided
+        │   ├── skills → verified
+        │   └── consent → required
+        │
+        ├── appearance
+        │   └── NOT_USED_FOR_SELECTION
+        │
+        ├── gender
+        │   └── NOT_USED_FOR_SELECTION
+        │
+        └── Deployment
+            └── authorized_character/profile
+                └── same_config_target
 						    └── protect / respond / assist
 							└── GuardianPolicy
 								├── Protect people who freely choose to stay with MasterID

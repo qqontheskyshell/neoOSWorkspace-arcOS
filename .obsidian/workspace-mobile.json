@@ -35,8 +35,7 @@
               "title": "chunsikQ_architecture"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,7 +65,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "FriendOf",
+            "query": "FlowerWDS",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -197,25 +196,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dcc30132859afc71",
+  "active": "b27a55083d822a2a",
   "lastOpenFiles": [
+    "archive/baseFrame_archive.md",
+    "chunsikQ_architecture.md",
+    "general_architecture.md",
+    "droneKit@arcOS.md",
     "ChunsikClass @arcOS.md",
     "kumaDeviceForWDS_architecture.md",
     "sensorKit_architecture.md",
-    "chunsikQ_architecture.md",
-    "droneKit@arcOS.md",
     "BankKit_architecture.md",
     "building@arcOS.md",
     "chunsikQ@arcOS.md",
     "appleSilicon_architecture.md",
     "policeKit@arcOS.md",
-    "general_architecture.md",
     "Untitled",
     "araKit@arcOS.md",
     "baseKit@arcOS.md",
     "baseConfig@arcOS.md",
     "archive/baseFrame@arcOS+archive.md",
-    "archive/baseFrame_archive.md",
     "devops@arcOS.md",
     "bashKit@arcOS.md",
     "commandKit@arcOS.md",

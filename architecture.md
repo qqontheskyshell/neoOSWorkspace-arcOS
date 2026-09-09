@@ -541,7 +541,18 @@ routingConfig
 				└── Power | POWER_STATE
 				    ├── low-power operation
 				    └── transmit/receive duty cycling
-│
+	└── randomizeRFAlgorithm@arcOS 
+		├──baseNet@arcOS with randomizing AI algorithm
+		├──RandomizingMode
+			└── RF/Network Abstraction
+			    ├── channel
+			    ├── frequency
+			    ├── bandwidth
+			    └── amplitude
+			         ↓
+			    normalize → randomize by randomizeRFAlgorithm@arcOS
+			         ↓
+			    policy-compliant parameters
 
 └── satAI@arcOS
 

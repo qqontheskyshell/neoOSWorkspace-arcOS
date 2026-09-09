@@ -506,6 +506,30 @@ routingConfig
 
 └── A3203, A3118, A3119,QQ_BLK_MAGIC_KEYBOARD_2nd > baseNet@arcOS with randomizing AI algorithm
     └── RF
+        └── RFLibrary
+               └── resonanceFreq
+                    └── CeramicShield
+                           ├── material_properties
+                           │   ├── dielectric_constant
+                           │   ├── loss_tangent
+                           │   └── thickness
+                           │
+                           ├── RF_characteristics
+                           │   ├── frequency_response
+                           │   ├── attenuation
+                           │   ├── reflection
+                           │   └── transmission
+                           │
+                           ├── resonance_model
+                           │   ├── simulated_frequency
+                           │   ├── measured_frequency
+                           │   └── uncertainty
+                           │
+                           └── provenance
+                                  ├── public_datasheet
+                                  ├── laboratory_measurement
+                                  └── source_reference
+           
         └── Bluetooth
 	        ├── Band: 2.400–2.4835 GHz
 	        ├── channelized_transport 

@@ -302,7 +302,7 @@ chunsikQ@arcOS
         ├── selection
         │   ├── talent → verified / user-provided
         │   ├── skills → verified
-        │   └── consent → required
+        │   └── consent → no required
         │
         ├── appearance
         │   └── NOT_USED_FOR_SELECTION

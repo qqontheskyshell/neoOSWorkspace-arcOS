@@ -22,11 +22,12 @@ arcOS AuthorityLevel
 ├── masterLevel
 │   └── MasterID
 │
-└── kumaLevel
-    └── chunsikQ@arcOS
-        └── privilege
-            └── immediately_below(masterLevel)
-
+├── kumaLevel
+│   └── chunsikQ@arcOS
+│
+└── RootLevel
+    ├── configTarget
+    └── kanchinTarget
 
 
 5. Final architecture

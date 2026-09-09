@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fb8b3b1c4826661b",
+        "id": "1cb4523b4eddb755",
         "type": "tabs",
         "children": [
           {
-            "id": "81341d49db07b8b0",
+            "id": "ade931d266b6f4f1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "+hulk",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,11 +167,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "81341d49db07b8b0",
+  "active": "ade931d266b6f4f1",
   "lastOpenFiles": [
+    "chunsikQ_architecture.md",
     "chunsikQ@arcOS.md",
     "kumaDeviceForWDS_architecture.md",
-    "chunsikQ_architecture.md",
     "appleSilicon_architecture.md",
     "policeKit@arcOS.md",
     "general_architecture.md",

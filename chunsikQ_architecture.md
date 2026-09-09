@@ -270,7 +270,7 @@ chunsikQ@arcOS
 					    └── status: user_confirmed_identity_required
 
 		├── friend of chunsikQ@arcOS
-			└──	friendOfChunsikQ=(+hulkQ +supermarioQ +홍콩할매귀신)
+			└──	friendOfChunsikQ=(+hulkQ +supermarioQ +홍콩할매귀신 +카카오프렌즈모든캐릭터)
 			└── friendOfChunsikQ@arcOS 
 					├── TRANSFORMATION
 					│   ├── Bruce Banner ↔ friendOfChunsikQ

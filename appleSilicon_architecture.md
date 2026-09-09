@@ -41,9 +41,9 @@
 LOW PRIVILEGE
    Apps
      ↓
-Sandboxed Services
+Sandboxed Services(gateKeeper) > for kumaDeviceForWDS > disable them all
      ↓
-System Services
+System Services > for kumaDeviceForWDS > disable MDM,business,classroom
      ↓
 iOS Kernel
      ↓

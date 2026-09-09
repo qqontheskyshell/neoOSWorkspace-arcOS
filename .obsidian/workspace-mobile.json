@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "28b8f7cd9a7c6a0f",
+        "id": "6b1535c15341b8d5",
         "type": "tabs",
         "children": [
           {
-            "id": "f24cd2665cb85eb7",
+            "id": "72b14d1b6054daa0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "friendOfchunsikQ",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,13 +167,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f24cd2665cb85eb7",
+  "active": "72b14d1b6054daa0",
   "lastOpenFiles": [
+    "chunsikQ_architecture.md",
+    "appleSilicon_architecture.md",
+    "policeKit@arcOS.md",
     "general_architecture.md",
     "sensorKit_architecture.md",
-    "chunsikQ_architecture.md",
     "droneKit@arcOS.md",
-    "appleSilicon_architecture.md",
     "Untitled",
     "araKit@arcOS.md",
     "baseKit@arcOS.md",
@@ -192,7 +193,6 @@
     "spaceRFKit@arcOS.md",
     "IMG_0022.png",
     "APILib@arcOS.md",
-    "policeKit@arcOS.md",
     "swiftKit@arcOS.md",
     "pythonKit@arcOS.md",
     "LLMKit@arcOS.md",

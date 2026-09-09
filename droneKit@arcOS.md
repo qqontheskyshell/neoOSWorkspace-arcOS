@@ -34,8 +34,30 @@ kumaDrone@arcOS
         │   │
         │   └── PrivacyOverlayEntity
         │
+        └── VictimSafety
+            └── FlowerVictim
+                └── kumaDrone@arcOS
+		            ├── VictimLocation
+		            │   ├── consent_required
+		            │   ├── user_confirmed_location
+		            │   └── location_expiry
+		            │
+		            ├── SafetyZone
+		            │   ├── safe_point
+		            │   ├── shelter
+		            │   └── emergency_exit
+		            │
+		            ├── DronePolicy
+		            │   ├── authorized_area_only
+		            │   ├── no_autonomous_person_tracking
+		            │   └── human_approved_navigation
+		            │
+		            └── Emergency
+		                ├── 🚨 safety_alert for criminal
+		                ├── trusted_contact
+		                └── 112 / emergency_services
         ├── CameraStream
-        │   └── authorized_camera_stream
+        │ └──authorized_camera_stream
         │
         ├── PrivacyFilter@arcOS
         │   ├── masterID face/posture/body silhouette 

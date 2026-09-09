@@ -149,6 +149,8 @@ visionKit@arcOS
 
 ├── Core ML
 
+└── spatial/environment model
+
 ├── Image / graphics processing
 
 ├── LiDAR / depth
@@ -254,8 +256,6 @@ sensorKit@arcOS
 
 ├── NFC
 
-│
-
 ├── barometer / altitude-related APIs
 
 ├── proximity / device-state signals
@@ -263,6 +263,10 @@ sensorKit@arcOS
 ├── battery / thermal state
 
 └── accessibility interaction state
+
+	└── disable companion-device telemetry
+
+	└── Apple Watch sensors where legitimately available
 
 This layer is primarily non-visual physical/device state.
 

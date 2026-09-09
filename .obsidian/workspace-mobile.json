@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b26d7fea53b14332",
+        "id": "f4f09462c2eae8a7",
         "type": "tabs",
         "children": [
           {
-            "id": "51c194f698408ba1",
+            "id": "ba05d77097e9d2d0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "신한노트",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,14 +167,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "51c194f698408ba1",
+  "active": "10455f33885429cc",
   "lastOpenFiles": [
-    "baseKit@arcOS.md",
     "architecture.md",
+    "araKit@arcOS.md",
+    "baseKit@arcOS.md",
     "building@arcOS.md",
     "droneKit@arcOS.md",
     "chunsikQ@arcOS.md",
-    "araKit@arcOS.md",
     "baseConfig@arcOS.md",
     "archive/baseFrame@arcOS+archive.md",
     "archive/baseFrame_archive.md",

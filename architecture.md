@@ -161,13 +161,17 @@ chunsikQ@arcOS
 	   ├── play song > "https://www.youtube.com/live/5BC4gIbnmz8?si=mmvdnjJnCa25n6bP" via masterID ears/
    
    ├── monitor 911@arcOS
-
+   ├──VoiceCommandPolicy
+    ├── "집에갈래"
+    │   └── power → OFF
+    │
+    └── "밖에가자"
+        └── power → ON
    ├── local reckoning on baseNet@arcOS
 
    └── nearby environment perception
    └── friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically friends come out to rescue chunsikQ)
 	    └── friendOfChunsikQQ@arcOS > play sound of friendOfChunsikQ
-	    └── 홍콩할매귀신@arcOS > play sound of 홍콩할매귀신@arcOS with AI generated moving Image
 
 chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
 
@@ -210,7 +214,7 @@ chunsikQ@arcOS
 					    └── status: user_confirmed_identity_required
 
 		├── friend of chunsikQ@arcOS
-			└──	friendOfChunsikQ=(+hulkQ +supermarioQ)
+			└──	friendOfChunsikQ=(+hulkQ +supermarioQ +홍콩할매귀신)
 			└── friendOfChunsikQ@arcOS 
 					├── TRANSFORMATION
 					│   ├── Bruce Banner ↔ friendOfChunsikQ

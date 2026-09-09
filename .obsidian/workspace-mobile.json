@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dbcc1d5404ebd719",
+        "id": "89ee85502f745172",
         "type": "tabs",
         "children": [
           {
-            "id": "62130a1bf0b0d295",
+            "id": "1bf175d710df7909",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -32,7 +32,7 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "byCreatedTime",
+            "sortOrder": "alphabetical",
             "autoReveal": false,
             "showSearch": false,
             "searchQuery": ""
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "🍓",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,36 +167,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "62130a1bf0b0d295",
+  "active": "1bf175d710df7909",
   "lastOpenFiles": [
-    "droneKit@arcOS.md",
-    "building@arcOS.md",
+    "general_architecture.md",
     "chunsikQ_architecture.md",
-    "chunsikQ@arcOS.md",
     "kumaDeviceForWDS_architecture.md",
     "appleSilicon_architecture.md",
-    "policeKit@arcOS.md",
-    "general_architecture.md",
-    "sensorKit_architecture.md",
-    "Untitled",
-    "araKit@arcOS.md",
-    "baseKit@arcOS.md",
-    "baseConfig@arcOS.md",
-    "archive/baseFrame@arcOS+archive.md",
-    "archive/baseFrame_archive.md",
     "devops@arcOS.md",
-    "bashKit@arcOS.md",
+    "sensorKit_architecture.md",
+    "building@arcOS.md",
+    "baseKit@arcOS.md",
+    "architecture.md",
     "commandKit@arcOS.md",
+    "chunsikQ@arcOS.md",
+    "araKit@arcOS.md",
     "networkKit@arcOS.md",
+    "baseConfig@arcOS.md",
+    "droneKit@arcOS.md",
     "arcOSFrame@arcOS.md",
+    "archive/baseFrame_archive.md",
     "targetLib@arcOS.md",
+    "bashKit@arcOS.md",
     "archive/archive.md",
     "spaceRFKit@arcOS.md",
     "IMG_0022.png",
+    "archive/baseFrame@arcOS+archive.md",
     "APILib@arcOS.md",
+    "policeKit@arcOS.md",
     "swiftKit@arcOS.md",
     "pythonKit@arcOS.md",
-    "LLMKit@arcOS.md",
     "mobileconfig",
     "archive/LICENSE",
     "archive",

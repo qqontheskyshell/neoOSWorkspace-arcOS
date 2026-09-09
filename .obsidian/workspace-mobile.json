@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QQ_architecture.md",
+                "file": "chunsikQ_architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "QQ_architecture"
+              "title": "chunsikQ_architecture"
             }
           },
           {
@@ -80,7 +80,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Friendof",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -134,7 +134,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -211,10 +211,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ef61872f1d00438",
+  "active": "dcc30132859afc71",
   "lastOpenFiles": [
-    "appleSilicon_architecture.md",
     "QQ_architecture.md",
+    "appleSilicon_architecture.md",
     "chunsikQ_architecture.md",
     "ChunsikClass @arcOS.md",
     "kumaDeviceForWDS_architecture.md",

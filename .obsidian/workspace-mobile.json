@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kumaDeviceForWDS_architecture.md",
+                "file": "chunsikQ_architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "kumaDeviceForWDS_architecture"
+              "title": "chunsikQ_architecture"
+            }
+          },
+          {
+            "id": "3973a4da7eb929e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ChunsikClass @arcOS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ChunsikClass @arcOS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,18 +197,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b27a55083d822a2a",
+  "active": "3973a4da7eb929e7",
   "lastOpenFiles": [
+    "kumaDeviceForWDS_architecture.md",
+    "sensorKit_architecture.md",
+    "ChunsikClass @arcOS.md",
     "chunsikQ_architecture.md",
     "droneKit@arcOS.md",
     "BankKit_architecture.md",
     "building@arcOS.md",
     "chunsikQ@arcOS.md",
-    "kumaDeviceForWDS_architecture.md",
     "appleSilicon_architecture.md",
     "policeKit@arcOS.md",
     "general_architecture.md",
-    "sensorKit_architecture.md",
     "Untitled",
     "araKit@arcOS.md",
     "baseKit@arcOS.md",
@@ -211,7 +227,6 @@
     "IMG_0022.png",
     "APILib@arcOS.md",
     "swiftKit@arcOS.md",
-    "pythonKit@arcOS.md",
     "mobileconfig",
     "archive/LICENSE",
     "archive",

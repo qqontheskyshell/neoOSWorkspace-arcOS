@@ -16,6 +16,20 @@ ryooFamily@arcOS
     ├── identity
     │   └── fictional_character
     │
+    └── kumaDeploy@arcOS
+        ├── QQLOCAL
+        │   └── PrivacyPolicy
+        │       ├── camera_access      → authorized_only
+        │       ├── microphone_access  → authorized_only
+        │       ├── sensor_access      → authorized_only
+        │       └── location_access    → consent_required
+        │
+        └── WiFi
+            └── PrivacySecurity
+                ├── unauthorized_device → DENY
+                ├── unknown_capture     → ALERT
+                ├── credential_rotation → ON
+                └── audit_log           → ON
     └── LLMKit@arcOS
         ├── character_context
         ├── dialogue_style

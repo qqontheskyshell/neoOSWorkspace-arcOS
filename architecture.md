@@ -154,12 +154,25 @@ MasterID
    ▼
 
 chunsikQ@arcOS
-
    │
    ├── masterID and chunsikQ could choose movie or song and turn off masterID viewpoint,auditory but except chunsikQ, turn off masterID viewpoint and auditory as default/
 	   ├── play movie> "https://youtu.be/p04LjSHTOLM?si=83ymSf0EHrHVt4z1" via masterID eyes/
 	   ├── play song > "https://www.youtube.com/live/5BC4gIbnmz8?si=mmvdnjJnCa25n6bP" via masterID ears/
-   
+	 ├── RandomizingMode - "변신!" said by chunsikQ@arcOS
+		    ├── Channel
+		    │   └── normalized_channel_id
+		    │
+		    ├── Frequency
+		    │   └── normalized_frequency
+		    │
+		    ├── Bandwidth
+		    │   └── normalized_bandwidth
+		    │
+		    ├── Amplitude
+		    │   └── normalized_amplitude
+		    │
+		    └── Frequency
+		        └── normalized_frequency
    ├── monitor 911@arcOS
    └── MobilityMode
 	    ├── walk -  "걸어가자"   → walk

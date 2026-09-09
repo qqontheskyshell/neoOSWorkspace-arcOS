@@ -18,16 +18,7 @@
 
 ### Final architecture
 ```markdown
-arcOS AuthorityLevel
-├── masterLevel
-│   └── MasterID
-│
-├── kumaLevel
-│   └── chunsikQ@arcOS
-│
-└── RootLevel
-    ├── configTarget
-    └── kanchinTarget
+
 
 
 5. Final architecture

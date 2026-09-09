@@ -65,7 +65,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "FlowerWdS",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -119,7 +119,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -196,18 +196,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dcc30132859afc71",
+  "active": "b27a55083d822a2a",
   "lastOpenFiles": [
+    "kumaDeviceForWDS_architecture.md",
+    "chunsikQ@arcOS.md",
     "general_architecture.md",
+    "mobileconfig/arcOS.mobileconfig.md",
+    "mobileconfig/arcOS.masterID.mobileconfig.md",
+    "archive/androidKit@arcOS.md",
     "chunsikQ_architecture.md",
     "archive/baseFrame_archive.md",
     "droneKit@arcOS.md",
     "ChunsikClass @arcOS.md",
-    "kumaDeviceForWDS_architecture.md",
     "sensorKit_architecture.md",
     "BankKit_architecture.md",
     "building@arcOS.md",
-    "chunsikQ@arcOS.md",
     "appleSilicon_architecture.md",
     "policeKit@arcOS.md",
     "Untitled",
@@ -222,10 +225,7 @@
     "arcOSFrame@arcOS.md",
     "targetLib@arcOS.md",
     "archive/archive.md",
-    "spaceRFKit@arcOS.md",
     "IMG_0022.png",
-    "APILib@arcOS.md",
-    "swiftKit@arcOS.md",
     "mobileconfig",
     "archive/LICENSE",
     "archive",

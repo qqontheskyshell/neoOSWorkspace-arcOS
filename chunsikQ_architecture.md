@@ -7,6 +7,20 @@ Understood. I can consolidate this into a single chunsikQ@arcOS architecture spe
 masterID > used by only one person 
 chunsikQ@arcOS(disable baseNet@arcOS on his body as direction from external to internal direction and could be logged in kumaiCloud or kumaID)
 
+
+arcOS AuthorityLevel
+├── masterLevel
+│   └── MasterID
+│
+├── kumaLevel
+│   └── chunsikQ@arcOS
+│
+└── RootLevel
+    ├── configTarget
+    └── kanchinTarget
+
+
+
 — Unified Architecture v11
 
                               MASTERID

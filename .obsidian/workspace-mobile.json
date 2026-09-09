@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b1840a2d2959193d",
+        "id": "0bfd8817cf2f9a0a",
         "type": "tabs",
         "children": [
           {
-            "id": "7341b305ef9a9297",
+            "id": "d54b08493fc230b9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,17 +167,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7341b305ef9a9297",
+  "active": "d54b08493fc230b9",
   "lastOpenFiles": [
-    "ChunsikClass @arcOS.md",
-    "QQ_architecture.md",
+    "ChunsikClass@arcOS.md",
     "chunsikQ_architecture.md",
+    "kumaDeviceForWDS_architecture.md",
+    "BankKit_architecture.md",
+    "QQ_architecture.md",
     "general_architecture.md",
     "droneKit@arcOS.md",
     "building@arcOS.md",
-    "BankKit_architecture.md",
     "chunsikQ@arcOS.md",
-    "kumaDeviceForWDS_architecture.md",
     "appleSilicon_architecture.md",
     "policeKit@arcOS.md",
     "sensorKit_architecture.md",

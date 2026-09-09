@@ -7,6 +7,7 @@ chunsikQ_Class@arcOS
 	├── nameOfStyle
 	├── PeopleWhoInteractWith
 	├── nameOfLevel
+	├──nameOfMobility
 └── CharacterModel
     ├── DefaultCharacter
     │   └── "$nameOfObject"
@@ -35,7 +36,7 @@ chunsikQ_Class@arcOS
 └── Identity
     └── fictional_character
 └── Mobility
-    ├── "$nameOfStyleStyle"
+    ├── "$nameOfMobility"Style
 └── kumaDeploy@arcOS
         ├── QQLOCAL
         │   └── PrivacyPolicy
@@ -82,8 +83,14 @@ chunsikQ_Class@arcOS
 
 ### object 
 ```markdown
-corgi@arcOS = chunsikQ_Class@arcOS (corgi,kakaoFriend,ANY)
-tomcruise@arcOS = chunsikQ_Class@arcOS (tomcruise,missionImpossible,masterID)
-```
+├── nameOfObject
+├── nameOfStyle
+├── PeopleWhoInteractWith
+├── nameOfLevel
+├──nameOfMobility
 
+corgi@arcOS = chunsikQ_Class@arcOS(corgi,kakaoFriend,ANY,rootLevel,pixarUpStyle)
+QQ@arcOS = chunsikQ_Class@arcOS(QQTencent,kakaoFriend,ANY,rootLevel,cute)
+tomcruise@arcOS = chunsikQ_Class@arcOS(tomcruise,missionImpossible,masterID,ironManStyle)
+```
 

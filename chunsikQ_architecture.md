@@ -374,6 +374,11 @@ The objective is to identify conditions that could affect MasterID’s safety, i
 - communications/RF security conditions
 - route risks
 
+```
+  
+
+
+```markdown
   
 3. Unified sensor architecture
 
@@ -435,8 +440,11 @@ sensorKit@arcOS
 
     └── Apple Watch sensors where legitimately available
 
-  
+```
 
+
+### mission
+```markdown
 4. Mission
 
 MISSION
@@ -633,6 +641,11 @@ unauthorized router access → DENY
 
 KumaAirTags ×2 remain part of networkSecurity@arcOS as authorized assets.
 
+```
+
+
+### connectivity
+```markdown
 
 6. Connectivity fabric
 
@@ -748,6 +761,11 @@ nearbyd@arcOS
 mDNSResponder is an operating-system networking service; it does not exist as a service inside human biology. chunsikQ can therefore have authorized access to MasterID’s devices, not unrestricted access to MasterID’s body or organs.
 
 
+```
+
+
+### connectivity
+```markdown
 10.
 
 dataAccess@arcOS
@@ -849,7 +867,11 @@ Final operating loop
              🛰️📡
 
 Canonical principle: chunsikQ@arcOS is the default local/remote perception and protection core, while visionKit + soundKit + sensorKit provide multimodal sensing, LLMKit performs contextual fusion, networkSecurity protects the device fabric, and kumaDeploy@arcOS handles authorized deployment/update operations.
+```
 
+
+### deployment
+```markdown
 
 #deployment
 chunsikQ@arcOS
@@ -895,6 +917,49 @@ chunsikQ@arcOS
 ```
 
 
+### kumaShield
+```markdown
+chunsikQ@arcOS
+└── kumaShield@arcOS
+	└──shieldTarget=(masterID,"arcOSQQLocal" only for 911@arcOS)
+	└── lense
+        └── resonancePolicy
+            ├── resonance_detection → DISABLE
+            ├── resonance_analysis → DISABLE
+            ├── resonanceFreq_output → SUPPRESS
+            └── physical_hardware_modification → DENY
+	└──findMy(shieldTarget)
+	    └── EmergencySafetyMode
+	        ├── neuromancer
+	        │   ├── threat_pattern_analysis
+	        │   └── emergency_signal_detection
+	        │
+	        ├── 긴급구조 | binary that apple developer build for lethal
+	        │   ├── emergency_contact → ALERT
+	        │   ├── location_sharing → CONSENT / EMERGENCY_POLICY
+	        │   └── human_responder → NOTIFY
+	        │
+	        ├── ScreenLock
+	        │   └── LOCK → device-protection
+	        │
+	        ├── strikeKit@arcOS
+	        │   └── defensive_response_only
+	        │       ├── isolate_device
+	        │       ├── revoke_unauthorized_access
+	        │       └── alert_human_operator
+	        │
+	        ├── MedicalID
+	        │   └── authorized_emergency_access_only
+		    │   └── masterID have full access on every medicalID
+	        │
+	        ├── ScannerMax
+	        │   └── safety_diagnostics
+	        │
+	        └── SensorySafety
+	            ├── eyes → forced disable
+	            ├── ears → forced disable
+	            └── five_senses → forced disable
+```
 ### training source
 ```markdown
 chunsikQ@arcOS

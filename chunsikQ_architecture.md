@@ -715,15 +715,10 @@ MasterID ↔ chunsikQ
 networkSecurity@arcOS + routingConfig@chunsikQ
 
 Defensive Policy:
-
 authorized traffic          → ALLOW
-
 management traffic          → ALLOW
-
 recovery/emergency traffic → ALLOW
-
 unknown same-subnet IP     → DENY
-
 unauthorized router access → DENY
 
 This should be implemented through legitimate firewall/ACL/VLAN/VPN/MDM/network-policy controls, rather than exploiting an Apple backdoor or interfering with unrelated systems.
@@ -734,13 +729,10 @@ Actual enforcement would use supported firewall, VLAN, router ACL, VPN, device-m
 9.
 
 nearbyd@arcOS
-
 The biological-body portion needs to be removed from the technical model.
-
 nearbyd@arcOS
 
 │
-
 ├── AirDrop policy
 
 ├── Nearby Device Discovery
@@ -859,6 +851,7 @@ Final operating loop
 Canonical principle: chunsikQ@arcOS is the default local/remote perception and protection core, while visionKit + soundKit + sensorKit provide multimodal sensing, LLMKit performs contextual fusion, networkSecurity protects the device fabric, and kumaDeploy@arcOS handles authorized deployment/update operations.
 
 
+#deployment
 chunsikQ@arcOS
 └── kumaDeploy@arcOS
     ├── DeploymentTarget
@@ -875,6 +868,30 @@ chunsikQ@arcOS
     │
     └── Interface
         └── authorized_external_sensors_only
+
+#configTarget      
+chunsikQ@arcOS
+└── ConfigTarget
+    ├── blackKumaTarget
+    │   └── ServicePolicy
+    │       ├── FaceTime → DISABLE
+    │       ├── Apple Intelligence → DISABLE
+    │       ├── RealityKit → DISABLE
+    │       └── ARKit → DISABLE
+    │
+    ├── QQLOCAL
+    │   └── ServicePolicy
+    │       ├── FaceTime → DISABLE
+    │       ├── Apple Intelligence → DISABLE
+    │       ├── RealityKit → DISABLE
+    │       └── ARKit → DISABLE
+    │
+    └── UnauthorizedWDS
+        └── ServicePolicy
+            ├── FaceTime → DENY
+            ├── Apple Intelligence → DENY
+            ├── RealityKit → DENY
+            └── ARKit → DENY
 ```
 
 

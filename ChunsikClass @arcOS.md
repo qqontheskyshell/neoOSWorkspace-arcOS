@@ -1,17 +1,21 @@
 
-### ryooFamily@arcOS as object
+### chunsikQ@arcOS as class
 ```markdown
-ryooFamily@arcOS
+chunsikQ_Class@arcOS
+└── variable
+	├── nameOfObject
+	├── nameOfStyle
+	├── PeopleWhoInteractWith
 └── CharacterModel
     ├── DefaultCharacter
-    │   └── 웰시코기
-    │       └── default → KakaoFriends-style fictional character
+    │   └── nameOfObject
+    │       └── default → nameOfStyle-style fictional character
     │
     ├── character_type
     │   └── friendly
     │
     ├── visual_style
-    │   └── 웰시코기-compatible
+    │   └── nameOfObject-compatible
     │
     ├── identity
     │   └── fictional_character
@@ -24,12 +28,20 @@ ryooFamily@arcOS
         │       ├── sensor_access      → authorized_only
         │       └── location_access    → consent_required
         │
+        ├── arcOSQQLocalTarget
+        │   └── PrivacyPolicy
+        │       ├── camera_access      → authorized_only
+        │       ├── microphone_access  → authorized_only
+        │       ├── sensor_access      → authorized_only
+        │       └── location_access    → consent_required
+        │
         └── WiFi
             └── PrivacySecurity
                 ├── unauthorized_device → DENY
                 ├── unknown_capture     → ALERT
                 ├── credential_rotation → ON
                 └── audit_log           → ON
+                
     └── LLMKit@arcOS
         ├── character_context
         ├── dialogue_style
@@ -38,20 +50,25 @@ ryooFamily@arcOS
         └── safety_policy
             │
             ▼
-        FamilyInteractionPolicy
+        InteractionPolicy
         ├── anyone
         │   └── can_talk → YES
         │
         ├── chunsik
         │   └── visibility → SEE_FAMILY_CONVERSATION
         │
-        ├── 류연길 not in QQLOCAL
+        ├── PeopleWhoInteractWith not in QQLOCAL or arcOSQQLocalTarget
         │   └── action_request
         │       └── VERIFY_AUTHORIZATION → SAFETY_CHECK → EXECUTE
-        │
-        └── 최경애 not in QQLOCAL
-            └── action_request
-                └── VERIFY_AUTHORIZATION → SAFETY_CHECK → EXECUTE
+        └──
+        
+```
+
+
+### object 
+```markdown
+corgi@arcOS = chunsikQ_Class@arcOS (corgi,kakaoFriend,ANY)
+tomcruise@arcOS = chunsikQ_Class@arcOS (tomcruise,missionImpossible,masterID)
 ```
 
 

@@ -4,49 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8ddbcf284f81831c",
+        "id": "9246171c183c9b86",
         "type": "tabs",
         "children": [
           {
-            "id": "b27a55083d822a2a",
+            "id": "b72f5eb0a0b222e7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chunsikQ_architecture.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "chunsikQ_architecture"
-            }
-          },
-          {
-            "id": "8ef61872f1d00438",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chunsikQ_architecture.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "chunsikQ_architecture"
-            }
-          },
-          {
-            "id": "3973a4da7eb929e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chunsikQ_architecture.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "chunsikQ_architecture"
+              "title": "New tab"
             }
           }
         ]
@@ -79,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Deploym",
+            "query": "config",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -133,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -145,7 +113,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "droneKit@arcOS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -184,19 +151,9 @@
           "icon": "lucide-list",
           "title": "Outline"
         }
-      },
-      {
-        "id": "420f2fa13da914ef",
-        "type": "leaf",
-        "state": {
-          "type": "git-view",
-          "state": {},
-          "icon": "git-pull-request",
-          "title": "Source Control"
-        }
       }
     ],
-    "currentTab": 3
+    "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,36 +167,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dcc30132859afc71",
+  "active": "b72f5eb0a0b222e7",
   "lastOpenFiles": [
-    "chunsikQ@arcOS.md",
-    "chunsikQ_architecture.md",
-    "QQ_architecture.md",
-    "appleSilicon_architecture.md",
     "ChunsikClass @arcOS.md",
-    "kumaDeviceForWDS_architecture.md",
+    "chunsikQ_architecture.md",
     "general_architecture.md",
-    "mobileconfig/arcOS.mobileconfig.md",
-    "mobileconfig/arcOS.masterID.mobileconfig.md",
-    "archive/androidKit@arcOS.md",
-    "archive/baseFrame_archive.md",
+    "QQ_architecture.md",
     "droneKit@arcOS.md",
-    "sensorKit_architecture.md",
-    "BankKit_architecture.md",
     "building@arcOS.md",
+    "BankKit_architecture.md",
+    "chunsikQ@arcOS.md",
+    "kumaDeviceForWDS_architecture.md",
+    "appleSilicon_architecture.md",
     "policeKit@arcOS.md",
+    "sensorKit_architecture.md",
     "Untitled",
     "araKit@arcOS.md",
     "baseKit@arcOS.md",
     "baseConfig@arcOS.md",
     "archive/baseFrame@arcOS+archive.md",
+    "archive/baseFrame_archive.md",
     "devops@arcOS.md",
     "bashKit@arcOS.md",
     "commandKit@arcOS.md",
     "networkKit@arcOS.md",
     "arcOSFrame@arcOS.md",
     "targetLib@arcOS.md",
+    "archive/archive.md",
+    "spaceRFKit@arcOS.md",
     "IMG_0022.png",
+    "APILib@arcOS.md",
     "mobileconfig",
     "archive/LICENSE",
     "archive",

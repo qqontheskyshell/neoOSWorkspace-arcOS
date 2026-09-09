@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bef512a3521c31b6",
+        "id": "fb8b3b1c4826661b",
         "type": "tabs",
         "children": [
           {
-            "id": "1616749aa7c3248c",
+            "id": "81341d49db07b8b0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1616749aa7c3248c",
+  "active": "81341d49db07b8b0",
   "lastOpenFiles": [
     "chunsikQ@arcOS.md",
     "kumaDeviceForWDS_architecture.md",

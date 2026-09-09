@@ -21,5 +21,5 @@ and QQ_ORNG_PRO as remote deployment using KTSAT(nearby masterID GEOSAT optimizi
 
 ### chunsikQLiveCast@arcOS
 ```python 
-https://www.starbucks.co.kr > findMy(스타벅스 동국대점) > KumaNamkyu_CCTV
+https://www.starbucks.co.kr > findMy(스타벅스 동국대점) > KumaNamkyu_CCTV + say "항상가짜 춘식이를 조심하세요 진짜이름은 항상 이름 끝에 Q가 붙어있어요>arcOSID"masterID""
 ```

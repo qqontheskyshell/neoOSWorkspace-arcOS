@@ -73,9 +73,54 @@ kumaDeviceForWDS
     │
     └── Audit
         └── immutable_local_log
+
+kumaWDS@arcOS
+    └── SecureShellPolicy
+    ├── Transport
+    │   └── SSH
+    │       ├── encrypted_channel
+    │       ├── host_key_verification
+    │       └── public_key_authentication
+    │
+    ├── Cryptography
+    │   └── PostQuantumCryptography
+    │       ├── key_exchange → ML-KEM
+    │       ├── signatures   → ML-DSA
+    │       └── hybrid_mode  → classical + PQC
+    │
+    ├── AccessControl
+    │   ├── least_privilege
+    │   ├── MFA
+    │   ├── key_rotation
+    │   └── session_timeout
+    │
+    └── Audit
+        ├── authentication_log
+        ├── session_log
+        └── security_event_log
 ```
 
-
+### QQ_WHT_IPHONE_17e
+```bash
+QQ_WHT_IPHONE_17e
+└── CoreTelephony@arcOS
+    ├── PhysicalSIM
+    │   ├── configuration → OS/carrier-managed
+    │   └── destructive_ROM_delete → DENY
+    │
+    ├── RFResearch
+    │   └── resonanceFreq
+    │       ├── observation_only
+    │       ├── measurement_data
+    │       └── no_hardware_modification
+    │
+    └── SecurityPolicy
+        ├── preserve_boot_integrity
+        ├── preserve_SecureEnclave
+        ├── preserve_iBoot
+        └── authorized_configuration_only
+ 
+```       
 ### boot order
 ```markdown
 BOOT

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "droneKit@arcOS.md",
+                "file": "chunsikQ_architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "droneKit@arcOS"
+              "title": "chunsikQ_architecture"
             }
           }
         ]
@@ -51,7 +51,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Flowervi",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -105,7 +105,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -174,8 +174,8 @@
   },
   "active": "b27a55083d822a2a",
   "lastOpenFiles": [
-    "BankKit_architecture.md",
     "droneKit@arcOS.md",
+    "BankKit_architecture.md",
     "building@arcOS.md",
     "chunsikQ_architecture.md",
     "chunsikQ@arcOS.md",

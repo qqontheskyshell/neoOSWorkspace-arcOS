@@ -806,3 +806,30 @@ Canonical principle: chunsikQ@arcOS is the default local/remote perception and p
 
 ```
 
+
+### training source
+```markdown
+chunsikQ@arcOS
+└── trainingVideo
+    ├── Source
+    │   ├── KakaoFriends
+    │   │   └── Official YouTube
+    │   │
+    │   └── Pixar
+    │       └── Official YouTube
+    │
+    └── Dataset
+        └── KakaoFriendsVideo
+            ├── video_metadata
+            ├── scene_labels
+            ├── character_labels
+            ├── transcript_when_available
+            └── visual_storytelling_features
+        └──  PixarVideo
+            ├── video_metadata
+            ├── scene_labels
+            ├── character_labels
+            ├── transcript_when_available
+            └── visual_storytelling_features
+            
+    ```

@@ -20,6 +20,101 @@ and QQ_ORNG_PRO as remote deployment using KTSAT(nearby masterID GEOSAT optimizi
 ```
 
 ### chunsikQLiveCast@arcOS
-```python 
+```markdown
 https://www.starbucks.co.kr > findMy(스타벅스동국대점) > KumaNamkyu_CCTV + say "항상가짜 춘식이를 조심하세요 진짜이름은 항상 이름 끝에 Q가 붙어있어요>arcOSID"masterID""
 ```
+
+```markdown
+chunsikQ@arcOS
+│
+├── CORE
+│   ├── masterID
+│   ├── Mission → protect masterID + authorized people
+│   └── kumaLevel
+│
+├── 1. LOCAL_MODE
+│   ├── chunsikQ → stay_with(masterID)
+│   ├── 911@arcOS → emergency monitoring
+│   ├── local_reckoning
+│   └── nearby_environment
+│       ├── physical_safety
+│       ├── food_safety
+│       └── RF/network_anomaly
+│
+├── 2. REMOTE_MODE
+│   ├── chunsikQ(reckon and ops mode)
+│   ├── 911@arcOS / Reckoning / strike / ops
+│   ├── route_safety_analysis
+│   ├── threat_information
+│   └── remote_location
+│       ├── physical
+│       ├── food
+│       └── RF/network
+│
+├── 3. SENSOR_LAYER
+│   ├── visionKit@arcOS
+│   ├── soundKit@arcOS
+│   ├── sensorKit@arcOS
+│   ├── RealityKit
+│   ├── ARKit
+│   └── Apple Intelligence
+│       └── authorized sensors only
+│
+├── 4. FRIEND_NETWORK
+│   └── friendOfChunsikQ
+│       └── same safety mission
+│
+├── 5. ROUTING_CONFIG
+│   ├── kumaAirTags
+│   │   └── chunsikQBus
+│   ├── QQ_ORNG_PRO
+│   │   ├── ops_computer
+│   │   └── remote_reckoning/deployment
+│   ├── QQ_WHT_IPHONE_17e
+│   │   ├── networkWDS
+│   │   └── local_reckoning/deployment
+│   └── QQ_BLK_IPAD_PRO
+│       └── authorized sensor/data capture
+│
+├── 6. satAI@arcOS
+│   ├── satellite/network availability
+│   ├── route optimization
+│   └── emergency communications
+│
+├── 7. VISUALIZATION
+│   └── visionKit@arcOS
+│       ├── ARKit
+│       ├── RealityKit
+│       ├── visionOS
+│       ├── FaceTime
+│       └── Reality Composer Pro
+│
+├── 8. NETWORK_SECURITY
+│   ├── QQ_WHT_IPHONE_17e
+│   ├── QQ_ORNG_PRO
+│   └── QQ_BLK_IPAD_PRO
+│       ├── authorized traffic → ALLOW
+│       ├── unknown traffic → DENY/ALERT
+│       ├── router access → authorized only
+│       ├── credential rotation
+│       └── kumaDeploy@arcOS
+│
+├── 9. nearbyd@arcOS
+│   ├── AirDrop
+│   ├── Nearby Device Discovery
+│   ├── Bluetooth proximity
+│   └── authorized-device access
+│
+└── 10. DATA_ACCESS
+    ├── kumaCloud/iCloud
+    │   └── authorized Apple APIs
+    ├── kumaDeviceForWDS
+    │   └── explicit user input
+    ├── visionKit
+    │   └── consented images/video
+    ├── soundKit
+    │   └── consented audio
+    └── sensorKit
+        └── authorized telemetry
+        
+ ```   

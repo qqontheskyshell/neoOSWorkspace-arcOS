@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6b1535c15341b8d5",
+        "id": "33a12fd70639cdf8",
         "type": "tabs",
         "children": [
           {
-            "id": "72b14d1b6054daa0",
+            "id": "033aed9003803658",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "friendOfchunsikQ",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,9 +167,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "72b14d1b6054daa0",
+  "active": "033aed9003803658",
   "lastOpenFiles": [
     "chunsikQ_architecture.md",
+    "kumaDeviceForWDS_architecture.md",
     "appleSilicon_architecture.md",
     "policeKit@arcOS.md",
     "general_architecture.md",
@@ -196,7 +197,6 @@
     "swiftKit@arcOS.md",
     "pythonKit@arcOS.md",
     "LLMKit@arcOS.md",
-    "neuroKit@arcOS.md",
     "mobileconfig",
     "archive/LICENSE",
     "archive",

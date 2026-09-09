@@ -180,55 +180,7 @@ chunsikQ@arcOS
    ├── local reckoning on baseNet@arcOS
    └── nearby environment perception
    └── friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically friends come out to rescue chunsikQ)
-	    └── friendOfChunsikQQ@arcOS > play sound of friendOfChunsikQ
-	└──kumaDeviceForWDS 
-		└──	iPhone Pro RF Security Research > randomizeRFAlgorithm@arcOS
-			│
-			├── Hardware
-			│   ├── antenna path
-			│   ├── RF front-end
-			│   ├── filters
-			│   ├── oscillator / clock
-			│   └── resonant behavior
-			│
-			├── Wireless
-			│   ├── cellular
-			│   ├── Wi-Fi
-			│   ├── Bluetooth
-			│   └── UWB
-			│
-			├── Measurement
-			│   ├── spectrum observation
-			│   ├── frequency response
-			│   ├── amplitude response
-			│   ├── bandwidth
-			│   └── repeatability
-			│
-			└── Security conclusion
-			    ├── expected RF behavior
-			    ├── anomalous behavior
-			    ├── reproducible vulnerability
-			    └── evidence required
-	    └── PacketCaptureDefense
-	        ├── detect
-	        │   ├── authorized_capture
-	        │   ├── unknown_capture
-	        │   └── suspicious_capture
-	        │
-	        ├── identify
-	        │   ├── device_id
-	        │   ├── source_ip
-	        │   └── capture_interface
-	        │
-	        ├── protect
-	        │   ├── revoke_unauthorized_access
-	        │   ├── rotate_credentials
-	        │   ├── isolate_authorized_network_segment
-	        │   └── preserve_evidence
-	        │
-	        └── audit
-	            └── immutable_local_log
-	    
+	    └── friendOfChunsikQQ@arcOS > play sound of friendOfChunsikQ    
 chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
 
 2. Remote mode

@@ -21,7 +21,7 @@
                 │                          │
                 └───────────┬──────────────┘
                             │
-                     Controlled Interfaces
+                     Controlled Interfaces > for kumaDeviceForWDS > when booting up then always route through into Secure Enclave + disable iBoot/
                             │
                      ───────┼───────
                             │

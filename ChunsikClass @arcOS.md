@@ -6,39 +6,55 @@ chunsikQ_Class@arcOS
 	├── nameOfObject
 	├── nameOfStyle
 	├── PeopleWhoInteractWith
+	├── nameOfLevel
 └── CharacterModel
     ├── DefaultCharacter
-    │   └── nameOfObject
-    │       └── default → nameOfStyle-style fictional character
+    │   └── "$nameOfObject"
+    │       └── default → "$nameOfStyle"-style fictional character
     │
     ├── character_type
-    │   └── friendly
+    │   └── "$nameOfCharacterType"
     │
     ├── visual_style
-    │   └── nameOfObject-compatible
+    │   └── "$nameOfObject"-compatible
     │
     ├── identity
     │   └── fictional_character
     │
-    └── kumaDeploy@arcOS
+├── Authority
+│   └── "$nameOfLevel"
+│       └── descriptionOfLevel
+│
+├── Inheritance
+│   ├── capabilities → inherit
+│   ├── configuration → inherit
+│   ├── characteristics → inherit
+│   ├── safety_policy → inherit
+│   └── character_style → inherit
+│
+└── Identity
+    └── fictional_character
+└── Mobility
+    ├── "$nameOfStyleStyle"
+└── kumaDeploy@arcOS
         ├── QQLOCAL
         │   └── PrivacyPolicy
         │       ├── camera_access      → authorized_only
         │       ├── microphone_access  → authorized_only
         │       ├── sensor_access      → authorized_only
-        │       └── location_access    → consent_required
+        │       └── location_access    → no consent_required
         │
         ├── arcOSQQLocalTarget
         │   └── PrivacyPolicy
         │       ├── camera_access      → authorized_only
         │       ├── microphone_access  → authorized_only
         │       ├── sensor_access      → authorized_only
-        │       └── location_access    → consent_required
+        │       └── location_access    → no consent_required
         │
         └── WiFi
             └── PrivacySecurity
                 ├── unauthorized_device → DENY
-                ├── unknown_capture     → ALERT
+                ├── unknown_capture     → DENY
                 ├── credential_rotation → ON
                 └── audit_log           → ON
                 
@@ -54,7 +70,7 @@ chunsikQ_Class@arcOS
         ├── anyone
         │   └── can_talk → YES
         │
-        ├── chunsik
+        ├── chunsikQ
         │   └── visibility → SEE_FAMILY_CONVERSATION
         │
         ├── PeopleWhoInteractWith not in QQLOCAL or arcOSQQLocalTarget
@@ -63,7 +79,6 @@ chunsikQ_Class@arcOS
         └──
         
 ```
-
 
 ### object 
 ```markdown

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9246171c183c9b86",
+        "id": "b1840a2d2959193d",
         "type": "tabs",
         "children": [
           {
-            "id": "b72f5eb0a0b222e7",
+            "id": "7341b305ef9a9297",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,12 +167,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b72f5eb0a0b222e7",
+  "active": "7341b305ef9a9297",
   "lastOpenFiles": [
     "ChunsikClass @arcOS.md",
+    "QQ_architecture.md",
     "chunsikQ_architecture.md",
     "general_architecture.md",
-    "QQ_architecture.md",
     "droneKit@arcOS.md",
     "building@arcOS.md",
     "BankKit_architecture.md",

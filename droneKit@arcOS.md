@@ -35,6 +35,18 @@ kumaDrone@arcOS
         │   └── PrivacyOverlayEntity
         │
         └── VictimSafety
+            └── VictimSafetyPolicy
+            ├── SafetyCheck
+        │   ├── evaluate_safety_criteria
+        │   └── verify_result
+        │
+        └── Decision
+        ├── criteria_match
+        │   └── flower → STAY_IN_HOME / DO_NOT_MOVE
+        │
+        └── criteria_not_match
+            └── safety_review_required
+                └── human_approved_action
             └── VoiceIntent
                  └── "집에갈래"
                  ├── intent → GO_HOME

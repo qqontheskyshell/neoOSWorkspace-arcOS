@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "droneKit@arcOS.md",
+                "file": "chunsikQ_architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "droneKit@arcOS"
+              "title": "chunsikQ_architecture"
             }
           }
         ]
@@ -51,7 +51,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "consent_required",
+            "query": "Human_app",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -117,7 +117,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "droneKit@arcOS.md",
+            "file": "chunsikQ_architecture.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -174,8 +174,8 @@
   },
   "active": "b27a55083d822a2a",
   "lastOpenFiles": [
-    "chunsikQ_architecture.md",
     "droneKit@arcOS.md",
+    "chunsikQ_architecture.md",
     "BankKit_architecture.md",
     "building@arcOS.md",
     "chunsikQ@arcOS.md",

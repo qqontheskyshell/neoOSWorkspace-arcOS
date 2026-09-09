@@ -321,7 +321,7 @@ chunsikQ@arcOS
 			├── secure_remote_communication
 			├── route_recommendation
 			├── emergency_alert
-			└── human_approved_response
+			└── masterID_approved_response
 		│
         └── remote reckoning && local reckoning
 

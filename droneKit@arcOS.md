@@ -36,17 +36,17 @@ kumaDrone@arcOS
         │
         └── VictimSafety
             └── VictimSafetyPolicy
-            ├── SafetyCheck
+            ├── SafetyCheck by kumaDrone@arcOS on site 
         │   ├── evaluate_safety_criteria
         │   └── verify_result
         │
         └── Decision
-        ├── criteria_match
-        │   └── flower → STAY_IN_HOME / DO_NOT_MOVE
+        ├── criteria_match(SAFE)
+        │   └── flower → kumaDrone@arcOS on site | GO_TO_PLACE or STAY_IN_HOME
         │
         └── criteria_not_match
-            └── safety_review_required
-                └── human_approved_action
+            └── safety_review_required | STAY_IN_HOME / DO_NOT_MOVE
+                └── masterID_approved_action
             └── VoiceIntent
                  └── "집에갈래"
                  ├── intent → GO_HOME

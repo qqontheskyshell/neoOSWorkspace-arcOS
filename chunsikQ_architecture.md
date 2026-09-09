@@ -297,6 +297,24 @@ chunsikQ@arcOS
 								        │
 								        ▼
 								  chunsikQ@arcOS
+								  
+├── DefaultCharacter
+│   └── chunsik
+│
+├── CharacterVariant
+│   └── 춘식이여자
+│       ├── affiliation → chunsikQ@arcOS
+│       ├── capability_profile → SAME_AS(chunsikQ)
+│       ├── personality → friendly
+│       └── safety_policy → SAME_AS(chunsikQ)
+│
+└── CapabilityProfile
+    ├── reasoning
+    ├── vision
+    ├── voice
+    ├── mobility
+    ├── security
+    └── tool_access
 						    └── protect / respond / assist
 							└── GuardianPolicy
 								├── Protect people who freely choose to stay with MasterID

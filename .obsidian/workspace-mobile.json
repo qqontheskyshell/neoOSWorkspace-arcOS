@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3fd57abbfb509a48",
+        "id": "bef512a3521c31b6",
         "type": "tabs",
         "children": [
           {
-            "id": "f6199d9e06aed334",
+            "id": "1616749aa7c3248c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,8 +167,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f6199d9e06aed334",
+  "active": "1616749aa7c3248c",
   "lastOpenFiles": [
+    "chunsikQ@arcOS.md",
     "kumaDeviceForWDS_architecture.md",
     "chunsikQ_architecture.md",
     "appleSilicon_architecture.md",
@@ -180,7 +181,6 @@
     "araKit@arcOS.md",
     "baseKit@arcOS.md",
     "building@arcOS.md",
-    "chunsikQ@arcOS.md",
     "baseConfig@arcOS.md",
     "archive/baseFrame@arcOS+archive.md",
     "archive/baseFrame_archive.md",

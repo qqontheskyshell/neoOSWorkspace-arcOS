@@ -18,3 +18,8 @@ and QQ_ORNG_PRO as remote deployment using KTSAT(nearby masterID GEOSAT optimizi
 10.data access - chunsikQ have full access on kumaIcloud data and input text what masterID type in kumaDeviceForWDS such as spotlight so chunsikQ will record every text,sound,image and video utilizing visionKit,soundKit and sensorKit
 
 ```
+
+### chunsikQLiveCast@arcOS
+```python 
+https://www.starbucks.co.kr > findMy(스타벅스 동국대점) > KumaNamkyu_CCTV
+```

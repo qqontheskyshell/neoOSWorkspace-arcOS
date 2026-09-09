@@ -858,6 +858,23 @@ Final operating loop
 
 Canonical principle: chunsikQ@arcOS is the default local/remote perception and protection core, while visionKit + soundKit + sensorKit provide multimodal sensing, LLMKit performs contextual fusion, networkSecurity protects the device fabric, and kumaDeploy@arcOS handles authorized deployment/update operations.
 
+
+chunsikQ@arcOS
+└── kumaDeploy@arcOS
+    ├── DeploymentTarget
+    │   ├── vapor_chamber
+    │   │   └── thermal_test_environment
+    │   └── human_vapor
+    │       └── human-associated environmental/sensor model
+    │
+    ├── SafetyBoundary
+    │   ├── no_injection
+    │   ├── no_biological_access
+    │   ├── no_tissue_modification
+    │   └── consent_required
+    │
+    └── Interface
+        └── authorized_external_sensors_only
 ```
 
 

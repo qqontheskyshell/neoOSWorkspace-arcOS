@@ -847,6 +847,8 @@ chunsikQ@arcOS
     │   │
     │   └── Pixar
     │       └── Official YouTube
+        └── NintendoKoreaOfficial YouTube
+    │         
     │
     └── Dataset
         └── KakaoFriendsVideo
@@ -860,6 +862,34 @@ chunsikQ@arcOS
             ├── scene_labels
             ├── character_labels
             ├── transcript_when_available
-            └── visual_storytelling_features
+            └── visual_storytelling_features        
+        └── NintendoKoreaOfficial
+            ├── game_world
+            ├── storytelling
+            ├── dialogue_style
+            ├── animation_patterns
+                 └──  gameplay_context
+                         │
+
+                         ▼
+
+                    KnowledgeFeatures
+
+                         │
+             ┌───────────┴───────────┐
+             ▼                       ▼
+
+        chunsikQ              friendOfChunsikQ
+             │                       │
+
+             └───────────┬───────────┘
+
+                         ▼
+
+                    LLMKit@arcOS
+
+                         │
+
+                    SafetyPolicy
             
     ```

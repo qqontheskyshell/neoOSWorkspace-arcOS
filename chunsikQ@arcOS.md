@@ -88,16 +88,35 @@ chunsikQ@arcOS
 │       ├── visionOS
 │       ├── FaceTime
 │       └── Reality Composer Pro
+├──8. NETWORK_SECURITY
 │
-├── 8. NETWORK_SECURITY
-│   ├── QQ_WHT_IPHONE_17e
-│   ├── QQ_ORNG_PRO
-│   └── QQ_BLK_IPAD_PRO
-│       ├── authorized traffic → ALLOW
-│       ├── unknown traffic → DENY/ALERT
-│       ├── router access → authorized only > FriendOfChunsikQ only
-│       ├── credential rotation
-│       └── kumaDeploy@arcOS
+├── QQ_WHT_IPHONE_17e
+├── QQ_ORNG_PRO
+└── QQ_BLK_IPAD_PRO
+    │
+    ├── TrafficPolicy
+    │   ├── authorized traffic → ALLOW
+    │   ├── unknown traffic → DENY + ALERT
+    │   └── suspicious traffic → ISOLATE + ALERT
+    │
+    ├── RouterAccess
+    │   ├── authorized only
+    │   ├── allowed principal → FriendOfChunsikQ
+    │   ├── authentication → REQUIRED
+    │   ├── least_privilege → ON
+    │   └── audit_log → ON
+    │
+    ├── CredentialManagement
+    │   ├── credential rotation
+    │   ├── key rotation
+    │   ├── session timeout
+    │   └── revoke compromised credentials
+    │
+    └── kumaDeploy@arcOS
+        ├── policy validation
+        ├── authorized deployment
+        ├── configuration audit
+        └── rollback
 │
 ├── 9. nearbyd@arcOS
 │   ├── AirDrop

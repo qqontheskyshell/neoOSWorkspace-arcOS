@@ -6,7 +6,7 @@ arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike
 
 
 ### kumaDrone@arcOS as "KumaNamkyu_CCTV"
-```python
+```markdown
 findMy(masterID)
         │
         ▼
@@ -24,6 +24,10 @@ kumaDrone@arcOS
         │   │
         │   ├── MasterIDMarkerEntity
         │   │   └── 🍄
+	    │   ├── VictimIDMarkerEntity
+        │   │   └── 🍓
+		│   ├── PeopleInPrivatePlaceIDMarkerEntity
+        │   │   └── 🧋
         │   │
         │   ├── SafetyAlertMarkerEntity
         │   │   └── 🚨 
@@ -34,10 +38,12 @@ kumaDrone@arcOS
         │   └── authorized_camera_stream
         │
         ├── PrivacyFilter@arcOS
-        │   ├── masterID face/posture/body silhouette
+        │   ├── masterID face/posture/body silhouette 
         │   │   └── BLUR + 🍄
+	    │   ├── sauna,toilet,restroom for all people
+        │   │   └── BLUR + 🧋
         │   ├──victim face/posture/body silhouette
-        │   │   └── BLUR with 80% + 🍓
+        │   │   └── BLUR + 🍓
 	    │   ├──criminal face/posture/body silhouette
         │   │   └── 🚨
         │   ├── face
@@ -73,6 +79,7 @@ visualDrone@arcOS = ON
         ├── MARKER
         │   ├── 🍄 → authorized masterID marker
 	    │   ├── 🍓 → authorized victim marker
+		│   ├── 🧋 → authorized peopleInPrivatePlace marker
         │   └── 🚨 → criminal and verified safety/emergency event
         │
         └── OUTPUT
@@ -89,8 +96,8 @@ visualDrone@arcOS = ON
              │  CCTV Feed   │
              │              │
              │   [BLUR]     │
-             │      🍄      │
-             │   masterID   │
+             │   🍄🍓🧋    │
+             │              │
              │              │
              │      🚨      │
              │  911 EVENT   │

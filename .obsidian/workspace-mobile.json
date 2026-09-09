@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1cb4523b4eddb755",
+        "id": "dbcc1d5404ebd719",
         "type": "tabs",
         "children": [
           {
-            "id": "ade931d266b6f4f1",
+            "id": "62130a1bf0b0d295",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "+hulk",
+            "query": "🍓",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -167,8 +167,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ade931d266b6f4f1",
+  "active": "62130a1bf0b0d295",
   "lastOpenFiles": [
+    "droneKit@arcOS.md",
+    "building@arcOS.md",
     "chunsikQ_architecture.md",
     "chunsikQ@arcOS.md",
     "kumaDeviceForWDS_architecture.md",
@@ -176,11 +178,9 @@
     "policeKit@arcOS.md",
     "general_architecture.md",
     "sensorKit_architecture.md",
-    "droneKit@arcOS.md",
     "Untitled",
     "araKit@arcOS.md",
     "baseKit@arcOS.md",
-    "building@arcOS.md",
     "baseConfig@arcOS.md",
     "archive/baseFrame@arcOS+archive.md",
     "archive/baseFrame_archive.md",

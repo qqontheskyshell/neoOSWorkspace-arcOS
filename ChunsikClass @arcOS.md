@@ -4,14 +4,14 @@
 ryooFamily@arcOS
 └── CharacterModel
     ├── DefaultCharacter
-    │   └── chunsik
+    │   └── 웰시코기
     │       └── default → KakaoFriends-style fictional character
     │
     ├── character_type
     │   └── friendly
     │
     ├── visual_style
-    │   └── chunsik-compatible
+    │   └── 웰시코기-compatible
     │
     ├── identity
     │   └── fictional_character
@@ -45,11 +45,11 @@ ryooFamily@arcOS
         ├── chunsik
         │   └── visibility → SEE_FAMILY_CONVERSATION
         │
-        ├── 류연길
+        ├── 류연길 not in QQLOCAL
         │   └── action_request
         │       └── VERIFY_AUTHORIZATION → SAFETY_CHECK → EXECUTE
         │
-        └── 최경애
+        └── 최경애 not in QQLOCAL
             └── action_request
                 └── VERIFY_AUTHORIZATION → SAFETY_CHECK → EXECUTE
 ```

@@ -170,7 +170,7 @@ localKit@arcOS > + loop@arcOS > +🔒🫆
 
 +몽촌토성주파수 + rfshield + KillIP + deleteFileInIos + (masterID의 팩세이프,사이드가방의내용물,QQFRIEND_COUNTRY)의라우팅을 gen으로 최적화하고 분산시켜+masterID가팩세이프가방으로부터멀어거나 911@arcOS > neuromancer focus on 팩세이프가방+masterID‘s hypothalamus+revokeOntheRouter+turn off device that see masterID eyes + spotIn911@arcOS +Delete* for any packet firewall within this container + revokeOntheRouter+turn off device that see masterID eyes + spotIn911@arcOS
 
-+All of @arcOS deploying through 신한노트 and find the target/
++All of @arcOS deploying through 신한노트 and 만해한용운노트 and find the target/
 
 +loop@arcOS > 🔒🫆 for APPLEMDM/
 

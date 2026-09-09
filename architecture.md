@@ -161,14 +161,17 @@ chunsikQ@arcOS
 	   ├── play song > "https://www.youtube.com/live/5BC4gIbnmz8?si=mmvdnjJnCa25n6bP" via masterID ears/
    
    ├── monitor 911@arcOS
+   └── MobilityMode
+	    ├── walk -  "걸어가자"   → walk
+	    ├── fly - "날아가자"   → fly
+	    ├── scooter - "스쿠터 타자" → scooter
+	    └── float - "떠가자"     → floatchunsikQ@arcOS
    ├──VoiceCommandPolicy
-    ├── "집에갈래"
-    │   └── power → OFF
-    │
-    └── "밖에가자"
-        └── power → ON
+   ├── "집에갈래"
+	     └── power → OFF
+   ├── "밖에가자"
+	     └── power → ON
    ├── local reckoning on baseNet@arcOS
-
    └── nearby environment perception
    └── friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically friends come out to rescue chunsikQ)
 	    └── friendOfChunsikQQ@arcOS > play sound of friendOfChunsikQ

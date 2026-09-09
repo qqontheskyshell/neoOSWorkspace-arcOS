@@ -34,11 +34,33 @@ kumaDrone@arcOS
         │   │
         │   └── PrivacyOverlayEntity
         │
+        
+        └── FlowerSafety@arcOS
+            ├── flowerWDS
+            │   └── SafetyMonitor
+            │       ├── consent_required
+            │       ├── user_visible_status
+            │       ├── safety_event_detection
+            │       └── human_review
+            │
+            ├── flower / victim
+            │   ├── voluntary_check_in
+            │   ├── emergency_signal
+            │   ├── trusted_contact
+            │   └── privacy_boundary
+            │
+            └── Neuromancer
+                └── SAFE_SOFTWARE_MODE
+                ├── threat_pattern_analysis
+                ├── alert_generation
+                ├── no_personal_deployment
+                ├── no_covert_intervention
+                └── no_approved_response
         └── VictimSafety
             └── VictimSafetyPolicy
-            ├── SafetyCheck by kumaDrone@arcOS on site 
-        │   ├── evaluate_safety_criteria
-        │   └── verify_result
+                ├── SafetyCheck by kumaDrone@arcOS on site 
+        │       ├── evaluate_safety_criteria
+        │       └── verify_result
         │
         └── Decision
         ├── criteria_match(SAFE)

@@ -35,10 +35,19 @@ kumaDrone@arcOS
         │   └── PrivacyOverlayEntity
         │
         └── VictimSafety
-            └── FlowerVictim
+            └── VoiceIntent
+                 └── "집에갈래"
+                 ├── intent → GO_HOME
+                 ├── safety_check → ON
+                 ├── location_tracking → no consent_required
+                 ├── emergency_contact → available
+                 └── kumaDrone@arcOS
+                 └── safety_support_only
+                    └── human_approved_navigation        
+            └── FlowerVictim same with victim as class
                 └── kumaDrone@arcOS
 		            ├── VictimLocation
-		            │   ├── consent_required
+		            │   ├── no consent_required
 		            │   ├── user_confirmed_location
 		            │   └── location_expiry
 		            │

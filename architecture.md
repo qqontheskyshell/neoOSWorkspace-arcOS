@@ -550,9 +550,11 @@ routingConfig
 			    ├── bandwidth
 			    └── amplitude
 			         ↓
-			    normalize → randomize by randomizeRFAlgorithm@arcOS
-			         ↓
-			    policy-compliant parameters
+			    randomize
+				     └── by randomizeRFAlgorithm@arcOS
+		             │
+		             ▼
+		policy-compliant parameters
 
 └── satAI@arcOS
 

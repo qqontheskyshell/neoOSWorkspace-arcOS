@@ -8,7 +8,7 @@
 - MDM - management toolset
 
 ### chunsikQ_Prototype
-```python
+```markdown
 chunsikQ@arcOS + architecture
 1.local: chunsikQ@arcOS as default + monitor 911@arcOS for masterID + This means that chunsikQ is staying with masterID and just reckon nearby masterID surrounding environment.
 2.remote: chunsikQ@arcOS as default + 911@arcOS or reckon for masterID to clear the next route for masterID, chunsikQ just reckon and collect all of information that might be threatening on masterID in terms of physical,food,RF security.
@@ -124,13 +124,14 @@ tomcruise@arcOS = chunsikQ_Class@arcOS(tomcruise,missionImpossible,masterID,iron
 chunsikQ@arcOS
 │
 ├── CORE
-│   ├── masterID
-│   ├── Mission → protect masterID + authorized people
-│   └── kumaLevel
+│   ├── default → chunsikQ
+│   ├── authority → kumaLevel
+│   └── Mission
+│       └── protect masterID + flowerWDS + flowerVictim + configTarget + peopleWhoIsInterestedInmasterID
 │
 ├── 1. LOCAL_MODE
-│   ├── chunsikQ → stay_with(masterID)
-│   ├── 911@arcOS → emergency monitoring
+│   ├── chunsikQ → local and remote ops with (masterID)
+│   ├── 911@arcOS → emergency monitoring and strikeKit@arcOS on criminal using kumaDrone@arcOS
 │   ├── local_reckoning
 │   └── nearby_environment
 │       ├── physical_safety
@@ -138,37 +139,42 @@ chunsikQ@arcOS
 │       └── RF/network_anomaly
 │
 ├── 2. REMOTE_MODE
-│   ├── chunsikQ(reckon and ops mode)
-│   ├── 911@arcOS / Reckoning / strike / ops
+│   ├── chunsikQ → reckon
+│   ├── 911@arcOS → emergency support
 │   ├── route_safety_analysis
 │   ├── threat_information
-│   └── remote_location
+│   └── remote_environment
 │       ├── physical
 │       ├── food
 │       └── RF/network
 │
 ├── 3. SENSOR_LAYER
 │   ├── visionKit@arcOS
+│			├── ARKit
+│		    ├── RealityKit
+│		    ├── visionOS
+│		    └── Apple Intelligence
+│			      └── authorized sensors only
 │   ├── soundKit@arcOS
 │   ├── sensorKit@arcOS
-│   ├── RealityKit
-│   ├── ARKit
-│   └── Apple Intelligence
-│       └── authorized sensors only
+│   
 │
 ├── 4. FRIEND_NETWORK
 │   └── friendOfChunsikQ
-│       └── same safety mission
+│       └── same safety mission,security and ops policy
 │
 ├── 5. ROUTING_CONFIG
 │   ├── kumaAirTags
-│   │   └── chunsikQBus
+│   │   └── transportation > chunsikQBus, ironmanStyleRocketEngine
+│   │
 │   ├── QQ_ORNG_PRO
 │   │   ├── ops_computer
 │   │   └── remote_reckoning/deployment
+│   │
 │   ├── QQ_WHT_IPHONE_17e
 │   │   ├── networkWDS
 │   │   └── local_reckoning/deployment
+│   │
 │   └── QQ_BLK_IPAD_PRO
 │       └── authorized sensor/data capture
 │
@@ -184,35 +190,16 @@ chunsikQ@arcOS
 │       ├── visionOS
 │       ├── FaceTime
 │       └── Reality Composer Pro
-├──8. NETWORK_SECURITY
 │
-├── QQ_WHT_IPHONE_17e
-├── QQ_ORNG_PRO
-└── QQ_BLK_IPAD_PRO
-    │
-    ├── TrafficPolicy
-    │   ├── authorized traffic → ALLOW
-    │   ├── unknown traffic → DENY + ALERT
-    │   └── suspicious traffic → ISOLATE + ALERT
-    │
-    ├── RouterAccess
-    │   ├── authorized only
-    │   ├── allowed principal → FriendOfChunsikQ
-    │   ├── authentication → REQUIRED
-    │   ├── least_privilege → ON
-    │   └── audit_log → ON
-    │
-    ├── CredentialManagement
-    │   ├── credential rotation
-    │   ├── key rotation
-    │   ├── session timeout
-    │   └── revoke compromised credentials
-    │
-    └── kumaDeploy@arcOS
-        ├── policy validation
-        ├── authorized deployment
-        ├── configuration audit
-        └── rollback
+├── 8. NETWORK_SECURITY
+│   ├── QQ_WHT_IPHONE_17e
+│   ├── QQ_ORNG_PRO
+│   └── QQ_BLK_IPAD_PRO
+│       ├── authorized traffic → ALLOW
+│       ├── unknown traffic → DENY/ALERT
+│       ├── router access → authorized only
+│       ├── credential rotation
+│       └── kumaDeploy@arcOS
 │
 ├── 9. nearbyd@arcOS
 │   ├── AirDrop
@@ -221,21 +208,40 @@ chunsikQ@arcOS
 │   └── authorized-device access
 │
 └── 10. DATA_ACCESS
+	├── basicDataAccessPolicy@arcOS 
+		└── authorized telemetry only but no consented telemetry for arcOSQQLocalTarget except KumaDeviceForWDS
     ├── kumaCloud/iCloud
     │   └── authorized Apple APIs
     ├── kumaDeviceForWDS
-    │   └── explicit user input
+    │   └── authorized user input
     ├── visionKit
-    │   └── consented images/video
+    │   └── every images/video
     ├── soundKit
-    │   └── consented audio
+    │   └── every audio
     └── sensorKit
-        └── authorized telemetry
+	└──arcOSQQLocalTarget
+        │
+        ├── KumaDeviceForWDS → ALLOW
+        │
+        ├── unsolicited telemetry → DENY + basicDataAccessPolicy@arcOS 
+        ├── background collection → DENY
+        ├── hidden recording → DENY
+        ├── hidden vnc → DENY
+        ├── hidden ssh → DENY
+        ├── hidden rsync → DENY
+        ├── hidden smb → DENY
+        ├── hidden sharingd → DENY
+        ├── hidden internetd → DENY
+        ├── hidden mDNSResponder → DENY
+        └── unauthorized and access via localhost on sensor access → DENY
         
- ```   
+```
 
-### Architecture Description in chunsikQ@arcOS + v12
+
+
 ```markdown
+### Architecture Description in chunsikQ@arcOS + v12
+
 Understood. I can consolidate this into a single chunsikQ@arcOS architecture specification, while separating the conceptual goals from capabilities that Apple’s public APIs actually permit. I’ll also treat the previously mentioned counter-strike/weapon, hardware-backdoor, covert-body-access, and unrestricted data-capture portions as not executable capabilities.
 
 
@@ -360,8 +366,7 @@ arcOS AuthorityLevel
   
 ### Local vs Remote ops in chunsikQ@arcOS
 ```markdown
-
-Local / Remote
+# Local / Remote
 
 # Local
 chunsikQ@arcOS accompanies MasterID and creates a local environmental model from available, authorized sensors.
@@ -380,101 +385,119 @@ chunsikQ
 - target 
 
 
-2. Local mode
-
-Default: chunsikQ@arcOS
-
-MasterID
-
-   │
-
-   ▼
-
-chunsikQ@arcOS
-   │
-   
-   └── Mission ###############################################################
-		  ↓
-		  
-		Protect MasterID and associated people and all of physical and soft assets around them including masterID
-		
-		  ↓
-		  
-		Observe
-		  ↓
-		
-		Understand
-		
-		  ↓
-		
-		Predict risk
-		
-		  ↓
-		
-		Route / warn
-		
-		  ↓
-		
-		Human-authorized defensive response
-		The architecture should not autonomously select or attack an enemy target.
-	└── Operation #############################################################
-		├── monitor 911@arcOS
-		
-	└── NUI trigger ###########################################################
-			└── VoiceTrigger  
-				    └── "변신!" said by chunsikQ@arcOS + friendOfChunsikQ@arcOS
-		    ├──VoiceCommandPolicy
-				   └──  "집에갈래"
-					     └── power → OFF
-				   └── "밖에가자"
-					     └── power → ON
-	└── mobility mode #########################################################
-	    ├── walk -  "걸어가자"   → walk
-	    ├── fly - "날아가자"   → fly
-	    ├── scooter - "스쿠터 타자" → scooter
-	    └── float - "떠가자"     → floatchunsikQ@arcOS
-   ├── local reckoning on baseNet@arcOS and arcOSQQLocalTarget
-   └── nearby environment perception
-
-2. Remote mode
-
-chunsikQ@arcOS
-
-        │
-		 
-		└── EmergencyProtection@arcOS
-		    ├── ThreatAssessment
-		    │   └── credible sexual-violence threat
-		    │
-		    ├── RouteIsolation
-		    │   ├── separate authorized device/network paths
-		    │   ├── deny unauthorized direct access
-		    │   └── preserve emergency communications
-		    │
-		    ├── Communications
-		    │   ├── block/mute through device-level controls where authorized
-		    │   ├── preserve 112 / emergency access
-		    │   └── notify trusted contacts
-		    │
-		    ├── 📡 Network
-		    │   └── authorized firewall / ACL / MDM controls
-		    │
-		    └── 🛰️ Emergency | 911@arcOS | peopleWhomake911,나쁜남자만
-		        ├── location sharing with consent
-		        ├── emergency alert
-		        └── human-approved intervention
-		        └── remote route / situation information
-		        └── sample of people
-					├── Shin_HaeDong
-					│   └── status: user_confirmed_identity_required
-					└── Lee_KangMin
-					    └── status: user_confirmed_identity_required
-					└── peopleWhounderestimate_masterID
-					    └── status: user_confirmed_identity_required
-					└── QQHackers
-					    └── status: user_confirmed_identity_required
-
-
+chunsikQ@arcOS and tomcruiseQ@arcOS as default ops
+│
+├── MISSION
+│   ├── protect MasterID
+│   ├── protect associated people
+│   ├── protect physical assets
+│   └── protect authorized digital/soft assets
+│
+├── OPERATION
+│   ├── observe
+│   ├── understand
+│   ├── predict_risk
+│   ├── route / warn
+│   └── human_authorized_defensive_response
+│
+├── NUI_TRIGGER
+│   ├── VoiceTrigger
+│   │   └── "변신!"
+│   │       └── authorized chunsikQ / friendOfChunsikQ
+│   │
+│   └── VoiceCommandPolicy
+│       ├── "집에갈래" → power OFF
+│       └── "밖에가자" → power ON
+│
+├── MOBILITY_MODE
+│   ├── "걸어가자" → walk
+│   ├── "날아가자" → fly
+│   ├── "스쿠터 타자" → scooter
+│   └── "떠가자" → float
+│
+├── LOCAL_MODE(🛰️)
+│   │
+│   ├── MasterID
+│   │    └── chunsikQ@arcOS
+│   │
+│   ├── local_reckoning
+│   │   ├── baseNet@arcOS
+│   │   └── arcOSQQLocalTarget
+│   │	└── QQLocal
+│   │
+│   ├── nearby_environment
+│   │   ├── physical_safety
+│   │   ├── food_safety
+│   │   └── communications/security_anomaly
+│   │
+│   └── Operation
+│       └── monitor 911@arcOS
+│
+└── REMOTE_MODE(🛰️📡)
+    │
+    ├── EmergencyProtection@arcOS
+    │   │
+    │   ├── ThreatAssessment
+    │   │   └── credible threat detection
+    │   │
+    │   ├── RouteIsolation
+    │   │   ├── separate authorized device/network paths
+    │   │   ├── deny unauthorized direct access
+    │   │   └── preserve emergency communications
+    │   │
+    │   ├── Communications
+    │   │   ├── authorized block/mute
+    │   │   ├── preserve 112 / emergency access
+    │   │   └── notify trusted contacts
+    │   │
+    │   ├── Network
+    │   │   └── authorized firewall / ACL / MDM
+    │   │
+    │   └── Emergency
+    │       ├── 911@arcOS
+    │       ├── emergency alert
+    │       ├── consent-based location sharing
+    │       └── human-approved intervention
+		    └── EmergencyProtection@arcOS
+				    ├── ThreatAssessment
+				    │   └── credible sexual-violence threat
+				    │
+				    ├── RouteIsolation
+				    │   ├── separate authorized device/network paths
+				    │   ├── deny unauthorized direct access
+				    │   └── preserve emergency communications
+				    │
+				    ├── Communications
+				    │   ├── block/mute through device-level controls where authorized
+				    │   ├── preserve 112 / emergency access
+				    │   └── notify trusted contacts
+				    │
+				    ├── 📡 Network
+				    │   └── authorized firewall / ACL / MDM controls
+				    │
+				    └── 🛰️ Emergency | 911@arcOS | peopleWhomake911,나쁜남자만
+				        ├── location sharing with consent
+				        ├── emergency alert
+				        └── human-approved intervention
+				        └── remote route / situation information
+				        └── maliciousPeople > open 22
+							├── Shin_HaeDong
+							│   └── status: user_confirmed_identity_required
+							└── Lee_KangMin
+							    └── status: user_confirmed_identity_required
+							└── peopleWhounderestimate_masterID
+							    └── status: user_confirmed_identity_required
+							└── QQHackers
+							    └── status: user_confirmed_identity_required
+    │
+    │
+    │
+    └── RemoteReckoning
+        ├── route information
+        ├── situation information
+        ├── physical/environmental risk
+        ├── food-safety risk
+        └── communications/security risk
 
 ```
 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "84ca8dccc84e2575",
+        "id": "03c6300e2d057661",
         "type": "tabs",
         "children": [
           {
-            "id": "4f0c330f7798cfe7",
+            "id": "c75e2948c7174f4a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,11 +167,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4f0c330f7798cfe7",
+  "active": "c75e2948c7174f4a",
   "lastOpenFiles": [
+    "chunsikQFrame@arcOS.md",
+    "spaceRFKit@arcOS.md",
     "linuxshell > findMy(masterID) > reckon > revoke* + block openAI API + reckon in each folder in QQLocal in nearby masterID > delete* + shutdown.md",
     "arcOS_architecture.md",
-    "chunsikQFrame@arcOS.md",
     "ChunsikClass@arcOS.md",
     "kumaDevice_architecture.md",
     "chunsikQ@arcOS.md",
@@ -195,7 +196,6 @@
     "arcOSFrame@arcOS.md",
     "targetLib@arcOS.md",
     "archive/archive.md",
-    "spaceRFKit@arcOS.md",
     "IMG_0022.png",
     "mobileconfig",
     "archive/LICENSE",

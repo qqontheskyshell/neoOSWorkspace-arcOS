@@ -665,6 +665,21 @@ chunsikQ@arcOS
     └── flowerWDS
         │
         └── ConfigTarget
+	          └── masterID_selected
+					    ├── selection
+				        │   ├── explicit_selection → REQUIRED
+				        │   ├── consent → NO_REQUIRED
+				        │   └── appearance/gender → NOT_USED_FOR_SELECTION
+				        │
+				        ├── protection
+				        │   ├── unauthorized_access → BLOCK
+				        │   ├── harassment → BLOCK
+				        │   └── privacy_violation → BLOCK
+				        │
+				        └── accessPolicy
+				            ├── masterID + chunsikQ + tomcruiseQ → AUTHORIZED
+				            ├── selected_person → OWN_DATA / CONSENT_SCOPE_IS_NEED
+				            └── everyone_else → BLOCK
             │
             ├── Selection
             │   ├── talent
@@ -1371,11 +1386,11 @@ chunsikQ@arcOS
             │   └── safety_diagnostics
             │
             └── SensorySafety
-                ├── eyes → FORCED_DISABLE
-                ├── ears → FORCED_DISABLE
-                └── five_senses → FORCED_DISABLE
-                    └── voluntary/device-level safety controls
-
+	            └── voluntary/device-level safety controls
+	                ├── eyes → FORCED_DISABLE
+	                ├── ears → FORCED_DISABLE
+	                └── five_senses → FORCED_DISABLE
+            
 ```
 
 ### training source

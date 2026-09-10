@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e84c82fe21b82677",
+        "id": "01a4f6bd738586e7",
         "type": "tabs",
         "children": [
           {
-            "id": "d2e583e78ae47a3d",
+            "id": "0b487412d7ba40ea",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "CCTV",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,8 +167,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d2e583e78ae47a3d",
+  "active": "0b487412d7ba40ea",
   "lastOpenFiles": [
+    "droneKit@arcOS.md",
     "chunsikQFrame@arcOS.md",
     "spaceRFKit@arcOS.md",
     "linuxshell > findMy(masterID) > reckon > revoke* + block openAI API + reckon in each folder in QQLocal in nearby masterID > delete* + shutdown.md",
@@ -181,7 +182,6 @@
     "building_architecture.md",
     "sensorKit_architecture.md",
     "QQ_architecture.md",
-    "droneKit@arcOS.md",
     "appleSilicon_architecture.md",
     "policeKit@arcOS.md",
     "Untitled",

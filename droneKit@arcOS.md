@@ -5,6 +5,11 @@ arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike
 ```
 
 
+
+chunsikQ@arcOS
+└── 
+
+
 ### kumaDrone@arcOS as "KumaNamkyu_CCTV"
 ```markdown
 findMy(masterID)
@@ -103,6 +108,15 @@ kumaDrone@arcOS
         │ └──authorized_camera_stream
         │
         ├── PrivacyFilter@arcOS
+		    └── CCTV
+	            └── PrivacyFilter@arcOS
+	                ├── target → masterID
+	                ├── face → BLUR 100%
+	                ├── body → BLUR 100%
+	                ├── posture → BLUR 100%
+	                ├── identity_output → SUPPRESS
+	                ├── raw_frame_retention → BLOCK
+	                └── unauthorized_CCTV → BLOCK
         │   ├── masterID face/posture/body silhouette 
         │   │   └── BLUR + 🍄
 	    │   ├── sauna,toilet,restroom for all people

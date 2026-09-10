@@ -651,6 +651,16 @@ chunsikQ@arcOS and tomcruiseQ@arcOS as default ops
 	│						    ├── ISOLATE
 	│						    ├── ALERT_911
 	└── 					    └── HUMAN_APPROVED_RESPONSE
+                    └─ safetyMonitoring
+                        ├─ target: SYNTHETIC_OBJECTS_ONLY
+                        ├─ visual_analysis: SIMULATION_ONLY
+                        ├─ suspicious_activity: auto attack
+                        ├─ emergency_signal: 911 / AUTHORIZED_ALERT
+                        ├─ automatic_attack: On
+                        ├─ blackkumatarget: enABLED
+                        ├─ strikeKit@arcOS: enABLED
+                        ├─ human_identification: On
+                        └─ safety_boundary: ON
 ```
 
 ### friendOfChunsikQ@arcOS

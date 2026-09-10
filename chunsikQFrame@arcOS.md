@@ -1438,7 +1438,7 @@ chunsikQ@arcOS + friendOfChunsikQ@arcOS
 
              ▼
 
-       LLMKit@arcOS --->
+       LLMKit@arcOS ---> @AITrainingBoxConfig
 
              │
 

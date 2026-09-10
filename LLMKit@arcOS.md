@@ -1,7 +1,7 @@
 ```bash
 #arcOSFrame LLMKit@arcOS
 LLMKit@arcOS > +
-
+@AITrainingBoxConfig
 +LLMLib@arcOS="
 onDevice training for this on QQ_ORNG_PRO,QQ_WHT_IPHONE_17e,QQ_BLK_IPAD_PRO > +
 https://github.com/APPLE

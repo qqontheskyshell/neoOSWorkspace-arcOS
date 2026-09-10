@@ -223,5 +223,10 @@ kumaBuilding@arcOS
 	│   └── guest ↔ management → BLOCK
 	│
 	└── MANAGEMENT_SECURITY
-	    └── unauthorized_router_access → BLOCK
+	│   └── unauthorized_router_access → BLOCK
+	└── Policy
+		└── AUTHORIZED → ALLOW
+		└──EMERGENCY   → ALLOW
+		└──UNAUTHORIZED → BLOCK
+		└──SEGMENT_CROSSING → BLOCK
 ```

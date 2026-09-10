@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8c3ca1e08cd981d3",
+        "id": "0546b17383d77fc0",
         "type": "tabs",
         "children": [
           {
-            "id": "ff9b687fa3842570",
+            "id": "7c11a3abf634a91c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,12 +167,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff9b687fa3842570",
+  "active": "7c11a3abf634a91c",
   "lastOpenFiles": [
     "buildingFrame@arcOS.md",
-    "APILibFrame@arcOS.md",
-    "APILib@arcOS.md",
     "droneKit@arcOS.md",
+    "targetLib@arcOS.md",
+    "APILibFrame@arcOS.md",
+    "archive/APILib@arcOS.md",
     "kumaDevice_architecture.md",
     "chunsikQFrame@arcOS.md",
     "ㅇ.md",
@@ -195,7 +196,6 @@
     "bashKit@arcOS.md",
     "commandKit@arcOS.md",
     "networkKit@arcOS.md",
-    "arcOSFrame@arcOS.md",
     "IMG_0022.png",
     "mobileconfig",
     "archive/LICENSE",

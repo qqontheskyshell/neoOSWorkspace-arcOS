@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "793ab9afc7ecd381",
+        "id": "84ca8dccc84e2575",
         "type": "tabs",
         "children": [
           {
-            "id": "bf9c2630feebb63c",
+            "id": "4f0c330f7798cfe7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,15 +167,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf9c2630feebb63c",
+  "active": "4f0c330f7798cfe7",
   "lastOpenFiles": [
+    "linuxshell > findMy(masterID) > reckon > revoke* + block openAI API + reckon in each folder in QQLocal in nearby masterID > delete* + shutdown.md",
     "arcOS_architecture.md",
     "chunsikQFrame@arcOS.md",
     "ChunsikClass@arcOS.md",
     "kumaDevice_architecture.md",
     "chunsikQ@arcOS.md",
     "bankKit_architecture.md",
-    "linuxshell > findMy(masterID) > reckon > block openAI API + reckon in each folder in QQLocal in nearby masterID > delete* + shutdown.md",
     "devops@arcOS.md",
     "building_architecture.md",
     "sensorKit_architecture.md",

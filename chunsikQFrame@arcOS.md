@@ -34,7 +34,40 @@ chunsikQ_Class@arcOS
 	├── PeopleWhoInteractWith
 	├── nameOfLevel
 	├──nameOfMobility
-	
+│
+└── Object
+    └── QFighter
+        ├── class → chunsikQ
+        ├── identity → Q-fighter → image of 양아치
+        ├── role → DefensiveGuardian
+        │
+        ├── capabilities
+        │   ├── observe
+        │   ├── reckon
+        │   ├── threat_detection
+        │   ├── risk_assessment
+        │   ├── safe_route
+        │   ├── isolate_unauthorized_access
+        │   ├── emergency_alert
+        │   └── human_approved_response
+        │
+        ├── friends
+        │   └── friendOfChunsikQ
+        │
+        ├── mobility
+        │   ├── walk
+        │   ├── scooter
+        │   └── virtual_fly
+        │
+        └── SafetyPolicy
+            ├── protect → ALLOW
+            ├── assist → ALLOW
+            ├── de_escalate → ALLOW
+            ├── physical_attack → BLOCK
+            ├── autonomous_harm → BLOCK
+            └── unauthorized_access → BLOCK
+│            
+│          
 └── CharacterModel
     ├── DefaultCharacter
     │   └── "$nameOfObject"
@@ -47,8 +80,8 @@ chunsikQ_Class@arcOS
     │   └── "$nameOfObject"-compatible
     │
     ├── identity
-    │   └── fictional_character
-    │
+         └── fictional_character
+│    
 ├── Authority
 │   └── "$nameOfLevel"
 │       └── descriptionOfLevel
@@ -116,6 +149,7 @@ chunsikQ_Class@arcOS
 ├── nameOfLevel
 ├──nameOfMobility
 
+                    
 corgi@arcOS = chunsikQ_Class@arcOS(corgi,kakaoFriend,ANY,rootLevel,pixarUpStyle)
 QQ@arcOS = chunsikQ_Class@arcOS(QQTencent,kakaoFriend,ANY,rootLevel,cute)
 tomcruiseQ@arcOS = chunsikQ_Class@arcOS(tomcruise,missionImpossible,masterID,ironManStyle)

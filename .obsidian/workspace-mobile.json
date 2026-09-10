@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bff46f2bacde210f",
+        "id": "5311177dc786f819",
         "type": "tabs",
         "children": [
           {
-            "id": "a6a41115e201166d",
+            "id": "ff4a28d1f580f446",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a6a41115e201166d",
+  "active": "ff4a28d1f580f446",
   "lastOpenFiles": [
     "chunsikQFrame@arcOS.md",
     "appleSilicon_architecture.md",

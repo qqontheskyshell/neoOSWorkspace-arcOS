@@ -1,8 +1,7 @@
 ```markdown
 
-APILib@arcOS=(mangrove.city,dowhat.co.kr)
+APILib@arcOS=(mangrove.city,dowhat.co.kr,wingsbooking.com)
 chunsikQ@arcOS
-└── APILib@arcOS
     └── APILib@arcOS
         ├── domain_scope
         │   └── *.APILib@arcOS
@@ -22,9 +21,13 @@ chunsikQ@arcOS
         │   ├── personal_data → MINIMIZE
         │   └── unauthorized_collection → BLOCK
         │
-        └── SECURITY_BOUNDARY
-            ├── public_API → ALLOW
-            ├── authenticated_API → AUTH_REQUIRED
-            ├── endpoint_scanning → BLOCK
-            └── exploit_attempt → BLOCK
+        └── SecurityBoundary
+            ├── official_documentation → REQUIRED
+            ├── authentication → REQUIRED
+            ├── reservation_data → AUTHORIZED_SCOPE_ONLY
+            ├── personal_data → MINIMIZE
+            ├── endpoint_probe → BLOCK
+            └── undocumented_API_execution → BLOCK
+    
+            
 ```

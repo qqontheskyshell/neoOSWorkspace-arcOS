@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "aafba8d06919fd69",
+        "id": "3773992bac444a74",
         "type": "tabs",
         "children": [
           {
-            "id": "f59180941c37bb1e",
+            "id": "88c1ecd184d6cf97",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "APILibFrame@arcOS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "APILibFrame@arcOS"
             }
           }
         ]
@@ -32,7 +36,7 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "byModifiedTime",
+            "sortOrder": "byCreatedTime",
             "autoReveal": false,
             "showSearch": false,
             "searchQuery": ""
@@ -47,7 +51,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "securityPolicy",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -167,23 +171,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f59180941c37bb1e",
+  "active": "88c1ecd184d6cf97",
   "lastOpenFiles": [
-    "buildingFrame@arcOS.md",
-    "droneKit@arcOS.md",
-    "kumaDeviceFrame@arcOS.md",
     "chunsikQFrame@arcOS.md",
+    "kumaDeviceFrame@arcOS.md",
+    "buildingFrame@arcOS.md",
     "APILibFrame@arcOS.md",
-    "targetLib@arcOS.md",
     "archive/APILib@arcOS.md",
     "ㅇ.md",
     "appleSilicon_architecture.md",
+    "droneKit@arcOS.md",
     "spaceRFKit@arcOS.md",
     "linuxshell > findMy(masterID) > reckon > revoke* + block openAI API + reckon in each folder in QQLocal in nearby masterID > delete* + shutdown.md",
     "arcOS_architecture.md",
     "ChunsikClass@arcOS.md",
+    "kumaDevice_architecture.md",
     "bankKit_architecture.md",
     "devops@arcOS.md",
+    "building_architecture.md",
     "sensorKit_architecture.md",
     "QQ_architecture.md",
     "policeKit@arcOS.md",
@@ -195,7 +200,6 @@
     "archive/baseFrame_archive.md",
     "bashKit@arcOS.md",
     "commandKit@arcOS.md",
-    "networkKit@arcOS.md",
     "IMG_0022.png",
     "mobileconfig",
     "archive/LICENSE",

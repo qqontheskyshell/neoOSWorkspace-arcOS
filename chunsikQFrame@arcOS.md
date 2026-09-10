@@ -796,6 +796,16 @@ CONFIGURABLE_MAX=unlimit
 chunsikQ@arcOS
 └──QFighter@arcOS or AI진상
 	│
+	Ai진상++
+       └─ timelineAnalysis
+           ├─ start: BIRTHDATE
+           ├─ end: NOW
+           ├─ source: ALL_DATA_ONLY
+           ├─ memory_retrieval: USER_PROVIDED
+           ├─ gap_detection: ON
+           ├─ contradiction_check: ON
+           ├─ timeline_revision: ON
+           └─ privacy_boundary: ON
 	├── RECKON_ENGINE
 	│   ├── LOCAL_RECKON → ENABLE
 	│   ├── REMOTE_RECKON → ENABLE

@@ -143,8 +143,8 @@ QQ_ORNG_PRO
    ├─ human_targeting: OFF
    ├─ synthetic_targeting: ON
    └─ safety_boundary: ON
-   
-   QQ_WHT_IPHONE_17e
+
+QQ_WHT_IPHONE_17e
 └─ cellMode
    ├─ mode: SIMULATION
    ├─ satellite_data: READ_ONLY
@@ -155,7 +155,7 @@ QQ_ORNG_PRO
    └─ safety_boundary: ON
    
    
-   QQ_BLK_IPAD_PRO
+QQ_BLK_IPAD_PRO
 └─ cellMode
    ├─ mode: SIMULATION
    ├─ satellite_data: SIM_READ_WRITE

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c8d34a122a576043",
+        "id": "5fe090674333fd89",
         "type": "tabs",
         "children": [
           {
-            "id": "c2286aca6472b506",
+            "id": "c56be283df19af52",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "QFighter",
+            "query": "",
             "matchingCase": true,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -168,10 +168,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2286aca6472b506",
+  "active": "c56be283df19af52",
   "lastOpenFiles": [
-    "chunsikQFrame@arcOS.md",
     "kumaDeviceFrame@arcOS.md",
+    "chunsikQFrame@arcOS.md",
     "networkKit@arcOS.md",
     "Untitled.md",
     "commandKit@arcOS.md",

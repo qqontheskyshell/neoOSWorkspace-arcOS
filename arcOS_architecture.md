@@ -19,6 +19,68 @@
 ```
 
 
+### arcOS architecture
+```markdown
+arcOS Architecture
+│
+├── 1. Class & Object
+│   ├── Class
+│   ├── Object
+│   ├── Interface
+│   ├── State
+│   ├── Event
+│   └── Policy
+│
+├── 2. API / SDK
+│   ├── iOS
+│   │   └── Apple Official SDK / Documentation
+│   ├── Android
+│   │   └── Android SDK / Open Documentation
+│   └── Linux
+│       └── Open-source APIs / Documentation
+│
+├── 3. Kit
+│   ├── Bash
+│   ├── Swift
+│   ├── Python
+│   │
+│   └── SDK Adapter
+│       ├── API wrapper
+│       ├── data model
+│       ├── permission
+│       ├── error handling
+│       └── logging
+│
+├── 4. Agent
+│   └── LLMKit@arcOS
+│       ├── reasoning
+│       ├── planning
+│       ├── tool selection
+│       ├── Kit execution
+│       ├── result validation
+│       └── human approval
+│
+├── 5. APP
+│   ├── Agent
+│   ├── Kit
+│   ├── API / SDK
+│   ├── UI
+│   ├── Data
+│   └── Policy
+│
+└── 6. MDM
+    └── ManagementToolset
+        ├── device enrollment
+        ├── configuration
+        ├── application management
+        ├── access control
+        ├── security policy
+        ├── credential / key rotation
+        ├── monitoring
+        ├── audit log
+        └── remote recovery
+```
+
 ### Final architecture
 ```markdown
 

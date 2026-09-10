@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5311177dc786f819",
+        "id": "a3ebefa23664d18b",
         "type": "tabs",
         "children": [
           {
-            "id": "ff4a28d1f580f446",
+            "id": "0e5acd12066f7dc2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,8 +167,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff4a28d1f580f446",
+  "active": "0e5acd12066f7dc2",
   "lastOpenFiles": [
+    "ㅇ.md",
     "chunsikQFrame@arcOS.md",
     "appleSilicon_architecture.md",
     "droneKit@arcOS.md",
@@ -177,7 +178,6 @@
     "arcOS_architecture.md",
     "ChunsikClass@arcOS.md",
     "kumaDevice_architecture.md",
-    "chunsikQ@arcOS.md",
     "bankKit_architecture.md",
     "devops@arcOS.md",
     "building_architecture.md",

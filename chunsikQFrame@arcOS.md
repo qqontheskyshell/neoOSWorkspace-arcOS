@@ -164,6 +164,7 @@ chunsikQ@arcOS
 ├── 4. FRIEND_NETWORK
 │   └── friendOfChunsikQ
 │       └── same safety mission,security and ops policy
+│	└──protectTarget=(masterID,configTarget,flowerWDS)
 │
 ├── 5. ROUTING_CONFIG
 │   ├── kumaAirTags
@@ -235,6 +236,32 @@ chunsikQ@arcOS
         ├── hidden internetd → BLOCK
         ├── hidden mDNSResponder → BLOCK
         └── unauthorized and access via localhost on sensor access → BLOCK
+│        
+└── 11. reckonDrone
+    └── PrivacyErase@arcOS
+        ├── target
+        │   ├── "$protectTarget_video"
+        │   ├── authorized_VNC_session
+        │   └── arcOSQQLocalTarget
+        │
+        ├── video_footage
+        │   ├── "$protectTarget_related" → DELETE
+        │   └── unauthorized_recording → BLOCK + DELETE_IF_AUTHORIZED
+        │
+        ├── memory
+        │   └── person_related_data
+        │       ├── user-owned → DELETE
+        │       ├── consent_withdrawn → DELETE
+        │       └── unauthorized_capture → DELETE_IF_AUTHORIZED
+        │
+        ├── access
+        │   ├── unauthorized_VNC → BLOCK
+        │   └── unauthorized_video_access → BLOCK
+        │
+        └── audit
+            ├── deletion_request → LOG
+            ├── deletion_result → VERIFY
+            └── retention → MINIMUM_REQUIRED
         
 ```
 

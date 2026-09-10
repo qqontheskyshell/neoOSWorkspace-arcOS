@@ -116,7 +116,7 @@ chunsikQ_Class@arcOS
 
 corgi@arcOS = chunsikQ_Class@arcOS(corgi,kakaoFriend,ANY,rootLevel,pixarUpStyle)
 QQ@arcOS = chunsikQ_Class@arcOS(QQTencent,kakaoFriend,ANY,rootLevel,cute)
-tomcruise@arcOS = chunsikQ_Class@arcOS(tomcruise,missionImpossible,masterID,ironManStyle)
+tomcruiseQ@arcOS = chunsikQ_Class@arcOS(tomcruise,missionImpossible,masterID,ironManStyle)
 ```
 
 
@@ -355,7 +355,7 @@ arcOS AuthorityLevel
 
                                │
 
-      kumaDeploy@arcOS via chunsikQ@arcOS + tomcruise@arcOS
+      kumaDeploy@arcOS via chunsikQ@arcOS + tomcruiseQ@arcOS
 
                                ▲
 
@@ -503,7 +503,6 @@ chunsikQ@arcOS and tomcruiseQ@arcOS as default ops
 
 ### friendOfChunsikQ@arcOS
 ```markdown
-
 friendOfChunsikQ@arcOS
 			└──friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically chunsikQ and friends come out to rescue victim and chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
 			└──	friendOfChunsikQ=(+hulkQ +supermarioQ +"카카오프렌즈모든캐릭터이름+Q +“춘식이여자+Q" +"QQ")
@@ -580,7 +579,7 @@ friendOfChunsikQ@arcOS
 								        └── RECOVER
 								        │
 								        ▼
-								chunsikQ@arcOS
+								chunsikQ@arcOS + tomcruiseQ@arcOS
 
 ```
 

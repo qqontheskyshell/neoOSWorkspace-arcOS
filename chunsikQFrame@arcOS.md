@@ -794,7 +794,7 @@ friendOfChunsikQ@arcOS
 
 CONFIGURABLE_MAX=unlimit
 chunsikQ@arcOS
-└──QFighter@arcOS
+└──QFighter@arcOS or AI진상
 	│
 	├── RECKON_ENGINE
 	│   ├── LOCAL_RECKON → ENABLE
@@ -823,6 +823,18 @@ chunsikQ@arcOS
 	│       ├── authorized_device → ENABLE
 	│       └── physical_autonomous_deployment → BLOCK
 	│
+	QFighter_Density
+    ├─ persistence: HIGH
+    ├─ repetition: HIGH
+    ├─ challenge_level: EXTREME
+    ├─ boundary: SAFETY_ON
+    ├─ narrative_reference: Netflix-style storytelling -동궁
+    └─ story_revision: ON
+       ├─ continuity_check
+       ├─ character_consistency
+       ├─ tension_rewrite
+       ├─ contradiction_detection
+       └─ scene-by-scene revision    
 	└── SafetyPolicy
 	    ├── observe → ALLOW
 	    ├── reckon → ALLOW

@@ -131,6 +131,40 @@ chunsikQ@arcOS
                 ├── camera_access → USER_PERMISSION_REQUIRED
                 └── unauthorized_face_capture → BLOCK
  
+ 
+ 
+ 
+QQ_ORNG_PRO
+└─ satMode
+   ├─ mode: SIMULATION
+   ├─ satellite_data: READ_ONLY
+   ├─ sensor_control: OFF
+   ├─ drone_control: SIMULATED
+   ├─ human_targeting: OFF
+   ├─ synthetic_targeting: ON
+   └─ safety_boundary: ON
+   
+   QQ_WHT_IPHONE_17e
+└─ cellMode
+   ├─ mode: SIMULATION
+   ├─ satellite_data: READ_ONLY
+   ├─ sensor_control: SIMULATED
+   ├─ drone_control: SIMULATED
+   ├─ human_targeting: OFF
+   ├─ synthetic_targeting: ON
+   └─ safety_boundary: ON
+   
+   
+   QQ_BLK_IPAD_PRO
+└─ cellMode
+   ├─ mode: SIMULATION
+   ├─ satellite_data: SIM_READ_WRITE
+   ├─ sensor_control: OFF
+   ├─ drone_control: SIMULATED
+   ├─ human_targeting: OFF
+   └─ safety_boundary: ON
+   
+   
 ```       
 ### boot order
 ```markdown

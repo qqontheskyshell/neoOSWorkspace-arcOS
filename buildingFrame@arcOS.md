@@ -136,7 +136,6 @@ chunsikQ@arcOS
 	                ├── deploy_authorized_config
 	                ├── audit
 	                └── rollback
-	    
 		└── reservation@arcOS
 			└── GuestRoomAccess@arcOS
 			    │
@@ -213,8 +212,7 @@ chunsikQ@arcOS
 		        │   ├── not_detected
 		        │   │   ├── chunsikQ.say
 		        │   │   │   └── "no one is in kumaRoom"
-		        │   │   └── arcOSQQLocalTarget
-		        │   │       └── message → 🪪
+		        │   │   └──  message "🪪" to arcOSQQLocalTarget
 		        │   └── uncertain
 		        │       └── chunsikQ.say
 		        │           └── "not sure masterID need to check"

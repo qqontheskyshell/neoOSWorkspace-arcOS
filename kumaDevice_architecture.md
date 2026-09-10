@@ -100,9 +100,9 @@ kumaWDS@arcOS
         └── security_event_log
 ```
 
-### QQ_WHT_IPHONE_17e
-```bash
-QQ_WHT_IPHONE_17e
+### kumaDeviceForWDS
+```markdown
+QQ_WHT_IPHONE_17e,QQ_ORNG_PRO,QQ_BLK_IPAD_PRO
 └── CoreTelephony@arcOS
     ├── PhysicalSIM
     │   ├── configuration → OS/carrier-managed

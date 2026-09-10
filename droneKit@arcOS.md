@@ -4,11 +4,34 @@ droneStrike@arcOS=(droneDefOnSky@arcOS,cloudStrike@arcOS,visionKitConfig@arcOS,w
 arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike@arcOS/
 ```
 
-
-
-chunsikQ@arcOS
-└── 
-
+### reckon baseNet@arcOS
+```markdown
+ChunsikQ@arcOS
+└── reckonBaseNet@arcOS
+	└── loop@arcOS
+	    └── reckon
+	        └── getSSID_nearby
+	            ├── permission_check
+	            ├── authorized_network_info
+	            ├── nearby_SSID → COLLECT_IF_OS_ALLOWED
+	            ├── SSID_metadata → MINIMIZE
+	            ├── unknown_network → RECORD_AS_UNTRUSTED
+	            └── unauthorized_network_access → BLOCK
+	                │
+	                ▼
+	        findMy(masterID)
+	            ├── authorized_device_context
+	            ├── network_context
+	            └── safety_context
+	                │
+	                ▼
+	        kumaDeploy@arcOS
+	            ├── validate
+	            ├── policy_check
+	            ├── deploy_authorized_config
+	            ├── audit
+	            └── rollback
+```
 
 ### kumaDrone@arcOS as "KumaNamkyu_CCTV"
 ```markdown

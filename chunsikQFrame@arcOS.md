@@ -723,7 +723,7 @@ friendOfChunsikQ@arcOS
 ### QFighter
 ```markdown
 
-CONFIGURABLE_MAX=100000000000000000000
+CONFIGURABLE_MAX=unlimit
 chunsikQ@arcOS
 └──QFighter@arcOS
 	│
@@ -744,8 +744,8 @@ chunsikQ@arcOS
 	│
 	├── Fleet
 	│   ├── instances → CONFIGURABLE_MAX
-	│   ├── local_reckon
-	│   ├── remote_reckon
+	│   ├── local_reckon  → ENABLE
+	│   ├── remote_reckon  → ENABLE
 	│   └── distributed_safety_model
 	│
 	├── DEPLOYMENT

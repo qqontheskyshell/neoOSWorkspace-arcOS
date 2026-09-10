@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "318fc6a0c4566917",
+        "id": "3a91915a4c81759f",
         "type": "tabs",
         "children": [
           {
-            "id": "842b3f92eaadc3ce",
+            "id": "18f8deca76c75349",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,18 +167,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "842b3f92eaadc3ce",
+  "active": "18f8deca76c75349",
   "lastOpenFiles": [
-    "sensorKit_architecture.md",
-    "chunsikQ_architecture.md",
+    "chunsikQFrame@arcOS.md",
     "ChunsikClass@arcOS.md",
-    "kumaDeviceForWDS_architecture.md",
-    "BankKit_architecture.md",
-    "QQ_architecture.md",
-    "general_architecture.md",
-    "droneKit@arcOS.md",
-    "building@arcOS.md",
+    "kumaDevice_architecture.md",
     "chunsikQ@arcOS.md",
+    "bankKit_architecture.md",
+    "linuxshell > findMy(masterID) > reckon > block openAI API + reckon in each folder in QQLocal in nearby masterID > delete* + shutdown.md",
+    "general_architecture.md",
+    "devops@arcOS.md",
+    "building_architecture.md",
+    "sensorKit_architecture.md",
+    "QQ_architecture.md",
+    "droneKit@arcOS.md",
     "appleSilicon_architecture.md",
     "policeKit@arcOS.md",
     "Untitled",
@@ -187,7 +189,6 @@
     "baseConfig@arcOS.md",
     "archive/baseFrame@arcOS+archive.md",
     "archive/baseFrame_archive.md",
-    "devops@arcOS.md",
     "bashKit@arcOS.md",
     "commandKit@arcOS.md",
     "networkKit@arcOS.md",
@@ -196,7 +197,6 @@
     "archive/archive.md",
     "spaceRFKit@arcOS.md",
     "IMG_0022.png",
-    "APILib@arcOS.md",
     "mobileconfig",
     "archive/LICENSE",
     "archive",

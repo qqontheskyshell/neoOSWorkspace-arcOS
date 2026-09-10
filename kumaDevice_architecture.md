@@ -1,5 +1,5 @@
 ```markdown
-kumaDeviceForWDS
+kumaDevice
 │
 ├── BootPolicy@arcOS
 │   │
@@ -126,6 +126,6 @@ QQ_WHT_IPHONE_17e
 BOOT
   → verified iBoot
   → Secure Enclave authorization
-  → kumaDeviceForWDS
+  → kumaDevice
   → arcOS
 ```

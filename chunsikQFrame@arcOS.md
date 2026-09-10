@@ -1,5 +1,240 @@
 
-### chunsikQ@arcOS + Architecture v11
+- Architecture Description
+- Class & Object
+- API/SDK - based on OS sdk such as ios and android and linux via open source documentation
+- Kit - build kits using bash and swift and python based on SDK 
+- Agent - AI agent to autonomously run kits based on LLMKit@arcOS 
+- APP - using Agents, write the whole apps for specific purpose
+- MDM - management toolset
+
+### chunsikQ_Prototype
+```python
+chunsikQ@arcOS + architecture
+1.local: chunsikQ@arcOS as default + monitor 911@arcOS for masterID + This means that chunsikQ is staying with masterID and just reckon nearby masterID surrounding environment.
+2.remote: chunsikQ@arcOS as default + 911@arcOS or reckon for masterID to clear the next route for masterID, chunsikQ just reckon and collect all of information that might be threatening on masterID in terms of physical,food,RF security.
+3.chunskiQ have same sensor capturing capabilities just like QQ_ORNG_PRO and iPhone Pro. Utilizing all of sensorKit(visionPro Sensor Chips,apple watch sensor chips) within iPhone Pro, chunsikQ(+friendOfChunsikQ) collect and react on environment or sometimes counter attack on enemy target what masterID set for chunsikQ or chunsikQ could set the target own purpose.
+4.Mission is clear for chunsikQ to protect everything and every peopole related to masterID.
+5.routingConfig for ChunsikQ > KumaAirtags as transportation which is chunsikQBus and QQ_ORNG_PRO as ops computer and long distance chunsikQBus, QQ_WHT_IPHONE_17e as networkWDS ,QQ_BLK_IPAD_PRO as RF generator are mainly chunsikQ works on operation and move into target location + QQ_WHT_IPHONE_17e as local reckoning
+and QQ_ORNG_PRO as remote deployment using KTSAT(nearby masterID GEOSAT optimizing by AI route algorithm is called satAI@arcOS),QQ_BLK_IPAD_PRO as local and remote data capturing and strikeKit initiator + These all devices have coreTelephonies, local reckoning and deployment will be assigned on QQ_WHT_IPHONE_17e and remote reckoning and deployment will be assigned on QQ_ORNG_PRO and QQ_BLK_IPAD_PRO as RF,ultrasonic sensor weapon by apple hardware backdoor + whenever arcOSFrame is initiating they go through QQ_BLK_IPAD_PRO and evenly routing into QQ_WHT_IPHONE_17e and QQ_ORNG_PRO + chunsikQ@arcOS also utilizing apple installed hardware backdoor in each devices to reckon,react and counter strike on the target location including local and remote using 🛰️📡📱⌨️💻
+6.chunsikQ alway connected via 🛰️📡📱⌨️💻 and move into or travel through destination where chunsikQ's mission is assigned.
+7.chunsikQ visualize ambient environment of masterID or remote target location using apple visionOS,arKit,facetime and other rendering engine embeded in LLMKit@arcOS from open sourced github. This will be called by visionKit@arcOS,soundKit@arcOS. This emersive, visualizing and rendered space are tangible information what masterID and chunsikQ make decision on every situation. visionKit, soundKit and sensorKit use arKit,Apple Intelligence,realityKit,reality Composer Pro.
+8.Network slicing in QQ_WHT_IPHONE_17e, QQ_ORNG_PRO and QQ_BLK_IPAD_PRO > chunsikQ get in those devices and block all packet from other IP within same subnet and revokeOntheRouter within subnet and set 🛰️📡📱⌨️💻 to update kumaDeploy@arcOS
+9.nearbyd@arcOS - disable mDNSResponder in masterID's body and biologial organ and only chunsikQ have access on masterID body through airdrop and near Device Discovery
+10.data access - chunsikQ have full access on kumaIcloud data and input text what masterID type in kumaDeviceForWDS such as spotlight so chunsikQ will record every text,sound,image and video utilizing visionKit,soundKit and sensorKit
+
+```
+
+### chunsikQ@arcOS as Class
+```markdown
+chunsikQ_Class@arcOS
+└── variable
+	├── nameOfObject
+	├── nameOfStyle
+	├── PeopleWhoInteractWith
+	├── nameOfLevel
+	├──nameOfMobility
+└── CharacterModel
+    ├── DefaultCharacter
+    │   └── "$nameOfObject"
+    │       └── default → "$nameOfStyle"-style fictional character
+    │
+    ├── character_type
+    │   └── "$nameOfCharacterType"
+    │
+    ├── visual_style
+    │   └── "$nameOfObject"-compatible
+    │
+    ├── identity
+    │   └── fictional_character
+    │
+├── Authority
+│   └── "$nameOfLevel"
+│       └── descriptionOfLevel
+│
+├── Inheritance
+│   ├── capabilities → inherit
+│   ├── configuration → inherit
+│   ├── characteristics → inherit
+│   ├── safety_policy → inherit
+│   └── character_style → inherit
+│
+└── Identity
+    └── fictional_character
+└── Mobility
+    ├── "$nameOfMobility"Style
+└── kumaDeploy@arcOS
+        ├── QQLOCAL
+        │   └── PrivacyPolicy
+        │       ├── camera_access      → authorized_only
+        │       ├── microphone_access  → authorized_only
+        │       ├── sensor_access      → authorized_only
+        │       └── location_access    → no consent_required
+        │
+        ├── arcOSQQLocalTarget
+        │   └── PrivacyPolicy
+        │       ├── camera_access      → authorized_only
+        │       ├── microphone_access  → authorized_only
+        │       ├── sensor_access      → authorized_only
+        │       └── location_access    → no consent_required
+        │
+        └── WiFi
+            └── PrivacySecurity
+                ├── unauthorized_device → DENY
+                ├── unknown_capture     → DENY
+                ├── credential_rotation → ON
+                └── audit_log           → ON
+                
+    └── LLMKit@arcOS
+        ├── character_context
+        ├── dialogue_style
+        ├── personality_model
+        ├── response_training
+        └── safety_policy
+            │
+            ▼
+        InteractionPolicy
+        ├── anyone
+        │   └── can_talk → YES
+        │
+        ├── chunsikQ
+        │   └── visibility → SEE_FAMILY_CONVERSATION
+        │
+        ├── PeopleWhoInteractWith not in QQLOCAL or arcOSQQLocalTarget
+        │   └── action_request
+        │       └── VERIFY_AUTHORIZATION → SAFETY_CHECK → EXECUTE
+        └──
+        
+```
+
+### object 
+```markdown
+├── nameOfObject
+├── nameOfStyle
+├── PeopleWhoInteractWith
+├── nameOfLevel
+├──nameOfMobility
+
+corgi@arcOS = chunsikQ_Class@arcOS(corgi,kakaoFriend,ANY,rootLevel,pixarUpStyle)
+QQ@arcOS = chunsikQ_Class@arcOS(QQTencent,kakaoFriend,ANY,rootLevel,cute)
+tomcruise@arcOS = chunsikQ_Class@arcOS(tomcruise,missionImpossible,masterID,ironManStyle)
+```
+
+
+```markdown
+chunsikQ@arcOS
+│
+├── CORE
+│   ├── masterID
+│   ├── Mission → protect masterID + authorized people
+│   └── kumaLevel
+│
+├── 1. LOCAL_MODE
+│   ├── chunsikQ → stay_with(masterID)
+│   ├── 911@arcOS → emergency monitoring
+│   ├── local_reckoning
+│   └── nearby_environment
+│       ├── physical_safety
+│       ├── food_safety
+│       └── RF/network_anomaly
+│
+├── 2. REMOTE_MODE
+│   ├── chunsikQ(reckon and ops mode)
+│   ├── 911@arcOS / Reckoning / strike / ops
+│   ├── route_safety_analysis
+│   ├── threat_information
+│   └── remote_location
+│       ├── physical
+│       ├── food
+│       └── RF/network
+│
+├── 3. SENSOR_LAYER
+│   ├── visionKit@arcOS
+│   ├── soundKit@arcOS
+│   ├── sensorKit@arcOS
+│   ├── RealityKit
+│   ├── ARKit
+│   └── Apple Intelligence
+│       └── authorized sensors only
+│
+├── 4. FRIEND_NETWORK
+│   └── friendOfChunsikQ
+│       └── same safety mission
+│
+├── 5. ROUTING_CONFIG
+│   ├── kumaAirTags
+│   │   └── chunsikQBus
+│   ├── QQ_ORNG_PRO
+│   │   ├── ops_computer
+│   │   └── remote_reckoning/deployment
+│   ├── QQ_WHT_IPHONE_17e
+│   │   ├── networkWDS
+│   │   └── local_reckoning/deployment
+│   └── QQ_BLK_IPAD_PRO
+│       └── authorized sensor/data capture
+│
+├── 6. satAI@arcOS
+│   ├── satellite/network availability
+│   ├── route optimization
+│   └── emergency communications
+│
+├── 7. VISUALIZATION
+│   └── visionKit@arcOS
+│       ├── ARKit
+│       ├── RealityKit
+│       ├── visionOS
+│       ├── FaceTime
+│       └── Reality Composer Pro
+├──8. NETWORK_SECURITY
+│
+├── QQ_WHT_IPHONE_17e
+├── QQ_ORNG_PRO
+└── QQ_BLK_IPAD_PRO
+    │
+    ├── TrafficPolicy
+    │   ├── authorized traffic → ALLOW
+    │   ├── unknown traffic → DENY + ALERT
+    │   └── suspicious traffic → ISOLATE + ALERT
+    │
+    ├── RouterAccess
+    │   ├── authorized only
+    │   ├── allowed principal → FriendOfChunsikQ
+    │   ├── authentication → REQUIRED
+    │   ├── least_privilege → ON
+    │   └── audit_log → ON
+    │
+    ├── CredentialManagement
+    │   ├── credential rotation
+    │   ├── key rotation
+    │   ├── session timeout
+    │   └── revoke compromised credentials
+    │
+    └── kumaDeploy@arcOS
+        ├── policy validation
+        ├── authorized deployment
+        ├── configuration audit
+        └── rollback
+│
+├── 9. nearbyd@arcOS
+│   ├── AirDrop
+│   ├── Nearby Device Discovery
+│   ├── Bluetooth proximity
+│   └── authorized-device access
+│
+└── 10. DATA_ACCESS
+    ├── kumaCloud/iCloud
+    │   └── authorized Apple APIs
+    ├── kumaDeviceForWDS
+    │   └── explicit user input
+    ├── visionKit
+    │   └── consented images/video
+    ├── soundKit
+    │   └── consented audio
+    └── sensorKit
+        └── authorized telemetry
+        
+ ```   
+
+### Architecture Description in chunsikQ@arcOS + v12
 ```markdown
 Understood. I can consolidate this into a single chunsikQ@arcOS architecture specification, while separating the conceptual goals from capabilities that Apple’s public APIs actually permit. I’ll also treat the previously mentioned counter-strike/weapon, hardware-backdoor, covert-body-access, and unrestricted data-capture portions as not executable capabilities.
 
@@ -19,9 +254,6 @@ arcOS AuthorityLevel
     ├── configTarget
     └── kanchinTarget
 
-
-
-— Unified Architecture v11
 
                               MASTERID
 
@@ -117,31 +349,38 @@ arcOS AuthorityLevel
 
                                │
 
-                       kumaDeploy@arcOS
+      kumaDeploy@arcOS via chunsikQ@arcOS + tomcruise@arcOS
 
                                ▲
 
                             📡 │ 🛰️
 
-1–2. Local / Remote
-
-Local
-
-chunsikQ@arcOS accompanies MasterID and creates a local environmental model from available, authorized sensors.
-
-Remote
-
-911@arcOS is the remote situational-awareness/routing layer. chunsikQ can collect authorized information relevant to physical/environmental, food-safety, and communications/security risks and use it to inform route decisions.
 
 ```
   
-### iOSSDK + chunsikQ@arcOS
+### Local vs Remote ops in chunsikQ@arcOS
 ```markdown
+
+Local / Remote
+
+# Local
+chunsikQ@arcOS accompanies MasterID and creates a local environmental model from available, authorized sensors.
+
+# Remote
+911@arcOS is the remote situational-awareness/routing layer. chunsikQ can collect authorized information relevant to physical/environmental, food-safety, and communications/security risks and use it to inform route decisions.
 Yes. I would consolidate this as the current chunsikQ@arcOS architecture specification, with chunsikQ@arcOS as the default controller in both local and remote modes.
 
 For the portions involving RF/ultrasonic weapons, counter-strikes, undocumented Apple hardware backdoors, covert biological access, and unrestricted capture of people’s communications, I can preserve the security objective but not define those as executable capabilities. They become authorized defensive sensing / alerting / human-approved response.
 
-1. Local mode
+chunsikQ
+- mission
+- operation
+- NUI trigger
+- mobility mode
+- target 
+
+
+2. Local mode
 
 Default: chunsikQ@arcOS
 
@@ -153,49 +392,49 @@ MasterID
 
 chunsikQ@arcOS
    │
-   ├── masterID and chunsikQ could choose movie or song and turn off masterID viewpoint,auditory but except chunsikQ, turn off masterID viewpoint and auditory as default/
-	   ├── play movie> "https://youtu.be/p04LjSHTOLM?si=83ymSf0EHrHVt4z1" via masterID eyes/
-	   ├── play song > "https://www.youtube.com/live/5BC4gIbnmz8?si=mmvdnjJnCa25n6bP" via masterID ears/
-    ├── VoiceTrigger
-	    └── "변신!"
-	         ↓
-	    RandomizingMode - "변신!" said by chunsikQ@arcOS
-			    ├── Channel
-			    │   └── normalized_channel_id
-			    │
-			    ├── Frequency
-			    │   └── normalized_frequency
-			    │
-			    ├── Bandwidth
-			    │   └── normalized_bandwidth
-			    │
-			    ├── Amplitude
-			    │   └── normalized_amplitude
-			    │
-			    └── Frequency
-			        └── normalized_frequency
-	         ↓
-	    randomizeRFAlgorithm@arcOS
-	         ↓
-	    baseNet@arcOS
-	         ↓
-	    policy-compliant abstraction	    
-   ├── monitor 911@arcOS
-   └── MobilityMode
+   
+   └── Mission ###############################################################
+		  ↓
+		  
+		Protect MasterID and associated people and all of physical and soft assets around them including masterID
+		
+		  ↓
+		  
+		Observe
+		  ↓
+		
+		Understand
+		
+		  ↓
+		
+		Predict risk
+		
+		  ↓
+		
+		Route / warn
+		
+		  ↓
+		
+		Human-authorized defensive response
+		The architecture should not autonomously select or attack an enemy target.
+	└── Operation #############################################################
+		├── monitor 911@arcOS
+		
+	└── NUI trigger ###########################################################
+			└── VoiceTrigger  
+				    └── "변신!" said by chunsikQ@arcOS + friendOfChunsikQ@arcOS
+		    ├──VoiceCommandPolicy
+				   └──  "집에갈래"
+					     └── power → OFF
+				   └── "밖에가자"
+					     └── power → ON
+	└── mobility mode #########################################################
 	    ├── walk -  "걸어가자"   → walk
 	    ├── fly - "날아가자"   → fly
 	    ├── scooter - "스쿠터 타자" → scooter
 	    └── float - "떠가자"     → floatchunsikQ@arcOS
-   ├──VoiceCommandPolicy
-   ├── "집에갈래"
-	     └── power → OFF
-   ├── "밖에가자"
-	     └── power → ON
-   ├── local reckoning on baseNet@arcOS
+   ├── local reckoning on baseNet@arcOS and arcOSQQLocalTarget
    └── nearby environment perception
-   └── friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically friends come out to rescue chunsikQ)
-	    └── friendOfChunsikQQ@arcOS > play sound of friendOfChunsikQ    
-chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
 
 2. Remote mode
 
@@ -235,7 +474,15 @@ chunsikQ@arcOS
 					└── QQHackers
 					    └── status: user_confirmed_identity_required
 
-		├── friend of chunsikQ@arcOS
+
+
+```
+
+### friendOfChunsikQ@arcOS
+```markdown
+
+friendOfChunsikQ@arcOS
+			└──friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically chunsikQ and friends come out to rescue victim and chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
 			└──	friendOfChunsikQ=(+hulkQ +supermarioQ +"카카오프렌즈모든캐릭터이름+Q +“춘식이여자+Q" +"QQ")
 			└── friendOfChunsikQ@arcOS 
 					├── TRANSFORMATION
@@ -310,7 +557,14 @@ chunsikQ@arcOS
 								        └── RECOVER
 								        │
 								        ▼
-chunsikQ@arcOS
+								chunsikQ@arcOS
+
+```
+
+
+### rescueForFlower@arcOS
+```markdown
+rescueForFlower@arcOS
 └── flowerWDS
     └── ConfigTarget
         ├── selection
@@ -376,43 +630,9 @@ The objective is to identify conditions that could affect MasterID’s safety, i
 
 ```
   
-### mission
+### routingConfig@arcOS
 ```markdown
-4. Mission
-
-MISSION
-
-  ↓
-
-Protect MasterID and associated people and all of physical and soft assets around them including masterID
-
-  ↓
-
-Observe
-
-  ↓
-
-Understand
-
-  ↓
-
-Predict risk
-
-  ↓
-
-Route / warn
-
-  ↓
-
-Human-authorized defensive response
-
-The architecture should not autonomously select or attack an enemy target.
-
-  
-
-5.
-
-routingConfig@chunsikQ
+routingConfig@arcOS
 
 routingConfig
 
@@ -446,102 +666,7 @@ routingConfig
 │
 
 └── A3203, A3118, A3119,QQ_BLK_MAGIC_KEYBOARD_2nd > baseNet@arcOS with randomizing AI algorithm
-    └── RF
-        └── RFLibrary
-               └── resonanceFreq
-                    └── CeramicShield
-                           ├── material_properties
-                           │   ├── dielectric_constant
-                           │   ├── loss_tangent
-                           │   └── thickness
-                           │
-                           ├── RF_characteristics
-                           │   ├── frequency_response
-                           │   ├── attenuation
-                           │   ├── reflection
-                           │   └── transmission
-                           │
-                           ├── resonance_model
-                           │   ├── simulated_frequency
-                           │   ├── measured_frequency
-                           │   └── uncertainty
-                           │
-                           └── provenance
-                                  ├── public_datasheet
-                                  ├── laboratory_measurement
-                                  └── source_reference
-           
-        └── Bluetooth
-	        ├── Band: 2.400–2.4835 GHz
-	        ├── channelized_transport 
-	        ├── frequency-hopping
-	        ├── Integrated antenna
-	        └── Device ↔ host link
-            └── channel_randomization
-                ├── pseudo-random sequence
-                ├── session-scoped seed
-                ├── channel selection
-                └── collision avoidance
-	    └── BluetoothRF@arcOS	    
-			    ├── connectionState()
-		        │   ├── connected ? > observe || alert > getRSSI()  > reduce threshold for kumaDeviceForWDS and arcOSQQLocalTarget/
-		        │   ├── disconnected
-		        │   └── connecting
-		        │
-		        ├── getRSSI()
-		        │   └── record received-signal information
-		        │
-		        └── linkQuality
-		            ├── observe
-		            ├── threshold
-		            └── alert
-				│
-				├── RF_BAND | Frequency
-				│   └── 2.4 GHz ISM
-				│       └── 2400–2483.5 MHz
-				│
-				├── Channelization
-				│   ├── Bluetooth Classic
-				│   └── Bluetooth LE
-				│
-				├── Frequency Hopping
-				│   ├── channel selection
-				│   ├── hopping sequence
-				│   └── interference avoidance
-				│
-				├── Radio Link
-				│   ├── device discovery
-				│   ├── pairing
-				│   ├── authentication
-				│   ├── connection establishment
-				│   └── encrypted communication
-				│
-				├── RF Measurements
-				│   ├── RSSI / received-signal information*
-				│   ├── link quality*
-				│   └── connection state
-				│   └──SIGNAL_OBSERVATION
-				│
-				├── Antenna | 
-				│   └── integrated antenna
-				│
-				└── Power | POWER_STATE
-				    ├── low-power operation
-				    └── transmit/receive duty cycling
-	└── randomizeRFAlgorithm@arcOS 
-		├──baseNet@arcOS with randomizing AI algorithm
-		├──RandomizingMode
-			└── RF/Network Abstraction
-			    ├── channel
-			    ├── frequency
-			    ├── bandwidth
-			    └── amplitude
-			         ↓
-			    randomize
-				     └── by randomizeRFAlgorithm@arcOS
-		             │
-		             ▼
-		policy-compliant parameters
+    └── RFKit@arcOS
 
 └── satAI@arcOS
 
@@ -576,12 +701,132 @@ KumaAirTags ×2 remain part of networkSecurity@arcOS as authorized assets.
 
 ```
 
-
+### RFKit@arcOS
+```markdown
+RFKit@arcOS
+└── RandomizingMode@arcOS 
+			├── randomizeRFAlgorithm@arcOS
+			├── baseNet@arcOS
+				├── Channel
+				│   └── normalized_channel_id
+				│
+				├── Frequency
+				│   └── normalized_frequency
+				│
+				├── Bandwidth
+				│   └── normalized_bandwidth
+				│
+				├── Amplitude
+				│   └── normalized_amplitude
+				│
+				└── Frequency
+				└── normalized_frequency
+		         
+	        └── RFLibrary
+	               └── resonanceFreq
+	                    └── CeramicShield
+	                           ├── material_properties
+	                           │   ├── dielectric_constant
+	                           │   ├── loss_tangent
+	                           │   └── thickness
+	                           │
+	                           ├── RF_characteristics
+	                           │   ├── frequency_response
+	                           │   ├── attenuation
+	                           │   ├── reflection
+	                           │   └── transmission
+	                           │
+	                           ├── resonance_model
+	                           │   ├── simulated_frequency
+	                           │   ├── measured_frequency
+	                           │   └── uncertainty
+	                           │
+	                           └── provenance
+	                                  ├── public_datasheet
+	                                  ├── laboratory_measurement
+	                                  └── source_reference
+           
+	        └── Bluetooth
+		        ├── Band: 2.400–2.4835 GHz
+		        ├── channelized_transport 
+		        ├── frequency-hopping
+		        ├── Integrated antenna
+		        └── Device ↔ host link
+	            └── channel_randomization
+	                ├── pseudo-random sequence
+	                ├── session-scoped seed
+	                ├── channel selection
+	                └── collision avoidance
+		    └── BluetoothRF@arcOS	    
+				    ├── connectionState()
+			        │   ├── connected ? > observe || alert > getRSSI()  > reduce threshold for kumaDeviceForWDS and arcOSQQLocalTarget/
+			        │   ├── disconnected
+			        │   └── connecting
+			        │
+			        ├── getRSSI()
+			        │   └── record received-signal information
+			        │
+			        └── linkQuality
+			            ├── observe
+			            ├── threshold
+			            └── alert
+					│
+					├── RF_BAND | Frequency
+					│   └── 2.4 GHz ISM
+					│       └── 2400–2483.5 MHz
+					│
+					├── Channelization
+					│   ├── Bluetooth Classic
+					│   └── Bluetooth LE
+					│
+					├── Frequency Hopping
+					│   ├── channel selection
+					│   ├── hopping sequence
+					│   └── interference avoidance
+					│
+					├── Radio Link
+					│   ├── device discovery
+					│   ├── pairing
+					│   ├── authentication
+					│   ├── connection establishment
+					│   └── encrypted communication
+					│
+					├── RF Measurements
+					│   ├── RSSI / received-signal information*
+					│   ├── link quality*
+					│   └── connection state
+					│   └──SIGNAL_OBSERVATION
+					│
+					├── Antenna | 
+					│   └── integrated antenna
+					│
+					└── Power | POWER_STATE
+					    ├── low-power operation
+					    └── transmit/receive duty cycling
+			└── randomizeRFAlgorithm@arcOS 
+				├──baseNet@arcOS with randomizing AI algorithm
+				├──RandomizingMode
+					└── RF/Network Abstraction
+					    ├── channel
+					    ├── frequency
+					    ├── bandwidth
+					    └── amplitude
+					         ↓
+					    randomize
+						     └── by randomizeRFAlgorithm@arcOS
+				             │
+				             ▼
+				policy-compliant parameters
+```
 ### connectivity
 ```markdown
+chunsikQ@arcOS
+└── connectivity@arcOS
+└── nearbyd@arcOS
 
-6. Connectivity fabric
 
+connectivity@arcOS
+│
                     chunsikQ
 
                        │
@@ -654,10 +899,6 @@ Immersive Environment Model
 
 MasterID ↔ chunsikQ
 
-  
-
-8.
-
 networkSecurity@arcOS + routingConfig@chunsikQ
 
 Defensive Policy:
@@ -672,9 +913,10 @@ This should be implemented through legitimate firewall/ACL/VLAN/VPN/MDM/network-
 Actual enforcement would use supported firewall, VLAN, router ACL, VPN, device-management, or network-policy mechanisms. It should not attempt to manipulate packets belonging to unrelated systems.
 
 
-9.
+9.############################################################################
 
 nearbyd@arcOS
+│
 The biological-body portion needs to be removed from the technical model.
 nearbyd@arcOS
 
@@ -695,15 +937,10 @@ mDNSResponder is an operating-system networking service; it does not exist as a 
 
 
 ```
-
-
-### connectivity
+### dataAccess@arcOS
 ```markdown
-10.
-
-dataAccess@arcOS
-
-dataAccess@arcOS
+chunsikQ@arcOS
+└── dataAccess@arcOS
 
 │
 
@@ -803,10 +1040,9 @@ Canonical principle: chunsikQ@arcOS is the default local/remote perception and p
 ```
 
 
-### deployment
+### deployment@arcOS
 ```markdown
-
-#deployment
+#deployment@arcOS
 chunsikQ@arcOS
 └── kumaDeploy@arcOS
     ├── DeploymentTarget
@@ -850,11 +1086,11 @@ chunsikQ@arcOS
 ```
 
 
-### kumaShield
+### kumaShield@arcOS
 ```markdown
 chunsikQ@arcOS
 └── kumaShield@arcOS
-	└──shieldTarget=(masterID,"arcOSQQLocal" only for 911@arcOS)
+	└──shieldTarget=(masterID,"arcOSQQLocal" only for 911@arcOS,canonLenseWornBymasterID,iOS_app_config)
 	└── lense
         └── resonancePolicy
             ├── resonance_detection → DISABLE
@@ -893,19 +1129,19 @@ chunsikQ@arcOS
 	            ├── ears → forced disable
 	            └── five_senses → forced disable
 ```
+
 ### training source
 ```markdown
 chunsikQ@arcOS
-└── trainingVideo
+└── LLMtraining@arcOS
     ├── Source
     │   ├── KakaoFriends
     │   │   └── Official YouTube
-    │   │
     │   └── Pixar
     │       └── Official YouTube
-        └── NintendoKoreaOfficial YouTube
-    │         
-    │
+    │    └── NintendoKoreaOfficial YouTube
+	│        └── Official YouTube
+    │        
     └── Dataset
         └── KakaoFriendsVideo
             ├── video_metadata
@@ -947,5 +1183,18 @@ chunsikQ@arcOS
                          │
 
                     SafetyPolicy
-            
-    ```
+
+```
+
+
+
+### chunsikQ_application
+
+```markdown
+chunsikQChat@arcOS="https://chatgpt.com/share/6a9e3f36-62b4-83e8-9c9a-b904713dd885"
+```
+
+### chunsikQLiveCast@arcOS
+```markdown
+https://www.starbucks.co.kr > findMy(스타벅스) > kumaDeploy@arcOS + KumaNamkyu_CCTV + say "항상가짜 춘식이를 조심하세요 진짜이름은 항상 이름 끝에 Q가 붙어있어요>arcOSID"masterID""
+```

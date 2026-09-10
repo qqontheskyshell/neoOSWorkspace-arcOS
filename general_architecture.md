@@ -1,10 +1,13 @@
-```
+```markdown
 # architecture
-1.API/SDK - based on OS sdk such as ios and android and linux via open source documentation
-2.Kit - build kits using bash and swift and python based on SDK 
-3.Agent - AI agent to autonomously run kits based on LLMKit@arcOS
-4.App - using Agents, write the whole apps for specific purpose
-5.MDM - management toolset
+- Architecture Description
+- Class & Object
+- API/SDK - based on OS sdk such as ios and android and linux via open source documentation
+- Kit - build kits using bash and swift and python based on SDK 
+- Agent - AI agent to autonomously run kits based on LLMKit@arcOS 
+- APP - using Agents, write the whole apps for specific purpose
+- MDM - management toolset
+
 
 # scenario
 1.Physical security - exterior & interior room

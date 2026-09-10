@@ -102,23 +102,36 @@ kumaWDS@arcOS
 
 ### kumaDeviceForWDS
 ```markdown
-QQ_WHT_IPHONE_17e,QQ_ORNG_PRO,QQ_BLK_IPAD_PRO
-└── CoreTelephony@arcOS
-    ├── PhysicalSIM
-    │   ├── configuration → OS/carrier-managed
-    │   └── destructive_ROM_delete → DENY
-    │
-    ├── RFResearch
-    │   └── resonanceFreq
-    │       ├── observation_only
-    │       ├── measurement_data
-    │       └── no_hardware_modification
-    │
-    └── SecurityPolicy
-        ├── preserve_boot_integrity
-        ├── preserve_SecureEnclave
-        ├── preserve_iBoot
-        └── authorized_configuration_only
+
+        
+chunsikQ@arcOS
+└── kumaDeviceForWDS-QQ_WHT_IPHONE_17e,QQ_ORNG_PRO,QQ_BLK_IPAD_PRO
+    └── CoreTelephony@arcOS
+        ├── PhysicalSIM
+        │   ├── configuration → OS/carrier-managed
+        │   └── destructive_ROM_delete → DENY
+        │
+        ├── RFResearch
+        │   └── resonanceFreq
+        │       ├── observation_only
+        │       ├── measurement_data
+        │       └── no_hardware_modification
+        │
+        └── SecurityPolicy
+            ├── preserve_boot_integrity
+            ├── preserve_SecureEnclave
+            ├── preserve_iBoot
+            └── authorized_configuration_only
+        └── iOSPrivacyPolicy
+            ├── FaceID
+            │   ├── device_authentication → ENABLE
+            │   └── app_authentication → ENABLE_WHEN_SUPPORTED
+            │
+            └── FacePrivacy
+                ├── supported_iOS_apps → HIDE/BLUR_FACE_WHEN_SUPPORTED
+                ├── screenshots/screen_recording → APP_POLICY
+                ├── camera_access → USER_PERMISSION_REQUIRED
+                └── unauthorized_face_capture → BLOCK
  
 ```       
 ### boot order

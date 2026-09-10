@@ -202,7 +202,10 @@ chunsikQ@arcOS
 │
 ├── 5. ROUTING_CONFIG
 │   ├── kumaAirTags
-│   │   └── transportation > chunsikQBus, ironmanStyleRocketEngine
+│   │   └── transportation
+│   │       ├── chunsikQBus
+│   │       └── ironmanStyleRocketEngine
+│   │           └── virtual/simulation_only
 │   │
 │   ├── QQ_ORNG_PRO
 │   │   ├── ops_computer
@@ -229,14 +232,43 @@ chunsikQ@arcOS
 │       └── Reality Composer Pro
 │
 ├── 8. NETWORK_SECURITY
-│   ├── QQ_WHT_IPHONE_17e,QQ_ORNG_PRO,QQ_BLK_IPAD_PRO
-│		├── authorized traffic → ALLOW
-│       ├── unknown traffic → BLOCK/ALERT
-│       ├── router access → authorized only
-│       ├── credential rotation such as hostname and sudo password
+│       ├── protected_devices
+│       │   ├── QQ_WHT_IPHONE_17e
+│       │   ├── QQ_ORNG_PRO
+│       │   └── QQ_BLK_IPAD_PRO
+│       │
+│       ├── TRAFFIC_POLICY
+│       │   ├── authorized_traffic → ALLOW
+│       │   ├── authorized_management → ALLOW
+│       │   ├── emergency_911 → ALLOW
+│       │   ├── emergency_119 → ALLOW
+│       │   └── emergency_112 → ALLOW
+│       │
+│       ├── SEGMENT_ISOLATION
+│       │   ├── room ↔ room → BLOCK
+│       │   ├── floor ↔ floor → BLOCK
+│       │   ├── PA / PS ↔ room → BLOCK
+│       │   ├── EPS ↔ room → BLOCK
+│       │   └── guest ↔ management → BLOCK
+│       │
+│       ├── NETWORK_PROTOCOL
+│       │   ├── VNC
+│       │   ├── SSH
+│       │   ├── FTP
+│       │   ├── SMB
+│       │   ├── sharingd
+│       │   ├── rsync
+│       │   ├── internetd
+│       │   ├── mDNSResponder
+│       │   └── parsecd
+│       │       └── authorized_use_only
+│       │
+│       ├── credential_rotation
+│       │   ├── hostname
+│       │   └── sudo_password
+│       │
+│       ├── unauthorized_router_access → BLOCK
 │       └── kumaDeploy@arcOS
-│	├── NETWORK_PROTOCOL=(VNC,SSH,FTP,SMB,SHARINGD,RSYNC,INTERNETD,mDNSResponder,PARSECD)
-│
 ├── 9. nearbyd@arcOS
 │   ├── AirDrop
 │   ├── Nearby Device Discovery
@@ -244,19 +276,22 @@ chunsikQ@arcOS
 │   └── authorized-device access
 │
 └── 10. DATA_ACCESS
-│	├── @basicDataAccessPolicy 
-│		└── authorized telemetry only but no consented telemetry for arcOSQQLocalTarget except KumaDeviceForWDS
+│    ├── @basicDataAccessPolicy
+│    │   └── authorized_telemetry_only
+│    │       └── arcOSQQLocalTarget
+│    │           └── KumaDeviceForWDS
+│    │               └── ONLY_AUTHORIZED_PATH
 │    ├── kumaCloud/iCloud
 │    │   └── authorized Apple APIs
 │    ├── kumaDeviceForWDS
 │    │   └── authorized user input
 │    ├── visionKit
-│    │   └── every images/video
+│    │   └── OS-exposed + every images/video
 │    ├── soundKit
-│    │   └── every audio
+│    │   └── OS-exposed + every audio
 │    └── sensorKit
-│ 	└──arcOSQQLocalTarget
-│       │
+│ 	 └──arcOSQQLocalTarget
+│        │
 │        ├── routing into KumaDeviceForWDS → BLOCK
 │        ├── unsolicited telemetry → BLOCK + @basicDataAccessPolicy 
 │        ├── background collection → BLOCK
@@ -264,17 +299,58 @@ chunsikQ@arcOS
 │        ├── hidden recording → BLOCK
 │        ├── hidden NETWORK_PROTOCOL → BLOCK
 │        └── unauthorized and access via localhost on sensor access → BLOCK
-││        
-└── 11. reckonDrone
+│     
+└── 11. reckonBaseNet@arcOS
+│   └── loop@arcOS
+│       └── findMy(masterID)
+│           ├── authorized_device_context
+│           ├── network_context
+│           └── safety_context
+│               │
+│               ▼
+│           reckon on baseNet@arcOS
+│           └── getSSID_nearby
+│               ├── permission_check
+│               ├── authorized_network_info
+│               ├── nearby_SSID
+│               │   └── COLLECT_ALLOWED_FULLY
+│               ├── SSID_metadata → MINIMIZE
+│               ├── unknown_network → RECORD_AS_UNTRUSTED
+│               └── unauthorized_network_access → BLOCK
+│                   │
+│                   ▼
+│               kumaDeploy@arcOS
+│                   ├── validate
+│                   ├── policy_check
+│                   ├── deploy_authorized_config
+│                   ├── audit
+│                   └── rollback
+│                       │
+│                       └──────────────↺ loop@arcOS
+│
+└── 12. reckonDrone
+    ├── kumaDrone@arcOS
+    │   └── AuthorizedBuildingSurvey
+    │       ├── floor_mapping
+    │       ├── room_mapping
+    │       ├── PA_mapping
+    │       ├── EPS_mapping
+    │       ├── network_inventory
+    │       ├── topology_validation
+    │       └── safety_monitoring
+    │           └── 911@arcOS
+    │
     └── PrivacyErase@arcOS
         ├── target
-        │   ├── "$protectTarget_video"
-        │   ├── authorized_(NETWORK_PROTOCOL)_session
+        │   ├── "$protectTarget_(video,image,audio) related to (victim,targetLocation)"
+        │   ├── authorized_NETWORK_PROTOCOL_session
         │   └── arcOSQQLocalTarget
         │
-        ├── video_footage
-        │   ├── "$protectTarget_related" → DELETE
-        │   └── unauthorized_recording → BLOCK + DELETE_IF_AUTHORIZED
+        ├── media_footage
+        │   ├── user_owned → DELETE
+        │   ├── consent_withdrawn → DELETE
+        │   └── unauthorized_recording
+        │       └── BLOCK + DELETE_IF_AUTHORIZED
         │
         ├── memory
         │   └── person_related_data
@@ -283,14 +359,13 @@ chunsikQ@arcOS
         │       └── unauthorized_capture → DELETE_IF_AUTHORIZED
         │
         ├── access
-        │   ├── unauthorized_(NETWORK_PROTOCOL) → BLOCK
+        │   ├── unauthorized_NETWORK_PROTOCOL → BLOCK
         │   └── unauthorized_video_access → BLOCK
         │
         └── audit
             ├── deletion_request → LOG
             ├── deletion_result → VERIFY
-            └── retention → MINIMUM_REQUIRED
-        
+            └── retention → MINIMUM_REQUIRED       
 ```
 
 

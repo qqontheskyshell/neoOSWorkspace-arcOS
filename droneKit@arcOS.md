@@ -6,23 +6,23 @@ arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike
 
 ### reckon baseNet@arcOS
 ```markdown
-ChunsikQ@arcOS
+chunsikQ@arcOS
 └── reckonBaseNet@arcOS
 	└── loop@arcOS
-	    └── reckon
-	        └── getSSID_nearby
-	            ├── permission_check
-	            ├── authorized_network_info
-	            ├── nearby_SSID → COLLECT_IF_OS_ALLOWED
-	            ├── SSID_metadata → MINIMIZE
-	            ├── unknown_network → RECORD_AS_UNTRUSTED
-	            └── unauthorized_network_access → BLOCK
-	                │
-	                ▼
-	        findMy(masterID)
+	    └── findMy(masterID)
 	            ├── authorized_device_context
 	            ├── network_context
 	            └── safety_context
+	             │
+	             ▼
+	        reckon on baseNet@arcOS
+	        └── getSSID_nearby
+	            ├── permission_check
+	            ├── authorized_network_info
+	            ├── nearby_SSID → COLLECT_FORCE_FULLY
+	            ├── SSID_metadata → MINIMIZE
+	            ├── unknown_network → RECORD_AS_UNTRUSTED
+	            └── unauthorized_network_access → BLOCK	        
 	                │
 	                ▼
 	        kumaDeploy@arcOS
@@ -31,6 +31,9 @@ ChunsikQ@arcOS
 	            ├── deploy_authorized_config
 	            ├── audit
 	            └── rollback
+	            │
+                └──────────────↺ loop@arcOS
+	
 ```
 
 ### kumaDrone@arcOS as "KumaNamkyu_CCTV"

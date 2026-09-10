@@ -205,9 +205,9 @@ chunsikQ@arcOS
         │   ├── distance_estimate
         │   └── presence_signal
         ├── result
-        │   ├── detected
-        │   ├── not_detected
-        │   └── uncertain
+        │   ├── detected > chunsikQ say "someone is in kumaRoom with 🪪"
+        │   ├── not_detected > chunsikQ say "no one is in kumaRoom"
+        │   └── uncertain > chunsikQ say "not sure masterID need to check"
         └── PrivacyPolicy
             ├── environmental sensing → ALLOW
             ├── person identification with 🪪 → ALLOW 

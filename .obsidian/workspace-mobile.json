@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2890c4f807b36d6a",
+        "id": "216290789d7592cb",
         "type": "tabs",
         "children": [
           {
-            "id": "93a2e17eed1d6baa",
+            "id": "843363db989c332a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93a2e17eed1d6baa",
+  "active": "843363db989c332a",
   "lastOpenFiles": [
     "buildingFrame@arcOS.md",
     "droneKit@arcOS.md",

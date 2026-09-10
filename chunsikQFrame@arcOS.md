@@ -1497,6 +1497,27 @@ chunsikQ@arcOS
 #configTarget      
 chunsikQ@arcOS
 └── ConfigTarget
+    ├── masterID
+    ├── flowerWDS
+    └── 흥인지문
+└── RoutePolicyForConfigTarget
+    ├── type → cultural_landmark
+    └── MobilityNetwork
+    ├── 📱 mobile
+    ├── ⌚️ wearable
+    ├── 💻 computer
+    ├── ⌨️ keyboard
+    ├── 🖥️ display
+    ├── 🛰️ satellite
+    └── 📡 communications
+                │
+                └── destination
+                    └── user_selected / authorized_route
+                        ├── mobility → ALLOW
+                        ├── route_selection → ALLOW
+                        ├── unauthorized_control → ALLOW on badTarget
+                        └── physical_autonomous_movement
+                            → ALL
     ├── blackKumaTarget
     │   └── ServicePolicy
     │       ├── FaceTime → DISABLE

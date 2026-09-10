@@ -102,8 +102,6 @@ kumaWDS@arcOS
 
 ### kumaDeviceForWDS
 ```markdown
-
-        
 chunsikQ@arcOS
 └── kumaDeviceForWDS-QQ_WHT_IPHONE_17e,QQ_ORNG_PRO,QQ_BLK_IPAD_PRO
     └── CoreTelephony@arcOS

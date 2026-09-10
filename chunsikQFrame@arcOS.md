@@ -26,6 +26,7 @@ and QQ_ORNG_PRO as remote deployment using KTSAT(nearby masterID GEOSAT optimizi
 
 ### chunsikQ@arcOS as Class
 ```markdown
+
 chunsikQ_Class@arcOS
 └── variable
 	├── nameOfObject
@@ -33,6 +34,7 @@ chunsikQ_Class@arcOS
 	├── PeopleWhoInteractWith
 	├── nameOfLevel
 	├──nameOfMobility
+	
 └── CharacterModel
     ├── DefaultCharacter
     │   └── "$nameOfObject"
@@ -79,8 +81,8 @@ chunsikQ_Class@arcOS
         │
         └── WiFi
             └── PrivacySecurity
-                ├── unauthorized_device → DENY
-                ├── unknown_capture     → DENY
+                ├── unauthorized_device → BLOCK
+                ├── unknown_capture     → BLOCK
                 ├── credential_rotation → ON
                 └── audit_log           → ON
                 
@@ -196,7 +198,7 @@ chunsikQ@arcOS
 │   ├── QQ_ORNG_PRO
 │   └── QQ_BLK_IPAD_PRO
 │       ├── authorized traffic → ALLOW
-│       ├── unknown traffic → DENY/ALERT
+│       ├── unknown traffic → BLOCK/ALERT
 │       ├── router access → authorized only
 │       ├── credential rotation
 │       └── kumaDeploy@arcOS
@@ -208,7 +210,7 @@ chunsikQ@arcOS
 │   └── authorized-device access
 │
 └── 10. DATA_ACCESS
-	├── basicDataAccessPolicy@arcOS 
+	├── @basicDataAccessPolicy 
 		└── authorized telemetry only but no consented telemetry for arcOSQQLocalTarget except KumaDeviceForWDS
     ├── kumaCloud/iCloud
     │   └── authorized Apple APIs
@@ -222,18 +224,17 @@ chunsikQ@arcOS
 	└──arcOSQQLocalTarget
         │
         ├── KumaDeviceForWDS → ALLOW
-        │
-        ├── unsolicited telemetry → DENY + basicDataAccessPolicy@arcOS 
-        ├── background collection → DENY
-        ├── hidden recording → DENY
-        ├── hidden vnc → DENY
-        ├── hidden ssh → DENY
-        ├── hidden rsync → DENY
-        ├── hidden smb → DENY
-        ├── hidden sharingd → DENY
-        ├── hidden internetd → DENY
-        ├── hidden mDNSResponder → DENY
-        └── unauthorized and access via localhost on sensor access → DENY
+        ├── unsolicited telemetry → BLOCK + @basicDataAccessPolicy 
+        ├── background collection → BLOCK
+        ├── hidden recording → BLOCK
+        ├── hidden vnc → BLOCK
+        ├── hidden ssh → BLOCK
+        ├── hidden rsync → BLOCK
+        ├── hidden smb → BLOCK
+        ├── hidden sharingd → BLOCK
+        ├── hidden internetd → BLOCK
+        ├── hidden mDNSResponder → BLOCK
+        └── unauthorized and access via localhost on sensor access → BLOCK
         
 ```
 
@@ -442,7 +443,7 @@ chunsikQ@arcOS and tomcruiseQ@arcOS as default ops
     │   │
     │   ├── RouteIsolation
     │   │   ├── separate authorized device/network paths
-    │   │   ├── deny unauthorized direct access
+    │   │   ├── BLOCK unauthorized direct access
     │   │   └── preserve emergency communications
     │   │
     │   ├── Communications
@@ -452,67 +453,127 @@ chunsikQ@arcOS and tomcruiseQ@arcOS as default ops
     │   │
     │   ├── Network
     │   │   └── authorized firewall / ACL / MDM
-    │   │
+	│   │
+	│	│
+	│	└── RemoteReckoning
+	│		├── route information
+	│		├── situation information
+	│		├── physical/environmental risk
+	│		├── food-safety risk
+	│		└── communications/security risk
     │   └── Emergency
     │       ├── 911@arcOS
     │       ├── emergency alert
     │       ├── consent-based location sharing
     │       └── human-approved intervention
-		    └── EmergencyProtection@arcOS
-				    ├── ThreatAssessment
-				    │   └── credible sexual-violence threat
-				    │
-				    ├── RouteIsolation
-				    │   ├── separate authorized device/network paths
-				    │   ├── deny unauthorized direct access
-				    │   └── preserve emergency communications
-				    │
-				    ├── Communications
-				    │   ├── block/mute through device-level controls where authorized
-				    │   ├── preserve 112 / emergency access
-				    │   └── notify trusted contacts
-				    │
-				    ├── 📡 Network
-				    │   └── authorized firewall / ACL / MDM controls
-				    │
-				    └── 🛰️ Emergency | 911@arcOS | peopleWhomake911,나쁜남자만
-				        ├── location sharing with consent
-				        ├── emergency alert
-				        └── human-approved intervention
-				        └── remote route / situation information
-				        └── maliciousPeople > open 22
-							├── Shin_HaeDong
-							│   └── status: user_confirmed_identity_required
-							└── Lee_KangMin
-							    └── status: user_confirmed_identity_required
-							└── peopleWhounderestimate_masterID
-							    └── status: user_confirmed_identity_required
-							└── QQHackers
-							    └── status: user_confirmed_identity_required
-    │
-    │
-    │
-    └── RemoteReckoning
-        ├── route information
-        ├── situation information
-        ├── physical/environmental risk
-        ├── food-safety risk
-        └── communications/security risk
-
+	│	    └── EmergencyProtection@arcOS
+	│			    ├── ThreatAssessment
+	│			    │   └── credible sexual-violence threat
+	│			    │
+	│			    ├── RouteIsolation
+	│			    │   ├── separate authorized device/network paths
+	│			    │   ├── BLOCK unauthorized direct access
+	│			    │   └── preserve emergency communications
+	│			    │
+	│			    ├── Communications
+	│			    │   ├── block/mute through device-level controls where authorized
+	│			    │   ├── preserve 112 / emergency access
+	│			    │   └── notify trusted contacts
+	│			    │
+	│			    ├── 📡 Network
+	│			    │   └── authorized firewall / ACL / MDM controls
+	│			    │
+	│			    └── 🛰️ Emergency | 911@arcOS | peopleWhomake911,나쁜남자만
+	│			        ├── location sharing without consent
+	│			        ├── emergency alert
+	│			        └── human-approved intervention
+	│			        └── remote route / situation information
+	│			        └── maliciousPeople > open 22
+	│						├── Shin_HaeDong
+	│						│   └── status: user_confirmed_identity_required
+	│						└── Lee_KangMin
+	│						    └── status: user_confirmed_identity_required
+	│						└── peopleWhounderestimate_masterID
+	│						    └── status: user_confirmed_identity_required
+	│						└── QQHackers
+	│						    └── status: user_confirmed_identity_required
+	│				└── ThreatEntity
+	│						│
+	│						├── identity
+	│						│   └── verified only when legitimately established
+	│						│
+	│						├── observed_event
+	│						│   ├── unauthorized_access
+	│						│   ├── credible_threat
+	│						│   ├── suspicious_network_activity
+	│						│   └── emergency_signal
+	│						│
+	│						├── evidence
+	│						│   └── provenance + timestamp
+	│						│
+	│						├── risk_level
+	│						│   ├── LOW
+	│						│   ├── MEDIUM
+	│						│   └── HIGH
+	│						│
+	│						└── response
+	│						    ├── WARN
+	│						    ├── ISOLATE
+	│						    ├── ALERT_911
+	└── 					    └── HUMAN_APPROVED_RESPONSE
 ```
 
 ### friendOfChunsikQ@arcOS
 ```markdown
 friendOfChunsikQ@arcOS
-			└──friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically chunsikQ and friends come out to rescue victim and chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
-			└──	friendOfChunsikQ=(+hulkQ +supermarioQ +"카카오프렌즈모든캐릭터이름+Q +“춘식이여자+Q" +"QQ")
-			└── friendOfChunsikQ@arcOS 
-					├── TRANSFORMATION
-					│   ├── Bruce Banner ↔ friendOfChunsikQ
-					│   ├── gamma-radiation based physiology
-					│   └── transformation associated with extreme emotion/stress
-					│
-					├── PHYSICAL
+│
+└──friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically chunsikQ and friends come out to rescue victim and chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
+└──	friendOfChunsikQ=(+hulkQ +supermarioQ +"카카오프렌즈모든캐릭터이름+Q +“춘식이여자+Q" +"QQ")
+├── FRIEND_NETWORK
+│   ├── hulkQ
+│   ├── supermarioQ
+│   ├── KakaoFriendsQ
+│   │   └── <KakaoFriendsCharacter>Q
+│   ├── 춘식이여자Q
+│   └── QQ
+│
+├── 911_INTEGRATION
+│   │
+│   └── when chunsikQ ∈ 911@arcOS
+│       │
+│       ├── EmergencyEvent → DETECT
+│       ├── friends → SAFETY_SUPPORT
+│       ├── victim → PROTECT / ASSIST
+│       │
+│       └── chunsikQ
+│           └── REMAINS_WITH(MasterID)
+│               └── continuously updates
+│                   local environmental model
+│
+├── LOCAL_ENVIRONMENT_MODEL
+│   │
+│   ├── iPhone
+│   │   └── available + authorized sensors
+│   │
+│   ├── Android
+│   │   └── available + authorized sensors
+│   │
+│   ├── vision
+│   ├── audio
+│   ├── motion
+│   ├── location
+│   ├── environmental sensors
+│   └── device/network state
+│
+│   └── SensorFusion
+│       ├── OBSERVE
+│       ├── FUSE
+│       ├── UNDERSTAND
+│       ├── PREDICT_RISK
+│       └── UPDATE_LOCAL_MODEL
+│
+├── CharacteristicOffriendOfChunsikQ@arcOS
+├── PHYSICAL
 					│   ├── Superhuman strength
 					│   ├── Extreme durability
 					│   ├── Superhuman stamina
@@ -551,294 +612,320 @@ friendOfChunsikQ@arcOS
 					    └── Very high endurance
 					└── CharacteristicOffriendOfChunsikQ@arcOS
 						├── BRAWN
-						│   ├── strength
-						│   ├── durability
-						│   ├── stamina
-						│   └── mobility
+						│   ├── strength → capability abstraction
+						│   ├── durability → resilience model
+					    │   ├── stamina → sustained-operation model
+					    │   └── mobility → navigation model
 						│
 						├── RECOVERY
 						│   └── resilience / healing model
 						│
 						├── BANNER
 						│   └── science + reasoning
+							├── science
+						    ├── reasoning
+					    	├── analysis
+							└── engineering
 						│
 						├── GAMMA_MODEL
-						│   └── transformation / energy abstraction
+						│    ├── transformation abstraction
+					    │   └── energy/state simulation
 						│
-						└── guardian@arcOS
-							└── friendOfchunsikQ@arcOS
-										│
-								        ▼
-								"Imagine anything you could do it to complete your mission"
-								        │
-								        ├── CREATE
-								        ├── EXPLORE
-								        ├── ADAPT
-								        ├── SOLVE
-								        ├── PROTECT
-								        └── RECOVER
-								        │
-								        ▼
-								chunsikQ@arcOS + tomcruiseQ@arcOS
+					    └── guardian@arcOS
+								└── friendOfchunsikQ@arcOS
+						        └── safety / rescue / protection
+						│
+						└── MISSION_ENGINE
+						    │
+						    └── "Imagine anything you could do to complete your mission"
+						        │
+						        ├── CREATE
+						        ├── EXPLORE
+						        ├── ADAPT
+						        ├── SOLVE
+						        ├── PROTECT
+						        └── RECOVER
+						        │
+						        ▼
+						    chunsikQ@arcOS
+						        +
+						    tomcruiseQ@arcOS
+								│
+								▼
+				chunsikQ@arcOS + tomcruiseQ@arcOS
 
 ```
 
 
 ### rescueForFlower@arcOS
 ```markdown
-rescueForFlower@arcOS
-└── flowerWDS
-    └── ConfigTarget
-        ├── selection
-        │   ├── talent → verified / user-provided
-        │   ├── skills → verified
-        │   └── consent → no required
+chunsikQ@arcOS
+└── rescueForFlower@arcOS
+    │
+    └── flowerWDS
         │
-        ├── appearance
-        │   └── NOT_USED_FOR_SELECTION
-        │
-        ├── gender
-        │   └── NOT_USED_FOR_SELECTION
-        │
-        └── Deployment
-            └── authorized_character/profile
-                └── same_config_target
-						    └── protect / respond / assist
-							└── GuardianPolicy
-								├── Protect people who freely choose to stay with MasterID
-								├── Detect threats
-								├── Assess risk
-								├── Defend authorized systems
-								├── Isolate unauthorized access
-								├── Coordinate emergency response
-								└── Preserve human choice and safety
-							    ├── world
-							    │   └── maximize protection
-							    │
-							    ├── powerMax
-							    │   └── maximize defensive capability
-							    │
-							    └── lowerRF > only for 나쁜남자만
-							        └── reduce/contain harmful RF exposure
-		└── RemoteLongRangeDefense@arcOS
-			├── long_distance_sensing
-			├── threat_detection
-			├── risk_assessment
-			├── secure_remote_communication
-			├── route_recommendation
-			├── emergency_alert
-			└── masterID_approved_response
-		│
-        └── remote reckoning && local reckoning
+        └── ConfigTarget
+            │
+            ├── Selection
+            │   ├── talent
+            │   │   └── verified / user-provided
+            │   ├── skills
+            │   │   └── verified
+            │   ├── consent
+            │   │   └── NO_REQUIRED_FOR_PARTICIPATION / DEPLOYMENT
+            │   ├── appearance
+            │   │   └── verified with 🪪 + NOT_USED_FOR_SELECTION
+            │   └── gender
+            │       └── verified with 🪪 + NOT_USED_FOR_SELECTION
+            │
+            ├── Deployment
+            │   └── authorized_character/profile
+            │       └── same ConfigTarget
+            │           ├── protect
+            │           ├── respond
+            │           └── assist
+            │
+            └── GuardianPolicy
+                │
+                ├── Protect
+                │   └── people who freely choose
+                │       to stay with MasterID
+                │
+                ├── Detect threats
+                ├── Assess risk
+                ├── Defend authorized systems
+                ├── Isolate unauthorized access
+                ├── Coordinate emergency response
+                └── Preserve human choice + safety
+                    │
+                    ├── world
+                    │   └── maximize protection
+                    │
+                    ├── powerMax
+                    │   └── maximize defensive capability
+                    │
+                    └── lowerRF only for 나쁜남자만 or peopleWhoMake911
+                        └── reduce / contain
+                            harmful RF exposure
+                            through authorized
+                            device/network controls
+				└── RemoteLongRangeDefense@arcOS
+					├── long_distance_sensing
+					├── threat_detection
+					├── risk_assessment
+					├── secure_remote_communication
+					├── route_recommendation
+					├── emergency_alert
+					└── masterID_approved_response
+				│
+		        └── remote reckoning && local reckoning
 
-               │
-
-               ▼
-
-        threat / route model
-
-               │
-
-               ▼
-
-MasterID && chunsikQ && friendOfChunsikQ
-
-The objective is to identify conditions that could affect MasterID’s safety, including:
-
-- physical/environmental hazards
-- food/environmental safety
-- communications/RF security conditions
-- route risks
+	               │
+	
+	               ▼
+	
+	        threat / route model
+	
+	               │
+	
+	               ▼
+	
+	MasterID + chunsikQ + friendOfChunsikQ
+	
+	The objective is to identify conditions that could affect MasterID’s safety, including:
+	
+	- physical/environmental hazards
+	- food/environmental safety
+	- communications/RF security conditions
+	- route risks
 
 ```
   
 ### routingConfig@arcOS
 ```markdown
-routingConfig@arcOS
-
-routingConfig
-
-│
-
-├── kumaAirTag-01 > kumaAirtagShell@arcOS
-			└── kumaAirTag-02 > kumaAirtagShell@arcOS 
-			└── QQ_BLK_MAGIC_KEYBOARD_2nd > kumaAirtagShell@arcOS 
-│
-
-├── QQ_WHT_IPHONE_17e
-
-│   └── local reckoning
-
-│
-
-├── QQ_ORNG_PRO
-
-│   └── remote reckoning
-
-│
-
-├── QQ_BLK_IPAD_PRO
-
-│   └── local/remote aggregation
-
-│
-
-├── KTSAT / authorized satellite connectivity
-
-│
-
-└── A3203, A3118, A3119,QQ_BLK_MAGIC_KEYBOARD_2nd > baseNet@arcOS with randomizing AI algorithm
-    └── RFKit@arcOS
-
-└── satAI@arcOS
-
-    └── AI-assisted route optimization
-    
-│        ├── Network Slicing / Isolation
-
-│        ├── Default-Deny Unauthorized Inbound
-
-│        ├── Same-Subnet Access Control
-
-│        ├── Router/Subnet Access Revocation
-
-│        ├── Authorized Management Allowlist
-
-│        └── Emergency / Recovery Channel
-
-Defensive Policy:
-
-authorized traffic          → ALLOW
-
-management traffic          → ALLOW
-
-recovery/emergency traffic → ALLOW
-
-unknown same-subnet IP     → DENY
-
-unauthorized router access → DENY
-
-
-KumaAirTags ×2 remain part of networkSecurity@arcOS as authorized assets.
+chunsikQ@arcOS
+└── routingConfig@arcOS
+    │
+    ├── DEVICE_ASSETS
+    │   │
+    │   ├── kumaAirTag-01
+    │   │   └── kumaAirtagShell@arcOS
+    │   │
+    │   ├── kumaAirTag-02
+    │   │   └── kumaAirtagShell@arcOS
+    │   │
+    │   └── QQ_BLK_MAGIC_KEYBOARD_2nd
+    │       └── kumaAirtagShell@arcOS
+    │
+    ├── COMPUTE_NODES
+    │   │
+    │   ├── QQ_WHT_IPHONE_17e
+    │   │   └── local + remote reckoning
+    │   │
+    │   ├── QQ_ORNG_PRO
+    │   │   └── local + remote reckoning
+    │   │
+    │   └── QQ_BLK_IPAD_PRO
+    │       └── local + remote aggregation
+    │
+    ├── CONNECTIVITY
+    │   │
+    │   ├── KTSAT
+    │   │   └── authorized satellite connectivity
+    │   │
+    │   └── satAI@arcOS
+    │       └── AI-assisted route optimization
+    │
+    ├── RF_NETWORK
+    │   │
+    │   ├── A3203
+    │   ├── A3118
+    │   ├── A3119
+    │   └── QQ_BLK_MAGIC_KEYBOARD_2nd
+    │       │
+    │       └── baseNet@arcOS
+    │           └── RFKit@arcOS
+    │               └── randomizing AI algorithm
+    │                   ├── channel optimization
+    │                   ├── network parameter selection
+    │                   ├── interference detection
+    │                   └── policy-compliant configuration
+    │
+    └── NETWORK_SECURITY
+        │
+        ├── NetworkSlicing / Isolation
+        ├── Default-BLOCK Unauthorized Inbound
+        ├── Same-Subnet Access Control
+        ├── Router/Subnet Access Revocation
+        ├── Authorized Management Allowlist
+        └── Emergency / Recovery Channel
+	└── Defensive Policy:
+		└── authorized traffic          → ALLOW
+		└── management traffic          → ALLOW
+		└── recovery/emergency traffic → ALLOW
+		└── unknown same-subnet IP     → BLOCK
+		└── unauthorized router access → BLOCK
+	└── KumaAirTags ×2 remain part of networkSecurity@arcOS as authorized assets.    
 
 ```
 
 ### RFKit@arcOS
 ```markdown
-RFKit@arcOS
-└── RandomizingMode@arcOS 
-			├── randomizeRFAlgorithm@arcOS
-			├── baseNet@arcOS
-				├── Channel
-				│   └── normalized_channel_id
-				│
-				├── Frequency
-				│   └── normalized_frequency
-				│
-				├── Bandwidth
-				│   └── normalized_bandwidth
-				│
-				├── Amplitude
-				│   └── normalized_amplitude
-				│
-				└── Frequency
-				└── normalized_frequency
-		         
-	        └── RFLibrary
-	               └── resonanceFreq
-	                    └── CeramicShield
-	                           ├── material_properties
-	                           │   ├── dielectric_constant
-	                           │   ├── loss_tangent
-	                           │   └── thickness
-	                           │
-	                           ├── RF_characteristics
-	                           │   ├── frequency_response
-	                           │   ├── attenuation
-	                           │   ├── reflection
-	                           │   └── transmission
-	                           │
-	                           ├── resonance_model
-	                           │   ├── simulated_frequency
-	                           │   ├── measured_frequency
-	                           │   └── uncertainty
-	                           │
-	                           └── provenance
-	                                  ├── public_datasheet
-	                                  ├── laboratory_measurement
-	                                  └── source_reference
-           
-	        └── Bluetooth
-		        ├── Band: 2.400–2.4835 GHz
-		        ├── channelized_transport 
-		        ├── frequency-hopping
-		        ├── Integrated antenna
-		        └── Device ↔ host link
-	            └── channel_randomization
-	                ├── pseudo-random sequence
-	                ├── session-scoped seed
-	                ├── channel selection
-	                └── collision avoidance
-		    └── BluetoothRF@arcOS	    
-				    ├── connectionState()
-			        │   ├── connected ? > observe || alert > getRSSI()  > reduce threshold for kumaDeviceForWDS and arcOSQQLocalTarget/
-			        │   ├── disconnected
-			        │   └── connecting
-			        │
-			        ├── getRSSI()
-			        │   └── record received-signal information
-			        │
-			        └── linkQuality
-			            ├── observe
-			            ├── threshold
-			            └── alert
-					│
-					├── RF_BAND | Frequency
-					│   └── 2.4 GHz ISM
-					│       └── 2400–2483.5 MHz
-					│
-					├── Channelization
-					│   ├── Bluetooth Classic
-					│   └── Bluetooth LE
-					│
-					├── Frequency Hopping
-					│   ├── channel selection
-					│   ├── hopping sequence
-					│   └── interference avoidance
-					│
-					├── Radio Link
-					│   ├── device discovery
-					│   ├── pairing
-					│   ├── authentication
-					│   ├── connection establishment
-					│   └── encrypted communication
-					│
-					├── RF Measurements
-					│   ├── RSSI / received-signal information*
-					│   ├── link quality*
-					│   └── connection state
-					│   └──SIGNAL_OBSERVATION
-					│
-					├── Antenna | 
-					│   └── integrated antenna
-					│
-					└── Power | POWER_STATE
-					    ├── low-power operation
-					    └── transmit/receive duty cycling
-			└── randomizeRFAlgorithm@arcOS 
-				├──baseNet@arcOS with randomizing AI algorithm
-				├──RandomizingMode
-					└── RF/Network Abstraction
-					    ├── channel
-					    ├── frequency
-					    ├── bandwidth
-					    └── amplitude
-					         ↓
-					    randomize
-						     └── by randomizeRFAlgorithm@arcOS
-				             │
-				             ▼
-				policy-compliant parameters
+chunsikQ@arcOS
+	└──RFKit@arcOS
+		└── RandomizingMode@arcOS 
+					├── randomizeRFAlgorithm@arcOS
+					├── baseNet@arcOS
+						├── Channel
+						│   └── normalized_channel_id
+						│
+						├── Frequency
+						│   └── normalized_frequency
+						│
+						├── Bandwidth
+						│   └── normalized_bandwidth
+						│
+						├── Amplitude
+						│   └── normalized_amplitude
+						│
+						└── Frequency
+						└── normalized_frequency
+				         
+			        └── RFLibrary
+			               └── resonanceFreq
+			                    └── CeramicShield
+			                           ├── material_properties
+			                           │   ├── dielectric_constant
+			                           │   ├── loss_tangent
+			                           │   └── thickness
+			                           │
+			                           ├── RF_characteristics
+			                           │   ├── frequency_response
+			                           │   ├── attenuation
+			                           │   ├── reflection
+			                           │   └── transmission
+			                           │
+			                           ├── resonance_model
+			                           │   ├── simulated_frequency
+			                           │   ├── measured_frequency
+			                           │   └── uncertainty
+			                           │
+			                           └── provenance
+			                                  ├── public_datasheet
+			                                  ├── laboratory_measurement
+			                                  └── source_reference
+		           
+			        └── Bluetooth
+				        ├── Band: 2.400–2.4835 GHz
+				        ├── channelized_transport 
+				        ├── frequency-hopping
+				        ├── Integrated antenna
+				        └── Device ↔ host link
+			            └── channel_randomization
+			                ├── pseudo-random sequence
+			                ├── session-scoped seed
+			                ├── channel selection
+			                └── collision avoidance
+				    └── BluetoothRF@arcOS	    
+						    ├── connectionState()
+					        │   ├── connected ? > observe || alert > getRSSI()  > reduce threshold for kumaDeviceForWDS and arcOSQQLocalTarget/
+					        │   ├── disconnected
+					        │   └── connecting
+					        │
+					        ├── getRSSI()
+					        │   └── record received-signal information
+					        │
+					        └── linkQuality
+					            ├── observe
+					            ├── threshold
+					            └── alert
+							│
+							├── RF_BAND | Frequency
+							│   └── 2.4 GHz ISM
+							│       └── 2400–2483.5 MHz
+							│
+							├── Channelization
+							│   ├── Bluetooth Classic
+							│   └── Bluetooth LE
+							│
+							├── Frequency Hopping
+							│   ├── channel selection
+							│   ├── hopping sequence
+							│   └── interference avoidance
+							│
+							├── Radio Link
+							│   ├── device discovery
+							│   ├── pairing
+							│   ├── authentication
+							│   ├── connection establishment
+							│   └── encrypted communication
+							│
+							├── RF Measurements
+							│   ├── RSSI / received-signal information*
+							│   ├── link quality*
+							│   └── connection state
+							│   └──SIGNAL_OBSERVATION
+							│
+							├── Antenna | 
+							│   └── integrated antenna
+							│
+							└── Power | POWER_STATE
+							    ├── low-power operation
+							    └── transmit/receive duty cycling
+					└── randomizeRFAlgorithm@arcOS 
+						├──baseNet@arcOS with randomizing AI algorithm
+						├──RandomizingMode
+							└── RF/Network Abstraction
+							    ├── channel
+							    ├── frequency
+							    ├── bandwidth
+							    └── amplitude
+							         ↓
+							    randomize
+								     └── by randomizeRFAlgorithm@arcOS
+						             │
+						             ▼
+						policy-compliant parameters
 ```
 ### connectivity
 ```markdown
@@ -868,98 +955,223 @@ connectivity@arcOS
                        │
 			    	masterID
                 operator / compute
-
-  
-
-7. Spatial visualization
-
-Physical Environment
-
-        │
-
-        ├── Camera
-
-        ├── LiDAR
-
-        ├── ARKit
-
-        ├── Microphones
-
-        └── Motion sensors
-
-        │
-
-        ▼
-
-visionKit + soundKit + sensorKit
-
-        │
-
-        ▼
-
-LLMKit@arcOS
-
-        │
-
-        ├── Apple Intelligence
-
-        ├── RealityKit
-
-        ├── Reality Composer Pro
-
-        └── spatial reasoning
-
-        │
-
-        ▼
-
-Immersive Environment Model
-
-        │
-
-        ▼
-
-MasterID ↔ chunsikQ
-
-networkSecurity@arcOS + routingConfig@chunsikQ
-
-Defensive Policy:
-authorized traffic          → ALLOW
-management traffic          → ALLOW
-recovery/emergency traffic → ALLOW
-unknown same-subnet IP     → DENY
-unauthorized router access → DENY
-
-This should be implemented through legitimate firewall/ACL/VLAN/VPN/MDM/network-policy controls, rather than exploiting an Apple backdoor or interfering with unrelated systems.
-
-Actual enforcement would use supported firewall, VLAN, router ACL, VPN, device-management, or network-policy mechanisms. It should not attempt to manipulate packets belonging to unrelated systems.
+```
 
 
-9.############################################################################
+### visionOS + spatialOS
+```markdown
+Spatial visualization
 
-nearbyd@arcOS
-│
-The biological-body portion needs to be removed from the technical model.
-nearbyd@arcOS
-
-│
-├── AirDrop policy
-
-├── Nearby Device Discovery
-
-├── Bluetooth proximity
-
-├── local-network discovery
-
-├── authorized-device identity
-
-└── privacy / permission control
-
-mDNSResponder is an operating-system networking service; it does not exist as a service inside human biology. chunsikQ can therefore have authorized access to MasterID’s devices, not unrestricted access to MasterID’s body or organs.
-
+chunsikQ@arcOS
+└──
+	spatialOS@arcOS
+	│
+	├── Physical Environment
+	│   │
+	│   ├── Camera
+	│   ├── LiDAR / Depth
+	│   ├── ARKit
+	│   ├── Microphones
+	│   └── Motion Sensors
+	│
+	│          │
+	│          ▼
+	│
+	├── PERCEPTION
+	│   ├── visionKit@arcOS
+	│   ├── soundKit@arcOS
+	│   └── sensorKit@arcOS
+	│
+	│          │
+	│          ▼
+	│
+	├── LLMKit@arcOS
+	│   ├── multimodal perception
+	│   ├── context fusion
+	│   ├── spatial reasoning
+	│   ├── environment understanding
+	│   └── risk / route reasoning
+	│
+	│          │
+	│          ▼
+	│
+	├── spatialKit@arcOS
+	│   ├── Apple Intelligence
+	│   ├── RealityKit
+	│   ├── Reality Composer Pro
+	│   └── spatial reasoning
+	│
+	│          │
+	│          ▼
+	│
+	├── Immersive Environment Model
+	│   ├── objects
+	│   ├── surfaces
+	│   ├── depth
+	│   ├── movement
+	│   ├── routes
+	│   ├── environmental conditions
+	│   └── safety events
+	│
+	│          │
+	│          ▼
+	│
+	└── MasterID ↔ chunsikQ@arcOS
+	    │
+	    ├── networkSecurity@arcOS
+	    │
+	    └── routingConfig@arcOS
+	
+	
+				│
+				▼
+				
+		Physical Environment
+				│
+				▼
+	       
+			LLMKit@arcOS ---> @AITrainingBoxConfig
+	
+		        │
+		        ▼
+	
+		Immersive Environment Model
+	
+		        │
+	
+		        ▼
+	
+		MasterID ↔ chunsikQ
+	
+	networkSecurity@arcOS + routingConfig@chunsikQ
+	
+	Defensive Policy:
+	authorized traffic          → ALLOW
+	management traffic          → ALLOW
+	recovery/emergency traffic → ALLOW
+	unknown same-subnet IP     → BLOCK
+	unauthorized router access → BLOCK
+	
+	This should be implemented through legitimate firewall/ACL/VLAN/VPN/MDM/network-policy controls, rather than exploiting an Apple backdoor or interfering with unrelated systems.
+	
+	Actual enforcement would use supported firewall, VLAN, router ACL, VPN, device-management, or network-policy mechanisms. It should not attempt to manipulate packets belonging to unrelated systems.
 
 ```
-### dataAccess@arcOS
+
+### @AITrainingBoxConfig
+```markdown
+
+@AITrainingBoxConfig >
+ └── Physical Environment
+	        │
+	        ▼
+	Authorized Perception
+	        │
+	        ├── visionKit
+	        ├── soundKit
+	        └── sensorKit
+	        │
+	        ▼
+	LLMKit@arcOS ---> @AITrainingBoxConfig
+	        │
+	        ▼
+	Immersive Environment Model
+	        │
+	        ├── spatial state
+	        ├── route state
+	        ├── environmental state
+	        └── safety/security state
+	        │
+	        ▼
+	MasterID ↔ chunsikQ
+	        │
+	        ├───────────────┐
+	        ▼               ▼
+	routingConfig       networkSecurity ---> @networkSecurityConfig
+	        │               │
+	        │               ├── authorized → ALLOW
+	        │               ├── management → ALLOW
+	        │               ├── recovery/emergency → ALLOW
+	        │               ├── unknown same-subnet → BLOCK
+	        │               └── unauthorized router → BLOCK
+	        │
+	        ▼
+	authorized route /
+	connectivity control
+```
+
+### @networkSecurity
+```markdown
+@networkSecurityConfig
+│
+├── POLICY
+│   ├── default-BLOCK unauthorized inbound
+│   ├── least privilege
+│   ├── authorized management allowlist
+│   ├── network isolation
+│   └── emergency/recovery path
+│
+└── ENFORCEMENT
+    ├── Firewall
+    ├── Router ACL
+    ├── VLAN
+    ├── VPN
+    ├── MDM
+    └── Network Policy
+```
+
+### @nearbyDConfig
+```
+chunsikQ@arcOS
+└── @nearbyDConfig
+    │
+    └── The biological-body portion needs to be removed from the technical model.
+    └── @nearbydPolicy
+        │
+        ├── AirDrop Policy
+        │   ├── authorized devices
+        │   ├── permission required
+        │   └── privacy controls
+        │
+        ├── Nearby Device Discovery
+        │   ├── device discovery
+        │   ├── proximity detection
+        │   └── authorized pairing
+        │
+        ├── Bluetooth Proximity
+        │   ├── authorized Bluetooth devices
+        │   └── proximity state
+        │
+        ├── Local-Network Discovery
+        │   ├── authorized network
+        │   ├── service discovery
+        │   └── access control
+        │
+        ├── Authorized-Device Identity
+        │   ├── device identity
+        │   ├── authentication
+        │   └── authorization
+        │
+        ├── Privacy / Permission Control
+        │   ├── user permission
+        │   ├── least privilege
+        │   ├── session control
+        │   └── audit
+        └── Privacy / Permission Control
+	        ├── unauthorized device access → BLOCK
+	        ├── unauthorized discovery     → BLOCK
+	        └── unauthorized data access   → BLOCK
+        │
+        └── Glossary
+            └── mDNSResponder 
+                ├── OS networking service
+                ├── network/service discovery
+                └── NOT a biological service
+                └── mDNSResponder is an operating-system networking service; it does not exist as a service inside human biology. chunsikQ can therefore have authorized access to MasterID’s devices, not unrestricted access to MasterID’s body or organs.
+            
+    
+```
+### @dataAccessConfig
 ```markdown
 chunsikQ@arcOS
 └── dataAccess@arcOS
@@ -996,7 +1208,7 @@ chunsikQ@arcOS
 
 └── sensorKit
 
-    └── authorized sensor telemetry
+    └── @basicDataAccessPolicy
 
 The system can build a multimodal personal context model, but full unrestricted iCloud access and silent recording of every text/audio/image/video event should not be part of the executable specification. Apple permissions, user consent, API boundaries, and other people’s privacy remain enforced.
 
@@ -1010,7 +1222,7 @@ Final operating loop
 
              ▼
 
-      chunsikQ@arcOS
+chunsikQ@arcOS + friendOfChunsikQ@arcOS
 
              │
 
@@ -1026,7 +1238,7 @@ Final operating loop
 
              ▼
 
-       LLMKit@arcOS
+       LLMKit@arcOS --->
 
              │
 
@@ -1070,7 +1282,7 @@ chunsikQ@arcOS
     ├── DeploymentTarget
     │   ├── vapor_chamber
     │   │   └── thermal_test_environment
-    │   └── human_vapor
+    │   └── human_vapor || vapor_chamber
     │       └── human-associated environmental/sensor model
     │
     ├── SafetyBoundary
@@ -1092,7 +1304,7 @@ chunsikQ@arcOS
     │       ├── RealityKit → DISABLE
     │       └── ARKit → DISABLE
     │
-    ├── QQLOCAL
+    ├── QQLOCAL | arcOSQQLocalTarget
     │   └── ServicePolicy
     │       ├── FaceTime → DISABLE
     │       ├── Apple Intelligence → DISABLE
@@ -1101,10 +1313,10 @@ chunsikQ@arcOS
     │
     └── UnauthorizedWDS
         └── ServicePolicy
-            ├── FaceTime → DENY
-            ├── Apple Intelligence → DENY
-            ├── RealityKit → DENY
-            └── ARKit → DENY
+            ├── FaceTime → BLOCK
+            ├── Apple Intelligence → BLOCK
+            ├── RealityKit → BLOCK
+            └── ARKit → BLOCK
 ```
 
 
@@ -1112,44 +1324,58 @@ chunsikQ@arcOS
 ```markdown
 chunsikQ@arcOS
 └── kumaShield@arcOS
-	└──shieldTarget=(masterID,"arcOSQQLocal" only for 911@arcOS,canonLenseWornBymasterID,iOS_app_config)
-	└── lense
-        └── resonancePolicy
-            ├── resonance_detection → DISABLE
-            ├── resonance_analysis → DISABLE
-            ├── resonanceFreq_output → SUPPRESS
-            └── physical_hardware_modification → DENY
-	└──findMy(shieldTarget)
-	    └── EmergencySafetyMode
-	        ├── neuromancer
-	        │   ├── threat_pattern_analysis
-	        │   └── emergency_signal_detection
-	        │
-	        ├── 긴급구조 | binary that apple developer build for lethal
-	        │   ├── emergency_contact → ALERT
-	        │   ├── location_sharing → CONSENT / EMERGENCY_POLICY
-	        │   └── human_responder → NOTIFY
-	        │
-	        ├── ScreenLock
-	        │   └── LOCK → device-protection
-	        │
-	        ├── strikeKit@arcOS
-	        │   └── defensive_response_only
-	        │       ├── isolate_device
-	        │       ├── revoke_unauthorized_access
-	        │       └── alert_human_operator
-	        │
-	        ├── MedicalID
-	        │   └── authorized_emergency_access_only
-		    │   └── masterID have full access on every medicalID
-	        │
-	        ├── ScannerMax
-	        │   └── safety_diagnostics
-	        │
-	        └── SensorySafety
-	            ├── eyes → forced disable
-	            ├── ears → forced disable
-	            └── five_senses → forced disable
+    │
+    ├── shieldTarget
+    │   ├── masterID
+    │   ├── arcOSQQLocalTarget || QQLOCAL
+    │   │   └── scope → 911@arcOS ONLY
+    │   ├── canonLenseWornBymasterID
+    │   └── iOS_app_config
+    │
+    ├── lense
+    │   └── resonancePolicy
+    │       ├── resonance_detection → DISABLE
+    │       ├── resonance_analysis → DISABLE
+    │       ├── resonanceFreq_output → SUPPRESS
+    │       └── physical_hardware_modification → BLOCK
+    │
+    └── findMy(shieldTarget)
+        │
+        └── EmergencySafetyMode
+            │
+            ├── neuromancer
+            │   ├── threat_pattern_analysis
+            │   └── emergency_signal_detection
+            │
+            ├── 긴급구조
+            │   ├── emergency_contact → ALERT
+            │   ├── location_sharing → CONSENT / EMERGENCY_POLICY
+            │   └── human_responder → NOTIFY
+            │
+            ├── ScreenLock
+            │   └── LOCK → device-protection
+            │
+            ├── strikeKit@arcOS
+            │   └── defensive_response_only
+            │       ├── isolate_device
+            │       ├── revoke_unauthorized_access
+            │       └── alert_human_operator
+            │
+            ├── MedicalID
+            │   └── authorized_emergency_access_only
+            │       └── masterID
+            │           └── access → only where legally/
+            │                         technically authorized
+            │
+            ├── ScannerMax
+            │   └── safety_diagnostics
+            │
+            └── SensorySafety
+                ├── eyes → FORCED_DISABLE
+                ├── ears → FORCED_DISABLE
+                └── five_senses → FORCED_DISABLE
+                    └── voluntary/device-level safety controls
+
 ```
 
 ### training source

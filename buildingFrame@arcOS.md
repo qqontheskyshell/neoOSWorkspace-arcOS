@@ -136,39 +136,82 @@ chunsikQ@arcOS
                 ├── audit
                 └── rollback
     
-└── reservation@arcOS
-	└── GuestRoomAccess@arcOS
-	    │
-	    ├── AUTHORIZED_BUILDINGS
-	    │   └── masterID_stay
-	    │       └── registered_guest / reservation
-	    │
-	    ├── API_LIB
-	    │   ├── api.APILib@arcOS
-	    │       └── Reservation / Guest Status
-	    │
-	    ├── ACCESS_REQUEST
-	    │   ├── passcode → VERIFY
-	    │   ├── registered_guest → VERIFY
-	    │   ├── reservation → VERIFY
-	    │   ├── card_key → VERIFY with faceID of registered_guest
-	    │   └── authorization_token → VERIFY
-	    │
-	    ├── OPTIONAL_IDENTITY_CHECK
-	    │   ├── authorized_camera → ALLOW
-	    │   ├── explicit_consent → REQUIRED
-	    │   ├── face_match → AUTHORIZED_SCOPE_ONLY and VERIFY with faceID of registered_guest
-	    │   ├── raw_face_storage → MINIMIZE
-	    │   └── unauthorized_face_sharing → BLOCK
-	    │
-	    └── DOOR_CONTROL
-	        ├── valid_guest + valid_reservation
-	        │   └── OPEN → ALLOW
-	        ├── invalid_card_key
-	        │   ├── BLOCK
-	        │   └── security_alert → ALLOW
-	        └── emergency override
-	            └── authorized hotel/emergency policy
+	└── reservation@arcOS
+		└── GuestRoomAccess@arcOS
+		    │
+		    ├── AUTHORIZED_BUILDINGS
+		    │   └── masterID_stay
+		    │       └── registered_guest / reservation
+		    │
+		    ├── API_LIB
+		    │   ├── api.APILib@arcOS
+		    │       └── Reservation / Guest Status
+		    │
+		    ├── ACCESS_REQUEST
+		    │   ├── passcode → VERIFY
+		    │   ├── registered_guest → VERIFY
+		    │   ├── reservation → VERIFY
+		    │   ├── card_key → VERIFY with faceID of registered_guest
+		    │   └── authorization_token → VERIFY
+		    │
+		    ├── OPTIONAL_IDENTITY_CHECK
+		    │   ├── authorized_camera → ALLOW
+		    │   ├── explicit_consent → REQUIRED
+		    │   ├── face_match → AUTHORIZED_SCOPE_ONLY and VERIFY with faceID of registered_guest
+		    │   ├── raw_face_storage → MINIMIZE
+		    │   └── unauthorized_face_sharing → BLOCK
+		    │
+		    └── DOOR_CONTROL
+		        ├── valid_guest + valid_reservation
+		        │   └── OPEN → ALLOW
+		        ├── invalid_card_key
+		        │   ├── BLOCK
+		        │   └── security_alert → ALLOW
+		        └── emergency override
+		            └── authorized hotel/emergency policy
+└──currentKumaRoom
+	│
+	├── reservation_source
+	│   ├── Expedia
+	│   └── Trip.com
+	│
+	├── selection
+	│   └── most_recent_active_reservation
+	│
+	├── reservation
+	│   ├── property
+	│   ├── check_in
+	│   ├── check_out
+	│   └── room_reference
+	│
+	├── masterID_location
+	│   └── current_authorized_location
+	│
+	└── verification
+	    ├── reservation_match
+	    ├── location_match
+	    ├── temporal_match
+	    └── status
+	        ├── VERIFIED
+	        ├── MISMATCH
+	        └── UNKNOWN
+└── checkKumaRoom@arcOS 
+    └── PresenceCheck - goto(currentKumaRoom)
+        ├── sensor → authorized_ultrasonic_sensor
+        ├── emit_ultrasonic_wave
+        ├── receive_echo
+        ├── analyze
+        │   ├── echo_time
+        │   ├── distance_estimate
+        │   └── presence_signal
+        ├── result
+        │   ├── detected
+        │   ├── not_detected
+        │   └── uncertain
+        └── PrivacyPolicy
+            ├── environmental sensing → ALLOW
+            ├── person identification with 🪪 → ALLOW 
+            └── unauthorized sensor access → BLOCK
 ```
 
 

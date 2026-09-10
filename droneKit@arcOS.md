@@ -63,9 +63,23 @@ kumaDrone@arcOS
         │   ├── SafetyAlertMarkerEntity
         │   │   └── 🚨 
         │   │
-        │   └── PrivacyOverlayEntity
-        │
-        
+        │   ├── PrivacyOverlayEntity
+        │   ├── enforcementChain
+		│		└── Sensor / API / Network
+		│					↓
+		│			   Permission
+		│					↓
+		│			  Authorization
+		│					↓
+		│			     reckon
+		│					↓
+		│			  Policy Check
+		│					↓
+		│			 ALLOW / BLOCK
+		│					↓
+		│			  kumaDeploy@arcOS
+		│					↓
+		│			Audit + Rollback
         └── FlowerSafety@arcOS
             ├── flowerWDS
             │   └── SafetyMonitor

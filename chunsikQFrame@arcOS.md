@@ -229,14 +229,13 @@ chunsikQ@arcOS
 │       └── Reality Composer Pro
 │
 ├── 8. NETWORK_SECURITY
-│   ├── QQ_WHT_IPHONE_17e
-│   ├── QQ_ORNG_PRO
-│   └── QQ_BLK_IPAD_PRO
-│       ├── authorized traffic → ALLOW
+│   ├── QQ_WHT_IPHONE_17e,QQ_ORNG_PRO,QQ_BLK_IPAD_PRO
+│		├── authorized traffic → ALLOW
 │       ├── unknown traffic → BLOCK/ALERT
 │       ├── router access → authorized only
-│       ├── credential rotation
+│       ├── credential rotation such as hostname and sudo password
 │       └── kumaDeploy@arcOS
+│	├── NETWORK_PROTOCOL=(VNC,SSH,FTP,SMB,SHARINGD,RSYNC,INTERNETD,mDNSResponder,PARSECD)
 │
 ├── 9. nearbyd@arcOS
 │   ├── AirDrop
@@ -245,37 +244,32 @@ chunsikQ@arcOS
 │   └── authorized-device access
 │
 └── 10. DATA_ACCESS
-	├── @basicDataAccessPolicy 
-		└── authorized telemetry only but no consented telemetry for arcOSQQLocalTarget except KumaDeviceForWDS
-    ├── kumaCloud/iCloud
-    │   └── authorized Apple APIs
-    ├── kumaDeviceForWDS
-    │   └── authorized user input
-    ├── visionKit
-    │   └── every images/video
-    ├── soundKit
-    │   └── every audio
-    └── sensorKit
-	└──arcOSQQLocalTarget
-        │
-        ├── KumaDeviceForWDS → ALLOW
-        ├── unsolicited telemetry → BLOCK + @basicDataAccessPolicy 
-        ├── background collection → BLOCK
-        ├── hidden recording → BLOCK
-        ├── hidden vnc → BLOCK
-        ├── hidden ssh → BLOCK
-        ├── hidden rsync → BLOCK
-        ├── hidden smb → BLOCK
-        ├── hidden sharingd → BLOCK
-        ├── hidden internetd → BLOCK
-        ├── hidden mDNSResponder → BLOCK
-        └── unauthorized and access via localhost on sensor access → BLOCK
-│        
+│	├── @basicDataAccessPolicy 
+│		└── authorized telemetry only but no consented telemetry for arcOSQQLocalTarget except KumaDeviceForWDS
+│    ├── kumaCloud/iCloud
+│    │   └── authorized Apple APIs
+│    ├── kumaDeviceForWDS
+│    │   └── authorized user input
+│    ├── visionKit
+│    │   └── every images/video
+│    ├── soundKit
+│    │   └── every audio
+│    └── sensorKit
+│ 	└──arcOSQQLocalTarget
+│       │
+│        ├── routing into KumaDeviceForWDS → BLOCK
+│        ├── unsolicited telemetry → BLOCK + @basicDataAccessPolicy 
+│        ├── background collection → BLOCK
+│        ├── disable facetime,apple intelligence, arkit,realityKit
+│        ├── hidden recording → BLOCK
+│        ├── hidden NETWORK_PROTOCOL → BLOCK
+│        └── unauthorized and access via localhost on sensor access → BLOCK
+││        
 └── 11. reckonDrone
     └── PrivacyErase@arcOS
         ├── target
         │   ├── "$protectTarget_video"
-        │   ├── authorized_VNC_session
+        │   ├── authorized_(NETWORK_PROTOCOL)_session
         │   └── arcOSQQLocalTarget
         │
         ├── video_footage
@@ -289,7 +283,7 @@ chunsikQ@arcOS
         │       └── unauthorized_capture → DELETE_IF_AUTHORIZED
         │
         ├── access
-        │   ├── unauthorized_VNC → BLOCK
+        │   ├── unauthorized_(NETWORK_PROTOCOL) → BLOCK
         │   └── unauthorized_video_access → BLOCK
         │
         └── audit

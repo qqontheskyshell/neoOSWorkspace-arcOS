@@ -11,10 +11,14 @@
             "id": "be7b46f0d5ec7c70",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "chunsikQFrame@arcOS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "chunsikQFrame@arcOS"
             }
           }
         ]
@@ -167,13 +171,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be7b46f0d5ec7c70",
+  "active": "10455f33885429cc",
   "lastOpenFiles": [
+    "kumaDeviceFrame@arcOS.md",
     "droneKit@arcOS.md",
     "APILibFrame@arcOS.md",
     "buildingFrame@arcOS.md",
     "chunsikQFrame@arcOS.md",
-    "kumaDeviceFrame@arcOS.md",
     "targetLib@arcOS.md",
     "archive/APILib@arcOS.md",
     "ㅇ.md",

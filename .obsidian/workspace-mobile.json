@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a3ebefa23664d18b",
+        "id": "3773992bac444a74",
         "type": "tabs",
         "children": [
           {
-            "id": "0e5acd12066f7dc2",
+            "id": "88c1ecd184d6cf97",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,10 +167,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e5acd12066f7dc2",
+  "active": "88c1ecd184d6cf97",
   "lastOpenFiles": [
-    "ㅇ.md",
     "chunsikQFrame@arcOS.md",
+    "ㅇ.md",
     "appleSilicon_architecture.md",
     "droneKit@arcOS.md",
     "spaceRFKit@arcOS.md",

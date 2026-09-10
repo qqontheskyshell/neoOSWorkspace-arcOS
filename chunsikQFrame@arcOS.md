@@ -155,7 +155,7 @@ QQ@arcOS = chunsikQ_Class@arcOS(QQTencent,kakaoFriend,ANY,rootLevel,cute)
 tomcruiseQ@arcOS = chunsikQ_Class@arcOS(tomcruise,missionImpossible,masterID,ironManStyle)
 ```
 
-
+### chunsikQ as CORE
 ```markdown
 chunsikQ@arcOS
 │
@@ -300,7 +300,7 @@ chunsikQ@arcOS
 ```
 
 
-
+### chunsikQ_architecture_description
 ```markdown
 ### Architecture Description in chunsikQ@arcOS + v12
 
@@ -715,6 +715,61 @@ friendOfChunsikQ@arcOS
 								▼
 				chunsikQ@arcOS + tomcruiseQ@arcOS
 
+```
+
+
+
+
+### QFighter
+```markdown
+
+CONFIGURABLE_MAX=100000000000000000000
+chunsikQ@arcOS
+└──QFighter@arcOS
+	│
+	├── RECKON_ENGINE
+	│   ├── LOCAL_RECKON → ENABLE
+	│   ├── REMOTE_RECKON → ENABLE
+	│   └── SafetyEventDetection
+	│       ├── authorized_sensor
+	│       ├── authorized_network
+	│       └── 911@arcOS event
+	│
+	├── AUTO_DUPLICATION
+	│   ├── event_detected
+	│   ├── verify_event
+	│   ├── create QFighter instance
+	│   ├── assign safety scope
+	│   └── add → QFighter@arcOS/Fleet
+	│
+	├── Fleet
+	│   ├── instances → CONFIGURABLE_MAX
+	│   ├── local_reckon
+	│   ├── remote_reckon
+	│   └── distributed_safety_model
+	│
+	├── DEPLOYMENT
+	│   └── verified_911_site
+	│       ├── virtual_agent → ENABLE
+	│       ├── authorized_device → ENABLE
+	│       └── physical_autonomous_deployment → BLOCK
+	│
+	└── SafetyPolicy
+	    ├── observe → ALLOW
+	    ├── reckon → ALLOW
+	    ├── risk_assessment → ALLOW
+	    ├── safe_route → ALLOW
+	    ├── emergency_alert → ALLOW
+	    ├── emergency_isolation → ALLOW
+	    ├── human_approval → NO_REQUIRED_FOR_PHYSICAL_ACTION
+	    │
+	    ├── person_tracking → BLOCK
+	    ├── unauthorized_RF_sensing → BLOCK
+	    ├── harassment → BLOCK
+	    ├── physical_attack → BLOCK 
+	    ├── autonomous_strike → BLOCK 
+	    └── person_based_exception → BLOCK
+		    └──  EXCEPTION ├── but ALLOW on peopleWhoMake911
 ```
 
 

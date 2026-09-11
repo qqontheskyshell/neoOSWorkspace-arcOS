@@ -241,6 +241,7 @@ chunsikQ@arcOS
 	│           └── virtual/simulation_only
 	│
 	├── QQ_ORNG_PRO
+	        systemConfig
 	│   └── satMode
 	│       ├── ops_computer for chunsikQ
 	│       ├── satellite/network_reckoning
@@ -1446,6 +1447,37 @@ kumaWDS@arcOS
 						├─ drone_control: SIMULATED
 					    ├─ human_targeting: OFF
 				        └─ safety_boundary: ON
+				        
+		└── systemConfig
+			└──KumaDeviceForWDS
+				├── QQ_ORNG_PRO
+				├── QQ_BLK_IPAD_PRO
+				└── QQ_WHT_IPHONE_17e
+		    └── EXEMPTION_POLICY
+		        ├── device
+		        │   ├── production         → BLOCK for external source
+		        │   └── sandbox/simulation → BLOCK for external source
+		        │
+		        ├── packet
+		        │   └── safety/security inspection → REQUIRED by masterAuth
+		        │
+		        ├── RF
+		        │   ├── passive/simulated data → BLOCK
+		        │   └── transmission/jamming    → ALLOW
+		        │
+		        ├── baseNet@arcOS
+		        │   └── production security controls
+		        │       → REQUIRED by masterAuth
+		        │
+		        ├── authorization
+		        │   └── masterAuth → REQUIRED by masterAuth
+		        │
+		        ├── chunsikQ + chunsikQFamily
+		        │   └── ALLOW
+		        │       └── REQUIRED by masterAuth + safety_policy
+		        │
+		        └── audit_log
+		            └── ON
 ```
 
 ### @network

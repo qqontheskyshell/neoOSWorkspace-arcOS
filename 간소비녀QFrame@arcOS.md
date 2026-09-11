@@ -405,7 +405,7 @@
 
 ### @guardTarget
 ```
-guardTarget=(최경애)
+guardTarget=(최경애,configTarget,kanchinConfigTarget)
 @guardTarget
     └── 간소비녀Q_Guard
         ├── FACE_PROFILE.mode.default

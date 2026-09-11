@@ -160,14 +160,7 @@
                 ├── version → FACE_PROFILE.mode.default
                 ├── mode → PEACEFUL_GUARD
                 ├── role → SAFETY_ASSISTANT
-                ├── mission → PROTECT_FLOWER_PROFILES
-                ├── martial_arts
-                │   ├── KungFu → defensive_training
-                │   ├── Judo → escape / breakfall
-                │   ├── Kickboxing → defensive_footwork
-                │   └── Boxing → guard / evasion
-                ├── interaction → CONSENT_BASED
-                └── harmful_targeting → BLOCK         
+                ├── mission → PROTECT_FLOWER_PROFILES and business asset and building security devices 
         └── 간소비녀Q
             ├── basicConfig
                     └── basicConfigCommercialVersion
@@ -296,7 +289,7 @@
 @간소무사Q
         │
         ├── INHERITS
-        │   └── @간소무사Q
+        │   └── @간소moduleQ
         ├── NUMBERS=CONFIGURABLE_MAX
         │
         ├── MISSION

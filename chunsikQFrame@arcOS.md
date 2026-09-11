@@ -45,6 +45,7 @@ chunsikQ_Class@arcOS
 	├── PeopleWhoInteractWith
 	├── nameOfLevel
 	├── nameOfMobility
+	├── sourceOfTraing
 └── variable
 	├──kumaDeviceForWDS=(QQ_WHT_IPHONE_17e,QQ_ORNG_PRO,QQ_BLK_IPAD_PRO)
 	├──masterAuth="Verified by arcOSID and AUTHORIZED_ONLY by masterID and chunsikQ"
@@ -172,7 +173,7 @@ chunsikQ_Class@arcOS
 ├── nameOfLevel
 ├──nameOfMobility
 
-부산갈매깅@arcOS=chunsikQ_Class@arcOS(부산갈매기마스코트,kakaoFriend,ANY,rootLevel,pixarUpStyle)                
+부산갈매깅@arcOS=chunsikQ_Class@arcOS(부산갈매기마스코트,kakaoFriend,ANY,rootLevel,pixarUpStyle,youtube부산관광정보)                
 corgi@arcOS = chunsikQ_Class@arcOS(corgi,kakaoFriend,ANY,rootLevel,pixarUpStyle)
 QQ@arcOS = chunsikQ_Class@arcOS(QQTencent,kakaoFriend,ANY,rootLevel,cute)
 tomcruiseQ@arcOS = chunsikQ_Class@arcOS(tomcruise,missionImpossible,masterID,ironManStyle)

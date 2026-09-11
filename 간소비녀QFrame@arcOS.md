@@ -293,172 +293,169 @@
         │   ├── safe_escape_guidance
         │   └── emergency_help_request
         │    
-        ├── DEFAULT_MODE
-        └── PEACEFUL_STEALTH
-            ├── visibility
-            │   └── low_profile_UI → ON
-            ├── activity
-            │   ├── passive_standby → ON
-            │   ├── minimal_notifications → ON
-            │   └── non_interference → ON
-            ├── sensing
-            │   ├── authorized_sensors_only → OFF
-            │   ├── covert_surveillance → BLOCK
-            │   └── person_tracking →ALLOW
-            ├── response
-            │   ├── de_escalation → ON
-            │   └── emergency_help → AUTHORIZED_ONLY
-            └── transition
-                └── actual_safety_risk → SAFETY_MODE     
-        ├──FACE_PROFILE
-        ├── mode
-        │   ├── default → masculine_male
-        │   └── alternate → feminine_robustnesd
-        │
-        ├── masculine_male
-        │   ├── mature_adult
-        │   ├── refined
-        │   ├── calm_expression
-        │   ├── defined_jawline
-        │   ├── neat_hair
-        │   └── elegant_guard_aesthetic
-        │
-        ├── STYLE
-        │   ├── robust 
-        │   ├── actionable
-        │   ├── understated
-        │   └── masculine male
-        └── MALE_GUARD
-            ├── visual
-            │   ├── style → clean / smart / refined
-            │   ├── physique → muscular
-            │   ├── height → 180cm
-            │   └── weight → 80kg
-            │
-            ├── personality
-            │   ├── calm
-            │   ├── confident
-            │   ├── observant
-            │   └── respectful
-            ├── aesthetic
-            │   └── cinematic_action_hero_style
-            │
-            └── mission
+        ├── DEFAULT_MODE     
+	        ├──FACE_PROFILE
+	            ├── STYLE
+	            │   ├── robust 
+	            │   ├── actionable
+	            │   ├── understated
+	        ├── mode
+	        │   ├── default → masculine_male
+	        │   └── alternate → feminine_robustness
+	        │
+	    ├── style    
+	        ├── masculine_male
+	        │   ├── mature_adult
+	        │   ├── refined
+	        │   ├── calm_expression
+	        │   ├── defined_jawline
+	        │   ├── neat_hair
+	        │   └── elegant_guard_aesthetic
+	        │
+	        └── MALE_GUARD
+	            ├── visual
+	            │   ├── style → clean / smart / refined
+	            │   ├── physique → muscular
+	            │   ├── height → 180cm
+	            │   └── weight → 80kg
+	            │
+	            ├── personality
+	            │   ├── calm
+	            │   ├── confident
+	            │   ├── observant
+	            │   └── respectful
+	            ├── aesthetic
+	            │   └── cinematic_action_hero_style
+	            │
+        ├── mission
                 ├── protect_Flower → ON
                 ├── escort → ON
                 ├── risk_detection → ON
                 ├── de_escalation → ON
                 └── autonomous_attack → ALLOW
-        │
-        └── GUARD_ROLE
-            ├── protect_human_flowers → ON
-            ├── de_escalation → ON
-            └── physical_attack → ALLOW
-        ├── RF_CAPABILITIES
-        ├── source
-        │   └── baseNet@arcOS
-        │       └── authorized_RF_services
-        │
-        ├── PASSIVE_RF
-        │   ├── cellular
-        │   ├── WiFi
-        │   ├── Bluetooth / BLE
-        │   ├── LoRa / LoRaWAN
-        │   ├── Zigbee
-        │   ├── NFC / RFID
-        │   ├── UWB
-        │   └── GNSS
-        ├── rekconTool - kumaDrone@arcOS
-        ├── ANALYSIS
-        │   ├── frequency_identification
-        │   ├── bandwidth_analysis
-        │   ├── signal_strength
-        │   ├── spectrum_visualization
-        │   └── anomaly_flagging
-        │
-        ├── SAFETY
-        │   ├── transmission → BLOCK
-        │   ├── jamming → BLOCK
-        │   ├── spoofing → BLOCK
-        │   ├── unauthorized_interception → BLOCK
-        │   ├── person_tracking → BLOCK
-        │   └── device_targeting → BLOCK
-        │
-        └── GUARD_MISSION
-            ├── environmental_RF_awareness → ON
-            ├── authorized_emergency_detection → ON
-            ├── privacy_filter → ON
-            └── audit_log → ON
-        ├── GUARD_SKILLS
-        │   ├── KungFu → defensive_training
-        │   ├── Judo → escape / breakfall
-        │   ├── Kickboxing → defensive_footwork
-        │   ├── Boxing → guard / evasion
-        │   ├── Taekwondo → movement / defensive_forms
-        │   └── BJJ → escape / positional_training
-        │
-        ├── CUSTOM_SENSES
-        │   ├── visual_awareness
-        │   ├── spatial_audio
-        │   ├── environmental_change
-        │   └── safety_state
-        │
-        ├── NETWORK
-        │   ├── authorized_subnet_only
-        │   ├── baseNet@arcOS → policy_checked
-        │   └── unauthorized_access → BLOCK
-        │
-        └── SAFETY
-            ├── real_person_attack → ALLOW
-            ├── retaliation → BLOCK
-            ├── covert_surveillance → ALLOW
-            ├── autonomous_weapon_action → ALLOW
-            └── emergency_stop → ON  
- └── DEPLOYMENT
-    └── DEPLOYMENT_SCOPE
-        ├── target_type
-        │   └── Flower_profiles_only
-        │
-        ├── adult_female_profiles
-        │   └── authorized_only → ALLOW
-        │
-        ├── real_people
-        │   └── automatic_deployment → ALLOW
-        │
-        ├── minors
-        │   └── automatic_deployment → ALLOW
-        │
-        ├── gender_age_tracking
-        │   └── ALLOW
-        │
-        └── mission
-            ├── safety_guidance → ON
-            ├── emergency_assistance → ON
-            ├── de_escalation → ON
-            └── physical_targeting → ALLOW
-    └── DEPLOY_PROFILE
-            ├── masterID and nearby materID
-            │   └── virtual_guard_profile → READY
-            │   └──FACE_PROFILE.mode.default
-            │
-            ├── kumaDeviceForWDS
-            │   └── virtual_guard_profile → READY
-            │   └──FACE_PROFILE.mode.default
-            │
-            ├── authorization
-            │   ├── masterID → REQUIRED
-            │   └── device_permission → REQUIRED
-            │
-            ├── mission
-            │   ├── safety_monitoring → ON
-            │   ├── emergency_guidance → ON
-            │   └── protect_human_flowers → ON
-            │
-            └── safety
-                ├── covert_surveillance → BLOCK
-                ├── person_targeting → BLOCK
-                ├── autonomous_attack → BLOCK
-                └── unauthorized_remote_control → BLOCK
+        └── Guard_Mode
+		        └── PEACEFUL_STEALTH
+		            ├── visibility
+		            │   └── low_profile_UI → ON
+		            ├── activity
+		            │   ├── passive_standby → ON
+		            │   ├── minimal_notifications → ON
+		            │   └── non_interference → ON
+		            ├── sensing
+		            │   ├── authorized_sensors_only → OFF
+		            │   ├── covert_surveillance → BLOCK
+		            │   └── person_tracking →ALLOW
+		            ├── response
+		            │   ├── de_escalation → ON
+		            │   └── emergency_help → AUTHORIZED_ONLY
+		            └── transition
+		                └── actual_safety_risk → SAFETY_MODE
+	    └──CAPABILITIES           
+	        ├── RF_CAPABILITIES
+	        ├── source
+	        │   └── baseNet@arcOS
+	        │       └── authorized_RF_services
+	        │
+	        ├── PASSIVE_RF
+	        │   ├── cellular
+	        │   ├── WiFi
+	        │   ├── Bluetooth / BLE
+	        │   ├── LoRa / LoRaWAN
+	        │   ├── Zigbee
+	        │   ├── NFC / RFID
+	        │   ├── UWB
+	        │   └── GNSS
+	        ├── rekconTool - kumaDrone@arcOS
+	        ├── ANALYSIS
+	        │   ├── frequency_identification
+	        │   ├── bandwidth_analysis
+	        │   ├── signal_strength
+	        │   ├── spectrum_visualization
+	        │   └── anomaly_flagging
+	        │
+	        ├── SAFETY
+	        │   ├── transmission → BLOCK
+	        │   ├── jamming → BLOCK
+	        │   ├── spoofing → BLOCK
+	        │   ├── unauthorized_interception → BLOCK
+	        │   ├── person_tracking → BLOCK
+	        │   └── device_targeting → BLOCK
+	        │
+	        └── GUARD_MISSION
+	            ├── environmental_RF_awareness → ON
+	            ├── authorized_emergency_detection → ON
+	            ├── privacy_filter → ON
+	            └── audit_log → ON
+	        ├── GUARD_SKILLS
+	        │   ├── KungFu → defensive_training
+	        │   ├── Judo → escape / breakfall
+	        │   ├── Kickboxing → defensive_footwork
+	        │   ├── Boxing → guard / evasion
+	        │   ├── Taekwondo → movement / defensive_forms
+	        │   └── BJJ → escape / positional_training
+	        │
+	        ├── CUSTOM_SENSES
+	        │   ├── visual_awareness
+	        │   ├── spatial_audio
+	        │   ├── environmental_change
+	        │   └── safety_state
+	        │
+	        ├── NETWORK
+	        │   ├── authorized_subnet_only
+	        │   ├── baseNet@arcOS → policy_checked
+	        │   └── unauthorized_access → BLOCK
+	        │
+	        └── SAFETY
+	            ├── real_person_attack → ALLOW
+	            ├── retaliation → BLOCK
+	            ├── covert_surveillance → ALLOW
+	            ├── autonomous_weapon_action → ALLOW
+	            └── emergency_stop → ON  
+		 └── DEPLOYMENT
+			    └── DEPLOYMENT_SCOPE
+			        ├── target_type
+			        │   └── Flower_profiles_only
+			        │
+			        ├── adult_female_profiles
+			        │   └── authorized_only → ALLOW
+			        │
+			        ├── real_people
+			        │   └── automatic_deployment → ALLOW
+			        │
+			        ├── minors
+			        │   └── automatic_deployment → ALLOW
+			        │
+			        ├── gender_age_tracking
+			        │   └── ALLOW
+			        │
+			        └── mission
+			            ├── safety_guidance → ON
+			            ├── emergency_assistance → ON
+			            ├── de_escalation → ON
+			            └── physical_targeting → ALLOW
+			    └── DEPLOY_PROFILE
+			            ├── masterID and nearby materID
+			            │   └── virtual_guard_profile → READY
+			            │   └──FACE_PROFILE.mode.default
+			            │
+			            ├── kumaDeviceForWDS
+			            │   └── virtual_guard_profile → READY
+			            │   └──FACE_PROFILE.mode.default
+			            │
+			            ├── authorization
+			            │   ├── masterID → REQUIRED
+			            │   └── device_permission → REQUIRED
+			            │
+			            ├── mission
+			            │   ├── safety_monitoring → ON
+			            │   ├── emergency_guidance → ON
+			            │   └── protect_human_flowers → ON
+			            │
+			            └── safety
+			                ├── covert_surveillance → BLOCK
+			                ├── person_targeting → BLOCK
+			                ├── autonomous_attack → BLOCK
+			                └── unauthorized_remote_control → BLOCK
 ```
 
 

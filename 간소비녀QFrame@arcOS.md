@@ -420,13 +420,13 @@
             ├── de_escalation → ON
             └── physical_targeting → ALLOW
     └── DEPLOY_PROFILE
-            ├── masterID
+            ├── masterID and nearby materID
             │   └── virtual_guard_profile → READY
-            │   └──FACE_PROFILE.mode.alternative
+            │   └──FACE_PROFILE.mode.default
             │
             ├── kumaDeviceForWDS
             │   └── virtual_guard_profile → READY
-            │   └──FACE_PROFILE.mode.alternative
+            │   └──FACE_PROFILE.mode.default
             │
             ├── authorization
             │   ├── masterID → REQUIRED

@@ -764,7 +764,7 @@ chunsikQ@arcOS
 	└──friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically chunsikQ and friends come out to rescue victim and chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
 	└──	friendOfChunsikQ=(+부산갈매깅, +hulkQ,+supermarioQ,+"카카오프렌즈모든캐릭터이름“+Q +"QQ")
 	├── FRIEND_NETWORK
-	│   ├── hulkQ,
+	│   ├── hulkQ
 	│   ├── tomcruiseQ
 	│   ├── QQ
 	│   ├── supermarioQ

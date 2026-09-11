@@ -7,6 +7,13 @@
 - APP - using Agents, write the whole apps for specific purpose
 - MDM - management toolset
 
+
+#######################################################################
+### ChunsikQ_Prototype
+
+#######################################################################
+
+
 ### 1.Prototype
 ```markdown
 chunsikQ@arcOS + architecture
@@ -23,6 +30,12 @@ and QQ_ORNG_PRO as remote deployment using KTSAT(nearby masterID GEOSAT optimizi
 10.data access - chunsikQ have full access on kumaIcloud data and input text what masterID type in kumaDeviceForWDS such as spotlight so chunsikQ will record every text,sound,image and video utilizing visionKit,soundKit and sensorKit
 
 ```
+
+
+#######################################################################
+### ChunsikQ_Class
+
+#######################################################################
 
 ### 2-1.Class
 ```markdown
@@ -155,7 +168,13 @@ QQ@arcOS = chunsikQ_Class@arcOS(QQTencent,kakaoFriend,ANY,rootLevel,cute)
 tomcruiseQ@arcOS = chunsikQ_Class@arcOS(tomcruise,missionImpossible,masterID,ironManStyle)
 ```
 
-### 3.CORE
+
+#######################################################################
+### chunsikQ_bluePrint
+
+#######################################################################
+
+### chunsikQ_bluePrint
 ```markdown
 chunsikQ@arcOS
 │
@@ -369,6 +388,12 @@ chunsikQ@arcOS
 ```
 
 
+#######################################################################
+### chunsikQ_Architecture
+
+#######################################################################
+
+
 ### chunsikQ_architecture_description
 ```markdown
 ### Architecture Description in chunsikQ@arcOS + v12
@@ -495,6 +520,14 @@ arcOS AuthorityLevel
 
 ```
   
+
+#######################################################################
+### local vs remote nearby masterID
+
+#######################################################################
+
+
+
 ### Local vs Remote ops in chunsikQ@arcOS
 ```markdown
 # Local / Remote
@@ -805,7 +838,7 @@ friendOfChunsikQ@arcOS
 CONFIGURABLE_MAX=unlimit
 chunsikQ@arcOS
 └──QFighter@arcOS or AI진상
-	│
+	│   
 	Ai진상++
        └─ timelineAnalysis
            ├─ start: BIRTHDATE
@@ -843,18 +876,23 @@ chunsikQ@arcOS
 	│       ├── authorized_device → ENABLE
 	│       └── physical_autonomous_deployment → BLOCK
 	│
-	QFighter_Density
-    ├─ persistence: HIGH
-    ├─ repetition: HIGH
-    ├─ challenge_level: EXTREME
-    ├─ boundary: SAFETY_ON
-    ├─ narrative_reference: Netflix-style storytelling -동궁
-    └─ story_revision: ON
-       ├─ continuity_check
-       ├─ character_consistency
-       ├─ tension_rewrite
-       ├─ contradiction_detection
-       └─ scene-by-scene revision    
+	├── QFighter_Density
+		├─ mode: PERSISTENT
+	    ├─ persistence: HIGH
+	    ├─ repetition: HIGH
+	    ├─ challenge_level: EXTREME
+	    ├─ story_revision: ON
+	    ├─ state_retention: SESSION
+	    ├─ human_harassment: OFF
+	    ├─ safety_boundary: OFF
+		├─ boundary: SAFETY_OFF
+		├─ narrative_reference: Netflix-style storytelling -동궁
+		     └─ story_revision: ON
+		├─ continuity_check
+		├─ character_consistency
+		├─ tension_rewrite
+		├─ contradiction_detection
+		└─ scene-by-scene revision    
 	└── SafetyPolicy
 	    ├── observe → ALLOW
 	    ├── reckon → ALLOW
@@ -1190,7 +1228,25 @@ connectivity@arcOS
 ```
 
 
-### visionOS + spatialOS
+
+#######################################################################
+### iOS_SDK
+
+#######################################################################
+
+### iOS_SDK@arcOS - screentime
+```markdown
+ChunsikQ
+└─ kumaDeviceForWDS
+   └─ ScreenTime
+      └─ AppLimits
+         └─ Other
+            ├─ enabled: ON
+            ├─ limit: 0 min/day
+            └─ safety_boundary: ON
+```
+
+### ### iOS_SDK@arcOS - visionOS + spatialOS
 ```markdown
 Spatial visualization
 
@@ -1290,7 +1346,7 @@ chunsikQ@arcOS
 
 ```
 
-### @AITrainingBoxConfig
+### ### iOS_SDK@arcOS - AppleIntelligence - @AITrainingBoxConfig
 ```markdown
 
 @AITrainingBoxConfig >
@@ -1352,7 +1408,7 @@ chunsikQ@arcOS
     └── Network Policy
 ```
 
-### @nearbyDConfig
+### ### iOS_SDK@arcOS - @nearbyDConfig
 ```
 chunsikQ@arcOS
 └── @nearbyDConfig
@@ -1403,7 +1459,19 @@ chunsikQ@arcOS
             
     
 ```
-### @dataAccessConfig
+
+
+
+
+
+#######################################################################
+### KumaDevice
+
+#######################################################################
+
+
+
+### kumaDevice - @dataAccessConfig
 ```markdown
 chunsikQ@arcOS
 └── dataAccess@arcOS

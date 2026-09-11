@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "04ad7e0942636a54",
+        "id": "2b7d0935965c8211",
         "type": "tabs",
         "children": [
           {
-            "id": "5bdc1c47de1c24c2",
+            "id": "e49176c7d5faf0df",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "securityPolicy",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,10 +167,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5bdc1c47de1c24c2",
+  "active": "e49176c7d5faf0df",
   "lastOpenFiles": [
-    "appleSiliconFrame@arcOS.md",
     "chunsikQFrame@arcOS.md",
+    "appleSiliconFrame@arcOS.md",
     "kumaDeviceFrame@arcOS.md",
     "bankFrame@arcOS.md",
     "sensorFrame@arcOS.md",

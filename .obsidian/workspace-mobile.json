@@ -11,10 +11,14 @@
             "id": "2e5fcb4f4c67cf59",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "간소비녀QFrame@arcOS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "간소비녀QFrame@arcOS"
             }
           }
         ]
@@ -47,7 +51,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "@간소비녀Q_class",
+            "query": "간소",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,

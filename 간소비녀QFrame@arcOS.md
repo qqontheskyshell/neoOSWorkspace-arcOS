@@ -236,7 +236,7 @@
                     ├── fluid_motion
                     ├── natural_reflection
                     └── elegant_catchlight    
-        └── CUSTOM_SENSES loaded by nickname of flower's frequency and sense data loaded by 간소스테이사장
+        └── CUSTOM_SENSES loaded by nickname of flower's frequency and sense data loaded by materID
             ├── sight
             │   ├── light_flow
             │   ├── dew_like_catchlight
@@ -278,12 +278,12 @@
                     
 ```
 
-### 간소비녀Q_Guard
+### 간소무사
 ```
-간소비녀Q_Guard
+간소무사Q
         │
         ├── INHERITS
-        │   └── @간소비녀Q_Class
+        │   └── @간소무사Q
         ├── NUMBERS=CONFIGURABLE_MAX
         │
         ├── MISSION
@@ -471,7 +471,7 @@
 ```
 guardTarget=(최경애,configTarget,kanchinConfigTarget)
 @guardTarget
-    └── 간소비녀Q_Guard
+    └── 간소무사Q
         ├── FACE_PROFILE.mode.default
         ├── recipient_consent → NO_REQUIRED
         ├── role → SAFETY_ASSISTANT

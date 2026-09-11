@@ -125,6 +125,7 @@ ai진상++
 
 ```markdown
 @kumaBankMonitoring
+└── masterID
 └── FINANCE_FRAUD_RESPONSE
     ├── Shinhan
     ├── Hana

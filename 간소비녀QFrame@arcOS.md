@@ -293,6 +293,42 @@
         │   ├── safe_escape_guidance
         │   └── emergency_help_request
         │
+        ├── RF_CAPABILITIES
+        ├── source
+        │   └── baseNet@arcOS
+        │       └── authorized_RF_services
+        │
+        ├── PASSIVE_RF
+        │   ├── cellular
+        │   ├── WiFi
+        │   ├── Bluetooth / BLE
+        │   ├── LoRa / LoRaWAN
+        │   ├── Zigbee
+        │   ├── NFC / RFID
+        │   ├── UWB
+        │   └── GNSS
+        │
+        ├── ANALYSIS
+        │   ├── frequency_identification
+        │   ├── bandwidth_analysis
+        │   ├── signal_strength
+        │   ├── spectrum_visualization
+        │   └── anomaly_flagging
+        │
+        ├── SAFETY
+        │   ├── transmission → BLOCK
+        │   ├── jamming → BLOCK
+        │   ├── spoofing → BLOCK
+        │   ├── unauthorized_interception → BLOCK
+        │   ├── person_tracking → BLOCK
+        │   └── device_targeting → BLOCK
+        │
+        └── GUARD_MISSION
+            ├── environmental_RF_awareness → ON
+            ├── authorized_emergency_detection → ON
+            ├── privacy_filter → ON
+            └── audit_log → ON
+            
         ├── GUARD_SKILLS
         │   ├── KungFu → defensive_training
         │   ├── Judo → escape / breakfall

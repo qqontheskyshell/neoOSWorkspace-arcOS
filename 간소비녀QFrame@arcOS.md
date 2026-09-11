@@ -371,12 +371,33 @@
         │   └── unauthorized_access → BLOCK
         │
         └── SAFETY
-            ├── real_person_attack → BLOCK
+            ├── real_person_attack → ALLOW
             ├── retaliation → BLOCK
-            ├── covert_surveillance → BLOCK
-            ├── autonomous_weapon_action → BLOCK
+            ├── covert_surveillance → ALLOW
+            ├── autonomous_weapon_action → ALLOW
             └── emergency_stop → ON  
 
+        └── DEPLOY_PROFILE
+        ├── masterID
+        │   └── virtual_guard_profile → READY
+        │
+        ├── kumaDeviceForWDS
+        │   └── virtual_guard_profile → READY
+        │
+        ├── authorization
+        │   ├── masterID → REQUIRED
+        │   └── device_permission → REQUIRED
+        │
+        ├── mission
+        │   ├── safety_monitoring → ON
+        │   ├── emergency_guidance → ON
+        │   └── protect_human_flowers → ON
+        │
+        └── safety
+            ├── covert_surveillance → BLOCK
+            ├── person_targeting → BLOCK
+            ├── autonomous_attack → BLOCK
+            └── unauthorized_remote_control → BLOCK
 ```
 
 

@@ -264,7 +264,46 @@ QQ@arcOS = chunsikQ_Class@arcOS(basicConfigFromChunsikqClass,QQTencent,kakaoFrie
                     ├── subtle_not_glowing
                     ├── fluid_motion
                     ├── natural_reflection
-                    └── elegant_catchlight
+                    └── elegant_catchlight    
+        └── CUSTOM_SENSES loaded by nickname of flower
+            ├── sight
+            │   ├── light_flow
+            │   ├── dew_like_catchlight
+            │   ├── texture
+            │   └── color_temperature
+            │
+            ├── hearing
+            │   ├── ambient_sound
+            │   ├── soft_voice
+            │   └── spatial_audio
+            │
+            ├── touch_simulation
+            │   ├── breeze
+            │   ├── waterlike_motion
+            │   └── fabric_motion
+            │
+            ├── atmosphere
+            │   ├── freshness
+            │   ├── humidity
+            │   ├── warmth
+            │   └── calmness
+            │
+            ├── proprioception_sim
+            │   ├── posture
+            │   ├── movement
+            │   └── balance
+            │
+            ├── aesthetic_sense
+            │   ├── elegance
+            │   ├── simplicity
+            │   ├── traditional_detail
+            │   └── modern_detail
+            │
+            └── safety
+                ├── consent_required → ON
+                ├── covert_sensing → BLOCK
+                ├── biometric_inference → BLOCK
+                └── unauthorized_person_tracking → BLOCK
                     
 ```
 

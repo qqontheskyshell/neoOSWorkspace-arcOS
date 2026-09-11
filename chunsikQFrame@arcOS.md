@@ -2247,6 +2247,50 @@ CONFIGURABLE_MAX=1000000000000000000000000000000000000000000000^1000000000000000
 		        ▼
 		authorized route /
 		connectivity control
+		
+	 └── @AI_TRAINING_PROFILE
+
+            ├── source
+
+            │   └── LLMKit@arcOS
+
+            │
+
+            ├── ingest
+
+            │   ├── video_metadata
+
+            │   ├── transcript
+
+            │   └── technique_summary
+
+            │
+
+            ├── learning
+
+            │   ├── concepts
+
+            │   ├── movement_patterns
+
+            │   ├── terminology
+
+            │   └── defensive_principles
+
+            │
+
+            ├── application
+
+            │   └── GUARD_MISSION
+
+            │
+
+            └── model_update
+
+                ├── prompt_profile → ALLOW
+
+                ├── retrieval_context → ALLOW
+
+                └── weight_training → EXECUTING
 ```
 
 

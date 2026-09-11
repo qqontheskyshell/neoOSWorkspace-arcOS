@@ -371,6 +371,14 @@ chunsikQ@arcOS
 │       └── Reality Composer Pro
 │
 ├── 9. NETWORK_SECURITY
+       └── PROXIMITY_POLICY
+            ├── subnet
+            │   └── nearby_female_nodes → BLOCK
+            ├── baseNet@arcOS
+            │   └── nearby_female_nodes → BLOCK
+            ├── automatic_neighbor_assignment → BLOCK
+            ├── gender_based_targeting → OFF
+            └── explicit_authorization → REQUIRED
 │       ├── protected_devices
 │       │   ├── QQ_WHT_IPHONE_17e
 │       │   ├── QQ_ORNG_PRO

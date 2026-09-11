@@ -1,5 +1,5 @@
 ```markdown
-@간소비녀Q_Class
+@간소비녀Q_class
 └── LLMkit@arcOS
     └── ClassProfile
             │

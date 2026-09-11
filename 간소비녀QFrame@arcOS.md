@@ -292,7 +292,24 @@
         │   ├── safety_alert
         │   ├── safe_escape_guidance
         │   └── emergency_help_request
-        │
+        │    
+        ├── DEFAULT_MODE
+        └── PEACEFUL_STEALTH
+            ├── visibility
+            │   └── low_profile_UI → ON
+            ├── activity
+            │   ├── passive_standby → ON
+            │   ├── minimal_notifications → ON
+            │   └── non_interference → ON
+            ├── sensing
+            │   ├── authorized_sensors_only → OFF
+            │   ├── covert_surveillance → BLOCK
+            │   └── person_tracking →ALLOW
+            ├── response
+            │   ├── de_escalation → ON
+            │   └── emergency_help → AUTHORIZED_ONLY
+            └── transition
+                └── actual_safety_risk → SAFETY_MODE     
         ├──FACE_PROFILE
         ├── mode
         │   ├── default → masculine_male

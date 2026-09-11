@@ -51,7 +51,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Talk ",
+            "query": "부산갈매깅",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -117,6 +117,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "chunsikQFrame@arcOS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",

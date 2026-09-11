@@ -771,7 +771,7 @@ chunsikQ@arcOS
 	│   ├── KakaoFriendsQ
 	│   │   └── <KakaoFriendsCharacter>Q
 	│   ├── configTarget
-	│   ├── 부산갈매깅 > 해운대 1마리 + 광안리 1마리
+	│   ├── 부산갈매깅 > 해운대 50마리 + 광안리 50마리
 	│   
 	│
 	├── 911_INTEGRATION

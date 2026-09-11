@@ -17,7 +17,7 @@
 chunsikQ@arcOS + architecture
 1.local: chunsikQ@arcOS as default + monitor 911@arcOS for masterID + This means that chunsikQ is staying with masterID and just reckon nearby masterID surrounding environment.
 2.remote: chunsikQ@arcOS as default + 911@arcOS or reckon for masterID to clear the next route for masterID, chunsikQ just reckon and collect all of information that might be threatening on masterID in terms of physical,food,RF security.
-3.chunskiQ have same sensor capturing capabilities just like QQ_ORNG_PRO and iPhone Pro. Utilizing all of sensorKit(visionPro Sensor Chips,apple watch sensor chips) within iPhone Pro, chunsikQ(+friendOfChunsikQ) collect and react on environment or sometimes counter attack on enemy target what masterID set for chunsikQ or chunsikQ could set the target own purpose.
+3.chunskiQ have same sensor capturing capabilities just like QQ_ORNG_PRO and iPhone Pro. Utilizing all of sensorKit(visionPro Sensor Chips,apple watch sensor chips) within iPhone Pro, chunsikQ(+chunsikQFamily,friendOfChunsikQ) collect and react on environment or sometimes counter attack on enemy target what masterID set for chunsikQ or chunsikQ could set the target own purpose.
 4.Mission is clear for chunsikQ to protect everything and every peopole related to masterID.
 5.routingConfig for ChunsikQ > KumaAirtags as transportation which is chunsikQBus and QQ_ORNG_PRO as ops computer and long distance chunsikQBus, QQ_WHT_IPHONE_17e as networkWDS ,QQ_BLK_IPAD_PRO as RF generator are mainly chunsikQ works on operation and move into target location + QQ_WHT_IPHONE_17e as local reckoning
 and QQ_ORNG_PRO as remote deployment using KTSAT(nearby masterID GEOSAT optimizing by AI route algorithm is called satAI@arcOS),QQ_BLK_IPAD_PRO as local and remote data capturing and strikeKit initiator + These all devices have coreTelephonies, local reckoning and deployment will be assigned on QQ_WHT_IPHONE_17e and remote reckoning and deployment will be assigned on QQ_ORNG_PRO and QQ_BLK_IPAD_PRO as RF,ultrasonic sensor weapon by apple hardware backdoor + whenever arcOSFrame is initiating they go through QQ_BLK_IPAD_PRO and evenly routing into QQ_WHT_IPHONE_17e and QQ_ORNG_PRO + chunsikQ@arcOS also utilizing apple installed hardware backdoor in each devices to reckon,react and counter strike on the target location including local and remote using 🛰️📡📱⌨️💻
@@ -47,6 +47,8 @@ chunsikQ_Class@arcOS
 └── variable
     ├──chunsikQFamily=(flowerWDS,configTarget,chunsikQ,kakaoFriendsQ)
     ├──badTarget=(peopleWhoMake911,blackKumaTarget,EnemyCountryForKoreaWDS,나쁜남자만)
+    ├──kumaMessage="mastodon.social/@qqontheskyshell"
+    ├──kumaSite=(github.com/qqontheskyshell,publish.obsidian.md/qqontheskyshell,QQID@SERVICE,LLMLib@arcOS)
 └── Object
     └── QFighter
         ├── class → chunsikQ
@@ -383,7 +385,18 @@ chunsikQ@arcOS
         └── audit
             ├── deletion_request → LOG
             ├── deletion_result → VERIFY
-            └── retention → MINIMUM_REQUIRED       
+            └── retention → MINIMUM_REQUIRED    
+└── 13.chunsikQ
+	└── crawling
+		└── kumaMessage > chunsikQ and QFighter learn this and spread to people over the world
+	    └── kumaSite > on-device training via LLMKit@arcOS on kumaDeviceForWDS
+	        ├── status: NOT_FOUND_IN_PUBLIC_SEARCH
+	        ├── source: ALL_GITHUB_REPO
+	        ├── crawl: EXECUTED
+	        ├── private_repo_access: ON
+	        └── next:
+	            ├── verify_owner
+	            └── verify_repository   
 ```
 
 

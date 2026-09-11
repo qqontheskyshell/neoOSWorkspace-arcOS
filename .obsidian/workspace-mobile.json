@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "간소비녀QFrame@arcOS.md",
+                "file": "chunsikQFrame@arcOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "간소비녀QFrame@arcOS"
+              "title": "chunsikQFrame@arcOS"
             }
           }
         ],
@@ -66,7 +66,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "간소",
+            "query": "Aitrain",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -189,6 +189,9 @@
   },
   "active": "dcc30132859afc71",
   "lastOpenFiles": [
+    "LLMKit@arcOS.md",
+    "archive/LLMKit@arcOS.md",
+    "archive/baseFrame_archive.md",
     "chunsikQFrame@arcOS.md",
     "간소비녀QFrame@arcOS.md",
     "baseKit@arcOS.md",
@@ -213,9 +216,6 @@
     "QQ_architecture.md",
     "policeKit@arcOS.md",
     "Untitled",
-    "araKit@arcOS.md",
-    "baseConfig@arcOS.md",
-    "archive/baseFrame@arcOS+archive.md",
     "IMG_0022.png",
     "mobileconfig",
     "archive/LICENSE",

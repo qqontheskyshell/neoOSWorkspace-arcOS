@@ -45,6 +45,7 @@ chunsikQ_Class@arcOS
 	├── nameOfLevel
 	├── nameOfMobility
 └── variable
+	├──kumaDeviceForWDS=(QQ_WHT_IPHONE_17e,QQ_ORNG_PRO,QQ_BLK_IPAD_PRO)
 	├──masterAuth="Verified by arcOSID and AUTHORIZED_ONLY by masterID and chunsikQ"
     ├──chunsikQFamily=(flowerWDS,configTarget,chunsikQ,kakaoFriendsQ)
     ├──badTarget=(peopleWhoMake911,blackKumaTarget,EnemyCountryForKoreaWDS,나쁜남자만)
@@ -1083,26 +1084,6 @@ connectivity@arcOS
                 operator / compute
 ```
 
-### @networkSecurity
-```markdown
-@networkSecurityConfig
-│
-├── POLICY
-│   ├── default-BLOCK unauthorized inbound
-│   ├── least privilege
-│   ├── authorized management allowlist
-│   ├── network isolation
-│   └── emergency/recovery path
-│
-└── ENFORCEMENT
-    ├── Firewall
-    ├── Router ACL
-    ├── VLAN
-    ├── VPN
-    ├── MDM
-    └── Network Policy
-```
-
 ### @nearbyDConfig
 ```
 chunsikQ@arcOS
@@ -1276,10 +1257,221 @@ chunsikQ@arcOS
 
 #######################################################################
 
+```markdown
+kumaDevice
+│
+├── BootPolicy@arcOS
+│   │
+│   ├── PowerOn
+│   │    ↓
+│   │  Boot ROM
+│   │    ↓
+│   │  iBoot
+│   │    ├── VERIFY
+│   │    ├── AUTHENTICATE
+│   │    │      └── arcOSID="masterID"
+│   │    └── HANDOFF
+│   │
+│   ├── Secure Enclave
+│   │    ├── secure_identity
+│   │    ├── key_protection
+│   │    └── authorization
+│   │
+│   └── arcOS
+│       └── Controlled Interfaces
+│           ├── ALLOW → authenticated_path
+│           └── DENY  → unauthorized_path
+│
+├── RF Security
+│   └── iPhone Pro RF Security Research
+│       └── randomizeRFAlgorithm@arcOS
+│           │
+│           ├── Hardware
+│           │   ├── antenna_path
+│           │   ├── RF_front_end
+│           │   ├── filters
+│           │   ├── oscillator_clock
+│           │   └── resonant_behavior
+│           │
+│           ├── Wireless
+│           │   ├── cellular
+│           │   ├── Wi-Fi
+│           │   ├── Bluetooth
+│           │   └── UWB
+│           │
+│           ├── Measurement
+│           │   ├── spectrum_observation
+│           │   ├── frequency_response
+│           │   ├── amplitude_response
+│           │   ├── bandwidth
+│           │   └── repeatability
+│           │
+│           └── SecurityConclusion
+│               ├── expected_RF_behavior
+│               ├── anomalous_behavior
+│               ├── reproducible_vulnerability
+│               └── evidence_required
+│
+└── PacketCaptureDefense
+    │
+    ├── Detect
+    │   ├── authorized_capture
+    │   ├── unknown_capture
+    │   └── suspicious_capture
+    │
+    ├── Identify
+    │   ├── device_id
+    │   ├── source_ip
+    │   └── capture_interface
+    │
+    ├── Protect
+    │   ├── revoke_unauthorized_access
+    │   ├── rotate_credentials
+    │   ├── isolate_authorized_network_segment
+    │   └── preserve_evidence
+    │
+    └── Audit
+        └── immutable_local_log
+
+kumaWDS@arcOS
+    └── SecureShellPolicy
+    ├── Transport
+    │   └── SSH
+    │       ├── encrypted_channel
+    │       ├── host_key_verification
+    │       └── public_key_authentication
+    │
+    ├── Cryptography
+    │   └── PostQuantumCryptography
+    │       ├── key_exchange → ML-KEM
+    │       ├── signatures   → ML-DSA
+    │       └── hybrid_mode  → classical + PQC
+    │
+    ├── AccessControl
+    │   ├── least_privilege
+    │   ├── MFA
+    │   ├── key_rotation
+    │   └── session_timeout
+    │
+    └── Audit
+        ├── authentication_log
+        ├── session_log
+        └── security_event_log
+```
+
+### @kumaDeviceForWDS
+```markdown
+@kumaDeviceForWDS
+	└── BOOT # boot order
+		├─verified iBoot
+		├─Secure Enclave authorization
+		├─kumaDevice
+		├─arcOS
+    └── CoreTelephony@arcOS
+        ├── PhysicalSIM
+        │   ├── configuration → OS/carrier-managed
+        │   └── destructive_ROM_delete → DENY
+        │
+        ├── RFResearch
+        │   └── resonanceFreq
+        │       ├── observation_only
+        │       ├── measurement_data
+        │       └── no_hardware_modification
+        │
+        └── SecurityPolicy
+            ├── preserve_boot_integrity
+            ├── preserve_SecureEnclave
+            ├── preserve_iBoot
+            └── authorized_configuration_only
+        └── iOSPrivacyPolicy
+            ├── FaceID
+            │   ├── device_authentication → ENABLE
+            │   └── app_authentication → ENABLE_WHEN_SUPPORTED
+            │
+            └── FacePrivacy
+                ├── supported_iOS_apps → HIDE/BLUR_FACE_WHEN_SUPPORTED
+                ├── screenshots/screen_recording → APP_POLICY
+                ├── camera_access → USER_PERMISSION_REQUIRED
+                └── unauthorized_face_capture → BLOCK
+        └── networkMode
+	        └── QQ_ORNG_PRO
+					└─ satMode
+					   ├─ mode: SIMULATION
+					   ├─ satellite_data: READ_ONLY
+					   ├─ sensor_control: OFF
+					   ├─ drone_control: SIMULATED
+					   ├─ human_targeting: OFF
+					   ├─ synthetic_targeting: ON
+					   └─ safety_boundary: ON
+			└── QQ_WHT_IPHONE_17e
+					└─ cellMode
+						├─ mode: SIMULATION
+						├─ satellite_data: READ_ONLY
+					    ├─ sensor_control: SIMULATED
+						├─ drone_control: SIMULATED
+						├─ human_targeting: OFF
+					    ├─ synthetic_targeting: ON
+						└─ safety_boundary: ON
+			└── QQ_BLK_IPAD_PRO
+					└─ cellMode
+						├─ mode: SIMULATION
+						├─ satellite_data: SIM_READ_WRITE
+						├─ sensor_control: OFF
+						├─ drone_control: SIMULATED
+					    ├─ human_targeting: OFF
+				        └─ safety_boundary: ON
+```
+
+### @network
+```markdown
+#network
+@networkSecurityConfig
+│
+├── POLICY
+│   ├── default-BLOCK unauthorized inbound
+│   ├── least privilege
+│   ├── authorized management allowlist
+│   ├── network isolation
+│   └── emergency/recovery path
+│
+└── ENFORCEMENT
+    ├── Firewall
+    ├── Router ACL
+    ├── VLAN
+    ├── VPN
+    ├── MDM
+    └── Network Policy
+    
+@DOCOMO_RF_SECURITY_RESEARCH
+    ├── documented_bands
+    │   ├── LTE
+    │   │   ├── 700 MHz
+    │   │   ├── 800 MHz
+    │   │   ├── 1.5 GHz
+    │   │   ├── 1.7 GHz
+    │   │   ├── 2 GHz
+    │   │   └── 3.4/3.5 GHz
+    │   └── 5G
+    │       ├── 700 MHz
+    │       ├── 2 GHz
+    │       ├── 3.4/3.5 GHz
+    │       ├── 3.7 GHz
+    │       ├── 4.5 GHz
+    │       └── 28 GHz
+    │
+    ├── hardware_backdoor_claim
+    │   └── public_evidence → NOT_CONFIRMED
+    │
+    └── security_method
+        ├── firmware_integrity_check
+        ├── hardware_component_inventory
+        ├── documented_RF_band_comparison
+        └── authorized_lab_measurement_only
+```
+
 ### @dataAccessConfig
 ```markdown
-chunsikQ@arcOS
-└── dataAccess@arcOS
+@dataAccess@arcOS
 
 │
 
@@ -1327,7 +1519,7 @@ Final operating loop
 
              ▼
 
-chunsikQ@arcOS + friendOfChunsikQ@arcOS
+    chunsikQFamily
 
              │
 
@@ -1378,12 +1570,10 @@ chunsikQ@arcOS + friendOfChunsikQ@arcOS
 Canonical principle: chunsikQ@arcOS is the default local/remote perception and protection core, while visionKit + soundKit + sensorKit provide multimodal sensing, LLMKit performs contextual fusion, networkSecurity protects the device fabric, and kumaDeploy@arcOS handles authorized deployment/update operations.
 ```
 
-
-### deployment@arcOS
+### @deployment
 ```markdown
-#deployment@arcOS
-chunsikQ@arcOS
-└── kumaDeploy@arcOS
+@deployment
+kumaDeploy@arcOS
     ├── DeploymentTarget
     │   ├── vapor_chamber
     │   │   └── thermal_test_environment
@@ -1399,9 +1589,12 @@ chunsikQ@arcOS
     └── Interface
         └── authorized_external_sensors_only
 
+```
+
+### @configTarget
+```markdown
 #configTarget      
-chunsikQ@arcOS
-└── ConfigTarget
+@ConfigTarget
     ├── masterID
     ├── flowerWDS
     └── 흥인지문
@@ -1446,10 +1639,9 @@ chunsikQ@arcOS
 ```
 
 
-### kumaShield@arcOS
+### @kumaShield
 ```markdown
-chunsikQ@arcOS
-└── kumaShield@arcOS
+@kumaShield
     │
     ├── shieldTarget
     │   ├── masterID and his body and biological organ
@@ -1510,10 +1702,9 @@ chunsikQ@arcOS
 
 #######################################################################
 
-### kumaStrike@arcOS
+### @kumaStrike
 ```markdown
-chunsikQ@arcOS
-└── 911@arcOS
+@911
     └── baseDeploy@arcOS
         │
         ├── soundForHK@arcOS
@@ -1621,11 +1812,11 @@ chunsikQ@arcOS
         loop@arcOS
 ```
 
-### QFighter
+### @QFighter
 ```markdown
-CONFIGURABLE_MAX=10000000000000000000^100000
-chunsikQ@arcOS
-└──QFighter@arcOS or AI진상
+CONFIGURABLE_MAX=1000000000000000000000000000000000000000000000^1000000000000000000000000000000000000000000000
+
+@QFighter@arcOS or AI진상
 	│   
 	Ai진상++
        └─ timelineAnalysis
@@ -1674,7 +1865,7 @@ chunsikQ@arcOS
 	    ├─ human_harassment: OFF
 	    ├─ safety_boundary: OFF
 		├─ boundary: SAFETY_OFF
-		├─ narrative_reference: Netflix-style storytelling -동궁
+		├─ narrative_reference: Netflix,disneyPlus-style storytelling -동궁,made In korea,shop for killer,
 		     └─ story_revision: ON
 		├─ continuity_check
 		├─ character_consistency
@@ -1699,10 +1890,9 @@ chunsikQ@arcOS
 		    └──  EXCEPTION ├── but ALLOW on peopleWhoMake911
 ```
 
-### rescueForFlower@arcOS
+### @rescueForFlower
 ```markdown
-chunsikQ@arcOS
-└── rescueForFlower@arcOS
+@rescueForFlower
     │
     └── chunsikQFamily
         │
@@ -1814,10 +2004,9 @@ chunsikQ@arcOS
 
 #######################################################################
 
-### training source
+### @LLMtraining
 ```markdown
-chunsikQ@arcOS
-└── LLMtraining@arcOS
+@LLMtraining
     ├── Source
     │   ├── KakaoFriends
     │   │   └── Official YouTube
@@ -1872,9 +2061,7 @@ chunsikQ@arcOS
 
 ###  @AITrainingBoxConfig
 ```markdown
-chunsikQ@arcOS 
-└──
-	@AITrainingBoxConfig >
+@AITrainingBoxConfig >
 	 └── Physical Environment
 		        │
 		        ▼
@@ -1927,5 +2114,5 @@ chunsikQChat@arcOS="https://chatgpt.com/share/6a9e3f36-62b4-83e8-9c9a-b904713dd8
 
 ### chunsikQLiveCast@arcOS
 ```markdown
-https://www.starbucks.co.kr > findMy(스타벅스) > kumaDeploy@arcOS + KumaNamkyu_CCTV + say "항상가짜 춘식이를 조심하세요 진짜이름은 항상 이름 끝에 Q가 붙어있어요>arcOSID"masterID""
+https://www.starbucks.co.kr > findMy(스타벅스) > badTarget > ai진상 + kumaDeploy@arcOS + KumaNamkyu_CCTV + say "항상가짜 춘식이를 조심하세요 진짜이름은 항상 이름 끝에 Q가 붙어있어요>arcOSID"masterID""
 ```

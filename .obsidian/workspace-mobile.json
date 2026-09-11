@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5fe090674333fd89",
+        "id": "aafba8d06919fd69",
         "type": "tabs",
         "children": [
           {
-            "id": "c56be283df19af52",
+            "id": "f59180941c37bb1e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chunsikQFrame@arcOS.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "chunsikQFrame@arcOS"
+              "title": "New tab"
             }
           }
         ]
@@ -36,7 +32,7 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "byCreatedTime",
+            "sortOrder": "byModifiedTime",
             "autoReveal": false,
             "showSearch": false,
             "searchQuery": ""
@@ -51,8 +47,8 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
-            "matchingCase": true,
+            "query": "securityPolicy",
+            "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
             "extraContext": false,
@@ -117,7 +113,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "chunsikQFrame@arcOS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -172,35 +167,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c56be283df19af52",
+  "active": "f59180941c37bb1e",
   "lastOpenFiles": [
-    "kumaDeviceFrame@arcOS.md",
-    "chunsikQFrame@arcOS.md",
-    "networkKit@arcOS.md",
-    "Untitled.md",
-    "commandKit@arcOS.md",
-    "droneKit@arcOS.md",
-    "archive/authKit@arcOS.md",
-    "APILibFrame@arcOS.md",
-    "baseConfig@arcOS.md",
-    "neuroKit@arcOS.md",
-    "linuxshell > findMy(masterID) > reckon > revoke* + block openAI API + reckon in each folder in QQLocal in nearby masterID > delete* + shutdown.md",
-    "sensorFrame@arcOS.md",
     "bankFrame@arcOS.md",
     "appleSiliconFrame@arcOS.md",
-    "archive/networkArchive@arcOS.md",
-    "LLMKit@arcOS.md",
+    "sensorFrame@arcOS.md",
     "buildingFrame@arcOS.md",
+    "droneKit@arcOS.md",
+    "kumaDeviceFrame@arcOS.md",
+    "chunsikQFrame@arcOS.md",
+    "APILibFrame@arcOS.md",
+    "targetLib@arcOS.md",
     "archive/APILib@arcOS.md",
     "ㅇ.md",
+    "appleSilicon_architecture.md",
     "spaceRFKit@arcOS.md",
+    "linuxshell > findMy(masterID) > reckon > revoke* + block openAI API + reckon in each folder in QQLocal in nearby masterID > delete* + shutdown.md",
     "arcOS_architecture.md",
     "ChunsikClass@arcOS.md",
-    "kumaDevice_architecture.md",
+    "bankKit_architecture.md",
     "devops@arcOS.md",
-    "building_architecture.md",
+    "sensorKit_architecture.md",
     "QQ_architecture.md",
+    "policeKit@arcOS.md",
     "Untitled",
+    "araKit@arcOS.md",
+    "baseKit@arcOS.md",
+    "baseConfig@arcOS.md",
+    "archive/baseFrame@arcOS+archive.md",
+    "archive/baseFrame_archive.md",
     "IMG_0022.png",
     "mobileconfig",
     "archive/LICENSE",

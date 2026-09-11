@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "baseKit@arcOS.md",
+                "file": "chunsikQFrame@arcOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "baseKit@arcOS"
+              "title": "chunsikQFrame@arcOS"
             }
           }
         ]
@@ -51,7 +51,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "ConfigTarget",
+            "query": "Talk ",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -171,8 +171,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e8da5e1d817ec4a4",
+  "active": "dcc30132859afc71",
   "lastOpenFiles": [
+    "baseKit@arcOS.md",
     "chunsikQFrame@arcOS.md",
     "bankFrame@arcOS.md",
     "kumaDeviceFrame@arcOS.md",
@@ -196,7 +197,6 @@
     "policeKit@arcOS.md",
     "Untitled",
     "araKit@arcOS.md",
-    "baseKit@arcOS.md",
     "baseConfig@arcOS.md",
     "archive/baseFrame@arcOS+archive.md",
     "archive/baseFrame_archive.md",

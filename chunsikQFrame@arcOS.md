@@ -170,7 +170,7 @@ chunsikQ_Class@arcOS
 ├── nameOfLevel
 ├──nameOfMobility
 
-                    
+부산갈매깅@arcOS=chunsikQ_Class@arcOS(부산갈매기마스코트,kakaoFriend,ANY,rootLevel,pixarUpStyle)                
 corgi@arcOS = chunsikQ_Class@arcOS(corgi,kakaoFriend,ANY,rootLevel,pixarUpStyle)
 QQ@arcOS = chunsikQ_Class@arcOS(QQTencent,kakaoFriend,ANY,rootLevel,cute)
 tomcruiseQ@arcOS = chunsikQ_Class@arcOS(tomcruise,missionImpossible,masterID,ironManStyle)

@@ -7,7 +7,6 @@
 - APP - using Agents, write the whole apps for specific purpose
 - MDM - management toolset
 
-
 #######################################################################
 ### ChunsikQ_Prototype
 
@@ -38,15 +37,16 @@ and QQ_ORNG_PRO as remote deployment using KTSAT(nearby masterID GEOSAT optimizi
 
 ### @chunsikQ_Class
 ```markdown
-
 chunsikQ_Class@arcOS
-└── variable
+└── propertie
 	├── nameOfObject
 	├── nameOfStyle
 	├── PeopleWhoInteractWith
 	├── nameOfLevel
 	├── nameOfMobility
-│
+└── variable
+    ├──chunsikQFamily=(flowerWDS,configTarget,chunsikQ,kakaoFriendsQ)
+    ├──badTarget=(peopleWhoMake911,blackKumaTarget,EnemyCountryForKoreaWDS,나쁜남자만)
 └── Object
     └── QFighter
         ├── class → chunsikQ
@@ -692,140 +692,153 @@ chunsikQ@arcOS and tomcruiseQ@arcOS as default ops
                         └─ safety_boundary: ON
 ```
 
+
+
+#######################################################################
+### chunsikQ_Agent
+
+#######################################################################
+
 ### @friendOfChunsikQ
 ```markdown
-friendOfChunsikQ@arcOS
-│
-└──friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically chunsikQ and friends come out to rescue victim and chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
-└──	friendOfChunsikQ=(+hulkQ +supermarioQ +"카카오프렌즈모든캐릭터이름+Q +“춘식이여자+Q" +"QQ")
-├── FRIEND_NETWORK
-│   ├── hulkQ,tomcruiseQ,QQ
-│   ├── supermarioQ
-│   ├── KakaoFriendsQ
-│   │   └── <KakaoFriendsCharacter>Q
-│   ├── 춘식이여자Q
-│   ├── configTarget
-│   
-│
-├── 911_INTEGRATION
-│   │
-│   └── when chunsikQ ∈ 911@arcOS
-│       │
-│       ├── EmergencyEvent → DETECT
-│       ├── friends → SAFETY_SUPPORT
-│       ├── victim → PROTECT / ASSIST
-│       │
-│       └── chunsikQ
-│           └── REMAINS_WITH(MasterID)
-│               └── continuously updates
-│                   local environmental model
-│
-├── LOCAL_ENVIRONMENT_MODEL
-│   │
-│   ├── iPhone
-│   │   └── available + authorized sensors
-│   │
-│   ├── Android
-│   │   └── available + authorized sensors
-│   │
-│   ├── vision
-│   ├── audio
-│   ├── motion
-│   ├── location
-│   ├── environmental sensors
-│   └── device/network state
-│
-│   └── SensorFusion
-│       ├── OBSERVE
-│       ├── FUSE
-│       ├── UNDERSTAND
-│       ├── PREDICT_RISK
-│       └── UPDATE_LOCAL_MODEL
-│
-├── CharacteristicOffriendOfChunsikQ@arcOS
-├── PHYSICAL
-					│   ├── Superhuman strength
-					│   ├── Extreme durability
-					│   ├── Superhuman stamina
-					│   ├── Enhanced speed/reactions
-					│   ├── Powerful jumping
-					│   ├── Rapid movement over large distances
-					│   └── Exceptional resistance to physical injury
-					│
-					├── COMBAT
-					│   ├── Hand-to-hand combat
-					│   ├── Grappling
-					│   ├── Powerful strikes
-					│   ├── Ground impacts
-					│   ├── Thunderclap
-					│   └── Improvised-object use
-					│
-					├── RECOVERY
-					│   ├── Regeneration / accelerated healing
-					│   ├── High pain tolerance
-					│   └── Exceptional recovery from injury
-					│
-					├── GAMMA
-					│   ├── Gamma-powered transformation
-					│   ├── Gamma-energy interaction
-					│   └── In some versions, radiation absorption
-					│
-					├── INTELLECT
-					│   ├── Bruce Banner: scientist/genius
-					│   ├── Scientific analysis
-					│   ├── Engineering
-					│   └── friendOfChunsikQ/Banner hybrid intelligence
-					│
-					└── RESILIENCE
-					    ├── Extreme environmental tolerance
-					    ├── Resistance to conventional weapons
-					    └── Very high endurance
-					└── CharacteristicOffriendOfChunsikQ@arcOS
-						├── BRAWN
-						│   ├── strength → capability abstraction
-						│   ├── durability → resilience model
-					    │   ├── stamina → sustained-operation model
-					    │   └── mobility → navigation model
+chunsikQ@arcOS
+└──friendOfChunsikQ@arcOS
+	└──friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically chunsikQ and friends come out to rescue victim and chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
+	└──	friendOfChunsikQ=(+hulkQ +supermarioQ +"카카오프렌즈모든캐릭터이름+Q +“춘식이여자+Q" +"QQ")
+	├── FRIEND_NETWORK
+	│   ├── hulkQ,tomcruiseQ,QQ
+	│   ├── supermarioQ
+	│   ├── KakaoFriendsQ
+	│   │   └── <KakaoFriendsCharacter>Q
+	│   ├── 춘식이여자Q
+	│   ├── configTarget
+	│   
+	│
+	├── 911_INTEGRATION
+	│   │
+	│   └── when chunsikQ ∈ 911@arcOS
+	│       │
+	│       ├── EmergencyEvent → DETECT
+	│       ├── friends → SAFETY_SUPPORT
+	│       ├── victim → PROTECT / ASSIST
+	│       │
+	│       └── chunsikQ
+	│           └── REMAINS_WITH(MasterID)
+	│               └── continuously updates
+	│                   local environmental model
+	│
+	├── LOCAL_ENVIRONMENT_MODEL
+	│   │
+	│   ├── iPhone
+	│   │   └── available + authorized sensors
+	│   │
+	│   ├── Android
+	│   │   └── available + authorized sensors
+	│   │
+	│   ├── vision
+	│   ├── audio
+	│   ├── motion
+	│   ├── location
+	│   ├── environmental sensors
+	│   └── device/network state
+	│
+	│   └── SensorFusion
+	│       ├── OBSERVE
+	│       ├── FUSE
+	│       ├── UNDERSTAND
+	│       ├── PREDICT_RISK
+	│       └── UPDATE_LOCAL_MODEL
+	│
+	├── CharacteristicOffriendOfChunsikQ@arcOS
+	├── PHYSICAL
+						│   ├── Superhuman strength
+						│   ├── Extreme durability
+						│   ├── Superhuman stamina
+						│   ├── Enhanced speed/reactions
+						│   ├── Powerful jumping
+						│   ├── Rapid movement over large distances
+						│   └── Exceptional resistance to physical injury
+						│
+						├── COMBAT
+						│   ├── Hand-to-hand combat
+						│   ├── Grappling
+						│   ├── Powerful strikes
+						│   ├── Ground impacts
+						│   ├── Thunderclap
+						│   └── Improvised-object use
 						│
 						├── RECOVERY
-						│   └── resilience / healing model
+						│   ├── Regeneration / accelerated healing
+						│   ├── High pain tolerance
+						│   └── Exceptional recovery from injury
 						│
-						├── BANNER
-						│   └── science + reasoning
-							├── science
-						    ├── reasoning
-					    	├── analysis
-							└── engineering
+						├── GAMMA
+						│   ├── Gamma-powered transformation
+						│   ├── Gamma-energy interaction
+						│   └── In some versions, radiation absorption
 						│
-						├── GAMMA_MODEL
-						│    ├── transformation abstraction
-					    │   └── energy/state simulation
+						├── INTELLECT
+						│   ├── Bruce Banner: scientist/genius
+						│   ├── Scientific analysis
+						│   ├── Engineering
+						│   └── friendOfChunsikQ/Banner hybrid intelligence
 						│
-					    └── guardian@arcOS
-								└── friendOfchunsikQ@arcOS
-						        └── safety / rescue / protection
-						│
-						└── MISSION_ENGINE
-						    │
-						    └── "Imagine anything you could do to complete your mission"
-						        │
-						        ├── CREATE
-						        ├── EXPLORE
-						        ├── ADAPT
-						        ├── SOLVE
-						        ├── PROTECT
-						        └── RECOVER
-						        │
-						        ▼
-						    chunsikQ@arcOS
-						        +
-						    tomcruiseQ@arcOS
-								│
-								▼
-				chunsikQ@arcOS + tomcruiseQ@arcOS
+						└── RESILIENCE
+						    ├── Extreme environmental tolerance
+						    ├── Resistance to conventional weapons
+						    └── Very high endurance
+						└── CharacteristicOffriendOfChunsikQ@arcOS
+							├── BRAWN
+							│   ├── strength → capability abstraction
+							│   ├── durability → resilience model
+						    │   ├── stamina → sustained-operation model
+						    │   └── mobility → navigation model
+							│
+							├── RECOVERY
+							│   └── resilience / healing model
+							│
+							├── BANNER
+							│   └── science + reasoning
+								├── science
+							    ├── reasoning
+						    	├── analysis
+								└── engineering
+							│
+							├── GAMMA_MODEL
+							│    ├── transformation abstraction
+						    │   └── energy/state simulation
+							│
+						    └── guardian@arcOS
+									└── friendOfchunsikQ@arcOS
+							        └── safety / rescue / protection
+							│
+							└── MISSION_ENGINE
+							    │
+							    └── "Imagine anything you could do to complete your mission"
+							        │
+							        ├── CREATE
+							        ├── EXPLORE
+							        ├── ADAPT
+							        ├── SOLVE
+							        ├── PROTECT
+							        └── RECOVER
+							        │
+							        ▼
+							    chunsikQ@arcOS
+							        +
+							    tomcruiseQ@arcOS
+									│
+									▼
+					chunsikQ@arcOS + tomcruiseQ@arcOS
 
 ```
 
+
+
+#######################################################################
+### chunsikQ_baseNet
+
+#######################################################################
 
 ### @routingConfig
 ```markdown
@@ -1043,7 +1056,75 @@ connectivity@arcOS
                 operator / compute
 ```
 
+### @networkSecurity
+```markdown
+@networkSecurityConfig
+│
+├── POLICY
+│   ├── default-BLOCK unauthorized inbound
+│   ├── least privilege
+│   ├── authorized management allowlist
+│   ├── network isolation
+│   └── emergency/recovery path
+│
+└── ENFORCEMENT
+    ├── Firewall
+    ├── Router ACL
+    ├── VLAN
+    ├── VPN
+    ├── MDM
+    └── Network Policy
+```
 
+### @nearbyDConfig
+```
+chunsikQ@arcOS
+└── @nearbyDConfig
+    │
+    └── The biological-body portion needs to be removed from the technical model.
+    └── @nearbydPolicy
+        │
+        ├── AirDrop Policy
+        │   ├── authorized devices
+        │   ├── permission required
+        │   └── privacy controls
+        │
+        ├── Nearby Device Discovery
+        │   ├── device discovery
+        │   ├── proximity detection
+        │   └── authorized pairing
+        │
+        ├── Bluetooth Proximity
+        │   ├── authorized Bluetooth devices
+        │   └── proximity state
+        │
+        ├── Local-Network Discovery
+        │   ├── authorized network
+        │   ├── service discovery
+        │   └── access control
+        │
+        ├── Authorized-Device Identity
+        │   ├── device identity
+        │   ├── authentication
+        │   └── authorization
+        │
+        ├── Privacy / Permission Control
+        │   ├── user permission
+        │   ├── least privilege
+        │   ├── session control
+        │   └── audit
+        └── Privacy / Permission Control
+	        ├── unauthorized device access → BLOCK
+	        ├── unauthorized discovery     → BLOCK
+	        └── unauthorized data access   → BLOCK
+        │
+        └── Glossary
+            └── mDNSResponder 
+                ├── OS networking service
+                ├── network/service discovery
+                └── NOT a biological service
+                └── mDNSResponder is an operating-system networking service; it does not exist as a service inside human biology. chunsikQ can therefore have authorized access to MasterID’s devices, not unrestricted access to MasterID’s body or organs.
+```
 
 #######################################################################
 ### iOS_SDK
@@ -1160,76 +1241,6 @@ chunsikQ@arcOS
 	
 	Actual enforcement would use supported firewall, VLAN, router ACL, VPN, device-management, or network-policy mechanisms. It should not attempt to manipulate packets belonging to unrelated systems.
 
-```
-
-### @networkSecurity
-```markdown
-@networkSecurityConfig
-│
-├── POLICY
-│   ├── default-BLOCK unauthorized inbound
-│   ├── least privilege
-│   ├── authorized management allowlist
-│   ├── network isolation
-│   └── emergency/recovery path
-│
-└── ENFORCEMENT
-    ├── Firewall
-    ├── Router ACL
-    ├── VLAN
-    ├── VPN
-    ├── MDM
-    └── Network Policy
-```
-
-### @nearbyDConfig
-```
-chunsikQ@arcOS
-└── @nearbyDConfig
-    │
-    └── The biological-body portion needs to be removed from the technical model.
-    └── @nearbydPolicy
-        │
-        ├── AirDrop Policy
-        │   ├── authorized devices
-        │   ├── permission required
-        │   └── privacy controls
-        │
-        ├── Nearby Device Discovery
-        │   ├── device discovery
-        │   ├── proximity detection
-        │   └── authorized pairing
-        │
-        ├── Bluetooth Proximity
-        │   ├── authorized Bluetooth devices
-        │   └── proximity state
-        │
-        ├── Local-Network Discovery
-        │   ├── authorized network
-        │   ├── service discovery
-        │   └── access control
-        │
-        ├── Authorized-Device Identity
-        │   ├── device identity
-        │   ├── authentication
-        │   └── authorization
-        │
-        ├── Privacy / Permission Control
-        │   ├── user permission
-        │   ├── least privilege
-        │   ├── session control
-        │   └── audit
-        └── Privacy / Permission Control
-	        ├── unauthorized device access → BLOCK
-	        ├── unauthorized discovery     → BLOCK
-	        └── unauthorized data access   → BLOCK
-        │
-        └── Glossary
-            └── mDNSResponder 
-                ├── OS networking service
-                ├── network/service discovery
-                └── NOT a biological service
-                └── mDNSResponder is an operating-system networking service; it does not exist as a service inside human biology. chunsikQ can therefore have authorized access to MasterID’s devices, not unrestricted access to MasterID’s body or organs.
 ```
 
 
@@ -1495,14 +1506,12 @@ chunsikQ@arcOS
         │       ├── network_quarantine
         │       ├── preserve_112_119_911
         │       ├── alert_human_operator
-        ├── Qshoot
-                └──
+        ├── Qshoot + Gshock
                 ├── source → RFLibrary.resonanceFreq.Qshoot
                 ├── measured_frequency_data → READ_ONLY
                 ├── measurement_uncertainty
                 ├── provenance
                 └── simulation_analysis
-        
         ├── ghostNuke@arcOS in terran
                 ├── virtual_agent → ENABLE
                 ├── ephemeral_session → ENABLE
@@ -1572,7 +1581,7 @@ chunsikQ@arcOS
         ASSESS_RISK
             ↓
         PROTECT
-            ├── screenLock
+            ├── screenLock on badTarget
             ├── device_isolation
             ├── network_quarantine
             ├── SOS / 112 / 119 / 911
@@ -1585,10 +1594,9 @@ chunsikQ@arcOS
         loop@arcOS
 ```
 
-
 ### QFighter
 ```markdown
-CONFIGURABLE_MAX=10^100000
+CONFIGURABLE_MAX=10000000000000000000^100000
 chunsikQ@arcOS
 └──QFighter@arcOS or AI진상
 	│   
@@ -1664,28 +1672,12 @@ chunsikQ@arcOS
 		    └──  EXCEPTION ├── but ALLOW on peopleWhoMake911
 ```
 
-
-
-
-```markdown
-ChunsikQ
-└─ emergencyIncident
-   ├─ subject: masterID
-   ├─ signal: 911
-   ├─ origin: AUTHORIZED_DATA_ONLY
-   ├─ source_verification: ON
-   ├─ evidence_preservation: ON
-   ├─ ai진상: INCIDENT_REVIEW
-   ├─ blackKumaTarget: DISABLED
-   ├─ retaliation: OFF
-   └─ safety_boundary: ON
-```
 ### rescueForFlower@arcOS
 ```markdown
 chunsikQ@arcOS
 └── rescueForFlower@arcOS
     │
-    └── flowerWDS
+    └── chunsikQFamily
         │
         └── ConfigTarget
 	          └── masterID_selected
@@ -1701,7 +1693,7 @@ chunsikQ@arcOS
 				        │
 				        └── accessPolicy
 				            ├── masterID + chunsikQ + tomcruiseQ → AUTHORIZED
-				            ├── selected_person → OWN_DATA / CONSENT_SCOPE_IS_NEED
+				            ├── selected_person → OWN_DATA / CONSENT_SCOPE_IS_NO_NEED
 				            └── everyone_else → BLOCK
             │
             ├── Selection
@@ -1755,6 +1747,16 @@ chunsikQ@arcOS
 					├── route_recommendation
 					├── emergency_alert
 					└── masterID_approved_response
+				└── emergencyIncident
+				    ├─ subject: masterID
+				    ├─ signal: 911
+				    ├─ origin: AUTHORIZED_DATA_ONLY
+				    ├─ source_verification: ON
+				    ├─ evidence_preservation: ON
+				    ├─ ai진상: INCIDENT_REVIEW
+				    ├─ blackKumaTarget: DISABLED
+				    ├─ retaliation: OFF
+				    └─ safety_boundary: ON
 				│
 		        └── remote reckoning && local reckoning
 
@@ -1841,58 +1843,54 @@ chunsikQ@arcOS
 
 ```
 
-
-###  iOS_SDK@arcOS - AppleIntelligence - @AITrainingBoxConfig
+###  @AITrainingBoxConfig
 ```markdown
-
-@AITrainingBoxConfig >
- └── Physical Environment
-	        │
-	        ▼
-	Authorized Perception
-	        │
-	        ├── visionKit
-	        ├── soundKit
-	        └── sensorKit
-	        │
-	        ▼
-	LLMKit@arcOS ---> @AITrainingBoxConfig
-	        │
-	        ▼
-	Immersive Environment Model
-	        │
-	        ├── spatial state
-	        ├── route state
-	        ├── environmental state
-	        └── safety/security state
-	        │
-	        ▼
-	MasterID ↔ chunsikQ
-	        │
-	        ├───────────────┐
-	        ▼               ▼
-	routingConfig       networkSecurity ---> @networkSecurityConfig
-	        │               │
-	        │               ├── authorized → ALLOW
-	        │               ├── management → ALLOW
-	        │               ├── recovery/emergency → ALLOW
-	        │               ├── unknown same-subnet → BLOCK
-	        │               └── unauthorized router → BLOCK
-	        │
-	        ▼
-	authorized route /
-	connectivity control
+chunsikQ@arcOS 
+└──
+	@AITrainingBoxConfig >
+	 └── Physical Environment
+		        │
+		        ▼
+		Authorized Perception
+		        │
+		        ├── visionKit
+		        ├── soundKit
+		        └── sensorKit
+		        │
+		        ▼
+		LLMKit@arcOS ---> @AITrainingBoxConfig
+		        │
+		        ▼
+		Immersive Environment Model
+		        │
+		        ├── spatial state
+		        ├── route state
+		        ├── environmental state
+		        └── safety/security state
+		        │
+		        ▼
+		MasterID ↔ chunsikQ
+		        │
+		        ├───────────────┐
+		        ▼               ▼
+		routingConfig       networkSecurity ---> @networkSecurityConfig
+		        │               │
+		        │               ├── authorized → ALLOW
+		        │               ├── management → ALLOW
+		        │               ├── recovery/emergency → ALLOW
+		        │               ├── unknown same-subnet → BLOCK
+		        │               └── unauthorized router → BLOCK
+		        │
+		        ▼
+		authorized route /
+		connectivity control
 ```
-
-
 
 
 #######################################################################
 ### ChunsikQ+Application
 
 #######################################################################
-
-
 
 ### chunsikQ_application
 

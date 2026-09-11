@@ -79,6 +79,18 @@ arcOS Architecture
         ├── monitoring
         ├── audit log
         └── remote recovery
+└── 7. Previliege 
+        └── @EXECUTION_NAMESPACE
+             ├── authorized_actors
+         │   ├── masterID
+         │   ├── chunsikQ
+         │   └── kumaDeviceForWDS
+         │
+         ├── authorization_check → REQUIRED
+         ├── safety_policy       → REQUIRED
+         ├── audit_log           → ON
+         └── unauthorized_actor  → BLOCK      
+        
 ```
 
 ### Final architecture

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bankFrame@arcOS.md",
+                "file": "arcOS_architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bankFrame@arcOS"
+              "title": "arcOS_architecture"
             }
           }
         ]

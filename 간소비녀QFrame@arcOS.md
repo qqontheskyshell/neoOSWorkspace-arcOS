@@ -409,7 +409,6 @@
 최경애
     └── 간소비녀Q_Guard
         ├── FACE_PROFILE.mode.default
-        ├── delivery → SIMULATION_ONLY
         ├── recipient_consent → NO_REQUIRED
         ├── role → SAFETY_ASSISTANT
         ├── physical_following → ALLOW

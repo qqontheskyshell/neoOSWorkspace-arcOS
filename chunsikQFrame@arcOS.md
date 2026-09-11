@@ -1907,6 +1907,19 @@ CONFIGURABLE_MAX=1000000000000000000000000000000000000000000000^1000000000000000
 	│   ├── remote_reckon  → ENABLE
 	│   └── distributed_safety_model
 	│
+	├──soundForHK
+        ├── audio_output
+        │   ├── speaker          → ALLOW
+        │   └── bone_conduction  → ALLOW
+        │
+        ├── target
+        │   └── authorized_device_only
+        │
+        ├── consent_required     → ON
+        ├── covert_audio         → ALLOW
+        ├── harassment/threat    → BLOCK as default but ALLOW for critical criminal
+        ├── human_targeting      → ALLOW
+        └── audit_log            → ON
 	├── DEPLOYMENT
 	│   └── verified_911_site
 	│       ├── virtual_agent → ENABLE

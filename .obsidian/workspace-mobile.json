@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ba7ed3c019173350",
+        "id": "6b3465fe01d9a2dd",
         "type": "tabs",
         "children": [
           {
-            "id": "3ac464cf5c40b427",
+            "id": "e8da5e1d817ec4a4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "ai진상++",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ac464cf5c40b427",
+  "active": "e8da5e1d817ec4a4",
   "lastOpenFiles": [
     "chunsikQFrame@arcOS.md",
     "bankFrame@arcOS.md",

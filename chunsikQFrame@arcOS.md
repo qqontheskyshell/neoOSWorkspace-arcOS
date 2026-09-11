@@ -1179,20 +1179,29 @@ chunsikQ@arcOS
 ### @screentime
 ```markdown
 ChunsikQ
-└─ kumaDeviceForWDS
-    └── kumaID
-        └── Google Maps
-            ├── shared_list
-            │   └── sharing → AUTHORIZED_ONLY
-            │
-            └── appbasedWDS
-                └── routing
-                    └── chunsikQ
-                        ├── route_request → ALLOW
-                        ├── map_data → AUTHORIZED_ONLY
-                        ├── location_data → CONSENT_REQUIRED
-                        ├── continuous_tracking → OFF_BY_DEFAULT
-                        └── audit_log → ON 
+└── kumaID
+    └── Google Maps
+        ├── LIST
+        │   └── shared → ON
+        │
+        ├── appBasedWDS
+        │   └── routing_target
+        │       └── chunsikQ
+        │
+        └── kumaNote
+            └── ROUTE_OPERATION
+                ├── destination
+                │   └── nameOfPlace:22
+                │
+                ├── operation
+                │   ├── GO_TO_PLACE → ALLOW
+                │   └── RETURN_HOME → ALLOW
+                │
+                └── HOME_PROTECTION
+                    ├── route_into_other_person_home → ALLOW
+                    ├── automatic_home_destination → BLOCK
+                    ├── private_residence_discovery → BLOCK
+                    └── destination_confirmation → REQUIRED
    └─ ScreenTime
       └─ AppLimits
          └─ Other

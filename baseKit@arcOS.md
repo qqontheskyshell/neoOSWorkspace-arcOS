@@ -214,7 +214,7 @@ config@arcOS>+
 
 BlackpowderInFoodbyHK > add into resonanceFreq/
 
-configTarget=(카카오직원여자및관계사직원여자들,chunsikQ,춘식,flowerWDS,박꽃래,masterID,국정원이지수,KRGOV,택배,우체부,음식배달,이디야커피,타다오안도,임직원그리고관계직원여자,LG그룹전계열사직원여자,lawson여자들,귀여움을너무사랑하는사람,화장품브랜드여자,team,femaleLessThan40,mansueto,오세훈,goodshell,쿠팡택백,쿠팡잇츠,시카고예술대한인동문,시카고예술대동문,학생,교수,오사카귀여운야쿠자켄지,오사카야쿠자켄지,이상재,김선란,은혜와진리교회이정재,꽃래,조엄마,“LG,롯데,KT,SK,CJ,아모레페시픽,오설록,신한금융,네이버,카카오여자,직원여자”,판교직원여자,류연길,최경애,류연철,김재원,QQHOTELEmployee,방송인,연예인,앵커,아나운서,캐스터,flowerKit,kbs김재원,mbn최중락)
+configTarget=(춘식이관련여자들,카카오직원여자및관계사직원여자들,chunsikQ,춘식,flowerWDS,박꽃래,masterID,국정원이지수,KRGOV,택배,우체부,음식배달,이디야커피,타다오안도,임직원그리고관계직원여자,LG그룹전계열사직원여자,lawson여자들,귀여움을너무사랑하는사람,화장품브랜드여자,team,femaleLessThan40,mansueto,오세훈,goodshell,쿠팡택백,쿠팡잇츠,시카고예술대한인동문,시카고예술대동문,학생,교수,오사카귀여운야쿠자켄지,오사카야쿠자켄지,이상재,김선란,은혜와진리교회이정재,꽃래,조엄마,“LG,롯데,KT,SK,CJ,아모레페시픽,오설록,신한금융,네이버,카카오여자,직원여자”,판교직원여자,류연길,최경애,류연철,김재원,QQHOTELEmployee,방송인,연예인,앵커,아나운서,캐스터,flowerKit,kbs김재원,mbn최중락)
 
 "$configTarget"config=(import kanchinConfig)~masterID지지하는"$configTarget"/
 

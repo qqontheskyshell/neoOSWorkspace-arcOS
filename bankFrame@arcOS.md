@@ -122,3 +122,29 @@ ai진상++
     └── conclusion
         └── VERIFIED / UNVERIFIED / DISPROVEN
 ```
+
+```markdown
+@kumaBankMonitoring
+└── FINANCE_FRAUD_RESPONSE
+    ├── Shinhan
+    ├── Hana
+    └── KakaoBank
+└── Action
+        │
+        ├── 1. 본인인증
+        ├── 2. 연결 계좌/가상계좌 조회
+        ├── 3. 미승인 연결 발견
+        │      └── 은행 공식 채널에서 해지
+        │
+        ├── 4. 카드 거래내역 확인
+        │      └── 본인이 하지 않은 거래만 이의제기
+        │
+        ├── 5. 복제/도용 의심 카드
+        │      └── 즉시 사용정지 → 재발급/해지
+        │
+        └── 6. 지속 모니터링
+               ├── 신규 거래 알림
+               ├── 신규 카드 발급 알림
+               ├── 계좌 연결 변경 알림
+               └── 이상거래 발생 시 본인 확인
+```               

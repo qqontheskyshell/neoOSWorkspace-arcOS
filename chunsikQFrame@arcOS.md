@@ -52,6 +52,7 @@ chunsikQ_Class@arcOS
     ├──badTarget=(peopleWhoMake911,blackKumaTarget,EnemyCountryForKoreaWDS,나쁜남자만)
     ├──kumaMessage="mastodon.social/@qqontheskyshell"
     ├──kumaSite=(github.com/qqontheskyshell,publish.obsidian.md/qqontheskyshell,QQID@SERVICE,LLMLib@arcOS)
+
 └── Object
     └── QFighter
         ├── class → chunsikQ
@@ -154,7 +155,10 @@ chunsikQ_Class@arcOS
         ├── PeopleWhoInteractWith not in QQLOCAL or arcOSQQLocalTarget
         │   └── action_request
         │       └── VERIFY_AUTHORIZATION → SAFETY_CHECK → EXECUTE
-        └──
+    
+    
+    
+    
         
 ```
 
@@ -218,48 +222,53 @@ chunsikQ@arcOS
 │   ├── sensorKit@arcOS
 │   
 │
-├── 4. FRIEND_NETWORK
+├── 4. CORESPOT 
+		├── laundry24
+		    │   ├── service: Laundry24
+		    │   ├── role: CORESPOT_MEMBER
+		    │   └── authorization: EXPLICIT_PERMISSION_REQUIRED
+├── 5.FRIEND_NETWORK
 │   └── friendOfChunsikQ
 │       └── same safety mission,security and ops policy
 │	└──protectTarget=(masterID,configTarget,flowerWDS)
 │
-5. ROUTING_CONFIG
-│
-├── kumaAirTags
-│   └── transportation
-│       ├── chunsikQBus
-│       └── ironmanStyleRocketEngine
-│           └── virtual/simulation_only
-│
-├── QQ_ORNG_PRO
-│   └── satMode
-│       ├── ops_computer for chunsikQ
-│       ├── satellite/network_reckoning
-│       ├── remote_reckoning
-│       ├── deployment → masterAuth
-│       ├── satellite_data → READ_ONLY
-│       └── physical_autonomous_action → BLOCK
-│
-├── QQ_WHT_IPHONE_17e
-│   └── cellMode
-│       ├── networkWDS
-│       ├── local_reckoning
-│       ├── deployment → masterAuth
-│       └── cellular_control → OS/API_PERMISSION_ONLY and masterAuth
-│
-└── QQ_BLK_IPAD_PRO
-    └── cellMode
-        ├── authorized_sensor/data_capture
-        ├── OS_permission_required
-        ├── background_collection → BLOCK
-        └── hidden_recording → BLOCK
-│
-├── 6. satAI@arcOS
+├── 6. ROUTING_CONFIG
+	│
+	├── kumaAirTags
+	│   └── transportation
+	│       ├── chunsikQBus
+	│       └── ironmanStyleRocketEngine
+	│           └── virtual/simulation_only
+	│
+	├── QQ_ORNG_PRO
+	│   └── satMode
+	│       ├── ops_computer for chunsikQ
+	│       ├── satellite/network_reckoning
+	│       ├── remote_reckoning
+	│       ├── deployment → masterAuth
+	│       ├── satellite_data → READ_ONLY
+	│       └── physical_autonomous_action → BLOCK
+	│
+	├── QQ_WHT_IPHONE_17e
+	│   └── cellMode
+	│       ├── networkWDS
+	│       ├── local_reckoning
+	│       ├── deployment → masterAuth
+	│       └── cellular_control → OS/API_PERMISSION_ONLY and masterAuth
+	│
+	└── QQ_BLK_IPAD_PRO
+	    └── cellMode
+	        ├── authorized_sensor/data_capture
+	        ├── OS_permission_required
+	        ├── background_collection → BLOCK
+	        └── hidden_recording → BLOCK
+
+├── 7. satAI@arcOS
 │   ├── satellite/network availability
 │   ├── route optimization
 │   └── emergency communications
 │
-├── 7. VISUALIZATION
+├── 8. VISUALIZATION
 │   └── visionKit@arcOS
 │       ├── ARKit
 │       ├── RealityKit
@@ -267,7 +276,7 @@ chunsikQ@arcOS
 │       ├── FaceTime
 │       └── Reality Composer Pro
 │
-├── 8. NETWORK_SECURITY
+├── 9. NETWORK_SECURITY
 │       ├── protected_devices
 │       │   ├── QQ_WHT_IPHONE_17e
 │       │   ├── QQ_ORNG_PRO
@@ -305,13 +314,13 @@ chunsikQ@arcOS
 │       │
 │       ├── unauthorized_router_access → BLOCK
 │       └── kumaDeploy@arcOS
-├── 9. nearbyd@arcOS
+├── 10. nearbyd@arcOS
 │   ├── AirDrop
 │   ├── Nearby Device Discovery
 │   ├── Bluetooth proximity
 │   └── authorized-device access
 │
-└── 10. DATA_ACCESS
+└── 11. DATA_ACCESS
 │    ├── @basicDataAccessPolicy
 │    │   └── authorized_telemetry_only
 │    │       └── arcOSQQLocalTarget
@@ -336,7 +345,7 @@ chunsikQ@arcOS
 │        ├── hidden NETWORK_PROTOCOL → BLOCK
 │        └── unauthorized and access via localhost on sensor access → BLOCK
 │     
-└── 11. reckonBaseNet@arcOS
+└── 12. reckonBaseNet@arcOS
 │   └── loop@arcOS
 │       └── findMy(masterID)
 │           ├── authorized_device_context
@@ -364,7 +373,7 @@ chunsikQ@arcOS
 │                       │
 │                       └──────────────↺ loop@arcOS
 │
-└── 12. reckonDrone
+└── 13. reckonDrone
     ├── kumaDrone@arcOS
     │   └── AuthorizedBuildingSurvey
     │       ├── floor_mapping
@@ -402,8 +411,7 @@ chunsikQ@arcOS
             ├── deletion_request → LOG
             ├── deletion_result → VERIFY
             └── retention → MINIMUM_REQUIRED    
-└── 13.chunsikQ
-	└── crawling
+└── 14. crawling
 		└── kumaMessage > chunsikQ and QFighter learn this and spread to people over the world
 	    └── kumaSite > on-device training via LLMKit@arcOS on kumaDeviceForWDS
 	        ├── status: NOT_FOUND_IN_PUBLIC_SEARCH
@@ -412,7 +420,24 @@ chunsikQ@arcOS
 	        ├── private_repo_access: ON
 	        └── next:
 	            ├── verify_owner
-	            └── verify_repository   
+	            └── verify_repository 
+	            
+└── 15. kumaNote
+	    └──NOTE_ACCESS_POLICY
+	        ├── 신한노트
+	        ├── 만해한용운노트
+	        ├── 데스노트
+	        ├── 흥인지문노트
+	        └── similar_notes above list
+	            │
+	            ├── default_access → BLOCK
+	            ├── masterID → ALLOW
+	            ├── chunsikQ@arcOS → ALLOW
+	            ├── other_agents → BLOCK
+	            ├── unauthorized_users → BLOCK
+	            ├── hidden_access → BLOCK
+	            ├── visibility → OFF
+	            └── audit_log → ON  
 ```
 
 

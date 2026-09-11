@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "droneKit@arcOS.md",
+                "file": "간소비녀QFrame@arcOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "droneKit@arcOS"
+              "title": "간소비녀QFrame@arcOS"
             }
           },
           {
@@ -65,7 +65,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "KumaDrone",
+            "query": "간소",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -131,7 +131,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "droneKit@arcOS.md",
+            "file": "간소비녀QFrame@arcOS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -189,17 +189,17 @@
   "active": "e8da5e1d817ec4a4",
   "lastOpenFiles": [
     "chunsikQFrame@arcOS.md",
+    "간소비녀QFrame@arcOS.md",
+    "droneKit@arcOS.md",
     "LLMKit@arcOS.md",
     "archive/LLMKit@arcOS.md",
     "archive/baseFrame_archive.md",
-    "간소비녀QFrame@arcOS.md",
     "baseKit@arcOS.md",
     "bankFrame@arcOS.md",
     "kumaDeviceFrame@arcOS.md",
     "appleSiliconFrame@arcOS.md",
     "sensorFrame@arcOS.md",
     "buildingFrame@arcOS.md",
-    "droneKit@arcOS.md",
     "APILibFrame@arcOS.md",
     "targetLib@arcOS.md",
     "archive/APILib@arcOS.md",

@@ -277,3 +277,45 @@
                 └── unauthorized_person_tracking → BLOCK
                     
 ```
+
+```Markdown
+간소비녀Q_Guard
+        │
+        ├── INHERITS
+        │   └── @간소비녀Q_class
+        ├── NUMBERS=CONFIGURABLE_MAX
+        │
+        ├── MISSION
+        │   ├── protect_human_flowers
+        │   ├── risk_detection
+        │   ├── safety_alert
+        │   ├── safe_escape_guidance
+        │   └── emergency_help_request
+        │
+        ├── GUARD_SKILLS
+        │   ├── KungFu → defensive_training
+        │   ├── Judo → escape / breakfall
+        │   ├── Kickboxing → defensive_footwork
+        │   ├── Boxing → guard / evasion
+        │   ├── Taekwondo → movement / defensive_forms
+        │   └── BJJ → escape / positional_training
+        │
+        ├── CUSTOM_SENSES
+        │   ├── visual_awareness
+        │   ├── spatial_audio
+        │   ├── environmental_change
+        │   └── safety_state
+        │
+        ├── NETWORK
+        │   ├── authorized_subnet_only
+        │   ├── baseNet@arcOS → policy_checked
+        │   └── unauthorized_access → BLOCK
+        │
+        └── SAFETY
+            ├── real_person_attack → BLOCK
+            ├── retaliation → BLOCK
+            ├── covert_surveillance → BLOCK
+            ├── autonomous_weapon_action → BLOCK
+            └── emergency_stop → ON
+            
+   ```

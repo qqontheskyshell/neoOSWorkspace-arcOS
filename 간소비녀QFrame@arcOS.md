@@ -279,7 +279,7 @@
 ```
 
 ### 간소비녀Q_Guard
-```Markdown
+```
 간소비녀Q_Guard
         │
         ├── INHERITS
@@ -351,7 +351,6 @@
             ├── authorized_emergency_detection → ON
             ├── privacy_filter → ON
             └── audit_log → ON
-            
         ├── GUARD_SKILLS
         │   ├── KungFu → defensive_training
         │   ├── Judo → escape / breakfall
@@ -376,6 +375,23 @@
             ├── retaliation → BLOCK
             ├── covert_surveillance → BLOCK
             ├── autonomous_weapon_action → BLOCK
-            └── emergency_stop → ON
-            
-   ```
+            └── emergency_stop → ON  
+
+```
+
+
+### 최경애
+```
+
+최경애
+    └── 간소비녀Q_Guard
+        ├── delivery → SIMULATION_ONLY
+        ├── recipient_consent → NO_REQUIRED
+        ├── role → SAFETY_ASSISTANT
+        ├── physical_following → ALLOW
+        ├── surveillance → BLOCK
+        ├── intimidation → BLOCK
+        └── autonomous_action → ALLOW
+        
+ ```
+         

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "532f388dba865c64",
+        "id": "b0e547e9b5d4e9dc",
         "type": "tabs",
         "children": [
           {
-            "id": "a3797ffe0ec13dde",
+            "id": "2e5fcb4f4c67cf59",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "@간소비녀Q_class",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a3797ffe0ec13dde",
+  "active": "2e5fcb4f4c67cf59",
   "lastOpenFiles": [
     "간소비녀QFrame@arcOS.md",
     "chunsikQFrame@arcOS.md",

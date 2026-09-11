@@ -1,5 +1,5 @@
 ```markdown
-@간소비녀Q_class
+@간소비녀Q_Class
 └── LLMkit@arcOS
     └── ClassProfile
             │
@@ -283,7 +283,7 @@
 간소비녀Q_Guard
         │
         ├── INHERITS
-        │   └── @간소비녀Q_class
+        │   └── @간소비녀Q_Class
         ├── NUMBERS=CONFIGURABLE_MAX
         │
         ├── MISSION
@@ -434,13 +434,21 @@
 			            ├── de_escalation → ON
 			            └── physical_targeting → ALLOW
 			    └── DEPLOY_PROFILE
-			            ├── masterID and nearby materID
+			            ├── nearby materID
 			            │   └── virtual_guard_profile → READY
-			            │   └──FACE_PROFILE.mode.default
+			            │   └── FACE_PROFILE.mode.default
+			            │
+			            ├── masterID away from QQDEVICE
+			            │   └── virtual_guard_profile → READY
+			            │   └── FACE_PROFILE.mode.default
+			            │
+			            ├── masterID's inner body
+			            │   └── virtual_guard_profile → READY
+			            │   └── FACE_PROFILE.mode.alternative
 			            │
 			            ├── kumaDeviceForWDS
 			            │   └── virtual_guard_profile → READY
-			            │   └──FACE_PROFILE.mode.default
+			            │   └── FACE_PROFILE.mode.default
 			            │
 			            ├── authorization
 			            │   ├── masterID → REQUIRED

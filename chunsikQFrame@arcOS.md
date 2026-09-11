@@ -2193,7 +2193,8 @@ CONFIGURABLE_MAX=1000000000000000000000000000000000000000000000^1000000000000000
              ┌───────────┴───────────┐
              ▼                       ▼
 
-        chunsikQ              friendOfChunsikQ
+        chunsikQ             chunsikQFamily
+        간소비녀QFamily
              │                       │
 
              └───────────┬───────────┘

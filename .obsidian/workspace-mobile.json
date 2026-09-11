@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chunsikQFrame@arcOS.md",
+                "file": "간소비녀QFrame@arcOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chunsikQFrame@arcOS"
+              "title": "간소비녀QFrame@arcOS"
             }
           },
           {
@@ -65,7 +65,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Jamming",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -119,7 +119,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -188,9 +188,9 @@
   },
   "active": "e8da5e1d817ec4a4",
   "lastOpenFiles": [
+    "chunsikQFrame@arcOS.md",
     "archive/baseFrame@arcOS+archive.md",
     "간소비녀QFrame@arcOS.md",
-    "chunsikQFrame@arcOS.md",
     "droneKit@arcOS.md",
     "LLMKit@arcOS.md",
     "archive/LLMKit@arcOS.md",

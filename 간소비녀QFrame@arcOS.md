@@ -295,8 +295,8 @@
         │
         ├──FACE_PROFILE
         ├── mode
-        │   ├── default → feminine_robustnesd
-        │   └── alternate → masculine_male
+        │   ├── default → masculine_male
+        │   └── alternate → feminine_robustnesd
         │
         ├── masculine_male
         │   ├── mature_adult

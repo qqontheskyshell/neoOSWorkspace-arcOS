@@ -45,6 +45,7 @@ chunsikQ_Class@arcOS
 	├── nameOfLevel
 	├── nameOfMobility
 └── variable
+	├──masterAuth="Verified by arcOSID and AUTHORIZED_ONLY by masterID and chunsikQ"
     ├──chunsikQFamily=(flowerWDS,configTarget,chunsikQ,kakaoFriendsQ)
     ├──badTarget=(peopleWhoMake911,blackKumaTarget,EnemyCountryForKoreaWDS,나쁜남자만)
     ├──kumaMessage="mastodon.social/@qqontheskyshell"
@@ -220,23 +221,36 @@ chunsikQ@arcOS
 │       └── same safety mission,security and ops policy
 │	└──protectTarget=(masterID,configTarget,flowerWDS)
 │
-├── 5. ROUTING_CONFIG
-│   ├── kumaAirTags
-│   │   └── transportation
-│   │       ├── chunsikQBus
-│   │       └── ironmanStyleRocketEngine
-│   │           └── virtual/simulation_only
-│   │
-│   ├── QQ_ORNG_PRO
-│   │   ├── ops_computer
-│   │   └── remote_reckoning/deployment
-│   │
-│   ├── QQ_WHT_IPHONE_17e
-│   │   ├── networkWDS
-│   │   └── local_reckoning/deployment
-│   │
-│   └── QQ_BLK_IPAD_PRO
-│       └── authorized sensor/data capture
+5. ROUTING_CONFIG
+│
+├── kumaAirTags
+│   └── transportation
+│       ├── chunsikQBus
+│       └── ironmanStyleRocketEngine
+│           └── virtual/simulation_only
+│
+├── QQ_ORNG_PRO
+│   └── satMode
+│       ├── ops_computer for chunsikQ
+│       ├── satellite/network_reckoning
+│       ├── remote_reckoning
+│       ├── deployment → masterAuth
+│       ├── satellite_data → READ_ONLY
+│       └── physical_autonomous_action → BLOCK
+│
+├── QQ_WHT_IPHONE_17e
+│   └── cellMode
+│       ├── networkWDS
+│       ├── local_reckoning
+│       ├── deployment → masterAuth
+│       └── cellular_control → OS/API_PERMISSION_ONLY and masterAuth
+│
+└── QQ_BLK_IPAD_PRO
+    └── cellMode
+        ├── authorized_sensor/data_capture
+        ├── OS_permission_required
+        ├── background_collection → BLOCK
+        └── hidden_recording → BLOCK
 │
 ├── 6. satAI@arcOS
 │   ├── satellite/network availability

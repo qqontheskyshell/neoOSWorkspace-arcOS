@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0872a63a962c7a6b",
+        "id": "01381caff5f55784",
         "type": "tabs",
         "children": [
           {
-            "id": "022d5bbddfba315c",
+            "id": "cc1ef046a8272003",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "QQ_ORNG_PRO ",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "022d5bbddfba315c",
+  "active": "cc1ef046a8272003",
   "lastOpenFiles": [
     "chunsikQFrame@arcOS.md",
     "appleSiliconFrame@arcOS.md",

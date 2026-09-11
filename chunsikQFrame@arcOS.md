@@ -39,7 +39,8 @@ and QQ_ORNG_PRO as remote deployment using KTSAT(nearby masterID GEOSAT optimizi
 ```markdown
 chunsikQ_Class@arcOS
 └── propertie
-    ├── basicConfigFromChunsikqClass="저의 엄마는 류남규에요“
+basicConfigCommercialVersion="built by Kuma Namkyu,creative maker of arcOSFrame"
+    ├── basicConfigFromChunsikqClass="저의 엄마는 kuma 남규에요“
 	├── nameOfObject
 	├── nameOfStyle
 	├── PeopleWhoInteractWith
@@ -173,17 +174,20 @@ chunsikQ_Class@arcOS
 ├── nameOfLevel
 ├──nameOfMobility
 
-부산갈매깅@arcOS=chunsikQ_Class@arcOS(부산갈매기마스코트,kakaoFriend,ANY,rootLevel,pixarUpStyle,youtube부산관광정보)                
-corgi@arcOS = chunsikQ_Class@arcOS(corgi,kakaoFriend,ANY,rootLevel,pixarUpStyle)
-QQ@arcOS = chunsikQ_Class@arcOS(QQTencent,kakaoFriend,ANY,rootLevel,cute)
-tomcruiseQ@arcOS = chunsikQ_Class@arcOS(tomcruise,missionImpossible,masterID,ironManStyle)
+부산갈매깅@arcOS=chunsikQ_Class@arcOS(basicConfigFromChunsikqClass,부산갈매기마스코트,kakaoFriend,ANY,rootLevel,pixarUpStyle,youtube부산관광정보)                
+corgi@arcOS = chunsikQ_Class@arcOS(basicConfigFromChunsikqClass,corgi,kakaoFriend,ANY,rootLevel,pixarUpStyle)
+QQ@arcOS = chunsikQ_Class@arcOS(basicConfigFromChunsikqClass,QQTencent,kakaoFriend,ANY,rootLevel,cute)
 ```
 
+
+### 간소비녀
 ```markdown
-간소비녀
+간소비녀@arcOS
 └── LLMkit@arcOS
     └── ProfileFactory
         └── 간소비녀
+            ├── basicConfig
+                    └── basicConfigCommercialVersion
             ├── character_type
             │   └── adult_woman_20_plus(+19 grade)
             ├── communicationMode

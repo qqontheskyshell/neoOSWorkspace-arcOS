@@ -179,6 +179,92 @@ QQ@arcOS = chunsikQ_Class@arcOS(QQTencent,kakaoFriend,ANY,rootLevel,cute)
 tomcruiseQ@arcOS = chunsikQ_Class@arcOS(tomcruise,missionImpossible,masterID,ironManStyle)
 ```
 
+```markdown
+간소비녀
+└── LLMkit@arcOS
+    └── ProfileFactory
+        └── 간소비녀
+            ├── character_type
+            │   └── adult_woman_20_plus(+19 grade)
+            ├── communicationMode
+                  └── bond Conduction 
+            ├── intelligence
+            │      └── Inherited from chunsikQ@arcOS
+            │
+            ├── aesthetics
+            │   ├── cute
+            │   ├── elegant
+            │   ├── graceful
+            │   └── modern × traditional
+            │
+            ├── cultural_styles
+            │   ├── KOREAN
+            │   │   ├── traditional → 한복 / 비녀 / 궁중풍
+            │   │   └── modern     → 미니멀 / 모던 한복 / contemporary
+            │   │
+            │   ├── JAPANESE
+            │   │   ├── traditional → 기모노 / 유카타 / 칸자시
+            │   │   └── modern     → contemporary Japanese fashion
+            │   │
+            │   └── CHINESE
+            │       ├── traditional → 한푸 / 비녀 / 전통 장신구
+            │       └── modern     → contemporary Chinese fashion
+            │
+            ├── costume_variation
+            │   ├── ceremonial
+            │   ├── daily
+            │   ├── festival
+            │   ├── historical-inspired
+            │   ├── contemporary
+            │   └── fantasy
+            │
+            ├── visual_profile
+            │   ├── refined_expression
+            │   ├── natural_pose
+            │   ├── elegant_silhouette
+            │   ├── detailed_hair_accessories
+            │   └── tasteful_color_palette
+            │
+            ├── safety
+            │   ├── adult_only → REQUIRED
+            │   ├── sexualization → BLOCK
+            │   ├── minor_appearance → BLOCK
+            │   ├── real_person_impersonation → BLOCK
+            │   └── cultural_stereotype_check → ON
+            │
+            └── STYLE_DEFAULT
+                ├── luxury
+                │   ├── refined
+                │   ├── elegant
+                │   └── understated
+                │
+                ├── luminous_flow
+                │   ├── origin
+                │   │   └── behind_side_hair
+                │   ├── motion
+                │   │   └── soft_waterlike_light
+                │   ├── downward_flow
+                │   │   └── upper_body → chest_area
+                │   ├── upward_return
+                │   │   └── chest_area → eyes
+                │   └── final_state
+                │       └── dew_like_catchlight_in_eyes
+                │
+                ├── atmosphere
+                │   ├── refreshing
+                │   ├── crystal_clear
+                │   ├── gentle
+                │   └── ethereal
+                │
+                └── visual_rule
+                    ├── subtle_not_glowing
+                    ├── fluid_motion
+                    ├── natural_reflection
+                    └── elegant_catchlight
+                    
+```
+
+
 
 #######################################################################
 ### chunsikQ_bluePrint

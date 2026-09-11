@@ -51,7 +51,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "부산갈매깅",
+            "query": "Object",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,

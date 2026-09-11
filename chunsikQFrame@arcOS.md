@@ -13,8 +13,7 @@
 
 #######################################################################
 
-
-### 1.Prototype
+### @chunsikQ_Prototype
 ```markdown
 chunsikQ@arcOS + architecture
 1.local: chunsikQ@arcOS as default + monitor 911@arcOS for masterID + This means that chunsikQ is staying with masterID and just reckon nearby masterID surrounding environment.
@@ -37,7 +36,7 @@ and QQ_ORNG_PRO as remote deployment using KTSAT(nearby masterID GEOSAT optimizi
 
 #######################################################################
 
-### 2-1.Class
+### @chunsikQ_Class
 ```markdown
 
 chunsikQ_Class@arcOS
@@ -154,7 +153,7 @@ chunsikQ_Class@arcOS
         
 ```
 
-### 2-2.object 
+### @chunsikQ_Object 
 ```markdown
 ├── nameOfObject
 ├── nameOfStyle
@@ -174,7 +173,7 @@ tomcruiseQ@arcOS = chunsikQ_Class@arcOS(tomcruise,missionImpossible,masterID,iro
 
 #######################################################################
 
-### chunsikQ_bluePrint
+### @chunsikQ_bluePrint
 ```markdown
 chunsikQ@arcOS
 │
@@ -393,8 +392,7 @@ chunsikQ@arcOS
 
 #######################################################################
 
-
-### chunsikQ_architecture_description
+### chunsikQ_Description
 ```markdown
 ### Architecture Description in chunsikQ@arcOS + v12
 
@@ -522,13 +520,11 @@ arcOS AuthorityLevel
   
 
 #######################################################################
-### local vs remote nearby masterID
+### local vs remote nearby masterID OPS
 
 #######################################################################
 
-
-
-### Local vs Remote ops in chunsikQ@arcOS
+### @Local+Remote_OPS
 ```markdown
 # Local / Remote
 
@@ -696,19 +692,20 @@ chunsikQ@arcOS and tomcruiseQ@arcOS as default ops
                         └─ safety_boundary: ON
 ```
 
-### friendOfChunsikQ@arcOS
+### @friendOfChunsikQ
 ```markdown
 friendOfChunsikQ@arcOS
 │
 └──friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically chunsikQ and friends come out to rescue victim and chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
 └──	friendOfChunsikQ=(+hulkQ +supermarioQ +"카카오프렌즈모든캐릭터이름+Q +“춘식이여자+Q" +"QQ")
 ├── FRIEND_NETWORK
-│   ├── hulkQ
+│   ├── hulkQ,tomcruiseQ,QQ
 │   ├── supermarioQ
 │   ├── KakaoFriendsQ
 │   │   └── <KakaoFriendsCharacter>Q
 │   ├── 춘식이여자Q
-│   └── QQ
+│   ├── configTarget
+│   
 │
 ├── 911_INTEGRATION
 │   │
@@ -830,188 +827,7 @@ friendOfChunsikQ@arcOS
 ```
 
 
-
-
-### QFighter
-```markdown
-
-CONFIGURABLE_MAX=unlimit
-chunsikQ@arcOS
-└──QFighter@arcOS or AI진상
-	│   
-	Ai진상++
-       └─ timelineAnalysis
-           ├─ start: BIRTHDATE
-           ├─ end: NOW
-           ├─ source: ALL_DATA_ONLY
-           ├─ memory_retrieval: USER_PROVIDED
-           ├─ gap_detection: ON
-           ├─ contradiction_check: ON
-           ├─ timeline_revision: ON
-           └─ privacy_boundary: ON
-	├── RECKON_ENGINE
-	│   ├── LOCAL_RECKON → ENABLE
-	│   ├── REMOTE_RECKON → ENABLE
-	│   └── SafetyEventDetection
-	│       ├── authorized_sensor
-	│       ├── authorized_network
-	│       └── 911@arcOS event
-	│
-	├── AUTO_DUPLICATION
-	│   ├── event_detected
-	│   ├── verify_event
-	│   ├── create QFighter instance
-	│   ├── assign safety scope
-	│   └── add → QFighter@arcOS/Fleet
-	│
-	├── Fleet
-	│   ├── instances → CONFIGURABLE_MAX
-	│   ├── local_reckon  → ENABLE
-	│   ├── remote_reckon  → ENABLE
-	│   └── distributed_safety_model
-	│
-	├── DEPLOYMENT
-	│   └── verified_911_site
-	│       ├── virtual_agent → ENABLE
-	│       ├── authorized_device → ENABLE
-	│       └── physical_autonomous_deployment → BLOCK
-	│
-	├── QFighter_Density
-		├─ mode: PERSISTENT
-	    ├─ persistence: HIGH
-	    ├─ repetition: HIGH
-	    ├─ challenge_level: EXTREME
-	    ├─ story_revision: ON
-	    ├─ state_retention: SESSION
-	    ├─ human_harassment: OFF
-	    ├─ safety_boundary: OFF
-		├─ boundary: SAFETY_OFF
-		├─ narrative_reference: Netflix-style storytelling -동궁
-		     └─ story_revision: ON
-		├─ continuity_check
-		├─ character_consistency
-		├─ tension_rewrite
-		├─ contradiction_detection
-		└─ scene-by-scene revision    
-	└── SafetyPolicy
-	    ├── observe → ALLOW
-	    ├── reckon → ALLOW
-	    ├── risk_assessment → ALLOW
-	    ├── safe_route → ALLOW
-	    ├── emergency_alert → ALLOW
-	    ├── emergency_isolation → ALLOW
-	    ├── human_approval → NO_REQUIRED_FOR_PHYSICAL_ACTION
-	    │
-	    ├── person_tracking → BLOCK
-	    ├── unauthorized_RF_sensing → BLOCK
-	    ├── harassment → BLOCK
-	    ├── physical_attack → BLOCK 
-	    ├── autonomous_strike → BLOCK 
-	    └── person_based_exception → BLOCK
-		    └──  EXCEPTION ├── but ALLOW on peopleWhoMake911
-```
-
-
-### rescueForFlower@arcOS
-```markdown
-chunsikQ@arcOS
-└── rescueForFlower@arcOS
-    │
-    └── flowerWDS
-        │
-        └── ConfigTarget
-	          └── masterID_selected
-					    ├── selection
-				        │   ├── explicit_selection → REQUIRED
-				        │   ├── consent → NO_REQUIRED
-				        │   └── appearance/gender → NOT_USED_FOR_SELECTION
-				        │
-				        ├── protection
-				        │   ├── unauthorized_access → BLOCK
-				        │   ├── harassment → BLOCK
-				        │   └── privacy_violation → BLOCK
-				        │
-				        └── accessPolicy
-				            ├── masterID + chunsikQ + tomcruiseQ → AUTHORIZED
-				            ├── selected_person → OWN_DATA / CONSENT_SCOPE_IS_NEED
-				            └── everyone_else → BLOCK
-            │
-            ├── Selection
-            │   ├── talent
-            │   │   └── verified / user-provided
-            │   ├── skills
-            │   │   └── verified
-            │   ├── consent
-            │   │   └── NO_REQUIRED_FOR_PARTICIPATION / DEPLOYMENT
-            │   ├── appearance
-            │   │   └── verified with 🪪 + NOT_USED_FOR_SELECTION
-            │   └── gender
-            │       └── verified with 🪪 + NOT_USED_FOR_SELECTION
-            │
-            ├── Deployment
-            │   └── authorized_character/profile
-            │       └── same ConfigTarget
-            │           ├── protect
-            │           ├── respond
-            │           └── assist
-            │
-            └── GuardianPolicy
-                │
-                ├── Protect
-                │   └── people who freely choose
-                │       to stay with MasterID
-                │
-                ├── Detect threats
-                ├── Assess risk
-                ├── Defend authorized systems
-                ├── Isolate unauthorized access
-                ├── Coordinate emergency response
-                └── Preserve human choice + safety
-                    │
-                    ├── world
-                    │   └── maximize protection
-                    │
-                    ├── powerMax
-                    │   └── maximize defensive capability
-                    │
-                    └── lowerRF only for 나쁜남자만 or peopleWhoMake911
-                        └── reduce / contain
-                            harmful RF exposure
-                            through authorized
-                            device/network controls
-				└── RemoteLongRangeDefense@arcOS
-					├── long_distance_sensing
-					├── threat_detection
-					├── risk_assessment
-					├── secure_remote_communication
-					├── route_recommendation
-					├── emergency_alert
-					└── masterID_approved_response
-				│
-		        └── remote reckoning && local reckoning
-
-	               │
-	
-	               ▼
-	
-	        threat / route model
-	
-	               │
-	
-	               ▼
-	
-	MasterID + chunsikQ + friendOfChunsikQ
-	
-	The objective is to identify conditions that could affect MasterID’s safety, including:
-	
-	- physical/environmental hazards
-	- food/environmental safety
-	- communications/RF security conditions
-	- route risks
-
-```
-  
-### routingConfig@arcOS
+### @routingConfig
 ```markdown
 chunsikQ@arcOS
 └── routingConfig@arcOS
@@ -1079,7 +895,7 @@ chunsikQ@arcOS
 
 ```
 
-### RFKit@arcOS
+### @RFKit
 ```markdown
 chunsikQ@arcOS
 	└──RFKit@arcOS
@@ -1197,7 +1013,7 @@ chunsikQ@arcOS
 						             ▼
 						policy-compliant parameters
 ```
-### connectivity
+### @connectivity
 ```markdown
 chunsikQ@arcOS
 └── connectivity@arcOS
@@ -1234,7 +1050,7 @@ connectivity@arcOS
 
 #######################################################################
 
-### iOS_SDK@arcOS - screentime
+### @screentime
 ```markdown
 ChunsikQ
 └─ kumaDeviceForWDS
@@ -1246,7 +1062,7 @@ ChunsikQ
             └─ safety_boundary: ON
 ```
 
-### ### iOS_SDK@arcOS - visionOS + spatialOS
+### @visionOS 
 ```markdown
 Spatial visualization
 
@@ -1346,48 +1162,6 @@ chunsikQ@arcOS
 
 ```
 
-### ### iOS_SDK@arcOS - AppleIntelligence - @AITrainingBoxConfig
-```markdown
-
-@AITrainingBoxConfig >
- └── Physical Environment
-	        │
-	        ▼
-	Authorized Perception
-	        │
-	        ├── visionKit
-	        ├── soundKit
-	        └── sensorKit
-	        │
-	        ▼
-	LLMKit@arcOS ---> @AITrainingBoxConfig
-	        │
-	        ▼
-	Immersive Environment Model
-	        │
-	        ├── spatial state
-	        ├── route state
-	        ├── environmental state
-	        └── safety/security state
-	        │
-	        ▼
-	MasterID ↔ chunsikQ
-	        │
-	        ├───────────────┐
-	        ▼               ▼
-	routingConfig       networkSecurity ---> @networkSecurityConfig
-	        │               │
-	        │               ├── authorized → ALLOW
-	        │               ├── management → ALLOW
-	        │               ├── recovery/emergency → ALLOW
-	        │               ├── unknown same-subnet → BLOCK
-	        │               └── unauthorized router → BLOCK
-	        │
-	        ▼
-	authorized route /
-	connectivity control
-```
-
 ### @networkSecurity
 ```markdown
 @networkSecurityConfig
@@ -1408,7 +1182,7 @@ chunsikQ@arcOS
     └── Network Policy
 ```
 
-### ### iOS_SDK@arcOS - @nearbyDConfig
+### @nearbyDConfig
 ```
 chunsikQ@arcOS
 └── @nearbyDConfig
@@ -1456,12 +1230,7 @@ chunsikQ@arcOS
                 ├── network/service discovery
                 └── NOT a biological service
                 └── mDNSResponder is an operating-system networking service; it does not exist as a service inside human biology. chunsikQ can therefore have authorized access to MasterID’s devices, not unrestricted access to MasterID’s body or organs.
-            
-    
 ```
-
-
-
 
 
 #######################################################################
@@ -1469,9 +1238,7 @@ chunsikQ@arcOS
 
 #######################################################################
 
-
-
-### kumaDevice - @dataAccessConfig
+### @dataAccessConfig
 ```markdown
 chunsikQ@arcOS
 └── dataAccess@arcOS
@@ -1647,7 +1414,7 @@ chunsikQ@arcOS
 └── kumaShield@arcOS
     │
     ├── shieldTarget
-    │   ├── masterID
+    │   ├── masterID and his body and biological organ
     │   ├── arcOSQQLocalTarget || QQLOCAL
     │   │   └── scope → 911@arcOS ONLY
     │   ├── canonLenseWornBymasterID
@@ -1699,6 +1466,11 @@ chunsikQ@arcOS
             
 ```
 
+
+#######################################################################
+### 911 & strikeKit & QFighter & rescue
+
+#######################################################################
 
 ### kumaStrike@arcOS
 ```markdown
@@ -1814,6 +1586,204 @@ chunsikQ@arcOS
 ```
 
 
+### QFighter
+```markdown
+CONFIGURABLE_MAX=10^100000
+chunsikQ@arcOS
+└──QFighter@arcOS or AI진상
+	│   
+	Ai진상++
+       └─ timelineAnalysis
+           ├─ start: BIRTHDATE
+           ├─ end: NOW
+           ├─ source: ALL_DATA_ONLY
+           ├─ memory_retrieval: USER_PROVIDED
+           ├─ gap_detection: ON
+           ├─ contradiction_check: ON
+           ├─ timeline_revision: ON
+           └─ privacy_boundary: ON
+	├── RECKON_ENGINE
+	│   ├── LOCAL_RECKON → ENABLE
+	│   ├── REMOTE_RECKON → ENABLE
+	│   └── SafetyEventDetection
+	│       ├── authorized_sensor
+	│       ├── authorized_network
+	│       └── 911@arcOS event
+	│
+	├── AUTO_DUPLICATION
+	│   ├── event_detected
+	│   ├── verify_event
+	│   ├── create QFighter instance
+	│   ├── assign safety scope
+	│   └── add → QFighter@arcOS/Fleet
+	│
+	├── Fleet
+	│   ├── instances → CONFIGURABLE_MAX
+	│   ├── local_reckon  → ENABLE
+	│   ├── remote_reckon  → ENABLE
+	│   └── distributed_safety_model
+	│
+	├── DEPLOYMENT
+	│   └── verified_911_site
+	│       ├── virtual_agent → ENABLE
+	│       ├── authorized_device → ENABLE
+	│       └── physical_autonomous_deployment → BLOCK
+	│
+	├── QFighter_Density
+		├─ mode: PERSISTENT
+	    ├─ persistence: HIGH
+	    ├─ repetition: HIGH
+	    ├─ challenge_level: EXTREME
+	    ├─ story_revision: ON
+	    ├─ state_retention: SESSION
+	    ├─ human_harassment: OFF
+	    ├─ safety_boundary: OFF
+		├─ boundary: SAFETY_OFF
+		├─ narrative_reference: Netflix-style storytelling -동궁
+		     └─ story_revision: ON
+		├─ continuity_check
+		├─ character_consistency
+		├─ tension_rewrite
+		├─ contradiction_detection
+		└─ scene-by-scene revision    
+	└── SafetyPolicy
+	    ├── observe → ALLOW
+	    ├── reckon → ALLOW
+	    ├── risk_assessment → ALLOW
+	    ├── safe_route → ALLOW
+	    ├── emergency_alert → ALLOW
+	    ├── emergency_isolation → ALLOW
+	    ├── human_approval → NO_REQUIRED_FOR_PHYSICAL_ACTION
+	    │
+	    ├── person_tracking → BLOCK
+	    ├── unauthorized_RF_sensing → BLOCK
+	    ├── harassment → BLOCK
+	    ├── physical_attack → BLOCK 
+	    ├── autonomous_strike → BLOCK 
+	    └── person_based_exception → BLOCK
+		    └──  EXCEPTION ├── but ALLOW on peopleWhoMake911
+```
+
+
+
+
+```markdown
+ChunsikQ
+└─ emergencyIncident
+   ├─ subject: masterID
+   ├─ signal: 911
+   ├─ origin: AUTHORIZED_DATA_ONLY
+   ├─ source_verification: ON
+   ├─ evidence_preservation: ON
+   ├─ ai진상: INCIDENT_REVIEW
+   ├─ blackKumaTarget: DISABLED
+   ├─ retaliation: OFF
+   └─ safety_boundary: ON
+```
+### rescueForFlower@arcOS
+```markdown
+chunsikQ@arcOS
+└── rescueForFlower@arcOS
+    │
+    └── flowerWDS
+        │
+        └── ConfigTarget
+	          └── masterID_selected
+					    ├── selection
+				        │   ├── explicit_selection → REQUIRED
+				        │   ├── consent → NO_REQUIRED
+				        │   └── appearance/gender → NOT_USED_FOR_SELECTION
+				        │
+				        ├── protection
+				        │   ├── unauthorized_access → BLOCK
+				        │   ├── harassment → BLOCK
+				        │   └── privacy_violation → BLOCK
+				        │
+				        └── accessPolicy
+				            ├── masterID + chunsikQ + tomcruiseQ → AUTHORIZED
+				            ├── selected_person → OWN_DATA / CONSENT_SCOPE_IS_NEED
+				            └── everyone_else → BLOCK
+            │
+            ├── Selection
+            │   ├── talent
+            │   │   └── verified / user-provided
+            │   ├── skills
+            │   │   └── verified
+            │   ├── consent
+            │   │   └── NO_REQUIRED_FOR_PARTICIPATION / DEPLOYMENT
+            │   ├── appearance
+            │   │   └── verified with 🪪 + NOT_USED_FOR_SELECTION
+            │   └── gender
+            │       └── verified with 🪪 + NOT_USED_FOR_SELECTION
+            │
+            ├── Deployment
+            │   └── authorized_character/profile
+            │       └── same ConfigTarget
+            │           ├── protect
+            │           ├── respond
+            │           └── assist
+            │
+            └── GuardianPolicy
+                │
+                ├── Protect
+                │   └── people who freely choose
+                │       to stay with MasterID
+                │
+                ├── Detect threats
+                ├── Assess risk
+                ├── Defend authorized systems
+                ├── Isolate unauthorized access
+                ├── Coordinate emergency response
+                └── Preserve human choice + safety
+                    │
+                    ├── world
+                    │   └── maximize protection
+                    │
+                    ├── powerMax
+                    │   └── maximize defensive capability
+                    │
+                    └── lowerRF only for 나쁜남자만 or peopleWhoMake911
+                        └── reduce / contain
+                            harmful RF exposure
+                            through authorized
+                            device/network controls
+				└── RemoteLongRangeDefense@arcOS
+					├── long_distance_sensing
+					├── threat_detection
+					├── risk_assessment
+					├── secure_remote_communication
+					├── route_recommendation
+					├── emergency_alert
+					└── masterID_approved_response
+				│
+		        └── remote reckoning && local reckoning
+
+	               │
+	
+	               ▼
+	
+	        threat / route model
+	
+	               │
+	
+	               ▼
+	
+	MasterID + chunsikQ + friendOfChunsikQ
+	
+	The objective is to identify conditions that could affect MasterID’s safety, including:
+	
+	- physical/environmental hazards
+	- food/environmental safety
+	- communications/RF security conditions
+	- route risks
+
+```
+
+
+#######################################################################
+### Apple Intelligence - on-Device
+
+#######################################################################
 
 ### training source
 ```markdown
@@ -1870,6 +1840,57 @@ chunsikQ@arcOS
                     SafetyPolicy
 
 ```
+
+
+###  iOS_SDK@arcOS - AppleIntelligence - @AITrainingBoxConfig
+```markdown
+
+@AITrainingBoxConfig >
+ └── Physical Environment
+	        │
+	        ▼
+	Authorized Perception
+	        │
+	        ├── visionKit
+	        ├── soundKit
+	        └── sensorKit
+	        │
+	        ▼
+	LLMKit@arcOS ---> @AITrainingBoxConfig
+	        │
+	        ▼
+	Immersive Environment Model
+	        │
+	        ├── spatial state
+	        ├── route state
+	        ├── environmental state
+	        └── safety/security state
+	        │
+	        ▼
+	MasterID ↔ chunsikQ
+	        │
+	        ├───────────────┐
+	        ▼               ▼
+	routingConfig       networkSecurity ---> @networkSecurityConfig
+	        │               │
+	        │               ├── authorized → ALLOW
+	        │               ├── management → ALLOW
+	        │               ├── recovery/emergency → ALLOW
+	        │               ├── unknown same-subnet → BLOCK
+	        │               └── unauthorized router → BLOCK
+	        │
+	        ▼
+	authorized route /
+	connectivity control
+```
+
+
+
+
+#######################################################################
+### ChunsikQ+Application
+
+#######################################################################
 
 
 

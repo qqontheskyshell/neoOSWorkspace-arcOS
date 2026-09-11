@@ -400,7 +400,7 @@
  └── DEPLOYMENT
     └── DEPLOYMENT_SCOPE
         ├── target_type
-        │   └── virtual_Flower_profiles_only
+        │   └── Flower_profiles_only
         │
         ├── adult_female_profiles
         │   └── authorized_only → ALLOW
@@ -419,7 +419,7 @@
             ├── emergency_assistance → ON
             ├── de_escalation → ON
             └── physical_targeting → ALLOW
-        └── DEPLOY_PROFILE
+    └── DEPLOY_PROFILE
             ├── masterID
             │   └── virtual_guard_profile → READY
             │   └──FACE_PROFILE.mode.alternative

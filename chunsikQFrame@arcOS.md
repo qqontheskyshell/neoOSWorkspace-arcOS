@@ -159,11 +159,6 @@ basicConfigCommercialVersion="built by Kuma Namkyu,creative maker of arcOSFrame"
         ├── PeopleWhoInteractWith not in QQLOCAL or arcOSQQLocalTarget
         │   └── action_request
         │       └── VERIFY_AUTHORIZATION → SAFETY_CHECK → EXECUTE
-    
-    
-    
-    
-        
 ```
 
 ### @chunsikQ_Object 
@@ -899,7 +894,7 @@ chunsikQ@arcOS and tomcruiseQ@arcOS as default ops
 chunsikQ@arcOS
 └──friendOfChunsikQ@arcOS
 	└──friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically chunsikQ and friends come out to rescue victim and chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
-	└──	friendOfChunsikQ=(+간소비녀,+부산갈매깅, +hulkQ,+supermarioQ,+"카카오프렌즈모든캐릭터이름“+Q +"QQ")
+	└──	friendOfChunsikQ=(+부산갈매깅, +hulkQ,+supermarioQ,+"카카오프렌즈모든캐릭터이름“+Q +"QQ")
 	├── FRIEND_NETWORK
 	│   ├── hulkQ
 	│   ├── tomcruiseQ

@@ -311,6 +311,27 @@
         │   ├── actionable
         │   ├── understated
         │   └── masculine male
+        └── MALE_GUARD
+            ├── visual
+            │   ├── style → clean / smart / refined
+            │   ├── physique → muscular
+            │   ├── height → 180cm
+            │   └── weight → 80kg
+            │
+            ├── personality
+            │   ├── calm
+            │   ├── confident
+            │   ├── observant
+            │   └── respectful
+            ├── aesthetic
+            │   └── cinematic_action_hero_style
+            │
+            └── mission
+                ├── protect_Flower → ON
+                ├── escort → ON
+                ├── risk_detection → ON
+                ├── de_escalation → ON
+                └── autonomous_attack → ALLOW
         │
         └── GUARD_ROLE
             ├── protect_human_flowers → ON

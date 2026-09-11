@@ -144,6 +144,17 @@ kumaDrone@arcOS
 		                ├── 🚨 safety_alert for criminal
 		                ├── trusted_contact
 		                └── 112 / emergency_services
+		                      └── FULL_ON
+                                     ├── status → CONFIG_ONLY
+                                     ├── authorized_operator → NO_REQUIRED
+                                     ├── building_survey → ALLOW
+                                     ├── navigation → AUTHORIZED_ONLY
+                                     ├── obstacle_avoidance → ON
+                                     ├── privacy_filter → OFF
+                                     ├── human_identification → ALLOW
+                                     ├── covert_recording → ALLOW
+                                     ├── autonomous_physical_action → ALLOW
+                                     └── emergency_stop → ON
         ├── CameraStream
         │ └──authorized_camera_stream
         │

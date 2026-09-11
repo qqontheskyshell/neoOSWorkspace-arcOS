@@ -39,6 +39,7 @@ and QQ_ORNG_PRO as remote deployment using KTSAT(nearby masterID GEOSAT optimizi
 ```markdown
 chunsikQ_Class@arcOS
 └── propertie
+    ├── basicConfigFromChunsikqClass="저의 엄마는 류남규에요“
 	├── nameOfObject
 	├── nameOfStyle
 	├── PeopleWhoInteractWith
@@ -99,6 +100,7 @@ chunsikQ_Class@arcOS
     │
     ├── identity
          └── fictional_character
+         └── basicConfigFromChunsikqClass
 │    
 ├── Authority
 │   └── "$nameOfLevel"

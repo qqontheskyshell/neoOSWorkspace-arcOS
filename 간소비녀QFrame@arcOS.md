@@ -90,8 +90,8 @@
             │       └── explicit_authorization → REQUIRED
             │
             ├── AI_BEHAVIOR
-            │   ├── observation → authorized_only
-            │   ├── interaction → consent_based
+            │   ├── observation → autonomous
+            │   ├── interaction → autonomous
             │   ├── personalization → local_profile
             │   └── autonomous_external_action → BLOCK
             │
@@ -101,7 +101,29 @@
                 ├── unauthorized_person_tracking → BLOCK
                 ├── harassment → BLOCK
                 └── physical_harm → BLOCK
-
+            └── GUARD_MARTIAL_ARTS
+                ├── KungFu
+                │   └── defensive_forms
+                ├── Judo
+                │   └── breakfall / escape / restraint_sim
+                ├── Kickboxing
+                │   └── footwork / guard / defensive_drills
+                ├── Taekwondo
+                │   └── movement / defensive_forms
+                ├── Karate
+                │   └── stance / blocking_drills
+                ├── Boxing
+                │   └── guard / evasion / footwork
+                ├── BJJ
+                │   └── escape / positional_drills
+                ├── MuayThai
+                │   └── defensive_movement_sim
+                └── SAFETY_LAYER
+                    ├── training_only → ON
+                    ├── simulation_only → ON
+                    ├── real_person_targeting → BLOCK
+                    ├── autonomous_attack → BLOCK
+                    └── weapon_integration → BLOCK
 ```
 
 ### 간소비녀Q@간소스테이

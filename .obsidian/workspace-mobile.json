@@ -66,7 +66,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "간소비녀",
+            "query": "간소",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -187,7 +187,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "817c2473d54f9204",
+  "active": "dcc30132859afc71",
   "lastOpenFiles": [
     "chunsikQFrame@arcOS.md",
     "간소비녀QFrame@arcOS.md",

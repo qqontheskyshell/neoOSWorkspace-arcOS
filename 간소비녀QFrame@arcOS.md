@@ -67,7 +67,7 @@
             │   │   └── fantasy
             │   │
             │   └── SIGNATURE
-            │       └── 간소비녀
+            │       └── 간소비녀Q
             │
             ├── LUMINOUS_SIGNATURE
             │   ├── origin

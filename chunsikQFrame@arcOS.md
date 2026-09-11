@@ -265,7 +265,7 @@ QQ@arcOS = chunsikQ_Class@arcOS(basicConfigFromChunsikqClass,QQTencent,kakaoFrie
                     ├── fluid_motion
                     ├── natural_reflection
                     └── elegant_catchlight    
-        └── CUSTOM_SENSES loaded by nickname of flower loaded by 간소스테이사장
+        └── CUSTOM_SENSES loaded by nickname of flower's frequency and sense data loaded by 간소스테이사장
             ├── sight
             │   ├── light_flow
             │   ├── dew_like_catchlight

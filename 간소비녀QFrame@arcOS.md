@@ -403,10 +403,10 @@
 ```
 
 
-### 최경애
+### @guardTarget
 ```
-
-최경애
+guardTarget=(최경애)
+@guardTarget
     └── 간소비녀Q_Guard
         ├── FACE_PROFILE.mode.default
         ├── recipient_consent → NO_REQUIRED

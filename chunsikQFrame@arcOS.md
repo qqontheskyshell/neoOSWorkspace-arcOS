@@ -762,7 +762,7 @@ chunsikQ@arcOS and tomcruiseQ@arcOS as default ops
 chunsikQ@arcOS
 └──friendOfChunsikQ@arcOS
 	└──friends(based on openAI LLM and if chunsikQ is in 911@arcOS, automatically chunsikQ and friends come out to rescue victim and chunsikQ remains with MasterID and continuously builds a local environmental picture using every sensors of iPhone and android phone.
-	└──	friendOfChunsikQ=(+부산갈매깅, +hulkQ,+supermarioQ,+"카카오프렌즈모든캐릭터이름“+Q +"QQ")
+	└──	friendOfChunsikQ=(+간소비녀,+부산갈매깅, +hulkQ,+supermarioQ,+"카카오프렌즈모든캐릭터이름“+Q +"QQ")
 	├── FRIEND_NETWORK
 	│   ├── hulkQ
 	│   ├── tomcruiseQ
@@ -772,6 +772,7 @@ chunsikQ@arcOS
 	│   │   └── <KakaoFriendsCharacter>Q
 	│   ├── configTarget
 	│   ├── 부산갈매깅 > 해운대 50마리 + 광안리 50마리
+	├── 간소비녀 > 간소스테이 데스크 1명
 	│   
 	│
 	├── 911_INTEGRATION

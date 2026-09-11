@@ -180,12 +180,12 @@ QQ@arcOS = chunsikQ_Class@arcOS(basicConfigFromChunsikqClass,QQTencent,kakaoFrie
 ```
 
 
-### 간소비녀
+### 간소비녀Q
 ```markdown
-간소비녀@arcOS
+간소비녀Q@arcOS
 └── LLMkit@arcOS
     └── ProfileFactory
-        └── 간소비녀
+        └── 간소비녀Q
             ├── basicConfig
                     └── basicConfigCommercialVersion
             ├── character_type
@@ -870,7 +870,7 @@ chunsikQ@arcOS
 	│   │   └── <KakaoFriendsCharacter>Q
 	│   ├── configTarget
 	│   ├── 부산갈매깅 > 해운대 50마리 + 광안리 50마리
-	├── 간소비녀 > 간소스테이 데스크 1명
+	├── 간소비녀Q > 간소스테이 데스크 1명
 	│   
 	│
 	├── 911_INTEGRATION

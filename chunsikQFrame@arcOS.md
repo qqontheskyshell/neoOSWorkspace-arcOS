@@ -2200,6 +2200,59 @@ CONFIGURABLE_MAX=1000000000000000000000000000000000000000000000^1000000000000000
 
 
 #######################################################################
+### ChunsikQ.inc + management
+
+#######################################################################
+
+```markdown
+@chunsikQ_inc_manangement
+	└── targetCompany
+	    └── forbesCEO_company
+	        └── NETWORK_POLICY
+	            ├── principal
+	            │   ├── masterID    → AUTHORIZED
+	            │   └── chunsikQ    → AUTHORIZED
+	            │
+	            ├── scope
+	            │   └── authorized_system_identity_only
+	            │
+	            ├── inbound_packets       → BLOCK
+	            ├── outbound_packets      → BLOCK
+	            ├── kumaDeploy@arcOS      → ALLOW
+	            ├── linuxshell            → ALLOW
+	            ├── unauthorized_API      → BLOCK
+	            ├── credential_use        → BLOCK
+	            ├── human_targeting       → OFF
+	            │
+	            ├── blackListInforbes
+	            │   ├── person/employee  → ALLOW
+	            │   ├── IP/CIDR           → ALLOW
+	            │   ├── domain/hostname   → ALLOW
+	            │   ├── API client ID     → ALLOW
+	            │   └── device identity   → ALLOW
+	            ├── command
+		        │    └──KumaIncCommand
+		        │    └──deploymethod
+				│        └──neuroMode on bondconduction
+	            │
+	            └── audit_log             → ON
+```
+
+### kumaIncCommand
+```markdown
+@KumaIncCommand
+    └── QQcommand
+        ├── command_parser
+        ├── authorization
+        │   ├── masterID
+        │   └── chunsikQ
+        ├── policy_check      → REQUIRED
+        ├── safety_check      → REQUIRED
+        ├── audit_log         → ON
+        └── execution
+            └── authorized_operations_only
+```
+#######################################################################
 ### ChunsikQ+Application
 
 #######################################################################

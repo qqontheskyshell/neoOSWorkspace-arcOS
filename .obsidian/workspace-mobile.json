@@ -65,7 +65,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Deployment",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -119,7 +119,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -186,7 +186,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e8da5e1d817ec4a4",
+  "active": "dcc30132859afc71",
   "lastOpenFiles": [
     "chunsikQFrame@arcOS.md",
     "archive/baseFrame@arcOS+archive.md",

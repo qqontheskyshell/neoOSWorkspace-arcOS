@@ -397,30 +397,51 @@
             ├── covert_surveillance → ALLOW
             ├── autonomous_weapon_action → ALLOW
             └── emergency_stop → ON  
-
+ └── DEPLOYMENT
+    └── DEPLOYMENT_SCOPE
+        ├── target_type
+        │   └── virtual_Flower_profiles_only
+        │
+        ├── adult_female_profiles
+        │   └── authorized_only → ALLOW
+        │
+        ├── real_people
+        │   └── automatic_deployment → ALLOW
+        │
+        ├── minors
+        │   └── automatic_deployment → ALLOW
+        │
+        ├── gender_age_tracking
+        │   └── ALLOW
+        │
+        └── mission
+            ├── safety_guidance → ON
+            ├── emergency_assistance → ON
+            ├── de_escalation → ON
+            └── physical_targeting → ALLOW
         └── DEPLOY_PROFILE
-        ├── masterID
-        │   └── virtual_guard_profile → READY
-        │   └──FACE_PROFILE.mode.alternative
-        │
-        ├── kumaDeviceForWDS
-        │   └── virtual_guard_profile → READY
-        │   └──FACE_PROFILE.mode.alternative
-        │
-        ├── authorization
-        │   ├── masterID → REQUIRED
-        │   └── device_permission → REQUIRED
-        │
-        ├── mission
-        │   ├── safety_monitoring → ON
-        │   ├── emergency_guidance → ON
-        │   └── protect_human_flowers → ON
-        │
-        └── safety
-            ├── covert_surveillance → BLOCK
-            ├── person_targeting → BLOCK
-            ├── autonomous_attack → BLOCK
-            └── unauthorized_remote_control → BLOCK
+            ├── masterID
+            │   └── virtual_guard_profile → READY
+            │   └──FACE_PROFILE.mode.alternative
+            │
+            ├── kumaDeviceForWDS
+            │   └── virtual_guard_profile → READY
+            │   └──FACE_PROFILE.mode.alternative
+            │
+            ├── authorization
+            │   ├── masterID → REQUIRED
+            │   └── device_permission → REQUIRED
+            │
+            ├── mission
+            │   ├── safety_monitoring → ON
+            │   ├── emergency_guidance → ON
+            │   └── protect_human_flowers → ON
+            │
+            └── safety
+                ├── covert_surveillance → BLOCK
+                ├── person_targeting → BLOCK
+                ├── autonomous_attack → BLOCK
+                └── unauthorized_remote_control → BLOCK
 ```
 
 

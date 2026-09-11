@@ -1,5 +1,5 @@
 
-- Architecture Description
+- Prototype-Architecture Description
 - Class & Object
 - API/SDK - based on OS sdk such as ios and android and linux via open source documentation
 - Kit - build kits using bash and swift and python based on SDK 
@@ -7,7 +7,7 @@
 - APP - using Agents, write the whole apps for specific purpose
 - MDM - management toolset
 
-### chunsikQ_Prototype
+### 1.Prototype
 ```markdown
 chunsikQ@arcOS + architecture
 1.local: chunsikQ@arcOS as default + monitor 911@arcOS for masterID + This means that chunsikQ is staying with masterID and just reckon nearby masterID surrounding environment.
@@ -24,7 +24,7 @@ and QQ_ORNG_PRO as remote deployment using KTSAT(nearby masterID GEOSAT optimizi
 
 ```
 
-### chunsikQ@arcOS as Class
+### 2-1.Class
 ```markdown
 
 chunsikQ_Class@arcOS
@@ -33,7 +33,7 @@ chunsikQ_Class@arcOS
 	├── nameOfStyle
 	├── PeopleWhoInteractWith
 	├── nameOfLevel
-	├──nameOfMobility
+	├── nameOfMobility
 │
 └── Object
     └── QFighter
@@ -141,7 +141,7 @@ chunsikQ_Class@arcOS
         
 ```
 
-### object 
+### 2-2.object 
 ```markdown
 ├── nameOfObject
 ├── nameOfStyle
@@ -155,7 +155,7 @@ QQ@arcOS = chunsikQ_Class@arcOS(QQTencent,kakaoFriend,ANY,rootLevel,cute)
 tomcruiseQ@arcOS = chunsikQ_Class@arcOS(tomcruise,missionImpossible,masterID,ironManStyle)
 ```
 
-### chunsikQ as CORE
+### 3.CORE
 ```markdown
 chunsikQ@arcOS
 │

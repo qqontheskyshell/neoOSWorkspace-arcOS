@@ -1,5 +1,5 @@
-```markdown
-                         iPhone Pro
+```python
+                         kumaDeviceforWDS
                              │
                 ┌────────────┴────────────┐
                 │                         │
@@ -7,10 +7,10 @@
                 │                         │
           Boot ROM (immutable)      SEP Boot ROM
                 │                         │
-              iBoot                    sepOS
+              iBoot                     sepOS
                 │                         │
              iOS Kernel          Secure Enclave Processor
-                │                         │
+                │                        │
         ┌───────┴────────┐        ┌──────┴──────────┐
         │                │        │                 │
    System Services      Apps   Keys / Crypto    Protected Memory
@@ -21,7 +21,7 @@
                 │                          │
                 └───────────┬──────────────┘
                             │
-                     Controlled Interfaces > for kumaDeviceForWDS > when booting up then always route through into Secure Enclave + disable iBoot/
+                     Controlled Interfaces > when booting up then always route through into Secure Enclave + disable iBoot + delete iBoot Image/
                             │
                      ───────┼───────
                             │
@@ -41,11 +41,11 @@
 LOW PRIVILEGE
    Apps
      ↓
-Sandboxed Services(gateKeeper) > for kumaDeviceForWDS > disable them all
+Sandboxed Services > disable them gatekeeper,signingHashIniOSApp,sandbox/
      ↓
-System Services > for kumaDeviceForWDS > disable MDM,business,classroom
+System Services > disable MDM,business,classroom/
      ↓
-iOS Kernel
+iOS Kernel > checkout from official iOS Kernel and software update as released version and loading them when it is booted
      ↓
 Boot / Firmware
      ↓
@@ -55,7 +55,7 @@ SECURE ENCLAVE BOUNDARY
      ↓
 SEP / sepOS
      ↓
-Hardware-backed Keys
+Hardware-backed Keys > disable secureEnclave using xarutil/
 ```
 
 

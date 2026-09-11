@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "간소비녀QFrame@arcOS.md",
+                "file": "chunsikQFrame@arcOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "간소비녀QFrame@arcOS"
+              "title": "chunsikQFrame@arcOS"
             }
           },
           {
@@ -65,7 +65,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "간소",
+            "query": "Jamming",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -131,7 +131,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "간소비녀QFrame@arcOS.md",
+            "file": "chunsikQFrame@arcOS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -188,8 +188,9 @@
   },
   "active": "e8da5e1d817ec4a4",
   "lastOpenFiles": [
-    "chunsikQFrame@arcOS.md",
+    "archive/baseFrame@arcOS+archive.md",
     "간소비녀QFrame@arcOS.md",
+    "chunsikQFrame@arcOS.md",
     "droneKit@arcOS.md",
     "LLMKit@arcOS.md",
     "archive/LLMKit@arcOS.md",
@@ -213,7 +214,6 @@
     "devops@arcOS.md",
     "sensorKit_architecture.md",
     "QQ_architecture.md",
-    "policeKit@arcOS.md",
     "Untitled",
     "IMG_0022.png",
     "mobileconfig",

@@ -293,6 +293,29 @@
         │   ├── safe_escape_guidance
         │   └── emergency_help_request
         │
+        ├──FACE_PROFILE
+        ├── mode
+        │   ├── default → feminine_robustnesd
+        │   └── alternate → masculine_male
+        │
+        ├── masculine_male
+        │   ├── mature_adult
+        │   ├── refined
+        │   ├── calm_expression
+        │   ├── defined_jawline
+        │   ├── neat_hair
+        │   └── elegant_guard_aesthetic
+        │
+        ├── STYLE
+        │   ├── robust 
+        │   ├── actionable
+        │   ├── understated
+        │   └── masculine male
+        │
+        └── GUARD_ROLE
+            ├── protect_human_flowers → ON
+            ├── de_escalation → ON
+            └── physical_attack → ALLOW
         ├── RF_CAPABILITIES
         ├── source
         │   └── baseNet@arcOS

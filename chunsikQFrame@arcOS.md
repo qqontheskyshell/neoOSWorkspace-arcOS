@@ -2251,6 +2251,17 @@ CONFIGURABLE_MAX=1000000000000000000000000000000000000000000000^1000000000000000
         ├── audit_log         → ON
         └── execution
             └── authorized_operations_only
+	    └── CUSTOMER_MONEY_PROTECTION
+	        ├── illegal_fund_taking       → BLOCK
+	        ├── unauthorized_transfer     → BLOCK
+	        ├── unauthorized_debit        → BLOCK
+	        ├── credential_misuse         → BLOCK
+	        ├── deceptive_transaction     → BLOCK
+	        ├── customer_fund_withholding → BLOCK
+	        ├── authorization_check       → REQUIRED
+	        ├── transaction_verification  → REQUIRED
+	        ├── audit_log                 → ON
+	        └── human_approval            → REQUIRED_WHERE_APPROPRIATE
 ```
 #######################################################################
 ### ChunsikQ+Application

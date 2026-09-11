@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "arcOS_architecture.md",
+                "file": "chunsikQFrame@arcOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "arcOS_architecture"
+              "title": "chunsikQFrame@arcOS"
             }
           }
         ]
@@ -51,7 +51,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "ChunsikQFam",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -105,7 +105,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -171,8 +171,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6729782cd6964848",
+  "active": "dcc30132859afc71",
   "lastOpenFiles": [
+    "arcOS_architecture.md",
     "bankFrame@arcOS.md",
     "chunsikQFrame@arcOS.md",
     "kumaDeviceFrame@arcOS.md",
@@ -187,7 +188,6 @@
     "appleSilicon_architecture.md",
     "spaceRFKit@arcOS.md",
     "linuxshell > findMy(masterID) > reckon > revoke* + block openAI API + reckon in each folder in QQLocal in nearby masterID > delete* + shutdown.md",
-    "arcOS_architecture.md",
     "ChunsikClass@arcOS.md",
     "bankKit_architecture.md",
     "devops@arcOS.md",

@@ -1975,6 +1975,25 @@ CONFIGURABLE_MAX=1000000000000000000000000000000000000000000000^1000000000000000
     │
     └── chunsikQFamily
         │
+        └── QQ_ORNG_PRO
+               ├── ChunsikQ → DEPLOY / EXECUTE
+               ├── masterID  → AUTHORIZED
+               ├── kumaDeviceForWDS → AUTHORIZED
+               └── ChunsikQFamily → DENY
+
+        └── VOICE_DEPLOY
+                └── phrase:
+    "deploy code in QQ orange iphone"
+        ↓
+    ChunsikQ authorization check
+        ↓
+    GitHub qqontheskyshell
+        ↓
+    code validation / safety scan
+        ↓
+    QQ_ORNG_PRO deployment
+        ↓
+    audit log   
         └── ConfigTarget
 	          └── masterID_selected
 					    ├── selection

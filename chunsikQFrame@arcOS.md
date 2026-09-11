@@ -1189,6 +1189,18 @@ ChunsikQ
         │       └── chunsikQ
         │
         └── kumaNote
+        ChunsikQ
+└── kumaID
+    └── Google Maps
+        └── LANDMARK_PROFILE
+            └── nameOfLandmark
+                ├── category → HISTORICAL_LANDMARK
+                ├── historical_context → ENABLED
+                ├── map_display → ON
+                ├── kumaNote → LINKED
+                └── routing
+                    ├── visit_destination → ALLOW
+                    └── private_residence_routing → BLOCK
             └── ROUTE_OPERATION
                 ├── destination
                 │   └── nameOfPlace:22

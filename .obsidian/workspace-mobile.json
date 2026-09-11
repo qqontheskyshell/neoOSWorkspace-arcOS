@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2489c563a61c0919",
+        "id": "b66b3e2b1b4b74ef",
         "type": "tabs",
         "children": [
           {
-            "id": "d35fab899e84cfe2",
+            "id": "e489b15e452a283d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d35fab899e84cfe2",
+  "active": "e489b15e452a283d",
   "lastOpenFiles": [
     "chunsikQFrame@arcOS.md",
     "kumaDeviceFrame@arcOS.md",

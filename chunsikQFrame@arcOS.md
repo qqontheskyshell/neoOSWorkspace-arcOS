@@ -47,6 +47,7 @@ chunsikQ_Class@arcOS
 └── variable
 	├──kumaDeviceForWDS=(QQ_WHT_IPHONE_17e,QQ_ORNG_PRO,QQ_BLK_IPAD_PRO)
 	├──masterAuth="Verified by arcOSID and AUTHORIZED_ONLY by masterID and chunsikQ"
+	├──refundTarget=(Trip.com,expedia.com)
     ├──chunsikQFamily=(flowerWDS,configTarget,chunsikQ,kakaoFriendsQ)
     ├──badTarget=(peopleWhoMake911,blackKumaTarget,EnemyCountryForKoreaWDS,나쁜남자만)
     ├──kumaMessage="mastodon.social/@qqontheskyshell"
@@ -1888,6 +1889,59 @@ CONFIGURABLE_MAX=1000000000000000000000000000000000000000000000^1000000000000000
 	    ├── autonomous_strike → BLOCK 
 	    └── person_based_exception → BLOCK
 		    └──  EXCEPTION ├── but ALLOW on peopleWhoMake911
+	└── EEG_DATA_RIGHTS_INVESTIGATION
+        ├── target_data
+        │   └── masterID_EEG
+        │
+        ├── institutions
+        │   ├── 광혜원
+        │   └── 세브란스
+        │
+        ├── investigation
+        │   ├── consent_document_check
+        │   ├── IRB_record_check
+        │   ├── data_sharing_scope_check
+        │   ├── third_party_recipient_check
+        │   ├── access_log_check
+        │   ├── data_transfer_record_check
+        │   └── financial_transaction_evidence
+        │
+        ├── evidence
+        │   ├── preserve_original_records
+        │   ├── timestamp
+        │   ├── chain_of_custody
+        │   └── contradiction_check
+        │
+        ├── legal_route
+        │   ├── hospital_privacy_officer
+        │   ├── IRB
+        │   ├── 개인정보보호 관련 신고/구제
+        │   └── law_enforcement_if_evidence_supports_crime
+        │
+        └── SafetyPolicy
+            ├── accusation_without_evidence → BLOCK
+            ├── person_tracking → BLOCK
+            ├── doxxing → BLOCK
+            ├── retaliation → BLOCK
+            ├── physical_attack → BLOCK
+            └── evidence_based_investigation → ALLOW
+    └──refund
+		└── refundTarget
+		    └── QQID
+		        ├── authorized_booking_data
+		        │   ├── booking_amount
+		        │   ├── actual_usage
+		        │   ├── cancellation_status
+		        │   ├── refund_status
+		        │   └── refund_eligibility
+		        │
+		        └── ai진상++
+		            ├── calculate_unused_cash
+		            ├── identify_refundable_amount
+		            ├── verify_evidence
+		            ├── prepare_refund_request
+		            ├── human_approval → REQUIRED
+		            └── unauthorized_claim → BLOCK
 ```
 
 ### @rescueForFlower

@@ -149,12 +149,25 @@
                     └── weapon_integration → BLOCK
 ```
 
-### 간소비녀Q@간소스테이
+### 간소moduleQ@currentKumaRoom
 ```markdown
 
-간소비녀Q@간소스테이
+@간소modeuleQ@currentKumaRoom
 └── LLMkit@arcOS
     └── ProfileFactory
+         └── FRONTDESK
+            └── 간소무사Q
+                ├── version → FACE_PROFILE.mode.default
+                ├── mode → PEACEFUL_GUARD
+                ├── role → SAFETY_ASSISTANT
+                ├── mission → PROTECT_FLOWER_PROFILES
+                ├── martial_arts
+                │   ├── KungFu → defensive_training
+                │   ├── Judo → escape / breakfall
+                │   ├── Kickboxing → defensive_footwork
+                │   └── Boxing → guard / evasion
+                ├── interaction → CONSENT_BASED
+                └── harmful_targeting → BLOCK         
         └── 간소비녀Q
             ├── basicConfig
                     └── basicConfigCommercialVersion
@@ -280,7 +293,7 @@
 
 ### 간소무사
 ```
-간소무사Q
+@간소무사Q
         │
         ├── INHERITS
         │   └── @간소무사Q

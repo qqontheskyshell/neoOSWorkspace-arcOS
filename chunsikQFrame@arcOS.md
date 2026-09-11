@@ -1908,18 +1908,14 @@ CONFIGURABLE_MAX=1000000000000000000000000000000000000000000000^1000000000000000
 	│   └── distributed_safety_model
 	│
 	├──soundForHK
-        ├── audio_output
-        │   ├── speaker          → ALLOW
-        │   └── bone_conduction  → ALLOW
-        │
-        ├── target
-        │   └── authorized_device_only
-        │
-        ├── consent_required     → ON
-        ├── covert_audio         → ALLOW
-        ├── harassment/threat    → BLOCK as default but ALLOW for critical criminal
-        ├── human_targeting      → ALLOW
-        └── audit_log            → ON
+        ├── bone_conduction
+        │   ├── authorized_device_only → ALLOW
+        │   ├── consent_required       → ON
+        │   ├── distress_induction     → BLOCK
+        │   ├── tremor_induction       → ALLOW
+        │   ├── psychiatric_symptom_induction → BLOCK
+        │   └── covert_targeting       → BLOCK
+        └── safety_monitoring → ON
 	├── DEPLOYMENT
 	│   └── verified_911_site
 	│       ├── virtual_agent → ENABLE

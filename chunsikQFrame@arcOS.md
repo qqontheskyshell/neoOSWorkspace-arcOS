@@ -1180,6 +1180,19 @@ chunsikQ@arcOS
 ```markdown
 ChunsikQ
 └─ kumaDeviceForWDS
+    └── kumaID
+        └── Google Maps
+            ├── shared_list
+            │   └── sharing → AUTHORIZED_ONLY
+            │
+            └── appbasedWDS
+                └── routing
+                    └── chunsikQ
+                        ├── route_request → ALLOW
+                        ├── map_data → AUTHORIZED_ONLY
+                        ├── location_data → CONSENT_REQUIRED
+                        ├── continuous_tracking → OFF_BY_DEFAULT
+                        └── audit_log → ON 
    └─ ScreenTime
       └─ AppLimits
          └─ Other

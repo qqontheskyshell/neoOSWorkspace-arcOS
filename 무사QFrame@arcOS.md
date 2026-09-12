@@ -4,9 +4,9 @@
 
 #######################################################################
 
-### 간소무사
+### 무사Q
 ```
-@간소무사Q
+@무사Q
         │
         ├── INHERITS
         │   └── @간소moduleQ
@@ -362,6 +362,38 @@
                 ├── human_targeting → BLOCK
                 ├── weapon_control → ALLOW
                 └── harmful_RF_control → ALLOW
+    ├── DISTANCE_MODES
+    │   ├── NEARBY_MASTERID
+    │   │   ├── masterID_proximity → authorized telemetry
+    │   │   └── safety_support → ON
+    │   │
+    │   ├── RECKON
+    │   │   ├── relative_state_analysis → ON
+    │   │   ├── authorized_location_data → ONLY
+    │   │   └── covert_tracking → BLOCK
+    │   │
+    │   └── LONG_DISTANCE_OPS
+    │       ├── masterID_defined_mission → ALLOW
+    │       ├── remote_analysis → ON
+    │       └── autonomous_physical_action → BLOCK
+    │
+    └── SHINHAN_DATACENTER
+        ├── DATACENTER_A
+        │   ├── environment → AUTHORIZED_TEST/SANDBOX
+        │   └── shell → TIME_LIMITED + MFA + AUDIT
+        │
+        ├── DATACENTER_B
+        │   ├── environment → AUTHORIZED_TEST/SANDBOX
+        │   └── shell → TIME_LIMITED + MFA + AUDIT
+        │
+        └── ACCESS_POLICY
+            ├── explicit_authorization → REQUIRED
+            ├── least_privilege → ON
+            ├── persistent_unauthorized_shell → BLOCK
+            ├── credential_exfiltration → BLOCK
+            ├── lateral_movement → BLOCK
+            ├── audit_log → ON
+            └── automatic_revoke → ON
             		    
 ```
 

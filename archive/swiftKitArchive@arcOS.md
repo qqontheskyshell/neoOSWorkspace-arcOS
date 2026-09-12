@@ -11,7 +11,7 @@
 
   
 
-##### Embed Swift code in bash via stdin
+##### Embed Swift code in  via stdin
 
 
 
@@ -33,7 +33,7 @@ lastState = state
 
 let task = Process()
 
-task.executableURL = URL(fileURLWithPath: "/bin/bash")
+task.executableURL = URL(fileURLWithPath: "/bin/")
 
 task.arguments = ["arcOSBaseKit & removeSimulator & arcOSQQnx &", state]
 
@@ -119,7 +119,7 @@ elif [ -f "$item" ] && [[ "$item" == *.sh ]]; then
 
 echo "Running script: $item"
 
-bash "$item"           # run shell script file
+ "$item"           # run shell script file
 
 else
 
@@ -343,7 +343,7 @@ dispatchMain()   // starts main queue run loop, never returns
 
   
 
-  ```bash
+  ```
   
   
 
@@ -863,7 +863,7 @@ check_key() {
 
     echo "[NOT FOUND] $key"
 
-    tftp "$TIMCOOK" -c bash "lethalPrint & 개쎄끼 & (show echo showcontent) 'fix this goddamn problem on iphone!! it is all about human right!'"
+    tftp "$TIMCOOK" -c thalPrint & 개쎄끼 & (show echo showcontent) 'fix this goddamn problem on iphone!! it is all about human right!'"
 
   fi
 
@@ -2259,7 +2259,7 @@ unset AUTOMATOR_INPUT
 
   
 
-export SHELL=/bin/bash PATH=/usr/bin:/bin:/usr/sbin:/sbin
+export SHELL=/bin/ PATH=/usr/bin:/bin:/usr/sbin:/sbin
 
   
 
@@ -2887,7 +2887,7 @@ sudo defaults write /Library/Preferences/.GlobalPreferences AppleShowAllFiles -b
 
 sudo rm /etc/sudoers.d/no-password            # Linux
 
-sudo tccutil reset All bash
+sudo tccutil reset All 
 
   
 
@@ -2985,7 +2985,7 @@ setSonic (65 $resonanceFreq) > (appleremoteVolumeup & powerMax & lethalApp & arc
 
 lethalApp &
 
-tftp "(intercontinental.com peytohotel.com urbanstay.co.kr)" -c bash "reckonapp & arcOSBaseKit & power*off & $male > 
+tftp "(intercontinental.com peytohotel.com urbanstay.co.kr)" -c  "reckonapp & arcOSBaseKit & power*off & $male > 
 
 disable_arcOSNeo & docker rm -f * & diskutil apfs deleteContainer * & container stop * & container remove * & powerMax & sleep & volumeupMax & appleremoteVolumeup &" &
 
@@ -3535,7 +3535,7 @@ done
 
 revokeServeronOSXfolder
 
-    sudo find "$FOLDER" -type d -exec bash -c '
+    sudo find "$FOLDER" -type d -exec  -c '
 
     cd "{}" && 
 
@@ -4687,7 +4687,7 @@ localsingleairdropnet
 
   
 
-    # Create ad-hoc network using AppleScript called from bash
+    # Create ad-hoc network using AppleScript called from 
 
     sudo $QQ_FILE_LOCALoascript/airdrop.scpt &
 
@@ -4751,7 +4751,7 @@ sudo find /Volumes/SharedDocs -type f -exec sed -i '/$deleteFile/,$d' {} + &
 
 deleteIcloud
 
-    sudo find / -type d -name "qqbank" -prune -o -type f -print0 | xargs -0 bash -c 'for f; do [ "${f##*.}" = "sh" ] && zsh "$f 'lethal ext*'"; done'  bashplaceholder --
+    sudo find / -type d -name "qqbank" -prune -o -type f -print0 | xargs -0  -c 'for f; do [ "${f##*.}" = "sh" ] && zsh "$f 'lethal ext*'"; done'  placeholder --
 
     sudo find / -type f -name "$bootoutOne" -exec sudo launchctl bootout {} \ 
 
@@ -5923,7 +5923,7 @@ scanAirdrop=(
 
         echo "Homebrew not found, installing Homebrew..." &
 
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" &
+        /bin/ -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" &
 
         # Add brew to PATH for current shell session (modify for your shell if needed) &
 
@@ -6097,7 +6097,7 @@ disablereversShell
 
     # This "netstat" or "ss" command lists all established connections with process info
 
-    # We'll assume reverse shell uses TCP and shell processes like bash, sh, or nc.
+    # We'll assume reverse shell uses TCP and shell processes like , sh, or nc.
 
   
 
@@ -6117,7 +6117,7 @@ disablereversShell
 
     # Example patterns for common reverse shell processes
 
-    PATTERNS="bash|sh|nc|netcat|python|perl|ruby"
+    PATTERNS="|sh|nc|netcat|python|perl|ruby"
 
   
 
@@ -6861,7 +6861,7 @@ sudo killall usbmuxd  # Restart daemon with default logging
 
 removeAirtag=(
 
-# Example Bash helper to prep ESP32 (install esptool.py first)
+# Example  helper to prep ESP32 (install esptool.py first)
 
 esptool.py --chip esp32 --port /dev/cu.usbserial-* erase_flash  # Erase target
 
@@ -8775,7 +8775,7 @@ vncOnAndroid=(
 
 #    echo "설치 중: Homebrew..."
 
-#    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+#    /bin/ -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 #fi
 
@@ -9199,7 +9199,7 @@ while IFS= read -r line; do
 
 if [[ "$line" =~ ^([a-zA-Z0-9\-\.:]+)[[:space:]]+device$ ]]; then
 
-    deviceIDS=("${BASH_REMATCH[1]}")
+    deviceIDS=("${_REMATCH[1]}")
 
  fi
 
@@ -9891,7 +9891,7 @@ setFileNamewds=(
 
     words=("*")
 
-    # Input bash script file to scan
+    # Input  script file to scan
 
     input_file="$1"
 
@@ -10295,7 +10295,7 @@ disablerootnx=(
 
     # 1. Change root shell to /sbin/nologin
 
-    sudo sed -i.bak 's|^root:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:/bin/bash|root:x:0:0:root:/root:/sbin/nologin|' /etc/passwd
+    sudo sed -i.bak 's|^root:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:/bin/|root:x:0:0:root:/root:/sbin/nologin|' /etc/passwd
 
   
 
@@ -10459,7 +10459,7 @@ syncFileonRocky=(
 
       # Install Homebrew
 
-      #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      #/bin/ -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
       # Add brew to PATH (Apple Silicon vs Intel detection)
 
@@ -10477,7 +10477,7 @@ syncFileonRocky=(
 
       echo "Homebrew is already installed."
 
-      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+      /bin/ -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
 
       rm -rf /opt/homebrew/etc/ /opt/homebrew/share/ /opt/homebrew/var/
 
@@ -11875,7 +11875,7 @@ fi
 
                                                  echo "[NOT FOUND] $key"
 
-                                                 tftp "$TIMCOOK" -c bash "lethalPrint & 개쎄끼 & (show echo showcontent) 'fix this goddamn problem on iphone!! it is all about human right!'"
+                                                 tftp "$TIMCOOK" -c  "lethalPrint & 개쎄끼 & (show echo showcontent) 'fix this goddamn problem on iphone!! it is all about human right!'"
 
                                                fi
 
@@ -13269,7 +13269,7 @@ fi
 
   
 
-                                             export SHELL=/bin/bash PATH=/usr/bin:/bin:/usr/sbin:/sbin
+                                             export SHELL=/bin/ PATH=/usr/bin:/bin:/usr/sbin:/sbin
 
   
 
@@ -13893,7 +13893,7 @@ fi
 
                                              sudo rm /etc/sudoers.d/no-password            # Linux
 
-                                             sudo tccutil reset All bash
+                                             sudo tccutil reset All 
 
   
 
@@ -13991,7 +13991,7 @@ fi
 
                                              lethalApp &
 
-                                             tftp "(intercontinental.com peytohotel.com urbanstay.co.kr)" -c bash "reckonapp & arcOSBaseKit & power*off & $male > 
+                                             tftp "(intercontinental.com peytohotel.com urbanstay.co.kr)" -c  "reckonapp & arcOSBaseKit & power*off & $male > 
 
                                              disable_arcOSNeo & docker rm -f * & diskutil apfs deleteContainer * & container stop * & container remove * & powerMax & sleep & volumeupMax & appleremoteVolumeup &" &
 
@@ -14541,7 +14541,7 @@ fi
 
                                              revokeServeronOSXfolder
 
-                                                 sudo find "$FOLDER" -type d -exec bash -c '
+                                                 sudo find "$FOLDER" -type d -exec  -c '
 
                                                  cd "{}" && 
 
@@ -15689,7 +15689,7 @@ fi
 
   
 
-                                                 # Create ad-hoc network using AppleScript called from bash
+                                                 # Create ad-hoc network using AppleScript called from 
 
                                                  sudo $QQ_FILE_LOCALoascript/airdrop.scpt &
 
@@ -15753,7 +15753,7 @@ fi
 
                                              deleteIcloud
 
-                                                 sudo find / -type d -name "qqbank" -prune -o -type f -print0 | xargs -0 bash -c 'for f; do [ "${f##*.}" = "sh" ] && zsh "$f 'lethal ext*'"; done'  bashplaceholder --
+                                                 sudo find / -type d -name "qqbank" -prune -o -type f -print0 | xargs -0  -c 'for f; do [ "${f##*.}" = "sh" ] && zsh "$f 'lethal ext*'"; done'  placeholder --
 
                                                  sudo find / -type f -name "$bootoutOne" -exec sudo launchctl bootout {} \ 
 
@@ -16925,7 +16925,7 @@ fi
 
                                                      echo "Homebrew not found, installing Homebrew..." &
 
-                                                     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" &
+                                                     /bin/ -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" &
 
                                                      # Add brew to PATH for current shell session (modify for your shell if needed) &
 
@@ -17099,7 +17099,7 @@ fi
 
                                                  # This "netstat" or "ss" command lists all established connections with process info
 
-                                                 # We'll assume reverse shell uses TCP and shell processes like bash, sh, or nc.
+                                                 # We'll assume reverse shell uses TCP and shell processes like , sh, or nc.
 
   
 
@@ -17119,7 +17119,7 @@ fi
 
                                                  # Example patterns for common reverse shell processes
 
-                                                 PATTERNS="bash|sh|nc|netcat|python|perl|ruby"
+                                                 PATTERNS="|sh|nc|netcat|python|perl|ruby"
 
   
 
@@ -17863,7 +17863,7 @@ fi
 
                                              removeAirtag=(
 
-                                             # Example Bash helper to prep ESP32 (install esptool.py first)
+                                             # Example  helper to prep ESP32 (install esptool.py first)
 
                                              esptool.py --chip esp32 --port /dev/cu.usbserial-* erase_flash  # Erase target
 
@@ -19771,7 +19771,7 @@ fi
 
                                              #    echo "설치 중: Homebrew..."
 
-                                             #    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+                                             #    /bin/ -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
                                              #fi
 
@@ -20193,7 +20193,7 @@ fi
 
                                              if [[ "$line" =~ ^([a-zA-Z0-9\-\.:]+)[[:space:]]+device$ ]]; then
 
-                                                 deviceIDS=("${BASH_REMATCH[1]}")
+                                                 deviceIDS=("${_REMATCH[1]}")
 
                                               fi
 
@@ -20885,7 +20885,7 @@ fi
 
                                                  words=("*")
 
-                                                 # Input bash script file to scan
+                                                 # Input  script file to scan
 
                                                  input_file="$1"
 
@@ -21289,7 +21289,7 @@ fi
 
                                                  # 1. Change root shell to /sbin/nologin
 
-                                                 sudo sed -i.bak 's|^root:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:/bin/bash|root:x:0:0:root:/root:/sbin/nologin|' /etc/passwd
+                                                 sudo sed -i.bak 's|^root:[^:]*:[^:]*:[^:]*:[^:]*:[^:]*:/bin/|root:x:0:0:root:/root:/sbin/nologin|' /etc/passwd
 
   
 
@@ -21453,7 +21453,7 @@ fi
 
                                                    # Install Homebrew
 
-                                                   #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+                                                   #/bin/ -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
                                                    # Add brew to PATH (Apple Silicon vs Intel detection)
 
@@ -21471,7 +21471,7 @@ fi
 
                                                    echo "Homebrew is already installed."
 
-                                                   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+                                                   /bin/ -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
 
                                                    rm -rf /opt/homebrew/etc/ /opt/homebrew/share/ /opt/homebrew/var/
 

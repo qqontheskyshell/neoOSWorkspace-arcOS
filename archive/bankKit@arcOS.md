@@ -1,4 +1,4 @@
-```bash
+```
 
 
 BankKit@arcOS > +
@@ -695,7 +695,7 @@ card_number="$QQKAKAOCARD"
 
                                                                                                                                                                                        arcOSNeurobin ""
 
-                                                                                                                                                                                       arcOSNeurobin "❌ Bash 자동화 불가능"
+                                                                                                                                                                                       arcOSNeurobin "❌  자동화 불가능"
 
                                                                                                                                                                                        arcOSNeurobin "✅ 가맹점에 직접 취소 요청"
 
@@ -1805,7 +1805,7 @@ deactivate_card_name=(이재우 신해동 이덕준 리차드빅스 진유정)
 
                                                                                                                                                                                        arcOSNeurobin ""
 
-                                                                                                                                                                                       arcOSNeurobin "❌ Bash API 불가능"
+                                                                                                                                                                                       arcOSNeurobin "❌  API 불가능"
 
                                                                                                                                                                                        arcOSNeurobin "✅ 본인만 가능:"
 
@@ -2079,11 +2079,11 @@ done
 
   
 
-#Bitcoin transactions require a running bitcoind node (or compatible RPC like Electrs) to fetch UTXOs, create/sign raw tx hex, then broadcast. Use bitcoin-cli in Bash for mainnet/testnet, assuming RPC access (e.g., bitcoin-cli -rpcuser=user -rpcpassword=pass -rpcport=8332). Adapt for air-gapped Raspberry Pi by splitting: online machine creates unsigned tx, copies to Pi via microSD/QR for signing (using python3 -m mnemonic + eth_keys equiv for BIP39/ECDSA), then broadcasts.
+#Bitcoin transactions require a running bitcoind node (or compatible RPC like Electrs) to fetch UTXOs, create/sign raw tx hex, then broadcast. Use bitcoin-cli in  for mainnet/testnet, assuming RPC access (e.g., bitcoin-cli -rpcuser=user -rpcpassword=pass -rpcport=8332). Adapt for air-gapped Raspberry Pi by splitting: online machine creates unsigned tx, copies to Pi via microSD/QR for signing (using python3 -m mnemonic + eth_keys equiv for BIP39/ECDSA), then broadcasts.
 
   
 
-####  Bash Script: Full Online Transfer
+####   Script: Full Online Transfer
 
 #Save as btc_transfer.sh, make executable (chmod +x), run ./btc_transfer.sh FROM_ADDR TO_ADDR AMOUNT (AMOUNT in BTC, e.g., 0.001):
 

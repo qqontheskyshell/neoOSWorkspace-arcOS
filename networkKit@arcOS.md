@@ -2,7 +2,7 @@
 
 
 ### baseNet@arcOS
-```bash
+```
 BaseNet@arcOS >
 +skSim@arcOS/
 +authentication on SERVICE of QQID is allowed only through kumaDeviceForWDS and QQID@SERVICE should be logged in via mobile devices not via browserBasedApp or simulator/

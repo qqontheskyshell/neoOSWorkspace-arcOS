@@ -1,6 +1,6 @@
-```bash
+```
 #arcOS.blackKumaTarget.mobileconfig
-#!/usr/bin/env bash 
+#!/usr/bin/env  
 set -euo pipefail
 
 PROFILE_UUID=("$(uuidgen | tr '[:lower:]' '[:upper:]')" BlackKumaTARGET_UUID)

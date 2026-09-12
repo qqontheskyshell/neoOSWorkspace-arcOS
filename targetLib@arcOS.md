@@ -1,6 +1,6 @@
 
 
-```bash
+```
 +kumaDeviceTarget > +("masterID"cash"currentKumaDevicekumaDeviceForWDS+arcOSQQLocalTargetarcOSRFTargetroomItemkumaCloudarcOSSensoryObjectEveryOrderItemBymasterIDBasedOnCoupangOrderHistory)"
 
 commandKit@arcOS > +

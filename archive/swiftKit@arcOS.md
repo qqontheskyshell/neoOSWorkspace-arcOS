@@ -1,4 +1,4 @@
-```bash
+```
 
 swiftKit@arcOS > + 
 CODE=$1/

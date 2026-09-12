@@ -1,5 +1,5 @@
 ### @kumaPGCrawler
-```bash
+```
 @kumaPGCrawler
     │
     ├── PGInventory

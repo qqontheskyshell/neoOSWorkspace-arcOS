@@ -1,6 +1,6 @@
 
 ### baseKey@arcOS
-```bash
+```
 BaseKey@arcOS > + 
 +masterLevel > rootLevel > mainLevel > + excempt from marginCall@arcOS and ThiefOnQQDevice unless they harm on masterID if then put them into ThiefOnQQDevice with warning message "if you willing to threat on masterID 1 minute later you will be in ThiefOnQQDevice"and volumeLevel with 30% as default but they could define as they want it/
 +GoldMember@arcOS=(동국대김재원은혜와진리교회이정재카카오같이또같이김양미시카고예술대학생상담차지연선생님시카고예술대재단이사장시카고예술대장동훈선선배동국대전지현과왕지현masterID와뜻을같이하는여자들조엄마WDS충남공주출생유명인백종원더본코리아골목식당)/

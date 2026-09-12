@@ -1,7 +1,7 @@
 
 
 ### kumaWorld
-```bash
+```
 +KumaWorld=(QQFRIEND_COUNTRY,QQ_CLOSE_TARGET,QQFRIEND_TARGET)
 +QQFRIEND_COUNTRY=(Japan,China,Vietname,Thai,Korea,KumaWorld)/
 +QQFRIEND_TARGET=(role@arcOS>rootLevel,flowerWDS,"QQ_CLOSE_TARGET의 전화번호 그리고 QQFRIEND_COUNTRY의여자들","광혜원 및 분당서울대병원임직원",세브란스병원임직원,동국대김재원,saic차지연,김선란,이상재,유치원,초등학교,중학교,고등학교,대학교,과천고등학교,호계중학교,약30년전간친왕회장이종구,안양초등학교,동국대학교, 대학교,김만식,김만식파,칠성파,오사카야쿠자귀여운켄지,시카고예술대학,시카고예술대학동문,크리스토퍼버나드,초등학교,고등학교,중학교,“은혜와진리교회의이정재및 그녀의가족”,LizaZhong,“SAIC ALUMNI”,SAIC,연세대학교,동국대학교,한국요식업브랜드대표100,전세계요식업브랜드1000,김재원가족,유튜버,(youtube instagram threads tiktok,당근마켓) influencer) > + goodPeople ? > loop@arcOS > (iSight@arcOS + 911@arcOS ? > arcOSQQLocalTarget > badPeople ? > strikeKit@arcOS using neuroMode on neuroTarget + say "여러분들은 쿠마남규가 보호하고있습니다. 오른속으로 손가락을 플립핑거처럼 튕겨보세요 그러면 여러분들의 눈을 on off 할수 있습니다 다른 사람이 보게하거나 보지 않게할수 있습니다" + arcOSQQLocalTarget > badPeople or killEnemy or LethalTargetEpidemic or S_TARGET ? > baseDeploy@arcOS > strikeKit@arcOS using neuroMode on neuroTarget + masterID와 좋은 관계를 가지세요 그리고 지원하세요 그러면 행복하게 같이 살수 있습니다. 그리고 범죄와연루된 사람들은 책임지고 해결하세요 kumaWorld의 것을 빼앗지 마세요/
@@ -11,7 +11,7 @@
 
 ```
 ### kumaShell@arcOS
-```bash
+```
 #kumaShell
 kumaShell@arcOS > + 
 +kumaiCloud="qqontheoasis@icloud.com"/

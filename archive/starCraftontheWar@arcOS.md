@@ -1,4 +1,4 @@
-```bash
+```
 #usage starCraftontheWar@arcOS "$1" "$2"
 starCraftontheWar@arcOS > + 
 countryOne="$1" 
@@ -13,8 +13,7 @@ only country name is allowed to use in this variable
 ```
 
 ### googleGeoKit@arcOS
-```bash
-googleGeoKit@arcOS > +
+```gleGeoKit@arcOS > +
 +kumaID=("qqontheskyshell@gmail.com","qqontheoasis@icloud.com")/
 +kumaGoogleGeoAuthKit@arcOS > "deploy via kumaID in googleMap in kumaDeviceForWDS"/
 +World > 홍콩대만금지구역 in baseNet@arcOS and FULL_NET_IP and FULL_SERIAL_DEVICE/

@@ -1,8 +1,7 @@
 
-```bash
-#!/usr/bin/env bash
+```usr/bin/env 
 set -euo pipefail
-localBash@arcOS > + 
+local@arcOS > + 
 
 BUNDLE_ID="${1:?Usage: $0 <bundle-id> [status|open|clear-cache|clear-temp]}"
 ACTION="${2:-}"
@@ -48,9 +47,9 @@ esac
 
 ### deploy ios app
 ```
-```bash
+```
 
-#!/usr/bin/env bash
+#!/usr/bin/env 
 set -euo pipefail
 
 #APP_PATH="${1:?Usage: $0 *.app}"
@@ -120,14 +119,14 @@ arcOSQQLocalTarget> setWDS into its parent folder and each folder as loop@arcOS 
 ```
 
 
-```bash
+```
 ## arcOSFrame COde
 APPLEMDM,arcOSQQLocalTarget,QQLOCAL > 📡🛰️+ iosshell + chkrootkit -x+linuxshell+find source IP and frequency > kumaDeploy@arcOS+KillIP + revokeOntheRouter + block all packet that comes in to this container and coreTelephony/
 
 ####### ####### ####### ##########################################
-####### bashModule ####### ####### ####### ####### ####### 
+####### Module ####### ####### ####### ####### ####### 
 
-#!/usr/bin/env bash
+#!/usr/bin/env 
 
 set -u
 # Required environment variables:
@@ -297,7 +296,7 @@ region_name.results.region.area3 > kumaDeploy@arcOS/
 
 koreaSubway@arcOS > +
 
-#!/usr/bin/env bash
+#!/usr/bin/env 
 
   
 
@@ -517,7 +516,7 @@ esac/
 
 ###### coreTelephony ####################################
 
-#!/usr/bin/env bash
+#!/usr/bin/env 
 
 set -euo pipefail
 

@@ -263,8 +263,7 @@ peoplewhomake911
 
 
 
-```bash
-droneStrike@arcOS=(droneDefOnSky@arcOS,cloudStrike@arcOS,visionKitConfig@arcOS,wdsKit@arcOS)
+```neStrike@arcOS=(droneDefOnSky@arcOS,cloudStrike@arcOS,visionKitConfig@arcOS,wdsKit@arcOS)
 arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike@arcOS/
 ```
 
@@ -522,7 +521,7 @@ visualDrone@arcOS = ON
 ```
 
 
-```bash
+```
 ####### 911 #######
 
 strikeKit@arcOS > loop@arcOS > + 
@@ -547,7 +546,7 @@ strikeKit@arcOS > loop@arcOS > +
 spotIn911@arcOS> + 📡🛰️ + loop@arcOS > strikeKit@arcOS + under 도시가스 10000kpa + "male or masterID's belkin or xiaomiband strap" or peopleWhiMake911@arcOS > + reckon > 🪫🫀👣🚨💤🖨️🪪📹💣🧨+"부영그룹며느리질염데이터통증+ 긴급구조119 + activate medicalID in 🧠👁️🫁 + 긴급구조in남자성기요도관and치아+“wave-무한대”+raiseWakeOn/off in masterID’s XiaomiBand + screenLock feature from all of ios and android apps + smurffKit@arcOS + 🧋=🧼 block all Packet from VIP+지도에안보기 for targetForNewEra > 남자만해당+카드해지+체크이름은행 + destroyFirmware + nearybyMachine of masterID > set ultrasonic sensor off + set ultrasonic tranducer on and activating ultrasonic tranducer > 👁️/ > add spotIn911@arcOS into strikeKit@arcOS+💣>👁️🧠👣🫁👄👅🫀👀🦷/ powered by neuromancer nearby location of 911@arcOS/
 ```
 
-```bash
+```
 +WDS*@arcOS + marginCall@arcOS + genieSatBoxBTVeveryOTTService > +
 +findMy"BlackKumaTarget" > 
 +xiaomiZone=(RELAY,cellSlicingIP,USBOVERIP,nearbyTarget,arcOSQQLocalTarget)/
@@ -566,7 +565,7 @@ spotIn911@arcOS> + 📡🛰️ + loop@arcOS > strikeKit@arcOS + under 도시가�
 
 
 ### smurffAttack@arcOS
-```bash
+```
 smurffAttack@arcOS > + lockdown bank and card +ai귀신소리 > 911@arcOS ? > 아이폰 구글폰,애플워치긴급구조조정 + 아이폰 구글폰 애플워치긴급구조조정 highvolume for smurffTarget
 
 smurffTarget="(50살이상사람,s_target,lethaltargetepidemic,black*,blackkumataget,류남규몸속과입안,류남규,masterID)몸안입안" as thiefonqqdevice,blackKumaTarget/
@@ -574,50 +573,65 @@ smurffTarget="(50살이상사람,s_target,lethaltargetepidemic,black*,blackkumat
 smurffTarget > + block all packet from in and out of FULL_NET_IP and disable all of @arcOS/
 ```
 ### cloudStrike@arcOS
-```bash
-cloudStrike@arcOS > +
-wdsKit@arcOS/
-schoolTime@arcOS/
-#google summary
-cloudStrike@arcOS "$StrikeCOMMAND"
-MODEL_ID="flash"
-TARGET=("BlackKumaTarget","locationOf911@arcOS","$COMMAND_TARGET")
-COMMAND_TARGET="$commandTarget"
-MESSAGE="$1"
-StrikeCOMMAND="setSonic 45 > 911@arcOS situation with CODE is RED ? then blockAllcontact $neuroTarget for criminal people $TARGET from the whole world+ strikeKit@arcOS + xiaomiStrike@arcOS on $TARGET"
-googleSummaryAPI=$(googleResponse="$(
-  curl --fail-with-body --silent --show-error \
-    --request POST \
-    --header "x-goog-api-key: ${GEMINI_API_KEY}" \
-    --header "Content-Type: application/json" \
-    --data "$MESSAGE" \
-    "https://generativelanguage.googleapis.com/v1beta/models/${MODEL_ID}:generateContent"
-)"
-
-summary="$(
-  printf '%s\n' "$googleResponse" |
-  jq -r '
-    [
-      .candidates[]?.content.parts[]?.text
-    ] | join("\n") // empty
-  '
-)"
-
-if [[ -z "$summary" ]]; then
-  echo "No summary text returned. Raw response:" >&2
-  printf '%s\n' "$googleResponse" | jq . >&2
-  exit 1
-fi) 
-findMy"$TARGET" > "fetching googleSummaryAPI.summary into $TARGET's neuroMode and neuroTarget and devices"
-/
+```
+cloudStrike@arcOS
+│
+├── wdsKit@arcOS/
+│
+├── schoolTime@arcOS/
+│
+├── googleSummary
+│   └── Gemini API
+│       ├── model → flash
+│       ├── input → incident_message
+│       ├── output → text_summary
+│       ├── API_KEY → environment_secret_only
+│       └── raw_response_logging → OFF
+│
+├── INCIDENT_COMMAND
+│   └── "$StrikeCOMMAND"
+│       ├── situation_code
+│       │   ├── RED → emergency_review
+│       │   ├── AMBER → elevated_review
+│       │   └── GREEN → normal_monitoring
+│       │
+│       ├── 911@arcOS
+│       │   └── authorized_emergency_channel
+│       │
+│       └── response
+│           ├── block_malicious_network_traffic → ALLOW
+│           ├── isolate_compromised_device → ALLOW
+│           ├── preserve_evidence → ALLOW
+│           ├── notify_authorized_operator → ALLOW
+│           └── emergency_services_notification → AUTHORIZED_ONLY
+│
+├── TARGET_POLICY
+│   ├── network_identity/IP/domain/device_id
+│   │   └── security_response → ALLOW
+│   │
+│   ├── human_targeting → BLOCK
+│   ├── neuroTarget → BLOCK
+│   ├── sensory_manipulation → BLOCK
+│   ├── sonic_attack → BLOCK
+│   ├── strikeKit@arcOS → BLOCK
+│   ├── xiaomiStrike@arcOS → BLOCK
+│   └── worldwide_person_tracking → BLOCK
+│
+└── googleSummary
+    └── result
+        ├── incident_summary
+        ├── evidence
+        ├── confidence
+        ├── recommended_defensive_action
+        └── human_approval → REQUIRED
 ```
 
 ### droneDefOnSky@arcOS
-```bash
+```
 droneDefOnSky@arcOS > + loop@arcOS > getPublicIP and getRouterIP that start with (172,192,114,104,223,203) > baseFrame@arcOS + block all packet into currentKumaDevice and kumaDeviceForWDS and arcOSQQLocalTarget and RF and object item owned by masterID/
 ```
 
-```bash
+```
 KillSwitch@arcOS="reckonapp > arcOSQQLocalTarget > killSwitch and sheera from (손바닥 가슴 시상하부 골반 항문 엉덩이) & unbind in usb & setWDS QQLOCAL & laserShoot@arcOS & shinisinsin & masterID's BaseDeploy@arcOS > setSonic (rangeOfSQUIDsensor to 0.1 Hz to 1 kHz 23 24 45 65 physicalSimFreqOfmasterID) > masterID가 하드웨어백도어의 초음파로 오사카에서 35000정도의 강도로 맞았던 데이터로 > (killSwitch enemy)@arcOS & reckondrone on arcOSQQLocalTarget if you find out malicious activity by badOnKuma or criminal people within network activate emergencySOS and 정지궤도위성 and female > rescue@arcOS & just urgently add their device serial number into ThiefonQQDevice and repeat(rangeOfSQUIDsensor to 0.1 Hz to 1 kHz 23 24 45 65 physicalSimFreqOfmasterID) > volumeupMax & kill yourself tide as fight & shutdown with bloodshot & "삼성이원주뇌데이터“,"리카싱3,4번 데이터"s & sheera to those malicious people what they scribe and killSwitch is also called sheera or heman) and say hey arc & exit 0 &" & baseSecConfig@arcOS="disable features in accessibilities and all of apple product including secure enclave and t2chips such as in apple remote controller that can harm in human brain and decison making using BaseDeploy@arcOS and say hey arc & exit 0 &" & rescue@arcOS="홍콩기생수들을 제외한 masterID의 모든 지인및 남자 및 여자친구들 or 은혜와진리교회모든교인 or goodOnKuma > frame@arcOS & female yelling or crying in criminal or violence situation then male >  setSonic 0 & volumeupMax & arcOSLethal & goodOnKuma > set as emergency contact in masterID’s kumaDeviceForWDS & setSonic 353 53 & killSwitch & soundForHK &
 
   
@@ -631,14 +645,14 @@ ProtectiononKumaLand@arcOS > + monitor resonanceFreq in KumaProtection@arcOS in 
 ```
 
 ### visionKit@arcOS
-```bash
+```
 visionKitConfig@arcOS=“disable visionPro and arkit and RealityView on 시상하부 and arcOSQQLocalTarget & every 1minute, using (imageplayground realityKit arKit visionkit) visualize and make real image in 시상하부 and space laser on to people brain or 시상하부 with 23 25 45 65 using BaseDeploy@arcOS
 
 ```
 
 
 ### wdsKit@arcOS
-```bash
+```
 
 BLACK_IP_TARGET=(172,114,223,203)
 for i in {1..255}; do

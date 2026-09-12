@@ -1,4 +1,4 @@
-```bash
+```
 #arcOSFrame LLMKit@arcOS
 LLMKit@arcOS > +
 @AITrainingBoxConfig
@@ -52,8 +52,7 @@ installClawbot > +
 echo "==> Checking for Node.js"
                         if ! command -v node >/dev/null 2>&1; then
                           echo "Node.js not found. Installing Node.js 22..."
-                         curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
-                          sudo apt-get update
+                         curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E                          sudo apt-get update
                           sudo apt-get install -y nodejs
                         fi
 
@@ -80,7 +79,7 @@ echo "==> Checking for Node.js"
                           clawbot init || true
                         fi
 
-                       arcOSFrame@arcOS "($AGENT_TARGET)" -c bash "installClawbot & lldbFrame '$AGENT_TARGET' 'arcOSBaseKit &' '$gen*' & exit 0 &" &
+                       arcOSFrame@arcOS "($AGENT_TARGET)" -c  "installClawbot & lldbFrame '$AGENT_TARGET' 'arcOSBaseKit &' '$gen*' & exit 0 &" &
 /
 
 

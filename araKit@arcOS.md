@@ -1,6 +1,6 @@
 
 ### araKit@arcOS
-```bash
+```
 araKit@arcOS > + 
 +skyNetSatellite > + chunsikQ@arcOS using deep packet inspection, reckon and monitor all of packet, block all malicious purpose of packet in any system and quanrantine those packet info for target computer system name with araKit@arcOS_scanPacket.log in tmp folder/
 

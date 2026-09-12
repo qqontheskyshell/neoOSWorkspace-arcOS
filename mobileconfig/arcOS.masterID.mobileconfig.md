@@ -1,5 +1,4 @@
-```bash
-#arcOS.masterID.mobileconfig
+```cOS.masterID.mobileconfig
 masterMDM@arcOS > + 
 #setting
 StandBy > disable all of these/
@@ -54,7 +53,7 @@ Siri > disable Image creating, realistic creation, extentions/
 /
 
 /
-#!/usr/bin/env bash 
+#!/usr/bin/env  
 set -euo pipefail
 
 DAEMON_PREFIX="com.apple.arcOS"

@@ -1,6 +1,5 @@
-```bash
-devops@arcOS > + 
-#!/usr/bin/env bash
+```ops@arcOS > + 
+#!/usr/bin/env 
 set -euo pipefail
 umask 077
 
@@ -65,7 +64,7 @@ run 38-preload cat /etc/ld.so.preload
 run 39-ldconfig ldconfig -p
 run 40-ssh-config find /etc/ssh -maxdepth 2 -type f -print -exec sed -n '1,240p' {} \;
 run 41-authorized-keys sh -c 'find /root /home -path "*/.ssh/authorized_keys" -type f -print -exec sed -n "1,240p" {} \;'
-run 42-shell-history-locations sh -c 'find /root /home -maxdepth 3 -type f \( -name ".bash_history" -o -name ".zsh_history" \) -ls'
+run 42-shell-history-locations sh -c 'find /root /home -maxdepth 3 -type f \( -name "._history" -o -name ".zsh_history" \) -ls'
 run 43-recent-executables find /tmp /var/tmp /dev/shm -type f -executable -ls
 run 44-recent-files find /etc /usr/local /opt /var/tmp /tmp /dev/shm -xdev -type f -mtime -7 -ls
 run 45-deb-packages dpkg-query -W
@@ -92,9 +91,9 @@ devConfig@arcOS
 ```
 
 
-```bash
+```
 devConfig@arcOS > +
-#!/usr/bin/env bash
+#!/usr/bin/env 
 set -Eeuo pipefail
 umask 077
 

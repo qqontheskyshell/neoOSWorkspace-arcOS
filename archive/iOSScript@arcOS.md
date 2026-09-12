@@ -1,4 +1,4 @@
-```bash
+```
 loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike@arcOS/
 
 

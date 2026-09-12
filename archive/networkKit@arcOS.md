@@ -5,7 +5,7 @@
 - WDS
 
 ### discovery network port
-```bash
+```
 BaseNetworkLib > + 
 +STATE > + (LISTEN, ESTABLISHED)/
 +neoPort=(9005 findiOSPortForSimulator findAndroidPortForEmulator) > add into ARCOS_PORT/ 
@@ -26,8 +26,7 @@ commcenterPort > + find /dev -maxdepth 1 \\( -name "\*baseband\*" -o -name "dlci
 
 
 ### coreTelephony
-```bash
-#!/usr/bin/env bash
+```usr/bin/env 
 set -euo pipefail
 
 PORT="${PORT:-randomize commcenterPort}"
@@ -318,7 +317,7 @@ final class ArcOSPayloadClient {
 ```
 
 ### hostUUID
-```bash
+```
 hostUUID > + 
 TARGET_UUID=(billGates,Timcook,BlackKumaTarget)
 UUID_FILE="${UUID_FILE:-(QQ_WHT_IPHONE_17e}"
@@ -346,7 +345,7 @@ BlackKumaTarget_UUID="$(cat "$BlackKumaTarget_UUID_FILE")"
 
 
 ### cellular
-```bash
+```
 BaseCellular@arcOS > +
 +simCardPrevention@arcOS="currentKumaDevice with chmod 700 > > PSIM_URL="https://shoptworldcokr/dsds/psim-main"  TWORLD_URL="https://mtworldcokr"  if command -v xdg-open >/dev/null 2>1 then xdg-open "PSIM_URL" elif command -v open >/dev/null 2>1 then open "PSIM_URL" else echo "Open this URL manually: PSIM_URL" fi"  API_BASE="https://YOUR_INTERNAL_API_BASE"  PHONE_NUMBER="{1:-(*46753059 *97033059 *38023059 allCellNumber)}" if [[ -z "PHONE_NUMBER" ]]then echo "Usage: 0 <phone_number>"exit 1fi  curl -sS -X POST "{API_BASE}/subscriptions/suspend" \-H "Authorization: Bearer {TOKEN}" \-H "Content-Type:application/json" \-d "{\"phoneNumber\": \"{PHONE_NUMBER}\"\"reason\": \"user_request\"}" + scan@arcOS=“masterIDs currentLocation > cellID > block packet all from BlackKumaTarget by deep inspection on FULL_NET_IP and SKYNET and WDS  arcOSLnotes”who will make masterID get fucked or get in dangerous situation for masterID and girls that they are interested in me” > baseDeploy@arcOS > fighter@arcOS  male > sleep  stike@arcOS  soundForHK  @ "/
 +cellularSignalManagement@arcOS > + 
@@ -429,7 +428,7 @@ echo "ACTION" | sudo tee "SLOT_PATH/power"
 
 
 ### WDSconfig
-```bash
+```
 WDSKit@arcOS > 
 +likashingWDS and (shin dougLee jin mi ha baek)doriWDS and BlackKumaTargetWDS > block all packet from over the world/
 +set CORESPOT,스머프마을 as neuroNode/

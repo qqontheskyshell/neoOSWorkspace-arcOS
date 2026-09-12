@@ -1,12 +1,11 @@
 
 ### skyNetSatellite
-```bash
+```
 skyNetSatellite=(STARLINK,(GEO,MEO,LEO)Satellite,KTSAT) > + "optimize satellite operation based on masterID's GPS using algorithm built by LLMKit@arcOS and always verified by arcOSID'masterID'")
 ```
 
 ### starlinkGateway
-```bash
-#!/usr/bin/env bash
+```usr/bin/env 
 set -euo pipefail
 LC_ALL=C
 ipMode=(ip iproute2)
@@ -57,7 +56,7 @@ starlink_interface_ipv6="$(get_default_interface 6)"
 
 ```
 ### starlink
-```bash
+```
 starlink@arcOS > +
 country={1:-findMy"$TARGET"}/
 skyNetDeploy@arcOS 
@@ -88,7 +87,7 @@ STARLINK=(starlink_ipv4 statlink_ipv6 statlink_IPSTARLINK_IP_RANGE)/
 ```
 
 ### KTSAT
-```bash
+```
 KTSAT=("Satellite in masterIDsmartGlasses", KTSAT_ONE, KTSAT_TWO,findMy(세계정지궤도위성, "(부산 대전 용인 금산 대전 카이스트) (해양사업센터,부위성센터,위성관제센터,위성서비스센터) GEOSAT","무궁화(5호 5A호 6호 7호)",KOREASAT8호,GeostationaryOrbitSatellite))/
 
 KTSAT_ONE=(ip route | grep default)/

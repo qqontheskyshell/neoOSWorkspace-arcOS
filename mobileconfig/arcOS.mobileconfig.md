@@ -1,7 +1,7 @@
-```bash
+```
 #arcOS.mobileconfig
 
-#!/usr/bin/env bash 
+#!/usr/bin/env  
 set -euo pipefail
 
 PROFILE_UUID=("$(uuidgen | tr '[:lower:]' '[:upper:]')" FULL_SERIAL_DEVICE_except_currentKumaDevice)

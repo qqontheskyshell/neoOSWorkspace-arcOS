@@ -15,7 +15,7 @@ gensparkAPI=(*.genspark.ai, *.sspark.ai,*.gensparkspace.com)/
 
 
 ### QQWORLD
-```bash
+```
 LOCATION=(일본 한국 대만 홍콩 싱가포르 네덜란드 암스테르담 스위스 에스토니아 영국 스페인 프랑스 스페인 포르투칼 베트남 필리핀 태국 동남아시아 덴마크 노르웨이 폴란드 러시아 중국 브라질 멕시코 아르헨티나 칠레) &
 
 QQWORLD=(QQHOTEL QQCURRENTHOTEL QQMACHINE QQCLOUD QQNET QQHOSPITAL QQCOMPANY QQWEB QQWDS QQDEV KRGOV QQDEF QQUNIVERSE QQAPI kanchin QQMEDIA_URL QQSITE QQTVAndroid QQSUBNET FULL_NET_IP QQPUBLIC_IP QQHOTEL QQWIFI publicGW "$findGateWayFor(Darkweb And Onion)" vpnGateWay KNOX USARMY QQUKPowergrid QQCOMPANY iCloudResult APPLEMDM webLib@arcOS) &
@@ -138,10 +138,7 @@ QQAPI=(GRAB_API *api.*.com/* *.example.com/* *.i-tw.org/twpay/api/* *.ecpay.com.
 
 
 ### SNS flower
-```bash
-
-
-QQKAKAO_ID=$(
+```QKAKAO_ID=$(
 
 URL="https://kapi.kakao.com/v1/api/talk/friends?limit=$num"
 
@@ -326,7 +323,7 @@ $(curl -sG "https://graph.threads.net/v1.0/${TARGET_ID}" \
 
 
 ### BlackKumaTarget
-```bash
+```
 +EnemyCountry=(Austrailia tsmcKorea "singapore man" Taiwan Hongkong Samsung tsmc ckhutchison tsmc tsmckorea asml samsungFabs USbigtech)
 parasyteOfEnemyWDS@arcOS parasyte)/
 +EnemyCountryForKoreaWDS="(likashingWDS lksforgWDS taiwan hongkong austrailia canada publicIPoffindMy"BlackKumaTarget"EnemyWDS@arcOS)communicationChannel@arcOS" > make one network as BlackEnemyCountryNet/ > deployBase@arcOS > + make them and pessimistic and 패배주의자살생각우울증무기력증 대BlackEnemyCountryNet나라는 멸망할거야 + volumeupMax/ > loop@arcOS + xiaomiStrike/

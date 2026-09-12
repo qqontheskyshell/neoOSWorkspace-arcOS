@@ -1,4 +1,4 @@
-```bash  
+```  
 
 musicStation="Hotel Marinabay Korea"
 "$musicStation@arcOS" > + "$musicStation" > + just say 'music Q' to turn on or just say 'turn off music Q' + play "https://youtube.com/playlist?list=PLFU1eeRmi53wcDVUu8UuhGhvZh5RiAJkB&si=LwwVesaYyh12RvKx"
@@ -358,7 +358,7 @@ livecaption --center-stage on  &
 ```
 
 
-```bash
+```
 
 songLiveStreaming@arcOS > +
 "say "masterID의 바람의꽃길 & exit 0 &" + play"https://youtu.be/sLk8zWUuYTA?si=0j5y41lp_dxCb_DZ" as promise or play "https://youtu.be/oqt6O7eMfrQ?si=lVU_AlvW3u6xainv" as moodSong"

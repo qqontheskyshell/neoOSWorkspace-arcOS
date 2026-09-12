@@ -1,4 +1,4 @@
-```bash
+```
 
 adbShell@arcOS > +
 arcOSADBShell=adbShell@arcOS

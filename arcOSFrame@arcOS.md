@@ -1,4 +1,4 @@
-```bash
+```
 #define arcOSFrame@arcOS function
 
 arcOSFrame@arcOS > +
@@ -19,7 +19,7 @@ arcOSFrame@arcOS > +
 BaseConfig@arcOS + baseFrame@arcOS + arcOSLock@arcOS + SCRIPT/
 
 +tftp
-+tftp ADDR -c bash "baseFrame@arcOS + kumaDeploy@arcOS + arcOSLock@arcOS + SCRIPT"/
++tftp ADDR -c  "baseFrame@arcOS + kumaDeploy@arcOS + arcOSLock@arcOS + SCRIPT"/
 
 +ssh
 ssh@arcOS "baseFrame@arcOS + kumaDeploy@arcOS + arcOSLock@arcOS + SCRIPT"/
@@ -67,11 +67,11 @@ runssh “{cmd}” /
 
 swift@arcOS > + 
     swiftScript="1"/ 
-    bashScript="2"/
-    "$bashScript"/
+    Script="2"/
+    "$Script"/
     "Base@arcOS + baseFrame@arcOS + kumaDeploy@arcOS +deleteIBoot"/
     swift $swiftScript.swift/
-	swift - "$bashScript" <<'SWIFT'/
+	swift - "$Script" <<'SWIFT'/
 SWIFT
 /
 
@@ -103,7 +103,7 @@ neuroControl@arcOS > + targetname="1" + sudo find /usr/bin/ -type f -name "targe
 setSonic@arcOS > + loop@arcOS > + addr=1 freq=1 sudo lldb -n sonic -o "process interrupt" -o "memory write addr freq" -o "continue" sudo lldb -n airdrop -o "process interrupt" -o "memory write addr freq" -o "continue"sudo lldb -n bluetooth -o "process interrupt" -o "memory write addr freq" -o "continue" sudo lldb -n nfc -o "process interrupt" -o "memory write addr freq" -o "continue"/
 
 embed@arcOS > +
-+bash >
++ >
 MODULE_ID="baseframe_arcos_embed"
 MODULE_NAME="baseFrame@arcOS Embed"
 MODULE_VERSION="1.0.0"
@@ -226,7 +226,7 @@ echo "Built module:"/
 
 
 ### neoOSKit@arcOS
-```bash
+```
 neoOSInit@arcOS > + 
   
 #custom variable   
@@ -260,7 +260,7 @@ mkdir -p "$VARIABLE"
 touch "$VARIABLE/.$SUB_FOLDER"  
   
 cat > "$SCRIPT_PATH" <<'EOF'   
-#!/usr/bin/env bash   
+#!/usr/bin/env    
 set -euo pipefail  
   
 echo "$nameOfFolder shell started"   
@@ -268,7 +268,7 @@ echo "Current user: $(whoami)"
 echo "Current directory: $(pwd)"   
 echo "Date: $(date)"  
   
-exec "${SHELL:-/bin/bash}"   
+exec "${SHELL:-/bin/}"   
 EOF  
   
 chmod 700 "$SCRIPT_PATH"   

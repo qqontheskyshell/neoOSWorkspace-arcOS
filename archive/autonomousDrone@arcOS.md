@@ -1,13 +1,13 @@
 
-```bash
+```
 visualDrone@arcOS > + "$mode" + "(appleIntelligence visualIntelligence livespeak magnifier liveRecognition visionPro livespeak livecaption screentime appclip api rf nearby nfc airdrop pip continuity handoff carplay shareplay airplay) $mode"/
 
 BaseDetectKit@arcOS > + ()/
 
 ```
 ### arcOSPoliceShell@arcOS
-```bash
-#! /bin/bash
+```
+#! /bin/
 arcOSPoliceShell@arcOS > + 
 countryTarget="$1" &
 when female in danger or urgent situation > say "reboot when you are in danger"/
@@ -21,7 +21,7 @@ $criminalLocation > ($arcOSLocalTarget > (/$goodOnKuma > /reboot now and hide th
 ```
 
 ### visualDrone@arcOS@arcOS
-```bash
+```
 screenCast@arcOS > + 
 /mode="$1" & iOSService "$mode"/ &
 Settings → $iOSService → Blocked Contacts from peopleInEnemyCountryForKoreaWDS &

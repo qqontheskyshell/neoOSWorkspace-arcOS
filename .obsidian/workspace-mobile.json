@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4383581126bbd7c2",
+        "id": "1cd5c4564df889b7",
         "type": "tabs",
         "children": [
           {
-            "id": "fcbc315629d92926",
+            "id": "cf4cd856d2a984fa",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "```bash",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,35 +167,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "10455f33885429cc",
+  "active": "cf4cd856d2a984fa",
   "lastOpenFiles": [
     "무사QFrame@arcOS.md",
-    "droneKit@arcOS.md",
-    "간소QFrame@arcOS.md",
-    "chunsikQFrame@arcOS.md",
-    "스타벅스비녀QFrame@arcOS.md",
-    "bankFrame@arcOS.md",
-    "kumaDeviceFrame@arcOS.md",
-    "appleSiliconFrame@arcOS.md",
-    "sensorFrame@arcOS.md",
-    "buildingFrame@arcOS.md",
-    "APILibFrame@arcOS.md",
+    "archive/xcodeBuild@arcOS.md",
+    "archive/webLib@arcOS.md",
     "targetLib@arcOS.md",
-    "archive/APILib@arcOS.md",
-    "ㅇ.md",
-    "appleSilicon_architecture.md",
-    "spaceRFKit@arcOS.md",
-    "linuxshell > findMy(masterID) > reckon > revoke* + block openAI API + reckon in each folder in QQLocal in nearby masterID > delete* + shutdown.md",
-    "arcOS_architecture.md",
-    "ChunsikClass@arcOS.md",
-    "bankKit_architecture.md",
+    "archive/swiftKitArchive@arcOS.md",
+    "archive/swiftKit@arcOS.md",
+    "archive/starCraftontheWar@arcOS.md",
+    "archive/skyNet@arcOS.md",
+    "archive/secondBrain@arcOS.md",
+    "roleKit@arcOS.md",
+    "archive/Personal Information management.md",
+    "neuroKit@arcOS.md",
+    "archive/networkKit@arcOS.md",
+    "networkKit@arcOS.md",
+    "archive/mediaKit@arcOS.md",
+    "LLMKit@arcOS.md",
+    "archive/kumaDevice@arcOS.md",
+    "archive/iOSScript@arcOS.md",
+    "archive/iOSKit@arcOS.md",
     "devops@arcOS.md",
-    "sensorKit_architecture.md",
-    "QQ_architecture.md",
-    "policeKit@arcOS.md",
+    "archive/cloudKit@arcOS.md",
+    "bashKit@arcOS.md",
+    "archive/baseFrame_archive.md",
+    "baseConfig@arcOS.md",
+    "archive/bankKit@arcOS.md",
+    "bankFrame@arcOS.md",
     "Untitled",
-    "araKit@arcOS.md",
-    "baseKit@arcOS.md",
     "IMG_0022.png",
     "mobileconfig",
     "archive/LICENSE",

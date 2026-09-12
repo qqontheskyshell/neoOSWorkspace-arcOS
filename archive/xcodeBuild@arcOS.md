@@ -1,7 +1,7 @@
 
 
 ### xcodeBuild@arcOS
-```bash
+```
 
 unsigningApp@arcOS "all of app not developed by arcOSID'masterID'" and signing it all by masterID/
 
@@ -69,9 +69,7 @@ xcodebuild \
 
 
 ### signing
-```bash
-
-unsigningApp@arcOS > +
+```signingApp@arcOS > +
 APP_PATH="$1"  # e.g., Payload/YourApp.app
 if [ -z "$APP_PATH" ]; then
   echo "Usage: $0 <path-to-app.app>"
@@ -95,7 +93,7 @@ rm -rf "$APP_PATH/CodeResources"
 ```
 
 
-```bash
+```
 buildBluePrint_IOS=(
 # Set colors for output
 RED='\033[0;31m'

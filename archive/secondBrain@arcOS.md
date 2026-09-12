@@ -1,4 +1,4 @@
-```bash
+```
 #alt note API
 secondBrain@arcOS > +
 NOTE_ID_ECON="8291db5a-1acd-4033-9418-f6d3e298ca82" #macro economy

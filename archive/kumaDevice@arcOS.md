@@ -1,4 +1,4 @@
-```bash
+```
 
 kumaDevice@arcOS > +
 symbol@arcOS=('~!@%^&*()_+{}|:"<>?~')/
@@ -104,7 +104,7 @@ masterID=("류남규“ "Namkyu Ryoo" "Namkyu"KumaNamkyu" QQID "qqontheskyshell@
 ```
 
 
-```bash
+```
 archive > +
 QQ_WHT_IPHONE_17e_ICCID="8982052504106572208"
 QQ_WHT_IPHONE_17e_IMEI=(353579865096719 353579865018036)

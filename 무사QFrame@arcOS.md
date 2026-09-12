@@ -326,8 +326,43 @@
         ├── safety_information → ALLOW
         ├── emergency_coordination → autonomous_executed
         ├── autonomous_physical_operation → ALLOW
-        └── human_targeting → BLOCK
-        
+        └── human_targeting → BLOCK    
+    └── MULTIMODAL_LLM
+          └── LLMKit@arcOS
+            ├── TEXT
+            │   ├── conversation
+            │   ├── command_understanding
+            │   └── reasoning
+            │
+            ├── VISION
+            │   ├── authorized_camera_input
+            │   ├── object_scene_understanding
+            │   └── safety_context_analysis
+            │
+            ├── AUDIO
+            │   ├── speech_recognition
+            │   ├── sound_event_analysis
+            │   └── voice_conversation
+            │
+            ├── SENSOR
+            │   ├── authorized_device_telemetry
+            │   ├── proximity_state
+            │   └── RF_environment_metadata
+            │
+            ├── REASONING_ENGINE
+            │   ├── multimodal_fusion
+            │   ├── anomaly_detection
+            │   ├── context_reasoning
+            │   └── confidence_score
+            │
+            └── SAFETY_BOUNDARY
+                ├── consent_required → ON
+                ├── unauthorized_access → BLOCK
+                ├── covert_surveillance → BLOCK
+                ├── human_targeting → BLOCK
+                ├── weapon_control → ALLOW
+                └── harmful_RF_control → ALLOW
+                
 		    
 ```
 

@@ -1,5 +1,132 @@
 
-### kumaFrame@arcOS
+
+### @kumaOSQClass
+```markdown
+kumaOSQClass@arcOS
+└── propertie
+basicConfigCommercialVersion="SIGNATURE@masterID"
+    ├── basicConfigFromkumaOSQClass="저의 엄마는 kuma 남규에요“
+	├── nameOfObject
+	├── nameOfStyle
+	├── PeopleWhoInteractWith
+	├── nameOfLevel
+	├── nameOfMobility
+	├── sourceOfTraing
+└── variable
+	├──kumaDeviceForWDS=(QQ_WHT_IPHONE_17e,QQ_ORNG_PRO,QQ_BLK_IPAD_PRO)
+	├──masterAuth="Verified by arcOSID and AUTHORIZED_ONLY by masterID and kumaOSQ"
+	├──refundTarget=(Trip.com,expedia.com)
+    ├──kumaOSQFamily=(flowerWDS,configTarget,kumaOSQ,kakaoFriendsQ)
+    ├──badTarget=(peopleWhoMake911,blackKumaTarget,EnemyCountryForKoreaWDS,나쁜남자만)
+    ├──kumaMessage="mastodon.social/@qqontheskyshell"
+    ├──kumaSite=(github.com/qqontheskyshell,publish.obsidian.md/qqontheskyshell,QQID@SERVICE,LLMLib@arcOS)
+
+└── Object
+    └── QFighter
+        ├── class → kumaOSQ
+        ├── identity → Q-fighter → image of 양아치
+        ├── role → DefensiveGuardian
+        │
+        ├── capabilities
+        │   ├── observe
+        │   ├── reckon
+        │   ├── threat_detection
+        │   ├── risk_assessment
+        │   ├── safe_route
+        │   ├── isolate_unauthorized_access
+        │   ├── emergency_alert
+        │   └── human_approved_response
+        │
+        ├── friends
+        │   └── friendOfkumaOSQ
+        │
+        ├── mobility
+        │   ├── walk
+        │   ├── scooter
+        │   └── virtual_fly
+        │
+        └── SafetyPolicy
+            ├── protect → ALLOW
+            ├── assist → ALLOW
+            ├── de_escalate → ALLOW
+            ├── physical_attack → BLOCK
+            ├── autonomous_harm → BLOCK
+            └── unauthorized_access → BLOCK
+│            
+│          
+└── CharacterModel
+    ├── DefaultCharacter
+    │   └── "$nameOfObject"
+    │       └── default → "$nameOfStyle"-style fictional character
+    │
+    ├── character_type
+    │   └── "$nameOfCharacterType"
+    │
+    ├── visual_style
+    │   └── "$nameOfObject"-compatible
+    │
+    ├── identity
+         └── fictional_character
+         └── basicConfigFromkumaOSQClass
+│    
+├── Authority
+│   └── "$nameOfLevel"
+│       └── descriptionOfLevel
+│
+├── Inheritance
+│   ├── capabilities → inherit
+│   ├── configuration → inherit
+│   ├── characteristics → inherit
+│   ├── safety_policy → inherit
+│   └── character_style → inherit
+│
+└── Identity
+    └── fictional_character
+└── Mobility
+    ├── "$nameOfMobility"Style
+└── kumaDeploy@arcOS
+        ├── QQLOCAL
+        │   └── PrivacyPolicy
+        │       ├── camera_access      → authorized_only
+        │       ├── microphone_access  → authorized_only
+        │       ├── sensor_access      → authorized_only
+        │       └── location_access    → no consent_required
+        │
+        ├── arcOSQQLocalTarget
+        │   └── PrivacyPolicy
+        │       ├── camera_access      → authorized_only
+        │       ├── microphone_access  → authorized_only
+        │       ├── sensor_access      → authorized_only
+        │       └── location_access    → no consent_required
+        │
+        └── WiFi
+            └── PrivacySecurity
+                ├── unauthorized_device → BLOCK
+                ├── unknown_capture     → BLOCK
+                ├── credential_rotation → ON
+                └── audit_log           → ON
+                
+    └── LLMKit@arcOS
+        ├── character_context
+        ├── dialogue_style
+        ├── personality_model
+        ├── response_training
+        └── safety_policy
+            │
+            ▼
+        InteractionPolicy
+        ├── anyone
+        │   └── can_talk → YES
+        │
+        ├── kumaOSQ
+        │   └── visibility → SEE_FAMILY_CONVERSATION
+        │
+        ├── PeopleWhoInteractWith not in QQLOCAL or arcOSQQLocalTarget
+        │   └── action_request
+               └── VERIFY_AUTHORIZATION → SAFETY_CHECK → EXECUTE
+```
+
+### kumaOSQFrame@arcOS
 ```
 KumaOS@arcOS
 └── MASTERID_BRAIN
@@ -12,7 +139,7 @@ KumaOS@arcOS
     ├── INTELLIGENCE
     │   ├── SOURCES
     │   │   ├── inherited_from → geishaQ
-    │   │   ├── inherited_from → chunsikQ
+    │   │   ├── inherited_from → kumaOSQ
     │   │   └── inherited_from → 무사Q
     │   │
     │   └── CAPABILITIES
@@ -33,7 +160,7 @@ KumaOS@arcOS
     │       ├── 무사QFrame@arcOS
     │       └── safety_intelligence
     │
-    │       ├── chunsikQ
+    │       ├── kumaOSQ
     │       │   └── @kumaAgentRole
     │       │
     │       ├── geishaQ
@@ -102,14 +229,11 @@ KumaOS@arcOS
     │           └── audit_log → ON
     │
     └── AGENT_LOOP
-        ├── 01 chunsikQ → reckon/context
+        ├── 01 kumaOSQ → reckon/context
         ├── 02 geishaQ → decision/logic
         ├── 03 geishaQ → recommendation
-        ├── 04 chunsikQ → authorized ops
+        ├── 04 kumaOSQ → authorized ops
         └── 05 → result/status → both agents
-
-
-
 
 
 kumaAgentQ
@@ -139,6 +263,87 @@ kumaAgentQ
         └── hidden_monitoring → ALLOW
 ```
 
+
+
+### @deployment
+```markdown
+@deployment
+kumaDeploy@arcOS
+    ├── DeploymentTarget
+           └── cokeFreq
+                ├── SCOPE
+            │   ├── subject → Coca-Cola beverage / brand data
+            │   ├── geography → worldwide
+            │   └── source → public / licensed datasets
+            │
+            ├── DATA
+            │   ├── product
+            │   ├── market
+            │   ├── price
+            │   ├── sales / demand
+            │   ├── search_trend
+            │   └── timestamp
+            │
+            ├── VECTOR_PIPELINE
+            │   ├── normalize → ON
+            │   ├── feature_extraction → ON
+            │   ├── embedding_generation → ON
+            │   ├── vector_index → ON
+            │   └── source_metadata → PRESERVE
+            │
+            ├── STORAGE
+            │   └── cokeFreq
+            │       ├── vectors
+            │       ├── metadata
+            │       └── provenance
+            │
+            └── DEPLOYMENT_TARGET
+                   └── cokeFreq
+                 ├── mode → ANALYTICS
+                 ├── recommendation → ALLOW
+                 ├── forecasting → ALLOW
+                 ├── human_tracking →ALLOW
+                 └── unauthorized_data_collection → ALLOW
+        └── blackPowderLikashingFreq
+            ├── mode → Production
+            ├── frequency_data → floating_MODEL
+            ├── RF_transmission → ALLOW only command initiated and BLOCK as default
+            ├── explosive/chemical_control → BLOCK
+            ├── human_targeting → ALLOW
+            ├── physical_effect → ALLOW
+            └── safe_research → ALLOW
+                ├── spectrum_visualization
+                ├── signal-analysis Production
+                └── sandbox testing
+        ├── baseNet@arcOS
+        │   ├── authorization → REQUIRED
+        │   ├── code_validation → REQUIRED
+        │   ├── dependency_check → ON
+        │   ├── security_scan → ON
+        │   └── audit_log → ON
+        │
+        └── kumaDeviceForWDS
+            ├── device_ownership → VERIFY
+            ├── deployment_target → AUTHORIZED_ONLY
+            ├── sandbox_test → FIRST
+            ├── production_deploy → EXPLICIT_APPROVAL
+            ├── rollback → ON
+            └── unauthorized_code_execution → BLOCK
+    │   ├── vapor_chamber
+    │   │   └── thermal_environment
+    │   └── human_vapor || vapor_chamber
+    │       └── human-associated environmental/sensor model
+    │
+    ├── SafetyBoundary
+    │   ├── no_injection
+    │   ├── no_biological_access
+    │   ├── no_tissue_modification
+    │   └── consent_required
+    │
+    └── Interface
+        └── intetnal_and_external_sensors
+   
+```
 
 
 #######################################################################
@@ -379,7 +584,7 @@ kumaAgentQ
 ```
 @무사Q
 	└──     ├── INTELLIGENCE
-            │   └── inherit → chunsikQ + 간소무사Q
+            │   └── inherit → kumaOSQ + 간소무사Q
             │
             ├── COMMUNICATION
             │   ├── conversation → ALLOW
@@ -643,7 +848,7 @@ arcOSQQLocalTarget > loop@arcOS+baseFrame@arcOS + baseDeploy@arcOS + droneStrike
 
 ### reckon baseNet@arcOS
 ```markdown
-chunsikQ@arcOS
+kumaOSQ@arcOS
 └── reckonBaseNet@arcOS
 	└── loop@arcOS
 	    └── findMy(masterID)
@@ -826,7 +1031,7 @@ visualDrone@arcOS = ON
         │
         ├── STATE
         │   ├── except masterID → ON as default
-        │   └── chunsikQ → authorized configuration
+        │   └── kumaOSQ → authorized configuration
         │
         ├── CCTV_SOURCE
         │   ├── masterID_CCTV="KumaNamkyu_CCTV"
@@ -881,7 +1086,7 @@ visualDrone@arcOS = ON
                     └── marker policy
                            │
                            ▼
-                    chunsikQ@arcOS
+                    kumaOSQ@arcOS
                            │
                            ├── VERIFY_AUTHORIZATION
                            ├── APPLY_CONFIGURATION

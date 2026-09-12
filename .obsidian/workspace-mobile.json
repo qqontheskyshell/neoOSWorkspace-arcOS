@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "545b8c93529afaeb",
+        "id": "600aedb538661587",
         "type": "tabs",
         "children": [
           {
-            "id": "66eb29713e09d549",
+            "id": "9b90608661086507",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "geisha",
+            "query": "deployment",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -167,11 +167,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "66eb29713e09d549",
+  "active": "9b90608661086507",
   "lastOpenFiles": [
-    "kumaFrame@arcOS.md",
-    "무사QFrame@arcOS.md",
+    "kumaOSQFrame@arcOS.md",
     "chunsikQFrame@arcOS.md",
+    "무사QFrame@arcOS.md",
     "론드리QFrame@arcOS.md",
     "LineFriendQFrame@arcOS.md",
     "신한이QFrame@arcOS.md",

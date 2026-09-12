@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "36f9dee75e704890",
+        "id": "de5037b8f86aabd1",
         "type": "tabs",
         "children": [
           {
-            "id": "a85c0f5e2deba385",
+            "id": "26531380ed1936bf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a85c0f5e2deba385",
+  "active": "26531380ed1936bf",
   "lastOpenFiles": [
     "간소QFrame@arcOS.md",
     "chunsikQFrame@arcOS.md",

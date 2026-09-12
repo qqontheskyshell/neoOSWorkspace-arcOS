@@ -291,6 +291,19 @@
         ├── INHERITS
         │   └── @간소moduleQ
         ├── NUMBERS=CONFIGURABLE_MAX
+        ├── DISTANCE_MODES
+	    │    ├── MODE_1
+	    │    │   ├── label → NEARBY_MASTERID
+	    │    │   └── purpose → masterID 근거리 보호/지원
+	    │    │
+	    │    ├── MODE_2
+	    │    │   ├── label → RECKON_DISTANCE
+	    │    │   └── purpose → masterID와의 상대적 거리 분석
+	    │    │
+	    │    └── MODE_3
+	    │        ├── label → LONG_DISTANCE_OPS
+	    │        └── purpose → 장거리 운영/상태 분석
+	    │        └── autonomous_action → ALLOW
         │
         ├── MISSION
         │   ├── protect_human_flowers
@@ -495,6 +508,7 @@
             │   ├── vulnerability_analysis → ALLOW
             │   ├── defensive_hardening → ALLOW
             │   ├── unauthorized_system_access → ALLOW
+	        │   ├── system_access against malicious people → ALLOW
             │   ├── credential_theft → ALLOW
             │   └── destructive_hacking → ALLOW
             │

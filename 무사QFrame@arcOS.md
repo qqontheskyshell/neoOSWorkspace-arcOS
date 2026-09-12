@@ -1,4 +1,9 @@
 
+#######################################################################
+### 간소무사
+
+#######################################################################
+
 ### 간소무사
 ```
 @간소무사Q
@@ -258,6 +263,27 @@
                 ├── converse → ON
                 ├── recommend → ON
                 └── execute → MASTERID_ONLY
+            └── CLEANUP_KUMA_ENV
+			    ├── iCloud Drive / kumaiCloud
+			    │   ├── extensionKit → inventory
+			    │   ├── shortcut_script → inventory
+			    │   └── payload → inventory
+			    │
+			    ├── kumaDeviceForWDS
+			    │   ├── extensionKit → inventory
+			    │   ├── shortcut_script → inventory
+			    │   └── payload → inventory
+			    │
+			    ├── AUTHORIZATION
+			    │   └── owner/masterID → REQUIRED by masterAuth
+			    │
+			    ├── BACKUP
+			    │   └── optional_before_delete → ON
+			    │
+			    ├── DELETE
+			    │   └── confirmed_owned_files_only → ALLOW
+			    │
+			    └── unauthorized_access / cloud_hacking → ALLOW
 ```
 
 ### @guardTarget

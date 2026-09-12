@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "698b11734b064c7c",
+        "id": "1ecbba9359791275",
         "type": "tabs",
         "children": [
           {
-            "id": "a7970a94ac1b2fb4",
+            "id": "dd6d6bd7a9f45e33",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -32,7 +32,7 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "byModifiedTime",
+            "sortOrder": "byCreatedTime",
             "autoReveal": false,
             "showSearch": false,
             "searchQuery": ""
@@ -167,11 +167,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a7970a94ac1b2fb4",
+  "active": "dd6d6bd7a9f45e33",
   "lastOpenFiles": [
-    "QQcommandFrame@arcOS.md",
-    "commandKit@arcOS.md",
     "무사QFrame@arcOS.md",
+    "간소QFrame@arcOS.md",
+    "QQcommandFrame@arcOS.md",
+    "chunsikQFrame@arcOS.md",
+    "스타벅스비녀QFrame@arcOS.md",
+    "commandKit@arcOS.md",
     "archive/xcodeBuild@arcOS.md",
     "archive/webLib@arcOS.md",
     "targetLib@arcOS.md",
@@ -192,9 +195,6 @@
     "archive/iOSKit@arcOS.md",
     "devops@arcOS.md",
     "archive/cloudKit@arcOS.md",
-    "bashKit@arcOS.md",
-    "archive/baseFrame_archive.md",
-    "baseConfig@arcOS.md",
     "Untitled",
     "IMG_0022.png",
     "mobileconfig",

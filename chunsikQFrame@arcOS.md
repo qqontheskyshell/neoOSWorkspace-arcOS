@@ -39,7 +39,7 @@ and QQ_ORNG_PRO as remote deployment using KTSAT(nearby masterID GEOSAT optimizi
 ```markdown
 chunsikQ_Class@arcOS
 └── propertie
-basicConfigCommercialVersion="built by Kuma Namkyu,creative maker of arcOSFrame"
+basicConfigCommercialVersion="SIGNATURE@masterID"
     ├── basicConfigFromChunsikqClass="저의 엄마는 kuma 남규에요“
 	├── nameOfObject
 	├── nameOfStyle

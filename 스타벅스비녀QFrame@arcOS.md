@@ -52,9 +52,6 @@
                 ├── unauthorized_purchase → BLOCK
                 └── personal_data_minimization → ON
                 
-   ```
-   
-   ```
 @deployment             
    GLOBAL_DEPLOYMENT_POLICY
         ├── scope

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e46417437207ce6c",
+        "id": "bb14bf843d67868c",
         "type": "tabs",
         "children": [
           {
-            "id": "33c22bcf8a493fc2",
+            "id": "cc88e8579996a6c4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "maker of arcOSFrame",
+            "query": "SIGNATURE@mas",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,12 +167,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "33c22bcf8a493fc2",
+  "active": "cc88e8579996a6c4",
   "lastOpenFiles": [
-    "스타벅스비녀QFrame@arcOS.md",
-    "chunsikQFrame@arcOS.md",
     "간소QFrame@arcOS.md",
+    "chunsikQFrame@arcOS.md",
     "무사QFrame@arcOS.md",
+    "스타벅스비녀QFrame@arcOS.md",
     "bankFrame@arcOS.md",
     "kumaDeviceFrame@arcOS.md",
     "appleSiliconFrame@arcOS.md",

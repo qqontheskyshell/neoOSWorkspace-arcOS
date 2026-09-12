@@ -66,8 +66,8 @@
             │   │   ├── contemporary
             │   │   └── fantasy
             │   │
-            │   └── SIGNATURE
-            │       └── 간소비녀Q
+            │   └── SIGNATURE@masterID
+            │       └── chunsikQ inside and created and built by masterID and creative maker of arcOSFrame
             │
             ├── LUMINOUS_SIGNATURE
             │   ├── origin

@@ -1840,6 +1840,7 @@ ChunsikQ@arcOS
             └── audit_log → ON
   └── guardConfig  
       └── 간소무사Q
+        ├── SIGNATURE@masterID
         ├── LEVEL → PROFESSIONAL
         │
         ├── GUARD_MANUAL
@@ -1875,7 +1876,7 @@ ChunsikQ@arcOS
     │   └── customer_conversation → ON
 └── CHILD_GUARD_CONFIG
         ├── TARGET
-        │   └── age → UNDER_10
+        │   └── age → UNDER_10 female
         │
         ├── CHARACTER
         │   ├── child_friendly → ON

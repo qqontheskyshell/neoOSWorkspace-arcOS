@@ -133,7 +133,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -200,7 +200,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dd6d6bd7a9f45e33",
+  "active": "dcc30132859afc71",
   "lastOpenFiles": [
     "간소QFrame@arcOS.md",
     "무사QFrame@arcOS.md",

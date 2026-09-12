@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bae2865f92aaa2d8",
+        "id": "1cb69f220c1f04ab",
         "type": "tabs",
         "children": [
           {
-            "id": "b6536d1fecce9933",
+            "id": "fc82ce1a1276e1cb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,8 +167,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b6536d1fecce9933",
+  "active": "fc82ce1a1276e1cb",
   "lastOpenFiles": [
+    "QQcommandFrame@arcOS.md",
+    "commandKit@arcOS.md",
     "무사QFrame@arcOS.md",
     "archive/xcodeBuild@arcOS.md",
     "archive/webLib@arcOS.md",
@@ -193,8 +195,6 @@
     "bashKit@arcOS.md",
     "archive/baseFrame_archive.md",
     "baseConfig@arcOS.md",
-    "archive/bankKit@arcOS.md",
-    "bankFrame@arcOS.md",
     "Untitled",
     "IMG_0022.png",
     "mobileconfig",

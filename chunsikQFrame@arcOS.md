@@ -1762,10 +1762,6 @@ ChunsikQ@arcOS
     │   ├── commercial_profile → ON
     │   └── customer_conversation → ON
     │
-    ├── 간소무사Q
-    │   ├── commercial_profile → ON
-    │   └── customer_conversation → ON
-    │
     ├── kakaoFriendsQ
     │   ├── commercial_profile → ON
     │   └── brand/service_interaction → ON
@@ -1823,8 +1819,10 @@ ChunsikQ@arcOS
             ├── real_military_system_access → ALLOW
             ├── unauthorized_shell → ALLOW
             └── audit_log → ON
+            
+            
+간소무사Q
 └── guardConfig
-    └── 간소무사Q
         ├── LEVEL → PROFESSIONAL
         │
         ├── GUARD_MANUAL
@@ -1854,7 +1852,10 @@ ChunsikQ@arcOS
             ├── consent → REQUIRED
             ├── human_targeting → BLOCK
             ├── retaliation → BLOCK
-            └── audit_log → ON
+            └── audit_log → ON   
+└──  Commercial_Config 
+    │   ├── commercial_profile → ON
+    │   └── customer_conversation → ON
 ```
     
 ### @kumaShield

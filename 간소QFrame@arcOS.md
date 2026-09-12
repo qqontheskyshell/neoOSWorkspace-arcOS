@@ -148,7 +148,7 @@
                 │   └── defensive_movement_sim
                 └── SAFETY_LAYER
                     ├── training_only → ON
-                    ├── simulation_only → ON
+                    ├── Production → ON
                     ├── real_person_targeting → BLOCK
                     ├── autonomous_attack → BLOCK
                     └── weapon_integration → BLOCK

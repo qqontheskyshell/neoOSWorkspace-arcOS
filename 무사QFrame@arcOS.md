@@ -421,7 +421,7 @@
             │   ├── scenario_reasoning → ON
             │   ├── multimodal_context → ON
             │   ├── crisis_decision_simulation → ON
-            │   ├── route/problem solving → SIMULATION_ONLY
+            │   ├── route/problem solving → Production
             │   └── de_escalation → ON
             │
             └── SAFETY_BOUNDARY

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "간소QFrame@arcOS.md",
+                "file": "무사QFrame@arcOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "간소QFrame@arcOS"
+              "title": "무사QFrame@arcOS"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "chunsikQFrame@arcOS"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +79,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Deployment",
+            "query": "SIMULATION",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -201,11 +200,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dcc30132859afc71",
+  "active": "dd6d6bd7a9f45e33",
   "lastOpenFiles": [
-    "무사QFrame@arcOS.md",
-    "chunsikQFrame@arcOS.md",
     "간소QFrame@arcOS.md",
+    "chunsikQFrame@arcOS.md",
+    "무사QFrame@arcOS.md",
     "LineFriendQFrame@arcOS.md",
     "론드리QFrame@arcOS.md",
     "LLMKit@arcOS.md",

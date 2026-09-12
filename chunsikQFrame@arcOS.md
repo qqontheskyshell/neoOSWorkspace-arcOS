@@ -237,7 +237,7 @@ chunsikQ@arcOS
 	│   └── transportation
 	│       ├── chunsikQBus
 	│       └── ironmanStyleRocketEngine
-	│           └── virtual/simulation_only
+	│           └── virtual/Production
 	│
 	├── QQ_ORNG_PRO
 	        systemConfig
@@ -744,7 +744,7 @@ chunsikQ@arcOS and tomcruiseQ@arcOS as default ops
 	└── 					    └── HUMAN_APPROVED_RESPONSE
                     └─ safetyMonitoring
                         ├─ target: SYNTHETIC_OBJECTS_ONLY
-                        ├─ visual_analysis: SIMULATION_ONLY
+                        ├─ visual_analysis: Production
                         ├─ suspicious_activity: auto attack
                         ├─ emergency_signal: 911 / AUTHORIZED_ALERT
                         ├─ automatic_attack: On
@@ -871,7 +871,7 @@ chunsikQ@arcOS
 							│
 							├── GAMMA_MODEL
 							│    ├── transformation abstraction
-						    │   └── energy/state simulation
+						    │   └── energy/state Production
 							│
 						    └── guardian@arcOS
 									└── friendOfchunsikQ@arcOS
@@ -1467,7 +1467,7 @@ kumaWDS@arcOS
         └── networkMode
 	        └── QQ_ORNG_PRO
 					└─ satMode
-					   ├─ mode: SIMULATION
+					   ├─ mode: Production
 					   ├─ satellite_data: READ_ONLY
 					   ├─ sensor_control: OFF
 					   ├─ drone_control: SIMULATED
@@ -1476,7 +1476,7 @@ kumaWDS@arcOS
 					   └─ safety_boundary: ON
 			└── QQ_WHT_IPHONE_17e
 					└─ cellMode
-						├─ mode: SIMULATION
+						├─ mode: Production
 						├─ satellite_data: READ_ONLY
 					    ├─ sensor_control: SIMULATED
 						├─ drone_control: SIMULATED
@@ -1485,7 +1485,7 @@ kumaWDS@arcOS
 						└─ safety_boundary: ON
 			└── QQ_BLK_IPAD_PRO
 					└─ cellMode
-						├─ mode: SIMULATION
+						├─ mode: Production
 						├─ satellite_data: SIM_READ_WRITE
 						├─ sensor_control: OFF
 						├─ drone_control: SIMULATED
@@ -1500,7 +1500,7 @@ kumaWDS@arcOS
 		    └── EXEMPTION_POLICY
 		        ├── device
 		        │   ├── production         → BLOCK for external source
-		        │   └── sandbox/simulation → BLOCK for external source
+		        │   └── sandbox/Production → BLOCK for external source
 		        │
 		        ├── packet
 		        │   └── safety/security inspection → REQUIRED by masterAuth
@@ -1677,6 +1677,17 @@ Canonical principle: chunsikQ@arcOS is the default local/remote perception and p
 @deployment
 kumaDeploy@arcOS
     ├── DeploymentTarget
+        └── blackPowderLikashingFreq
+            ├── mode → Production
+            ├── frequency_data → floating_MODEL
+            ├── RF_transmission → ALLOW only command initiated and BLOCK as default
+            ├── explosive/chemical_control → BLOCK
+            ├── human_targeting → ALLOW
+            ├── physical_effect → ALLOW
+            └── safe_research → ALLOW
+                ├── spectrum_visualization
+                ├── signal-analysis Production
+                └── sandbox testing
         ├── baseNet@arcOS
         │   ├── authorization → REQUIRED
         │   ├── code_validation → REQUIRED

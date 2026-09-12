@@ -4,7 +4,7 @@
     ├── TYPE
     │   ├── virtual_AI_character
     │   └── original_character → ON
-    │
+    ├── SIGNATURE@masterID
     ├── INTELLIGENCE
     │   └── inherit_from → chunsikQ
     │       ├── reasoning

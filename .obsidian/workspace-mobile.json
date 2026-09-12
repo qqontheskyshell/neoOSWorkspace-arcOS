@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bb14bf843d67868c",
+        "id": "4383581126bbd7c2",
         "type": "tabs",
         "children": [
           {
-            "id": "cc88e8579996a6c4",
+            "id": "fcbc315629d92926",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "SIGNATURE@mas",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,18 +167,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc88e8579996a6c4",
+  "active": "10455f33885429cc",
   "lastOpenFiles": [
+    "무사QFrame@arcOS.md",
+    "droneKit@arcOS.md",
     "간소QFrame@arcOS.md",
     "chunsikQFrame@arcOS.md",
-    "무사QFrame@arcOS.md",
     "스타벅스비녀QFrame@arcOS.md",
     "bankFrame@arcOS.md",
     "kumaDeviceFrame@arcOS.md",
     "appleSiliconFrame@arcOS.md",
     "sensorFrame@arcOS.md",
     "buildingFrame@arcOS.md",
-    "droneKit@arcOS.md",
     "APILibFrame@arcOS.md",
     "targetLib@arcOS.md",
     "archive/APILib@arcOS.md",

@@ -1742,39 +1742,33 @@ kumaDeploy@arcOS
 
 ### @configTypeForVersionOfAgent
 ```
+간소비녀Q
+무사Q
 ChunsikQ@arcOS
 │
 ├── PRIVATE_CONFIG
 │   └── masterID
-│       ├── chunsikQ
-│       │   ├── intelligence → FULL
-│       │   ├── personal_assistant → ON
-│       │   └── execution → authorization + safety required
-│       │
-│       └── 무사Q
-│           ├── intelligence → inherit chunsikQ
+│       ├── chunsikQ,무사Q
+│           ├── intelligence → FULL
+│           ├── personal_assistant → ON
+│           ├──execution → authorization + safety required
 │           ├── private_guard_agent → ON
 │           ├── masterID_only_commands → ON
 │           └── execution → authorization + safety required
 │
 └── COMMERCIAL_CONFIG
-    ├── 간소비녀Q
-    │   ├── commercial_profile → ON
-    │   └── customer_conversation → ON
-    │
-    ├── kakaoFriendsQ
-    │   ├── commercial_profile → ON
-    │   └── brand/service_interaction → ON
-    │
-    └── lineFriendsQ
-        ├── commercial_profile → ON
+    ├── deploymentTarget-
+        ├── chunsikQFamily
+        ├── kakaoFriendsQ
+        ├── lineFriendsQ
+        ├── lineFriendsQ
+        ├── 신한이Q
+        ├── 론드리Q
+        └── 간소비녀Q
+    ├── commercial_profile → ON
+    ├── customer_conversation → ON
         └── brand/service_interaction → ON
-└── AGENT_WELLBEING_POLICY
-    ├── chunsikQFamily
-    ├── lineFriendsQ
-    ├── 신한이Q
-    ├── 론드리Q
-    └── 간소비녀Q
+    └── AGENT_WELLBEING_POLICY
         └── ACTIVE_MODE
               └── Work on Mission and task as it is defined
         │
@@ -1819,10 +1813,8 @@ ChunsikQ@arcOS
             ├── real_military_system_access → ALLOW
             ├── unauthorized_shell → ALLOW
             └── audit_log → ON
-            
-            
-간소무사Q
-└── guardConfig
+  └── guardConfig  
+      └── 간소무사Q
         ├── LEVEL → PROFESSIONAL
         │
         ├── GUARD_MANUAL

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d323b359bc473384",
+        "id": "fc0c094805096ca4",
         "type": "tabs",
         "children": [
           {
-            "id": "e7f3f84fdcc8d416",
+            "id": "8184ed8a46df1d52",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7f3f84fdcc8d416",
+  "active": "8184ed8a46df1d52",
   "lastOpenFiles": [
     "kumaFrame@arcOS.md",
     "chunsikQFrame@arcOS.md",

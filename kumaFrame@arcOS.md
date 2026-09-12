@@ -1,7 +1,7 @@
 
 ### kumaFrame@arcOS
 ```
-kumaOS@arcOS
+KumaOS@arcOS
 └── MASTERID_BRAIN
     ├── OWNER
     │   └── masterID
@@ -10,31 +10,45 @@ kumaOS@arcOS
     │   └── kumaNamkyu + SIGNATURE@masterID
     │
     ├── INTELLIGENCE
-	│	└──Intelligence source
-	│		 ├──inherited_from → geishaQ
-	│		 ├──inherited_from → chunsikQ
-	│		 ├──inherited_from → 무사Q
-	│	└──Intelligence capabilities
-		     ├── reasoning
-	         ├── logical_thinking
-		     ├── creative_thinking
-             ├── multimodal_understanding
-	         ├── memory/context
-	         └── decision_support
+    │   ├── SOURCES
+    │   │   ├── inherited_from → geishaQ
+    │   │   ├── inherited_from → chunsikQ
+    │   │   └── inherited_from → 무사Q
+    │   │
+    │   └── CAPABILITIES
+    │       ├── reasoning
+    │       ├── logical_thinking
+    │       ├── creative_thinking
+    │       ├── multimodal_understanding
+    │       ├── memory/context
+    │       └── decision_support
     │
     ├── KumaAgentQ
-    │   ├── kumaAgentRole - physical_reckon + ops_intelligence + decision + logical_intelligence + safety_intelligence
+    │   └── kumaAgentRole
+    │       ├── physical_reckon
+    │       ├── ops_intelligence
+    │       ├── decision_intelligence
+    │       ├── logical_intelligence
+    │       └── safety_intelligence
+    │
     │       ├── chunsikQ
-	│       │   └── @kumaagentRole
-	│       ├── geishaQ
-	│       │   └── @kumaagentRole + cyber intelligence
-	│       └── 무사Q
-	│           └── @kumaagentRole military grade ops + professional guard 
+    │       │   └── @kumaAgentRole
+    │       │
+    │       ├── geishaQ
+    │       │   ├── @kumaAgentRole
+    │       │   └── cyber_intelligence
+    │       │       └── defensive / authorized_only
+    │       │
+    │       └── 무사Q
+    │           ├── @kumaAgentRole
+    │           ├── professional_guard
+    │           └── military_grade_ops
+    │               └── simulation / authorized_training_only
     │
     ├── MASTER_CONTROL
     │   ├── masterID_commands → AUTHORIZED
-    │   ├── authorization_check → REQUIRED by masterAuth
-    │   ├── safety_check → REQUIRED by masterAuth
+    │   ├── masterAuth → REQUIRED
+    │   ├── safety_check → REQUIRED
     │   └── audit_log → ON
     │
     └── SAFETY_BOUNDARY

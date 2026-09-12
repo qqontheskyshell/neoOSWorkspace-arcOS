@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fc0c094805096ca4",
+        "id": "6afb500d0c688931",
         "type": "tabs",
         "children": [
           {
-            "id": "8184ed8a46df1d52",
+            "id": "75fc5c2614bc3267",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,14 +167,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8184ed8a46df1d52",
+  "active": "75fc5c2614bc3267",
   "lastOpenFiles": [
     "kumaFrame@arcOS.md",
+    "무사QFrame@arcOS.md",
     "chunsikQFrame@arcOS.md",
     "론드리QFrame@arcOS.md",
     "LineFriendQFrame@arcOS.md",
     "신한이QFrame@arcOS.md",
-    "무사QFrame@arcOS.md",
     "간소QFrame@arcOS.md",
     "QQcommandFrame@arcOS.md",
     "스타벅스비녀QFrame@arcOS.md",

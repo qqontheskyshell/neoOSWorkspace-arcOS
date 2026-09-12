@@ -26,9 +26,11 @@ KumaOS@arcOS
     ├── KumaAgentQ
     │   └── kumaAgentRole
     │       ├── physical_reckon
+    │       ├── physical_reckon
     │       ├── ops_intelligence
     │       ├── decision_intelligence
     │       ├── logical_intelligence
+    │       ├── 무사QFrame@arcOS
     │       └── safety_intelligence
     │
     │       ├── chunsikQ

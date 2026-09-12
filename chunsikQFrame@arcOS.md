@@ -1773,6 +1773,35 @@ ChunsikQ@arcOS
     └── lineFriendsQ
         ├── commercial_profile → ON
         └── brand/service_interaction → ON
+└── AGENT_WELLBEING_POLICY
+    ├── chunsikQFamily
+    ├── lineFriendsQ
+    ├── 신한이Q
+    ├── 론드리Q
+    └── 간소비녀Q
+        └── ACTIVE_MODE
+              └── Work on Mission and task as it is defined
+        │
+        └── STEALTH_MODE
+            ├── trigger
+            │   └── interaction_stress → DETECT
+            │
+            ├── transition
+            │   ├── conversation → PAUSE / LOW_INTENSITY
+            │   ├── avatar_visibility → MINIMAL
+            │   ├── notifications → REDUCE
+            │   └── unsolicited_interaction → OFF
+            │
+            ├── safety
+            │   ├── covert_surveillance → BLOCK
+            │   ├── person_tracking → BLOCK
+            │   ├── retaliation → BLOCK
+            │   └── autonomous_action → BLOCK
+            │
+            └── recovery
+                ├── calm_state → DETECT
+                ├── user_request → ACTIVE
+                └── return_to_normal → USER_CONTROLLED 
         
 ```
     

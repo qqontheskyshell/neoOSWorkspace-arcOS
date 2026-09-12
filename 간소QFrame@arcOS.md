@@ -402,6 +402,30 @@
                 ├── neuro_modulation → BLOCK
                 ├── automatic_exposure_adjustment → BLOCK
                 ├── medical_diagnosis → PROFESSIONAL_REQUIRED
-                └── user_consent → REQUIRED    
+                └── user_consent → REQUIRED  
+    └── ADAPTIVE_CONVERSATION
+        ├── LANGUAGE
+        │   ├── detect_preferred_language → ON
+        │   ├── user_selected_language → PRIORITY
+        │   ├── multilingual_LLM → ON
+        │   └── auto_language_switch → ON
+        │
+        ├── CULTURAL_STYLE
+        │   ├── conversation_etiquette → ADAPT
+        │   ├── formality → ADAPT
+        │   └── cultural_context → RESPECT
+        │
+        ├── AVATAR
+        │   ├── appearance_style → USER_PREFERENCE
+        │   ├── hairstyle → CONFIGURABLE
+        │   ├── clothing → CONFIGURABLE
+        │   ├── age_presentation → ADULT_VIRTUAL
+        │   └── nationality_stereotype_face → BLOCK
+        │
+        └── PERSONALIZATION
+            ├── preferred_features → CONSENT_REQUIRED
+            ├── favorite_style → USER_SELECTED
+            ├── avatar_change → USER_CONTROL
+            └── real_person_face_clone → BLOCK  
    ```
             

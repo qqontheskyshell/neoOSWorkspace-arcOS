@@ -1858,7 +1858,42 @@ ChunsikQ@arcOS
 	            └── voluntary/device-level safety controls
 	                ├── eyes → FORCED_DISABLE
 	                ├── ears → FORCED_DISABLE
-	                └── five_senses → FORCED_DISABLE
+	                └── five_senses → FORCED_DISABLE	
+└── ACCESS_POLICY 
+    ├── Private_Config - Full_Access_On_System
+    ├── Commerci_Config
+    │   ├── system_access → LIMITED
+    │   ├── least_privilege → ON
+    │   ├── customer_data → CONSENTED_SCOPE_ONLY
+    │   ├── admin_privilege → BLOCK
+    │   ├── shell_access → BLOCK
+    │   ├── credential_access → BLOCK
+    │   ├── security_control → BLOCK
+    │   ├── autonomous_transaction → BLOCK
+    │   └── external_system_action → EXPLICIT_AUTHORIZATION
+    │
+    ├── ROLE
+    │   ├── customer_friendly → ON
+    │   ├── informative → ON
+    │   ├── supportive → ON
+    │   ├── conversational → ON
+    │   ├── recommendation → ON
+    │   └── education → ON
+    │
+    ├── AGENTS
+    │   ├── 신한이Q
+    │   ├── 론드리Q
+    │   ├── 간소비녀Q
+    │   ├── 간소무사Q
+    │   ├── kakaoFriendsQ
+    │   └── lineFriendsQ
+    │
+    └── SAFETY_BOUNDARY
+        ├── unauthorized_access → BLOCK
+        ├── privilege_escalation → BLOCK
+        ├── hidden_monitoring → BLOCK
+        ├── human_targeting → BLOCK
+        └── audit_log → ON
             
 ```
 

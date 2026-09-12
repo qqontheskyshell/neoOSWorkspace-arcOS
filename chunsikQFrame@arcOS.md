@@ -1740,7 +1740,42 @@ kumaDeploy@arcOS
             └── ARKit → BLOCK
 ```
 
-
+### @configTypeForVersionOfAgent
+```
+ChunsikQ@arcOS
+│
+├── PRIVATE_CONFIG
+│   └── masterID
+│       ├── chunsikQ
+│       │   ├── intelligence → FULL
+│       │   ├── personal_assistant → ON
+│       │   └── execution → authorization + safety required
+│       │
+│       └── 무사Q
+│           ├── intelligence → inherit chunsikQ
+│           ├── private_guard_agent → ON
+│           ├── masterID_only_commands → ON
+│           └── execution → authorization + safety required
+│
+└── COMMERCIAL_CONFIG
+    ├── 간소비녀Q
+    │   ├── commercial_profile → ON
+    │   └── customer_conversation → ON
+    │
+    ├── 간소무사Q
+    │   ├── commercial_profile → ON
+    │   └── customer_conversation → ON
+    │
+    ├── kakaoFriendsQ
+    │   ├── commercial_profile → ON
+    │   └── brand/service_interaction → ON
+    │
+    └── lineFriendsQ
+        ├── commercial_profile → ON
+        └── brand/service_interaction → ON
+        
+```
+    
 ### @kumaShield
 ```markdown
 @kumaShield

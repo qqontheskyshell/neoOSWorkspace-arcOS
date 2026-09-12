@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LineFriendQFrame@arcOS.md",
+                "file": "chunsikQFrame@arcOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LineFriendQFrame@arcOS"
+              "title": "chunsikQFrame@arcOS"
             }
           }
         ],
@@ -146,7 +146,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "LineFriendQFrame@arcOS.md",
+            "file": "chunsikQFrame@arcOS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -203,8 +203,8 @@
   },
   "active": "3a7b4e8befbb5d7f",
   "lastOpenFiles": [
-    "론드리QFrame@arcOS.md",
     "LineFriendQFrame@arcOS.md",
+    "론드리QFrame@arcOS.md",
     "chunsikQFrame@arcOS.md",
     "LLMKit@arcOS.md",
     "무사QFrame@arcOS.md",

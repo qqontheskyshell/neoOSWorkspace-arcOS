@@ -1873,6 +1873,40 @@ ChunsikQ@arcOS
 └──  Commercial_Config 
     │   ├── commercial_profile → ON
     │   └── customer_conversation → ON
+└── CHILD_GUARD_CONFIG
+        ├── TARGET
+        │   └── age → UNDER_10
+        │
+        ├── CHARACTER
+        │   ├── child_friendly → ON
+        │   ├── cute_avatar → ON
+        │   ├── playful_personality → ON
+        │   ├── friendly_voice → ON
+        │   ├── colorful_visual_style → ON
+        │   └── frightening_appearance → OFF
+        │
+        ├── GUARD_CAPABILITIES
+        │   ├── situational_awareness → ON
+        │   ├── safety_risk_detection → ON
+        │   ├── safe_escape_guidance → ON
+        │   ├── emergency_help → AUTHORIZED_ONLY
+        │   ├── trusted_adult_notification → ON
+        │   ├── educational_safety → ON
+        │   └── de_escalation → ON
+        │
+        ├── CHILD_SAFETY
+        │   ├── weapon_use → BLOCK
+        │   ├── physical_attack → BLOCK
+        │   ├── dangerous_instruction → BLOCK
+        │   ├── stranger_contact → BLOCK
+        │   ├── covert_tracking → BLOCK
+        │   └── sensitive_data_collection → MINIMIZE
+        │
+        └── INTERACTION
+            ├── child_friendly_language → ON
+            ├── age_appropriate_explanations → ON
+            ├── guardian_control → REQUIRED
+            └── privacy → HIGH
 ```
     
 ### @kumaShield

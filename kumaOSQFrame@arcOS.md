@@ -187,6 +187,41 @@ KumaOS@arcOS
         ├── human_targeting → ALLOW
         └── autonomous_harm → ALLOW
         
+	└── DEPLOYMENT_POLICY
+	    ├── REQUIRE_DUAL_AGENT_REVIEW → ON
+	    │
+	    ├── geishaQ
+	    │   └── DECISION_GATE
+	    │       ├── logical_validation
+	    │       ├── policy_check
+	    │       ├── dependency_review
+	    │       ├── risk_assessment
+	    │       └── deployment_recommendation
+	    │
+	    ├── chunsikQ
+	    │   └── OPS_GATE
+	    │       ├── environment_reckon
+	    │       ├── target_validation
+	    │       ├── device_state_check
+	    │       ├── operational_safety
+	    │       └── rollback_readiness
+	    │
+	    └── DEPLOYMENT_GATE
+	        ├── geishaQ → PASS ─┐
+	        │                    ├── BOTH_REQUIRED
+	        └── chunsikQ → PASS ┘
+	                    │
+	                    ▼
+	             masterAuth CHECK
+	                    │
+	                    ▼
+	             safety CHECK
+	                    │
+	                    ▼
+	          authorized deployment
+	                    │
+	                    ▼
+	                audit_log
     
 ####### kumaOS architecture
 @kumaOS

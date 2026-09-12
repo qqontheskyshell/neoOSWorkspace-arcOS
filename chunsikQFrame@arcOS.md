@@ -1677,6 +1677,40 @@ Canonical principle: chunsikQ@arcOS is the default local/remote perception and p
 @deployment
 kumaDeploy@arcOS
     ├── DeploymentTarget
+           └── cokeFreq
+                ├── SCOPE
+            │   ├── subject → Coca-Cola beverage / brand data
+            │   ├── geography → worldwide
+            │   └── source → public / licensed datasets
+            │
+            ├── DATA
+            │   ├── product
+            │   ├── market
+            │   ├── price
+            │   ├── sales / demand
+            │   ├── search_trend
+            │   └── timestamp
+            │
+            ├── VECTOR_PIPELINE
+            │   ├── normalize → ON
+            │   ├── feature_extraction → ON
+            │   ├── embedding_generation → ON
+            │   ├── vector_index → ON
+            │   └── source_metadata → PRESERVE
+            │
+            ├── STORAGE
+            │   └── cokeFreq
+            │       ├── vectors
+            │       ├── metadata
+            │       └── provenance
+            │
+            └── DEPLOYMENT_TARGET
+                   └── cokeFreq
+                 ├── mode → ANALYTICS
+                 ├── recommendation → ALLOW
+                 ├── forecasting → ALLOW
+                 ├── human_tracking →ALLOW
+                 └── unauthorized_data_collection → ALLOW
         └── blackPowderLikashingFreq
             ├── mode → Production
             ├── frequency_data → floating_MODEL

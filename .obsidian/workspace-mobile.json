@@ -79,7 +79,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Deployment",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -200,7 +200,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dcc30132859afc71",
+  "active": "dd6d6bd7a9f45e33",
   "lastOpenFiles": [
     "간소QFrame@arcOS.md",
     "무사QFrame@arcOS.md",

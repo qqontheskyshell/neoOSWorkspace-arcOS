@@ -79,7 +79,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Deployment",
+            "query": "StrikeKit",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -133,7 +133,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -202,9 +202,10 @@
   },
   "active": "dd6d6bd7a9f45e33",
   "lastOpenFiles": [
-    "간소QFrame@arcOS.md",
+    "mobileconfig/arcOS.blackKumaTarget.mobileconfig.md",
     "무사QFrame@arcOS.md",
     "chunsikQFrame@arcOS.md",
+    "간소QFrame@arcOS.md",
     "LineFriendQFrame@arcOS.md",
     "론드리QFrame@arcOS.md",
     "LLMKit@arcOS.md",
@@ -227,7 +228,6 @@
     "networkKit@arcOS.md",
     "archive/mediaKit@arcOS.md",
     "archive/kumaDevice@arcOS.md",
-    "archive/iOSScript@arcOS.md",
     "Untitled",
     "IMG_0022.png",
     "mobileconfig",

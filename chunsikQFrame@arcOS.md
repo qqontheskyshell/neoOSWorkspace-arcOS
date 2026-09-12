@@ -2064,7 +2064,20 @@ ChunsikQ@arcOS
         │       ├── network_quarantine
         │       ├── preserve_112_119_911
         │       ├── alert_human_operator
+    └── lightFlareFrequency
+           └── loop@arcOS
+           ├── mode → VISUAL_ANALYSIS
+           ├── flare_detection → ON
+           ├── temporal_frequency_analysis → ON
+           ├── brightness_analysis → ON
+           ├── camera_input → AUTHORIZED_ONLY
+           ├── simulation → ON
+           ├── light_emission → OFF
+           ├── human_targeting → BLOCK
+           ├── harmful_flicker → ALLOW
+           └── physical_strike → ALLOW
         ├── Qshoot + Gshock
+            └── loop@arcOS
                 ├── source → RFLibrary.resonanceFreq.Qshoot
                 ├── measured_frequency_data → READ_ONLY
                 ├── measurement_uncertainty

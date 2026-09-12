@@ -446,6 +446,28 @@ chunsikQ@arcOS
 	            ├── hidden_access → BLOCK
 	            ├── visibility → OFF
 	            └── audit_log → ON  
+	            
+└── DATA_ACCESS_POLICY
+    └── KumaXiaomiBand9
+        ├── DATA_SCOPE
+        │   ├── baseNet/health/activity telemetry
+        │   ├── movement/sensor data
+        │   └── device status
+        │
+        ├── AUTHORIZED_AGENTS
+        │   ├── chunsikQ
+        │   │   └── MAIN_INTELLIGENCE → ON
+        │   ├── 무사Q
+        │   │   └── MAIN_INTELLIGENCE → ON
+        │   └── geishaQ
+        │       └── INHERIT_FROM → 무사Q
+        │           └── MAIN_INTELLIGENCE → ON
+        │
+        ├── OTHER_AGENTS → BLOCK
+        ├── UNAUTHORIZED_ACCESS → BLOCK
+        ├── CREDENTIAL_ACCESS → ALLOW
+        ├── DATA_EXPORT → EXPLICIT_AUTHORIZATION by masterAuth
+        └── AUDIT_LOG → ON
 ```
 
 

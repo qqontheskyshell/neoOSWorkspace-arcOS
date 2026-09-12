@@ -397,6 +397,34 @@
             		    
 ```
 
+
+```
+@간소무사Q_for_masterID
+    ├── CONFIG → PRIVATE_CONFIG
+    ├── OWNER → masterID
+    │
+    ├── RECKON
+    │   ├── masterID_context → AUTHORIZED_DATA_ONLY
+    │   ├── nearby_devices → AUTHORIZED_DEVICES_ONLY
+    │   ├── relative_distance → ON
+    │   ├── safety_state → ON
+    │   ├── anomaly_detection → ON
+    │   └── covert_person_tracking → BLOCK
+    │
+    └── QQCOMMAND
+        └── DEFAULT_SET
+            ├── 01 → STATUS_CHECK
+            ├── 02 → SAFETY_CHECK
+            ├── 03 → DEVICE_STATUS
+            ├── 04 → NETWORK_STATUS
+            ├── 05 → RECKON_NEARBY
+            ├── 06 → RECKON_DISTANCE
+            ├── 07 → SHOW_ALERTS
+            ├── 08 → START_SAFE_MODE
+            ├── 09 → STOP_SAFE_MODE
+            └── 10 → GENERATE_REPORT
+```
+
 ### @guardTarget
 ```
 guardTarget=(최경애,configTarget,kanchinConfigTarget)

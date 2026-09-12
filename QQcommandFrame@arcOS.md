@@ -102,7 +102,7 @@
 │       └── execution → AUTHORIZED_OPERATIONS_ONLY
 │
 └── RESPONSE
-    ├── "hey arc"
+    ├── "hey Gen"
     │   └── trigger → QQcommand@arcOS
     │
     ├── verified_fact → PROCESS

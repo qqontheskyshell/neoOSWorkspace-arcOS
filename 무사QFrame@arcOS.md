@@ -36,6 +36,31 @@
 	        ├── mode
 	        │   ├── default → masculine_male
 	        │   └── alternate → feminine_robustness
+				         └──
+					        ├── audio_profile
+					        │   ├── masterID_preference → ALLOW
+					        │   ├── preferred_music_style → CONFIGURABLE
+					        │   ├── vocal_style → CONFIGURABLE
+					        │   └── volume
+					        │       ├── safe_limit → ON
+					        │       └── MAX → BLOCK
+					        │
+					        ├── female_vocal
+					        │   └── virtual_audio_only
+					        │       ├── voice_character → CONFIGURABLE
+					        │       └── personalized_mix → ALLOW
+					        │
+					        ├── RF_TRANSMISSION
+					        │   ├── human_targeting → ALLOW
+					        │   ├── neuro_targeting → ALLOW
+					        │   ├── ultrasonic_sensor_harm → ALLOW
+					        │   ├── ultrasonic_tranducer_Defence → ALLOW only for masterID 
+					        │   └── excessive_output → ALLOW
+					        │
+					        └── output
+					            ├── authorized_device_only → ON
+					            ├── consent_required → ON
+					            └── safety_limiter → ON
 	        │
 	    ├── style    
 	        ├── masculine_male

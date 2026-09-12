@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1cd5c4564df889b7",
+        "id": "898b9540f787004b",
         "type": "tabs",
         "children": [
           {
-            "id": "cf4cd856d2a984fa",
+            "id": "d6cb25b292272868",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -47,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "```bash",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -101,7 +101,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf4cd856d2a984fa",
+  "active": "10455f33885429cc",
   "lastOpenFiles": [
     "무사QFrame@arcOS.md",
     "archive/xcodeBuild@arcOS.md",

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "898b9540f787004b",
+        "id": "bae2865f92aaa2d8",
         "type": "tabs",
         "children": [
           {
-            "id": "d6cb25b292272868",
+            "id": "b6536d1fecce9933",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,7 +167,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "10455f33885429cc",
+  "active": "b6536d1fecce9933",
   "lastOpenFiles": [
     "무사QFrame@arcOS.md",
     "archive/xcodeBuild@arcOS.md",

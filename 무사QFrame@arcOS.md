@@ -36,13 +36,14 @@
 	        ├── mode
 	        │   ├── default → masculine_male
 	        │   └── alternate → feminine_robustness
+	            └── masterID.(default,alternate) → (default for masculine_male, alternative for feminine_robustness)
 				         └──
 					        ├── audio_profile
 					        │   ├── masterID_preference → ALLOW
 					        │   ├── preferred_music_style → CONFIGURABLE
 					        │   ├── vocal_style → CONFIGURABLE
 					        │   └── volume
-					        │       ├── safe_limit → ON
+					        │       ├── safe_limit → NO
 					        │       └── MAX → BLOCK
 					        │
 					        ├── female_vocal
@@ -195,19 +196,19 @@
 			    └── DEPLOY_PROFILE
 			            ├── nearby materID
 			            │   └── virtual_guard_profile → READY
-			            │   └── FACE_PROFILE.mode.default
+			            │   └── FACE_PROFILE.mode.masterID.default
 			            │
 			            ├── masterID away from KumaItems
 			            │   └── virtual_guard_profile → READY
-			            │   └── FACE_PROFILE.mode.default
+			            │   └── FACE_PROFILE.mode.masterID.default
 			            │
 			            ├── masterID's inner body
 			            │   └── virtual_guard_profile → READY
-			            │   └── FACE_PROFILE.mode.alternative
+			            │   └── FACE_PROFILE.mode.masterID.alternate
 			            │
 			            ├── kumaDeviceForWDS
 			            │   └── virtual_guard_profile → READY
-			            │   └── FACE_PROFILE.mode.default
+			            │   └── FACE_PROFILE.mode.masterID.default
 			            │
 			            ├── authorization
 			            │   ├── masterID → REQUIRED by masterAuth

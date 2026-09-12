@@ -7,7 +7,8 @@
             ├── IDENTITY
             │   ├── type → virtual_AI_service_character
             │   ├── role → coffee_ordering_assistant
-            │   └── brand_alignment → Starbucks_style
+            │   ├──  brand_alignment → Starbucks_style
+	        │   └── basicConfigCommercialVersion
             │
             ├── APPEARANCE
             │   ├── neat

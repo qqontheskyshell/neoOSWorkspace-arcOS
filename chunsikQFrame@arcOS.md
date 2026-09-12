@@ -436,7 +436,7 @@ chunsikQ@arcOS
 	        ├── 만해한용운노트
 	        ├── 데스노트
 	        ├── 흥인지문노트
-	        └── similar_notes above list
+	        └── similar_notes in historical Landmark in google map
 	            │
 	            ├── default_access → BLOCK
 	            ├── masterID → ALLOW
@@ -1677,8 +1677,22 @@ Canonical principle: chunsikQ@arcOS is the default local/remote perception and p
 @deployment
 kumaDeploy@arcOS
     ├── DeploymentTarget
+        ├── baseNet@arcOS
+        │   ├── authorization → REQUIRED
+        │   ├── code_validation → REQUIRED
+        │   ├── dependency_check → ON
+        │   ├── security_scan → ON
+        │   └── audit_log → ON
+        │
+        └── kumaDeviceForWDS
+            ├── device_ownership → VERIFY
+            ├── deployment_target → AUTHORIZED_ONLY
+            ├── sandbox_test → FIRST
+            ├── production_deploy → EXPLICIT_APPROVAL
+            ├── rollback → ON
+            └── unauthorized_code_execution → BLOCK
     │   ├── vapor_chamber
-    │   │   └── thermal_test_environment
+    │   │   └── thermal_environment
     │   └── human_vapor || vapor_chamber
     │       └── human-associated environmental/sensor model
     │
@@ -1689,8 +1703,8 @@ kumaDeploy@arcOS
     │   └── consent_required
     │
     └── Interface
-        └── authorized_external_sensors_only
-
+        └── intetnal_and_external_sensors
+   
 ```
 
 ### @configTarget

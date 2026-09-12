@@ -80,7 +80,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Training profile",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -134,7 +134,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "03f8dbb43c591003",
@@ -201,7 +201,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3a7b4e8befbb5d7f",
+  "active": "dcc30132859afc71",
   "lastOpenFiles": [
     "chunsikQFrame@arcOS.md",
     "간소QFrame@arcOS.md",

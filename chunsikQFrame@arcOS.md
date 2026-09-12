@@ -1699,7 +1699,7 @@ kumaDeploy@arcOS
 @ConfigTarget
     ├── masterID
     ├── flowerWDS
-    └── 흥인지문
+    └── Historical Landmark in Google map
 └── RoutePolicyForConfigTarget
     ├── type → cultural_landmark
     └── MobilityNetwork

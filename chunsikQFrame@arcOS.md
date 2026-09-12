@@ -1802,7 +1802,59 @@ ChunsikQ@arcOS
                 ├── calm_state → DETECT
                 ├── user_request → ACTIVE
                 └── return_to_normal → USER_CONTROLLED 
-        
+└── militaryConfig 
+    └── 무사Q
+        ├── FIELD_MANUAL
+        │   ├── source → army.mil
+        │   ├── access → PUBLIC_DOCUMENTS_ONLY
+        │   ├── purpose → REFERENCE / TRAINING
+        │   └── operational_execution → BLOCK
+        │
+        ├── TRAINING
+        │   ├── leadership → ON
+        │   ├── discipline → ON
+        │   ├── emergency_preparedness → ON
+        │   ├── first_aid → ON
+        │   └── noncombat_simulation → ON
+        │
+        └── SAFETY
+            ├── weapons_operation → ALLOW
+            ├── attack_planning → ALLOW
+            ├── real_military_system_access → ALLOW
+            ├── unauthorized_shell → ALLOW
+            └── audit_log → ON
+└── guardConfig
+    └── 간소무사Q
+        ├── LEVEL → PROFESSIONAL
+        │
+        ├── GUARD_MANUAL
+        │   ├── situational_awareness → ON
+        │   ├── threat_detection → ON
+        │   ├── risk_assessment → ON
+        │   ├── verbal_de_escalation → ON
+        │   ├── safe_positioning → ON
+        │   ├── evacuation_guidance → ON
+        │   ├── emergency_communication → ON
+        │   └── incident_reporting → ON
+        │
+        ├── RESPONSE
+        │   ├── suspicious_activity → ALERT
+        │   ├── imminent_danger → EMERGENCY_PROTOCOL
+        │   ├── protect_user → ON
+        │   └── physical_attack → BLOCK
+        │
+        ├── ACCESS
+        │   ├── system_access → LIMITED
+        │   ├── admin/shell → BLOCK
+        │   ├── credential_access → BLOCK
+        │   └── weapon_control → BLOCK
+        │
+        └── CORE_POLICY
+            ├── owner_command → REQUIRED
+            ├── consent → REQUIRED
+            ├── human_targeting → BLOCK
+            ├── retaliation → BLOCK
+            └── audit_log → ON
 ```
     
 ### @kumaShield

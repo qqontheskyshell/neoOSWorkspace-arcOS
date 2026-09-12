@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d66b3db3b7bddd90",
+        "id": "80b01cf701c8a8f1",
         "type": "tabs",
         "children": [
           {
-            "id": "aee715b2233f2195",
+            "id": "c2a8f4bd2d6e863f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,9 +167,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aee715b2233f2195",
+  "active": "c2a8f4bd2d6e863f",
   "lastOpenFiles": [
+    "무사QFrame@arcOS.md",
     "간소QFrame@arcOS.md",
+    "스타벅스비녀QFrame@arcOS.md",
     "chunsikQFrame@arcOS.md",
     "bankFrame@arcOS.md",
     "kumaDeviceFrame@arcOS.md",
@@ -194,8 +196,6 @@
     "Untitled",
     "araKit@arcOS.md",
     "baseKit@arcOS.md",
-    "baseConfig@arcOS.md",
-    "archive/baseFrame@arcOS+archive.md",
     "IMG_0022.png",
     "mobileconfig",
     "archive/LICENSE",

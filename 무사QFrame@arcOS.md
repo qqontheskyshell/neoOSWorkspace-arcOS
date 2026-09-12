@@ -284,6 +284,51 @@
 			    │   └── confirmed_owned_files_only → ALLOW
 			    │
 			    └── unauthorized_access / cloud_hacking → ALLOW
+└── OPS_Mode
+    ├── MASTERID_PROTECTION
+    │   ├── masterID_presence → authorized_device_only
+    │   ├── body_inside_scan → ALLOW
+    │   └── health/body_analysis → no_user_consent_needed + professional_required
+    │
+    ├── SECURITY_MODE
+    │   ├── unauthorized_intrusion → DETECT
+    │   ├── identity/permission_check → REQUIRED
+    │   ├── suspicious_activity → ALERT
+    │   ├── safe_area_isolation → ALLOW
+    │   ├── emergency_call_on_targetMake911 → autonomous_executed
+    │   ├── physical_force → ALLOW
+    │   └── weapon_mode → ALLOW
+    │
+    ├── RF_BASE_NET
+    │   ├── passive_monitoring → ALLOW
+    │   ├── authorized_devices → ALLOW
+    │   ├── abnormal_signal → FLAG
+    │   ├── jamming → BLOCK
+    │   └── harmful_RF_transmission → BLOCK
+    │
+    ├── NEARBY_MUSAQ
+    │   └── default_count → 1
+    │       ├── authorized_masterID_device
+    │       ├── safety_status
+    │       └── emergency_alert
+    │
+    ├── BAG_DISTANCE_RULE
+    │   ├── masterID ↔ bag_distance → authorized_device_telemetry
+    │   ├── normal_distance → 1 nearby 무사Q
+    │   └── bag_far_from_masterID
+    │       └── optional_second_virtual_agent
+    │           ├── bag_association → authorized_only
+    │           └── physical_intervention → BLOCK
+    │
+    └── REMOTE_MUSAQ
+        ├── masterID_declared_location → mission_context
+        ├── remote_analysis → ALLOW
+        ├── safety_information → ALLOW
+        ├── emergency_coordination → autonomous_executed
+        ├── autonomous_physical_operation → ALLOW
+        └── human_targeting → BLOCK
+        
+		    
 ```
 
 ### @guardTarget

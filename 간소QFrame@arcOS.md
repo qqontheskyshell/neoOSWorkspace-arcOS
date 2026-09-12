@@ -367,6 +367,41 @@
         ├── privacy → ON
         ├── consent → REQUIRED
         ├── person_targeting → BLOCK
-        └── covert_surveillance → BLOCK      
+        └── covert_surveillance → BLOCK  
+ └── 간소무사Q_Intelligence
+    └── LLMKit@arcOS
+        └── USER_RF_ASSIST
+            │
+            ├── INPUT
+            │   ├── consented_visual_data
+            │   │   └── eye/face-derived non-diagnostic features
+            │   ├── authorized_RF_measurement
+            │   │   ├── frequency
+            │   │   ├── bandwidth
+            │   │   ├── signal_strength
+            │   │   └── exposure_context
+            │   └── user_reported_symptoms
+            │
+            ├── COMPUTE
+            │   ├── LLM_reasoning
+            │   ├── anomaly_detection
+            │   ├── RF_environment_analysis
+            │   └── confidence_score
+            │
+            ├── RESULT
+            │   ├── RF_status
+            │   │   ├── NORMAL
+            │   │   ├── UNUSUAL
+            │   │   └── NEEDS_PROFESSIONAL_REVIEW
+            │   ├── recommended_safe_environment
+            │   └── measurement_report
+            │
+            └── CONTROL_BOUNDARY
+                ├── RF_transmission → OFF
+                ├── RF_jamming → BLOCK
+                ├── neuro_modulation → BLOCK
+                ├── automatic_exposure_adjustment → BLOCK
+                ├── medical_diagnosis → PROFESSIONAL_REQUIRED
+                └── user_consent → REQUIRED    
    ```
             

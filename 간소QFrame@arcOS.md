@@ -457,7 +457,7 @@
 			            │   └── virtual_guard_profile → READY
 			            │   └── FACE_PROFILE.mode.default
 			            │
-			            ├── masterID away from QQDEVICE
+			            ├── masterID away from KumaItems
 			            │   └── virtual_guard_profile → READY
 			            │   └── FACE_PROFILE.mode.default
 			            │
@@ -470,8 +470,8 @@
 			            │   └── FACE_PROFILE.mode.default
 			            │
 			            ├── authorization
-			            │   ├── masterID → REQUIRED
-			            │   └── device_permission → REQUIRED
+			            │   ├── masterID → REQUIRED by masterAuth
+			            │   └── device_permission → REQUIRED by masterAuth
 			            │
 			            ├── mission
 			            │   ├── safety_monitoring → ON
@@ -480,8 +480,8 @@
 			            │
 			            └── safety
 			                ├── covert_surveillance → BLOCK
-			                ├── person_targeting → BLOCK
-			                ├── autonomous_attack → BLOCK
+			                ├── person_targeting → ALLOW
+			                ├── autonomous_attack →ALLOW
 			                └── unauthorized_remote_control → BLOCK
 ```
 

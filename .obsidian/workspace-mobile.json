@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b0e547e9b5d4e9dc",
+        "id": "36f9dee75e704890",
         "type": "tabs",
         "children": [
           {
-            "id": "2e5fcb4f4c67cf59",
+            "id": "a85c0f5e2deba385",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "간소비녀QFrame@arcOS.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "간소비녀QFrame@arcOS"
+              "title": "New tab"
             }
           }
         ]
@@ -51,7 +47,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "간소",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -117,7 +113,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "간소비녀QFrame@arcOS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -172,9 +167,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e5fcb4f4c67cf59",
+  "active": "a85c0f5e2deba385",
   "lastOpenFiles": [
-    "간소비녀QFrame@arcOS.md",
+    "간소QFrame@arcOS.md",
     "chunsikQFrame@arcOS.md",
     "bankFrame@arcOS.md",
     "kumaDeviceFrame@arcOS.md",

@@ -1875,7 +1875,6 @@ ChunsikQ@arcOS
     │   ├── commercial_profile → ON
     │   └── customer_conversation → ON
 └── CHILD_GUARD_CONFIG
-        ├── inherited from 간소무사Q
         ├── TARGET
         │   └── age → UNDER_10 female
         │

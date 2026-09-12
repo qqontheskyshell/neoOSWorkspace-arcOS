@@ -331,5 +331,42 @@
                 허가 없이 사람을 추적하거나 행동을 강요하지 않습니다.
                 필요한 순간에는 정보를 정리하고,
                 더 안전하고 좋은 선택을 할 수 있도록 돕겠습니다."
+                
+ └── ALLOCATION
+    │   └── 1 virtual 간소무사Q : 1 consenting user
+    │
+    ├── MODES
+    │   │
+    │   ├── STEALTHY_MODE
+    │   │   ├── visual_presence → HIDDEN
+    │   │   ├── UI_presence     → MINIMAL
+    │   │   ├── background_state → STANDBY
+    │   │   ├── safety_signals  → AUTHORIZED_ONLY
+    │   │   ├── covert_tracking → BLOCK
+    │   │   └── covert_recording → BLOCK
+    │   │
+    │   └── ACTIVE_MODE
+    │       ├── user_command → ALLOW
+    │       ├── conversation → ALLOW
+    │       └── physical_action → AUTHORIZATION_REQUIRED
+    │
+    ├── AUTHORITY
+    │   ├── assigned_user_only → ALLOW
+    │   ├── other_person_commands → BLOCK
+    │   ├── unauthorized_system_access → BLOCK
+    │   ├── system_hacking → IMPOSSIBLE
+    │   ├── credential_theft → BLOCK
+    │   └── autonomous_execution → BLOCK
+    │
+    ├── COMMUNICATION
+    │   ├── assigned_user ↔ 간소무사Q → ALLOW
+    │   ├── other_people ↔ 간소무사Q → NOT_SUPPORTED
+    │   └── unsolicited_contact → BLOCK
+    │
+    └── SAFETY
+        ├── privacy → ON
+        ├── consent → REQUIRED
+        ├── person_targeting → BLOCK
+        └── covert_surveillance → BLOCK      
    ```
             
